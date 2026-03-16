@@ -5,13 +5,12 @@
         "{@templates/crossing/traffic_signal}",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
+        "{highway/path}",
         "surface"
     ],
     "moreFields": [
-        "{@templates/crossing/traffic_signal_more}",
-        "{@templates/crossing/geometry_way_more}",
-        "{@templates/crossing/bicycle_more}",
-        "flashing_lights"
+        "{highway/path}",
+        "crossing"
     ],
     "geometry": [
         "line"

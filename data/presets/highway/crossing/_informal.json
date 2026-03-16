@@ -1,10 +1,12 @@
 {
     "icon": "temaki-pedestrian",
     "fields": [
-        "crossing"
+        "crossing",
+        "{highway/crossing}"
     ],
     "moreFields": [
-        "{highway/crossing}"
+        "{highway/crossing}",
+        "kerb"
     ],
     "geometry": [
         "vertex"

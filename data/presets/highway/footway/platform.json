@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-board_bus",
+    "fields": [
+        "smoothness_simple",
+        "maxwidth/physical",
+        "incline_percentage",
+        "incline_across_percentage"
+    ],
+    "moreFields": [
+        "lit",
+        "guiding_strips",
+        "wheelchair"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "footway",
+        "footway": "platform"
+    },
+    "name": "Platform"
+}

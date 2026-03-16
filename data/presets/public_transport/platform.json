@@ -9,6 +9,16 @@
         "surface"
     ],
     "moreFields": [
+        "name",
+        "smoothness_simple",
+        "platform_height",
+        "maxwidth/physical",
+        "tactile_paving",
+        "tactile_paving_condition",
+        "wheelchair_turning_cycle_simple",
+        "wheelchair_turning_cycle_simple_diameter",
+        "incline_percentage",
+        "incline_across_percentage",
         "access",
         "covered",
         "indoor",

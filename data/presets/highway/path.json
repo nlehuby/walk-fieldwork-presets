@@ -12,13 +12,10 @@
     "moreFields": [
         "bridge/name",
         "bridge/ref",
-        "covered_no",
         "dog",
-        "gnis/feature_id-US",
         "horse_scale",
         "informal",
         "lit",
-        "maxweight_bridge",
         "mtb/scale",
         "mtb/scale/imba",
         "mtb/scale/uphill",
@@ -26,9 +23,8 @@
         "oneway",
         "ref",
         "sac_scale",
-        "smoothness",
-        "stroller",
         "trail_visibility",
+        "segregated",
         "wheelchair"
     ],
     "geometry": [

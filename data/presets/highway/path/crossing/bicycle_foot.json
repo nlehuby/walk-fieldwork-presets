@@ -11,10 +11,12 @@
     },
     "icon": "temaki-ped_cyclist_crosswalk",
     "fields": [
-        "{highway/cycleway/crossing/bicycle_foot}"
+        "{highway/cycleway/crossing/bicycle_foot}",
+        "{highway/path}"
     ],
     "moreFields": [
-        "{highway/path/crossing}"
+        "{highway/path}",
+        "crossing"
     ],
     "geometry": [
         "line"

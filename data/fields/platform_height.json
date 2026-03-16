@@ -1,0 +1,6 @@
+{
+    "key": "platform:height",
+    "type": "roadheight",
+    "label": "Platform Height",
+    "snake_case": false
+}

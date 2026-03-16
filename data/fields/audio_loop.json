@@ -1,0 +1,5 @@
+{
+    "key": "audio_loop",
+    "type": "check",
+    "label": "Audio Induction Loop"
+}

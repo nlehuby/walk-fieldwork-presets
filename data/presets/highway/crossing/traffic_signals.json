@@ -3,14 +3,18 @@
     "fields": [
         "crossing",
         "{@templates/crossing/traffic_signal}",
+        "{highway/crossing}",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
         "tactile_paving"
     ],
     "moreFields": [
-        "{@templates/crossing/traffic_signal_more}",
-        "kerb",
-        "flashing_lights"
+        "crossing",
+        "crossing/markings",
+        "crossing/markings_condition",
+        "crossing/signals",
+        "traffic_signals/sound",
+        "button_operated"
     ],
     "geometry": [
         "vertex"
@@ -18,6 +22,11 @@
     "tags": {
         "highway": "crossing",
         "crossing": "traffic_signals"
+    },
+    "addTags": {
+        "highway": "crossing",
+        "crossing": "traffic_signals",
+        "crossing:signals": "yes"
     },
     "reference": {
         "key": "crossing",

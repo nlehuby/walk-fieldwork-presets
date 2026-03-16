@@ -1,0 +1,20 @@
+{
+    "key": "kerb:visibility:obstacle",
+    "type": "combo",
+    "label": "Visibility Obstacle at kerb",
+    "strings": {
+        "options": {
+            "parking_space": "car parking space",
+            "waste_disposal": "waste disposal",
+            "recycling": "recycling disposal",
+            "hedge": "hedge",
+            "building": "building"
+        }
+    },
+    "autoSuggestions": false,
+    "prerequisiteTag": {
+        "key": "kerb:visibility",
+        "valueNot": "good"
+    },
+    "customValues": false
+}

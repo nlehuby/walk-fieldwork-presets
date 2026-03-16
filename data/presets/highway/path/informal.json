@@ -6,6 +6,7 @@
         "access",
         "trail_visibility",
         "smoothness",
+        "{highway/path}",
         "incline"
     ],
     "moreFields": [

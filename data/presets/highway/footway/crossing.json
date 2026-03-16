@@ -1,13 +1,18 @@
 {
     "fields": [
         "crossing",
+        "{highway/footway}",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
         "surface"
     ],
     "moreFields": [
-        "{@templates/crossing/geometry_way_more}",
-        "flashing_lights"
+        "surface",
+        "guiding_strips",
+        "smoothness_simple",
+        "lit",
+        "incline_percentage",
+        "incline_across_percentage"
     ],
     "geometry": [
         "line"

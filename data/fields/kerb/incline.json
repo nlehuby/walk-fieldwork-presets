@@ -1,0 +1,14 @@
+{
+    "key": "kerb:incline",
+    "type": "combo",
+    "label": "Kerb Incline",
+    "strings": {
+        "options": {
+            "0%": "flat (0%)",
+            "3%": "gentle (3%)",
+            "5%": "medium (5%)",
+            "8%": "steep (8%)",
+            "12%": "very steep (12%)"
+        }
+    }
+}

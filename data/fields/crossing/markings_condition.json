@@ -1,0 +1,18 @@
+{
+    "key": "crossing:markings:condition",
+    "type": "combo",
+    "label": "Crossing markings condition",
+    "placeholder": "good, bad, ...",
+    "strings": {
+        "options": {
+            "excellent": "Excellent",
+            "good": "Good",
+            "intermediate": "Intermediate",
+            "bad": "Bad / uncomfortable",
+            "very_bad": "Very bad",
+            "horrible": "Horrible"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

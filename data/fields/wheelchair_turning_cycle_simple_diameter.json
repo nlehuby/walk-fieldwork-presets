@@ -1,0 +1,10 @@
+{
+    "key": "wheelchair:turning_cycle:diameter",
+    "type": "roadheight",
+    "snake_case": false,
+    "prerequisiteTag": {
+        "key": "wheelchair:turning_cycle",
+        "valueNot": "no"
+    },
+    "label": "Wheelchair Turning Cycle Diameter"
+}

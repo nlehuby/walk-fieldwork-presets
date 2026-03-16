@@ -2,6 +2,7 @@
     "icon": "temaki-striped_zone",
     "fields": [
         "access_aisle",
+        "{highway/footway}",
         "width",
         "surface",
         "tactile_paving",
@@ -9,15 +10,8 @@
         "wheelchair"
     ],
     "moreFields": [
-        "covered_no",
-        "dog",
-        "incline",
-        "lit",
-        "maxweight_bridge",
-        "ref",
-        "smoothness",
-        "stroller",
-        "structure"
+        "{highway/footway}",
+        "access_aisle"
     ],
     "geometry": [
         "line"

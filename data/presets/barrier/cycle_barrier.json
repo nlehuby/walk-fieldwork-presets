@@ -11,7 +11,14 @@
         "deflection"
     ],
     "moreFields": [
-        "cycle_barrier/installation"
+        "cycle_barrier/installation",
+        "overlap",
+        "deflection",
+        "access",
+        "wheelchair",
+        "tactile_paving",
+        "tactile_paving_condition",
+        "visual_contrast"
     ],
     "geometry": [
         "vertex"

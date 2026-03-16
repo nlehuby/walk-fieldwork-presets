@@ -12,7 +12,15 @@
         "structure"
     ],
     "moreFields": [
+        "handrail_side",
+        "smoothness_simple",
+        "tactile_paving_steps",
+        "tactile_paving_condition",
+        "step_stair_nosing",
+        "step_height",
+        "step_length",
         "covered_no",
+        "access_simple",
         "dog",
         "indoor",
         "level_semi",
@@ -20,8 +28,8 @@
         "oneway",
         "ref",
         "ramp",
-        "stroller",
-        "wheelchair"
+        "structure",
+        "stroller"
     ],
     "geometry": [
         "line"

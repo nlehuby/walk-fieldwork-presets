@@ -8,6 +8,19 @@
     "fields": [
         "{amenity/parking_space}"
     ],
+    "moreFields": [
+        "capacity",
+        "parking",
+        "orientation/orientation_parking",
+        "smoothness_simple",
+        "surface",
+        "width",
+        "length",
+        "markings",
+        "incline_percentage",
+        "incline_across_percentage",
+        "length_buffer"
+    ],
     "tags": {
         "amenity": "parking_space",
         "parking_space": "disabled"

@@ -1,6 +1,6 @@
 {
     "key": "kerb:height",
-    "type": "combo",
+    "type": "roadheight",
     "snake_case": false,
-    "label": "Height"
+    "label": "Kerb Height"
 }

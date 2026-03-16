@@ -1,0 +1,9 @@
+{
+    "key": "entrance:coloured_band",
+    "type": "check",
+    "prerequisiteTag": {
+        "key": "material",
+        "value": "glass"
+    },
+    "label": "Coloured band on transparent door"
+}

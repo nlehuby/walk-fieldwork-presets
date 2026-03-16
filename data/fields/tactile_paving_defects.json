@@ -1,0 +1,22 @@
+{
+    "key": "tactile_paving:defects",
+    "type": "multiCombo",
+    "label": "Tactile Paving Defects",
+    "strings": {
+        "options": {
+            "curved": "Curved",
+            "across": "Across",
+            "too_large": "Too large",
+            "insufficient_width": "Insufficient width",
+            "insufficient_depth": "insufficient depth",
+            "non_contrasted": "non contrasted",
+            "none": "no defects"
+        }
+    },
+    "autoSuggestions": false,
+    "prerequisiteTag": {
+        "key": "tactile_paving",
+        "valueNot": "no"
+    },
+    "customValues": false
+}

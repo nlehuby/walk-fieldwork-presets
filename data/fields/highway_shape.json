@@ -1,0 +1,13 @@
+{
+    "key": "highway:shape",
+    "type": "combo",
+    "label": "Highway shape",
+    "strings": {
+        "options": {
+            "flat": "flat",
+            "bulged": "bulged"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

@@ -9,6 +9,25 @@
         "level",
         "address"
     ],
+    "moreFields": [
+        "entrance",
+        "wheelchair_call_button",
+        "ref",
+        "lit",
+        "access_simple",
+        "wheelchair",
+        "level",
+        "address",
+        "entrance_ramp",
+        "material",
+        "entrance_coloured_band",
+        "width",
+        "automatic_door",
+        "tactile_paving",
+        "tactile_paving_condition",
+        "wheelchair_turning_cycle_entrance",
+        "kerb/height"
+    ],
     "geometry": [
         "vertex"
     ],

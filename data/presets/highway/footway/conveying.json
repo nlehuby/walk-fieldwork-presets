@@ -9,7 +9,16 @@
         "wheelchair"
     ],
     "moreFields": [
-        "{highway/footway}"
+        "name",
+        "access_simple",
+        "lit",
+        "wheelchair",
+        "{highway/footway}",
+        "tactile_paving_steps",
+        "tactile_paving_condition",
+        "conveying_motion_sensor",
+        "incline_percentage",
+        "incline_across_percentage"
     ],
     "geometry": [
         "line"

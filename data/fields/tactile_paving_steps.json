@@ -1,0 +1,15 @@
+{
+    "key": "tactile_paving",
+    "type": "combo",
+    "label": "Tactile Paving",
+    "strings": {
+        "options": {
+            "partial": "Up only",
+            "incorrect": "Down only",
+            "yes": "Up and Down",
+            "no": "None"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

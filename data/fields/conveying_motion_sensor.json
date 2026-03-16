@@ -1,0 +1,5 @@
+{
+    "key": "conveying:motion_sensor",
+    "type": "check",
+    "label": "Motion sensor"
+}

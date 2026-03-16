@@ -9,8 +9,16 @@
         "access"
     ],
     "moreFields": [
+        "name",
         "bridge/name",
-        "bridge/ref"
+        "bridge/ref",
+        "smoothness_simple",
+        "tunnel/name",
+        "incline_percentage",
+        "incline_across_percentage",
+        "covered",
+        "indoor",
+        "guiding_strips"
     ],
     "geometry": [
         "area"

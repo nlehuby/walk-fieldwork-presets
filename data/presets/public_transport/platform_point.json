@@ -10,12 +10,16 @@
         "shelter"
     ],
     "moreFields": [
+        "platform_height",
+        "wheelchair_turning_cycle_simple",
+        "wheelchair_turning_cycle_simple_diameter",
+        "tactile_paving",
+        "tactile_paving_condition",
         "bench",
         "bin",
         "gnis/feature_id-US",
         "level",
         "lit",
-        "tactile_paving",
         "wheelchair"
     ],
     "geometry": [

@@ -1,0 +1,20 @@
+{
+    "key": "incline",
+    "type": "combo",
+    "label": "{incline}",
+    "strings": {
+        "options": {
+            "0%": "flat (0%)",
+            "3%": "gentle (3%)",
+            "5%": "medium (5%)",
+            "8%": "steep (8%)",
+            "12%": "very steep (12%)",
+            "-3%": "gentle (-3%)",
+            "-5%": "medium (-5%)",
+            "-8%": "steep (-8%)",
+            "-12%": "very steep (-12%)"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

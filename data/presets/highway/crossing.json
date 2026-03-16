@@ -6,8 +6,13 @@
         "tactile_paving"
     ],
     "moreFields": [
-        "kerb",
-        "flashing_lights"
+        "crossing",
+        "flashing_lights",
+        "crossing/markings",
+        "crossing/markings_condition",
+        "crossing/signals",
+        "traffic_signals/sound",
+        "highway_shape"
     ],
     "geometry": [
         "vertex"

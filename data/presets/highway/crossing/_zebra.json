@@ -4,11 +4,11 @@
         "crossing",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
+        "{highway/crossing}",
         "tactile_paving"
     ],
     "moreFields": [
-        "kerb",
-        "flashing_lights"
+        "{highway/crossing}"
     ],
     "geometry": [
         "vertex"

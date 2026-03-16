@@ -1,0 +1,13 @@
+{
+    "key": "wheelchair:turning_cycle",
+    "type": "combo",
+    "strings": {
+        "options": {
+            "inside": "Inside only",
+            "outside": "Outside only",
+            "inside;outside": "Inside and outside",
+            "no": "None"
+        }
+    },
+    "label": "Wheelchair Turning Cycle Position"
+}

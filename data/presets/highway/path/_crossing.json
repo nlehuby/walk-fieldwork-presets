@@ -2,14 +2,14 @@
     "icon": "temaki-cyclist_crosswalk",
     "fields": [
         "crossing",
+        "{highway/path}",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
         "surface"
     ],
     "moreFields": [
-        "{@templates/crossing/geometry_way_more}",
-        "{@templates/crossing/bicycle_more}",
-        "flashing_lights"
+        "{highway/path}",
+        "crossing"
     ],
     "geometry": [
         "line"

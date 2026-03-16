@@ -1,0 +1,30 @@
+{
+    "fields": [
+        "smoothness_simple",
+        "width",
+        "handrail_side",
+        "incline_percentage",
+        "incline_across_percentage",
+        "maxweight",
+        "wheelchair_turning_cycle_ramp"
+    ],
+    "moreFields": [
+        "guiding_strips",
+        "surface"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "footway",
+        "footway": "ramp"
+    },
+    "terms": [
+        "ramp"
+    ],
+    "reference": {
+        "key": "footway",
+        "value": "ramp"
+    },
+    "name": "Ramp"
+}

@@ -11,7 +11,8 @@
     },
     "icon": "temaki-pedestrian_and_cyclist",
     "fields": [
-        "{highway/cycleway/bicycle_foot}"
+        "{highway/cycleway/bicycle_foot}",
+        "{highway/path}"
     ],
     "moreFields": [
         "{highway/path}"

@@ -1,0 +1,30 @@
+{
+    "key": "handrail",
+    "keys": [
+        "handrail:left",
+        "handrail:right"
+    ],
+    "reference": {
+        "key": "handrail"
+    },
+    "type": "directionalCombo",
+    "label": "Handrail",
+    "placeholder": "Yes, No",
+    "strings": {
+        "types": {
+            "handrail:left": "Left Side",
+            "handrail:right": "Right Side"
+        },
+        "options": {
+            "yes": {
+                "title": "Yes",
+                "description": "There is a handrail"
+            },
+            "no": {
+                "title": "No",
+                "description": "No handrail"
+            }
+        }
+    },
+    "autoSuggestions": false
+}

@@ -10,19 +10,15 @@
         "incline"
     ],
     "moreFields": [
-        "bridge/name",
-        "bridge/ref",
-        "covered_no",
-        "dog",
-        "informal",
+        "name",
+        "wheelchair",
+        "smoothness_simple",
         "lit",
-        "maxweight_bridge",
-        "not/name",
-        "oneway",
-        "smoothness",
-        "stroller",
-        "tactile_paving",
-        "wheelchair"
+        "incline_percentage",
+        "incline_across_percentage",
+        "covered",
+        "indoor",
+        "guiding_strips"
     ],
     "geometry": [
         "line"

@@ -8,7 +8,9 @@
         "{barrier/kerb}"
     ],
     "moreFields": [
-        "{barrier/kerb}"
+        "{barrier/kerb}",
+        "kerb/incline",
+        "kerb/width"
     ],
     "tags": {
         "barrier": "kerb",

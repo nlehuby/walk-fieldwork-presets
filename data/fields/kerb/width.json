@@ -1,0 +1,6 @@
+{
+    "key": "kerb:width",
+    "type": "roadheight",
+    "snake_case": false,
+    "label": "Kerb Width"
+}

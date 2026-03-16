@@ -792,7 +792,11 @@
   },
   {
     "old": {"highway": "platform"},
-    "replace": {"highway": "platform", "public_transport": "platform"}
+    "replace": {"highway": "footway", "footway": "platform"}
+  },
+ {
+    "old": {"highway": "corridor"},
+    "replace": {"highway": "footway", "footway": "corridor", "indoor": "yes"}
   },
   {
     "old": {"highway": "stile"},

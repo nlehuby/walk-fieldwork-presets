@@ -1,0 +1,21 @@
+{
+    "key": "tactile_paving:condition",
+    "type": "combo",
+    "label": "Tactile Paving Condition",
+    "strings": {
+        "options": {
+            "excellent": "Excellent",
+            "good": "Good",
+            "intermediate": "Intermediate",
+            "bad": "Bad / uncomfortable",
+            "very_bad": "Very bad",
+            "horrible": "Horrible"
+        }
+    },
+    "autoSuggestions": false,
+    "prerequisiteTag": {
+        "key": "tactile_paving",
+        "valueNot": "no"
+    },
+    "customValues": false
+}

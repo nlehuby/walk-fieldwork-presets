@@ -1,0 +1,18 @@
+{
+    "key": "kerb:visibility",
+    "type": "combo",
+    "label": "Visibility at kerb",
+    "strings": {
+        "options": {
+            "good": "Good",
+            "intermediate": "Intermediate",
+            "bad": "Bad"
+        }
+    },
+    "autoSuggestions": false,
+    "prerequisiteTag": {
+        "key": "tactile_paving",
+        "valueNot": "no"
+    },
+    "customValues": false
+}

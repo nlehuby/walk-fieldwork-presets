@@ -7,7 +7,14 @@
         "two_sided"
     ],
     "moreFields": [
-        "material"
+        "material",
+        "wheelchair",
+        "two_sided",
+        "tactile_paving_condition",
+        "tactile_paving_defects",
+        "kerb/height",
+        "kerb/visibility",
+        "kerb/visibility_obstacle"
     ],
     "geometry": [
         "vertex",

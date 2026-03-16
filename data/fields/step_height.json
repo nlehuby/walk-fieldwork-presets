@@ -1,0 +1,6 @@
+{
+    "key": "step:height",
+    "type": "roadheight",
+    "label": "Step Height",
+    "snake_case": false
+}

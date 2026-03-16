@@ -1,0 +1,5 @@
+{
+    "key": "elevator:mirror",
+    "type": "check",
+    "label": "Mirror in Elevator"
+}

@@ -1,0 +1,10 @@
+{
+    "key": "handrail:height",
+    "type": "roadheight",
+    "label": "Handrail Height",
+    "prerequisiteTag": {
+        "key": "handrail",
+        "valueNot": "no"
+    },
+    "snake_case": false
+}

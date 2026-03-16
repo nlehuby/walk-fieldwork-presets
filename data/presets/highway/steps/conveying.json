@@ -10,6 +10,10 @@
     ],
     "moreFields": [
         "{highway/steps}",
+        "tactile_paving_steps",
+        "tactile_paving_condition",
+        "conveying_motion_sensor",
+        "supervised",
         "dog",
         "handrail",
         "operator",

@@ -1,0 +1,19 @@
+{
+    "key": "smoothness",
+    "type": "combo",
+    "label": "Smoothness",
+    "placeholder": "good, bad, ...",
+    "strings": {
+        "options": {
+            "excellent": "Excellent",
+            "good": "Good",
+            "intermediate": "Intermediate",
+            "bad": "Bad / uncomfortable",
+            "very_bad": "Very bad",
+            "horrible": "Horrible",
+            "impassable": "Impassable / No wheeled vehicle"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

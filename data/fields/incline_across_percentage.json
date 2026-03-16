@@ -1,0 +1,16 @@
+{
+    "key": "incline:across",
+    "type": "combo",
+    "label": "Lateral Incline",
+    "strings": {
+        "options": {
+            "0%": "flat (0%)",
+            "2%": "medium right tilt (2%)",
+            "5%": "strong right tilt (5%)",
+            "-2%": "medium left tilt (-2%)",
+            "-5%": "strong left tilt (-5%)"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

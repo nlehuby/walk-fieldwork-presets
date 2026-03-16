@@ -2,6 +2,7 @@
     "icon": "fas-shoe-prints",
     "fields": [
         "surface",
+        "{highway/footway}",
         "width",
         "access",
         "trail_visibility",
@@ -9,7 +10,7 @@
         "incline"
     ],
     "moreFields": [
-        "covered_no",
+        "trail_visibility",
         "dog",
         "informal",
         "lit",

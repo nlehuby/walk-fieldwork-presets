@@ -1,0 +1,15 @@
+{
+    "key": "markings",
+    "type": "combo",
+    "label": "markings",
+    "strings": {
+        "options": {
+            "traffic_sign": "traffic sign",
+            "pictograms": "pictograms",
+            "traffic_sign;pictograms ": "traffic sign and pictograms ",
+            "no": "no markings"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

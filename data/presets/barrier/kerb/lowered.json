@@ -5,7 +5,9 @@
         "kerb/height"
     ],
     "moreFields": [
-        "{barrier/kerb}"
+        "{barrier/kerb}",
+        "kerb/incline",
+        "kerb/width"
     ],
     "geometry": [
         "vertex",

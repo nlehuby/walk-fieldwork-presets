@@ -1,0 +1,13 @@
+{
+    "key": "wheelchair:turning_cycle",
+    "type": "combo",
+    "strings": {
+        "options": {
+            "up": "Up only",
+            "down": "Down only",
+            "up;down": "Up and down",
+            "no": "None"
+        }
+    },
+    "label": "Wheelchair Turning Cycle Position"
+}

@@ -10,11 +10,16 @@
         "access"
     ],
     "moreFields": [
+        "name",
         "bridge/ref",
-        "covered_no",
-        "incline",
-        "maxweight_bridge",
-        "smoothness"
+        "smoothness_simple",
+        "incline_percentage",
+        "incline_across_percentage",
+        "covered",
+        "indoor",
+        "guiding_strips",
+        "tunnel/name",
+        "maxweight_bridge"
     ],
     "geometry": [
         "line"

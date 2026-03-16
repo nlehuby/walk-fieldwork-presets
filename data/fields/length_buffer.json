@@ -1,0 +1,6 @@
+{
+    "key": "length:buffer",
+    "type": "roadheight",
+    "snake_case": false,
+    "label": "Extra length"
+}

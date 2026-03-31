@@ -42,11 +42,15 @@ jobs:
         run: |
             cd ./profile_builder
             python main.py ../dist/presets.json ../data/profiles.json -o ../dist -u ''
+            rm ../dist/presets.min.json
+            cp ../dist/cnig_mandatory.json ../dist/presets.min.json
+            mkdir -p output/dist
+            cp -r ../dist/* output/dist
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: dist
+            publish_dir: profile_builder/output
             enable_jekyll: true

@@ -1,0 +1,307 @@
+[
+  {
+    "id": "cnig_mandatory",
+    "name": "Conformit\u00e9 CNIG",
+    "description": "Ce profil permet de collecter les attributs obligatoires dans le standard CNIG Accessibilit\u00e9. Il comprend des tags exp\u00e9rimentaux non approuv\u00e9s par la communaut\u00e9.",
+    "presets": {
+      "include": [
+        "barrier/*",
+        "public_transport/*",
+        "highway/*",
+        "amenity/parking_space/disabled",
+        "entrance"
+      ],
+      "exclude": [
+        "TODO"
+      ]
+    },
+    "fields": {
+      "amenity/parking_space/disabled": {
+        "required": [
+          "orientation/orientation_parking",
+          "smoothness_simple",
+          "surface",
+          "width",
+          "length",
+          "markings",
+          "incline_percentage",
+          "incline_across_percentage",
+          "length_buffer"
+        ]
+      },
+      "barrier/cycle_barrier": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/kerb": {
+        "required": [
+          "kerb/kerb_barrier",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "tactile_paving_defects",
+          "kerb/height",
+          "kerb/visibility",
+          "kerb/visibility_obstacle"
+        ]
+      },
+      "barrier/kerb/*": {
+        "required": [
+          "kerb/kerb_barrier",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "tactile_paving_defects",
+          "kerb/height",
+          "kerb/visibility",
+          "kerb/visibility_obstacle"
+        ]
+      },
+      "entrance": {
+        "required": [
+          "door",
+          "entrance_ramp",
+          "material",
+          "entrance_coloured_band",
+          "width",
+          "automatic_door",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_entrance",
+          "kerb/height"
+        ]
+      },
+      "highway/crossing": {
+        "required": [
+          "crossing/markings",
+          "crossing/markings_condition",
+          "crossing/signals",
+          "traffic_signals/sound",
+          "highway_shape"
+        ]
+      },
+      "highway/crossing/*": {
+        "required": [
+          "crossing/markings",
+          "crossing/markings_condition",
+          "crossing/signals",
+          "traffic_signals/sound",
+          "highway_shape"
+        ]
+      },
+      "highway/elevator": {
+        "required": [
+          "door/width",
+          "width",
+          "length",
+          "speech_output",
+          "announcement",
+          "visual_announcement",
+          "audio_loop",
+          "emergency_button",
+          "automatic_door",
+          "tactile_paving",
+          "tactile_paving_condition"
+        ]
+      },
+      "highway/footway": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/footway/*": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/footway/conveying": {
+        "required": [
+          "conveying",
+          "tactile_paving_steps",
+          "tactile_paving_condition",
+          "width",
+          "conveying_motion_sensor",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "highway/footway/crossing": {
+        "required": [
+          "smoothness_simple",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "highway/footway/platform": {
+        "required": [
+          "smoothness_simple",
+          "maxwidth/physical",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "highway/footway/ramp": {
+        "required": [
+          "smoothness_simple",
+          "width",
+          "handrail_side",
+          "incline_percentage",
+          "incline_across_percentage",
+          "maxweight",
+          "wheelchair_turning_cycle_ramp"
+        ]
+      },
+      "highway/living_street": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/path": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/path/*": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/pedestrian_area": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/pedestrian_line": {
+        "required": [
+          "surface",
+          "width",
+          "smoothness_simple",
+          "structure",
+          "tunnel/name",
+          "lit",
+          "incline_percentage",
+          "incline_across_percentage",
+          "covered",
+          "indoor",
+          "guiding_strips"
+        ]
+      },
+      "highway/steps": {
+        "required": [
+          "smoothness_simple",
+          "incline_steps",
+          "handrail_side",
+          "tactile_paving_steps",
+          "tactile_paving_condition",
+          "step_stair_nosing",
+          "width",
+          "step_count",
+          "step_height",
+          "step_length"
+        ]
+      },
+      "highway/steps/conveying": {
+        "required": [
+          "incline_steps",
+          "conveying",
+          "tactile_paving_steps",
+          "tactile_paving_condition",
+          "width",
+          "conveying_motion_sensor",
+          "supervised"
+        ]
+      },
+      "public_transport/platform": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform_point": {
+        "required": [
+          "name",
+          "platform_height",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "tactile_paving",
+          "tactile_paving_condition"
+        ]
+      }
+    },
+    "url": "cnig_mandatory.json"
+  }
+]

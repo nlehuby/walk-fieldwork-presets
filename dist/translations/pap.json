@@ -1,0 +1,25 @@
+{
+    "pap": {
+        "presets": {
+            "fields": {
+                "address": {
+                    "label": "Adrès"
+                },
+                "website": {
+                    "label": "Wèpsait"
+                }
+            },
+            "presets": {
+                "address": {
+                    "name": "Adrès"
+                },
+                "area": {
+                    "name": "Área"
+                },
+                "point": {
+                    "name": "Punto"
+                }
+            }
+        }
+    }
+}

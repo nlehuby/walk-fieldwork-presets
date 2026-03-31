@@ -442,6 +442,128 @@
           "tactile_paving",
           "tactile_paving_condition"
         ]
+      },
+      "public_transport/platform/*": {
+        "required": [
+          "name",
+          "platform_height",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "tactile_paving",
+          "tactile_paving_condition"
+        ]
+      },
+      "public_transport/platform/aerialway": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/ferry": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/light_rail": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/monorail": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/subway": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/train": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/tram": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
+      },
+      "public_transport/platform/trolleybus": {
+        "required": [
+          "name",
+          "smoothness_simple",
+          "platform_height",
+          "maxwidth/physical",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "wheelchair_turning_cycle_simple",
+          "wheelchair_turning_cycle_simple_diameter",
+          "incline_percentage",
+          "incline_across_percentage"
+        ]
       }
     },
     "url": "cnig_mandatory.json"

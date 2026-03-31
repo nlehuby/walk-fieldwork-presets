@@ -6130,19 +6130,19 @@
     "icon": "temaki-trolleybus",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6171,14 +6171,6 @@
   "public_transport/platform/trolleybus": {
     "icon": "temaki-board_trolleybus",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6188,7 +6180,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6214,19 +6214,19 @@
     "icon": "temaki-tram",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6249,14 +6249,6 @@
   "public_transport/platform/tram": {
     "icon": "temaki-board_tram",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6266,7 +6258,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6296,14 +6296,6 @@
   "public_transport/platform/train": {
     "icon": "temaki-board_train",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6313,7 +6305,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6343,14 +6343,6 @@
   "public_transport/platform/subway": {
     "icon": "temaki-board_subway",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6360,7 +6352,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6390,14 +6390,6 @@
   "public_transport/platform/monorail": {
     "icon": "temaki-board_monorail",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6407,7 +6399,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6437,14 +6437,6 @@
   "public_transport/platform/light_rail": {
     "icon": "temaki-board_light_rail",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6454,7 +6446,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6484,14 +6484,6 @@
   "public_transport/platform/ferry": {
     "icon": "temaki-board_ferry",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6501,7 +6493,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6527,19 +6527,19 @@
     "icon": "temaki-tram",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6571,19 +6571,19 @@
     "icon": "temaki-bus",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6612,22 +6612,22 @@
   "public_transport/platform/bus": {
     "icon": "temaki-board_bus",
     "fields": [
+      "name",
+      "platform_height",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter"
+    ],
+    "moreFields": [
       "ref_platform",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "surface"
-    ],
-    "moreFields": [
-      "name",
+      "surface",
       "smoothness_simple",
-      "platform_height",
       "maxwidth/physical",
-      "tactile_paving",
-      "tactile_paving_condition",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
       "incline_across_percentage",
       "access",
@@ -6654,14 +6654,6 @@
   "public_transport/platform/aerialway": {
     "icon": "temaki-board_gondola_lift",
     "fields": [
-      "ref_platform",
-      "network",
-      "operator",
-      "vehicles",
-      "departures_board",
-      "surface"
-    ],
-    "moreFields": [
       "name",
       "smoothness_simple",
       "platform_height",
@@ -6671,7 +6663,15 @@
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
       "incline_percentage",
-      "incline_across_percentage",
+      "incline_across_percentage"
+    ],
+    "moreFields": [
+      "ref_platform",
+      "network",
+      "operator",
+      "vehicles",
+      "departures_board",
+      "surface",
       "access",
       "covered",
       "indoor",
@@ -6697,19 +6697,19 @@
     "icon": "temaki-train",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6734,19 +6734,19 @@
     "icon": "temaki-subway",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6771,19 +6771,19 @@
     "icon": "temaki-monorail",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6808,19 +6808,19 @@
     "icon": "temaki-light_rail",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6845,19 +6845,19 @@
     "icon": "temaki-ferry",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -6882,19 +6882,19 @@
     "icon": "temaki-gondola_lift",
     "fields": [
       "name",
+      "platform_height",
+      "wheelchair_turning_cycle_simple",
+      "wheelchair_turning_cycle_simple_diameter",
+      "tactile_paving",
+      "tactile_paving_condition"
+    ],
+    "moreFields": [
       "ref_stop_position",
       "network",
       "operator",
       "vehicles",
       "departures_board",
-      "shelter"
-    ],
-    "moreFields": [
-      "platform_height",
-      "wheelchair_turning_cycle_simple",
-      "wheelchair_turning_cycle_simple_diameter",
-      "tactile_paving",
-      "tactile_paving_condition",
+      "shelter",
       "bench",
       "bin",
       "gnis/feature_id-US",
@@ -16004,6 +16004,10 @@
       "bridge/name",
       "bridge/ref",
       "covered_no",
+      "smoothness_simple",
+      "incline_percentage",
+      "incline_across_percentage",
+      "covered",
       "dog",
       "lit",
       "maxspeed",
@@ -17320,6 +17324,10 @@
       "width",
       "structure",
       "tunnel/name",
+      "smoothness_simple",
+      "incline_percentage",
+      "incline_across_percentage",
+      "covered",
       "lit"
     ],
     "moreFields": [
@@ -17378,6 +17386,10 @@
       "surface",
       "width",
       "structure",
+      "smoothness_simple",
+      "incline_percentage",
+      "incline_across_percentage",
+      "covered",
       "lit"
     ],
     "moreFields": [
@@ -17430,6 +17442,10 @@
       "surface",
       "width",
       "structure",
+      "smoothness_simple",
+      "incline_percentage",
+      "incline_across_percentage",
+      "covered",
       "lit"
     ],
     "moreFields": [

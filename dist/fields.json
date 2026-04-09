@@ -561,6 +561,22 @@
             "only"
         ]
     },
+    "tactile_warning": {
+        "key": "tactile_warning",
+        "type": "combo",
+        "prerequisiteTag": {
+            "key": "obstacle:blind",
+            "value": "yes"
+        },
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "kerb",
+            "pole",
+            "yes",
+            "no"
+        ]
+    },
     "tactile_paving_steps": {
         "key": "tactile_paving",
         "type": "combo",
@@ -1957,6 +1973,14 @@
             "water_utility"
         ]
     },
+    "obstacle_wheelchair": {
+        "key": "obstacle:wheelchair",
+        "type": "check"
+    },
+    "obstacle_blind": {
+        "key": "obstacle:blind",
+        "type": "check"
+    },
     "nudism": {
         "key": "nudism",
         "type": "combo",
@@ -2078,6 +2102,15 @@
     "minspeed": {
         "key": "minspeed",
         "type": "roadspeed"
+    },
+    "min_height_obstacle": {
+        "key": "min_height",
+        "minValue": 0,
+        "type": "number",
+        "prerequisiteTag": {
+            "key": "obstacle:blind",
+            "value": "yes"
+        }
     },
     "min_height": {
         "key": "min_height",
@@ -3911,7 +3944,7 @@
     },
     "conveying": {
         "key": "conveying",
-        "type": "typeCombo",
+        "type": "combo",
         "autoSuggestions": false,
         "customValues": false,
         "options": [

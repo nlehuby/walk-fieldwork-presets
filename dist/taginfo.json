@@ -6208,7 +6208,7 @@
         {
             "key": "man_made",
             "value": "planter",
-            "description": "🄿 Planter, 🄿 Planter (Barrier) (unsearchable)",
+            "description": "🄿 Planter",
             "object_types": [
                 "node",
                 "area"
@@ -11670,6 +11670,15 @@
         },
         {
             "key": "barrier",
+            "value": "planter",
+            "description": "🄿 Planter (Barrier) (unsearchable), 🄵🅅 Barrier: Yes",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/garden.svg"
+        },
+        {
+            "key": "barrier",
             "value": "motorcycle_barrier",
             "description": "🄿 Motorcycle Barrier",
             "object_types": [
@@ -16086,6 +16095,30 @@
             "description": "🄵🅅 Takeaway: Takeaway Only"
         },
         {
+            "key": "tactile_warning",
+            "description": "🄵 Walking stick detectable warning"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "kerb",
+            "description": "🄵🅅 Walking stick detectable warning: Kerb on floor, behind obstacle (at least 3cm)"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "pole",
+            "description": "🄵🅅 Walking stick detectable warning: Pole on floor, at 40cm max"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "yes",
+            "description": "🄵🅅 Walking stick detectable warning: Other tactile warning"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "no",
+            "description": "🄵🅅 Walking stick detectable warning: No tactile warning"
+        },
+        {
             "key": "tactile_paving",
             "description": "🄵 Tactile Paving"
         },
@@ -18364,6 +18397,14 @@
             "key": "office",
             "value": "logistics",
             "description": "🄵🅅 Type: Forwarding Agency"
+        },
+        {
+            "key": "obstacle:wheelchair",
+            "description": "🄵 Is an obstacle for wheelchair users ?"
+        },
+        {
+            "key": "obstacle:blind",
+            "description": "🄵 Is an obstacle for blind people ?"
         },
         {
             "key": "nudism",
@@ -21545,11 +21586,6 @@
             "key": "basin",
             "value": "retention",
             "description": "🄵🅅 Type: Retention"
-        },
-        {
-            "key": "barrier",
-            "value": "planter",
-            "description": "🄵🅅 Barrier: Yes"
         },
         {
             "key": "bar",

@@ -118,7 +118,90 @@
           "length_buffer"
         ]
       },
+      "barrier/block": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "panoramax"
+        ]
+      },
+      "barrier/bollard": {
+        "required": [
+          "bollard",
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "panoramax"
+        ]
+      },
+      "barrier/chain": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
       "barrier/cycle_barrier": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/full-height_turnstile": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/gate": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/height_restrictor": {
+        "required": [
+          "maxheight",
+          "obstacle_blind",
+          "length",
+          "visual_contrast",
+          "tactile_warning",
+          "panoramax"
+        ]
+      },
+      "barrier/kissing_gate": {
         "required": [
           "cycle_barrier",
           "maxwidth/physical",
@@ -153,6 +236,134 @@
           "kerb/width",
           "kerb/visibility",
           "kerb/visibility_obstacle"
+        ]
+      },
+      "barrier/lift_gate": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/log": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/motorcycle_barrier": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/planter": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "panoramax"
+        ]
+      },
+      "barrier/rope": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/stile": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/swing_gate": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/turnstile": {
+        "required": [
+          "cycle_barrier",
+          "maxwidth/physical",
+          "opening",
+          "spacing",
+          "tactile_paving",
+          "tactile_paving_condition",
+          "visual_contrast"
+        ]
+      },
+      "barrier/wicket_gate": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
+        ]
+      },
+      "barrier/_yes": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "panoramax"
         ]
       },
       "entrance": {

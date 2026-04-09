@@ -20899,9 +20899,18 @@
       "line"
     ],
     "fields": [
-      "access"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
     ],
     "moreFields": [
+      "access",
       "entrance"
     ],
     "tags": {
@@ -20930,9 +20939,13 @@
   "barrier/turnstile": {
     "icon": "temaki-turnstile",
     "fields": [
-      "access"
+      "maxwidth/physical",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
       "level"
     ],
     "geometry": [
@@ -20970,14 +20983,32 @@
   "barrier/swing_gate": {
     "icon": "temaki-gate",
     "fields": [
+      "height",
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle",
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
+    ],
+    "moreFields": [
       "access",
       "locked",
       "wheelchair",
       "opening_hours",
-      "height",
-      "material"
-    ],
-    "moreFields": [
+      "material",
       "colour",
       "manufacturer",
       "operator",
@@ -20993,11 +21024,15 @@
   "barrier/stile": {
     "icon": "temaki-stile_squeezer",
     "fields": [
-      "access",
-      "stile",
-      "material"
+      "maxwidth/physical",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
+      "stile",
+      "material",
       "level"
     ],
     "geometry": [
@@ -21048,9 +21083,18 @@
   "barrier/rope": {
     "icon": "temaki-rope_fence",
     "fields": [
-      "access"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
     ],
     "moreFields": [
+      "access",
       "level"
     ],
     "geometry": [
@@ -21078,12 +21122,41 @@
       "barrier": "retaining_wall"
     }
   },
+  "barrier/planter": {
+    "icon": "maki-garden",
+    "fields": [
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast"
+    ],
+    "moreFields": [
+      "access",
+      "material",
+      "level"
+    ],
+    "geometry": [
+      "vertex"
+    ],
+    "tags": {
+      "barrier": "planter"
+    },
+    "searchable": false
+  },
   "barrier/motorcycle_barrier": {
     "icon": "maki-roadblock",
     "fields": [
-      "access"
+      "maxwidth/physical",
+      "opening",
+      "spacing",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
       "wheelchair"
     ],
     "geometry": [
@@ -21096,9 +21169,18 @@
   "barrier/log": {
     "icon": "maki-roadblock",
     "fields": [
-      "access"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
     ],
     "moreFields": [
+      "access",
       "level"
     ],
     "geometry": [
@@ -21113,12 +21195,21 @@
   "barrier/lift_gate": {
     "icon": "temaki-lift_gate",
     "fields": [
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
+    ],
+    "moreFields": [
       "lift_gate/type",
       "access",
       "locked",
-      "opening_hours"
-    ],
-    "moreFields": [
+      "opening_hours",
       "level"
     ],
     "geometry": [
@@ -21131,9 +21222,13 @@
   "barrier/kissing_gate": {
     "icon": "temaki-gate",
     "fields": [
-      "access"
+      "maxwidth/physical",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
       "level"
     ],
     "geometry": [
@@ -21190,7 +21285,11 @@
   "barrier/height_restrictor": {
     "icon": "temaki-height_restrictor",
     "fields": [
-      "maxheight"
+      "maxheight",
+      "obstacle_blind",
+      "length",
+      "visual_contrast",
+      "tactile_warning"
     ],
     "moreFields": [
       "direction_vertex"
@@ -21254,14 +21353,23 @@
   "barrier/gate": {
     "icon": "temaki-gate",
     "fields": [
+      "height",
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
+    ],
+    "moreFields": [
       "access",
       "locked",
       "wheelchair",
       "opening_hours",
-      "height",
-      "material"
-    ],
-    "moreFields": [
+      "material",
       "colour",
       "manufacturer",
       "operator",
@@ -21278,9 +21386,13 @@
   "barrier/full-height_turnstile": {
     "icon": "maki-roadblock",
     "fields": [
-      "access"
+      "maxwidth/physical",
+      "tactile_paving",
+      "tactile_paving_condition",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
       "level"
     ],
     "geometry": [
@@ -21374,10 +21486,19 @@
   "barrier/chain": {
     "icon": "temaki-rope_fence",
     "fields": [
-      "access",
-      "locked"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
     ],
     "moreFields": [
+      "access",
+      "locked",
       "level"
     ],
     "geometry": [
@@ -21493,14 +21614,20 @@
   "barrier/bollard": {
     "icon": "temaki-bollard",
     "fields": [
-      "access",
       "bollard",
       "height",
       "width",
-      "material",
-      "colour"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
+      "material",
+      "colour",
       "level"
     ],
     "geometry": [
@@ -21514,10 +21641,16 @@
   "barrier/block": {
     "icon": "fas-cube",
     "fields": [
-      "access",
-      "material"
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast"
     ],
     "moreFields": [
+      "access",
+      "material",
       "level"
     ],
     "geometry": [
@@ -21543,28 +21676,19 @@
       "barrier"
     ],
     "moreFields": [
-      "level"
+      "level",
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "min_height_obstacle"
     ],
     "searchable": false,
     "matchScore": 0.5
-  },
-  "barrier/planter": {
-    "icon": "maki-garden",
-    "fields": [
-      "access",
-      "material"
-    ],
-    "moreFields": [
-      "level"
-    ],
-    "geometry": [
-      "vertex"
-    ],
-    "tags": {
-      "barrier": "planter",
-      "man_made": "planter"
-    },
-    "searchable": false
   },
   "barrier/handrail": {
     "icon": "temaki-railing",

@@ -477,6 +477,15 @@
                         "only": "Takeaway Only"
                     }
                 },
+                "tactile_warning": {
+                    "label": "Walking stick detectable warning",
+                    "options": {
+                        "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+                        "pole": "Pole on floor, at 40cm max",
+                        "yes": "Other tactile warning",
+                        "no": "No tactile warning"
+                    }
+                },
                 "tactile_paving_steps": {
                     "label": "Tactile Paving",
                     "options": {
@@ -1606,6 +1615,12 @@
                         "water_utility": "Water Utility Office"
                     }
                 },
+                "obstacle_wheelchair": {
+                    "label": "Is an obstacle for wheelchair users ?"
+                },
+                "obstacle_blind": {
+                    "label": "Is an obstacle for blind people ?"
+                },
                 "nudism": {
                     "label": "Nudism",
                     "terms": "naturism,naturist,nude recreation,nudist",
@@ -1699,6 +1714,9 @@
                 "minspeed": {
                     "label": "Minimum Speed Limit",
                     "placeholder": "20, 30, 40..."
+                },
+                "min_height_obstacle": {
+                    "label": "Height of Bottom (Meters)"
                 },
                 "min_height": {
                     "label": "Height of Bottom (Meters)"
@@ -10077,6 +10095,9 @@
                 "barrier/retaining_wall": {
                     "name": "Retaining Wall"
                 },
+                "barrier/planter": {
+                    "name": "Planter (Barrier)"
+                },
                 "barrier/motorcycle_barrier": {
                     "name": "Motorcycle Barrier",
                     "terms": "motorbike barrier"
@@ -10170,9 +10191,6 @@
                 },
                 "barrier/yes": {
                     "name": "Barrier (Unspecified Type)"
-                },
-                "barrier/planter": {
-                    "name": "Planter (Barrier)"
                 },
                 "barrier/handrail": {
                     "name": "Handrail"

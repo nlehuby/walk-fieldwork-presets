@@ -25889,7 +25889,16 @@
             "access"
         ],
         "moreFields": [
-            "entrance"
+            "entrance",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "tags": {
             "barrier": "wicket_gate"
@@ -25920,7 +25929,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -25956,7 +25969,16 @@
             "{barrier/gate}"
         ],
         "moreFields": [
-            "{barrier/gate}"
+            "{barrier/gate}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex"
@@ -25973,7 +25995,11 @@
             "material"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26026,7 +26052,16 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26053,13 +26088,42 @@
             "barrier": "retaining_wall"
         }
     },
+    "barrier/planter": {
+        "icon": "maki-garden",
+        "fields": [
+            "access",
+            "material"
+        ],
+        "moreFields": [
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "barrier": "planter"
+        },
+        "searchable": false
+    },
     "barrier/motorcycle_barrier": {
         "icon": "maki-roadblock",
         "fields": [
             "access"
         ],
         "moreFields": [
-            "wheelchair"
+            "wheelchair",
+            "maxwidth/physical",
+            "opening",
+            "spacing",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26074,7 +26138,16 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26094,7 +26167,16 @@
             "opening_hours"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex"
@@ -26109,7 +26191,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26168,7 +26254,11 @@
             "maxheight"
         ],
         "moreFields": [
-            "direction_vertex"
+            "direction_vertex",
+            "obstacle_blind",
+            "length",
+            "visual_contrast",
+            "tactile_warning"
         ],
         "geometry": [
             "vertex"
@@ -26240,7 +26330,16 @@
             "colour",
             "manufacturer",
             "operator",
-            "ref"
+            "ref",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26256,7 +26355,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26353,7 +26456,16 @@
             "locked"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26472,7 +26584,13 @@
             "colour"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "geometry": [
             "point",
@@ -26489,7 +26607,13 @@
             "material"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "geometry": [
             "point",
@@ -26514,28 +26638,19 @@
             "barrier"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "searchable": false,
         "matchScore": 0.5
-    },
-    "barrier/planter": {
-        "icon": "maki-garden",
-        "fields": [
-            "access",
-            "material"
-        ],
-        "moreFields": [
-            "{barrier}"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "barrier": "planter",
-            "man_made": "planter"
-        },
-        "searchable": false
     },
     "barrier/handrail": {
         "icon": "temaki-railing",

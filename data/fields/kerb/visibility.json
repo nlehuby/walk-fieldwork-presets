@@ -10,9 +10,5 @@
         }
     },
     "autoSuggestions": false,
-    "prerequisiteTag": {
-        "key": "tactile_paving",
-        "valueNot": "no"
-    },
     "customValues": false
 }

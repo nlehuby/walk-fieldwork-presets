@@ -4,7 +4,11 @@
         "access"
     ],
     "moreFields": [
-        "{barrier}"
+        "{barrier}",
+        "maxwidth/physical",
+        "tactile_paving",
+        "tactile_paving_condition",
+        "visual_contrast"
     ],
     "geometry": [
         "vertex"

@@ -1,0 +1,19 @@
+{
+    "key": "tactile_warning",
+    "type": "combo",
+    "label": "Walking stick detectable warning",
+    "strings": {
+        "options": {
+            "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+            "pole": "Pole on floor, at 40cm max",
+            "yes": "Other tactile warning",
+            "no": "No tactile warning"
+        }
+    },
+    "prerequisiteTag": {
+        "key": "obstacle:blind",
+        "value": "yes"
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

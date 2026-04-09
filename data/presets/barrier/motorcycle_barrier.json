@@ -4,7 +4,13 @@
         "access"
     ],
     "moreFields": [
-        "wheelchair"
+        "wheelchair",
+        "maxwidth/physical",
+        "opening",
+        "spacing",
+        "tactile_paving",
+        "tactile_paving_condition",
+        "visual_contrast"
     ],
     "geometry": [
         "vertex"

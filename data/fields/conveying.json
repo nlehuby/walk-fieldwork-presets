@@ -1,6 +1,6 @@
 {
     "key": "conveying",
-    "type": "typeCombo",
+    "type": "combo",
     "label": "Movement Direction",
     "strings": {
         "options": {

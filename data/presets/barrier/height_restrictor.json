@@ -4,7 +4,11 @@
         "maxheight"
     ],
     "moreFields": [
-        "direction_vertex"
+        "direction_vertex",
+        "obstacle_blind",
+        "length",
+        "visual_contrast",
+        "tactile_warning"
     ],
     "geometry": [
         "vertex"

@@ -1,0 +1,5 @@
+{
+    "key": "obstacle:blind",
+    "type": "check",
+    "label": "Is an obstacle for blind people ?"
+}

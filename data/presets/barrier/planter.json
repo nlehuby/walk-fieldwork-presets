@@ -5,14 +5,19 @@
         "material"
     ],
     "moreFields": [
-        "{barrier}"
+        "{barrier}",
+        "obstacle_wheelchair",
+        "maxwidth/physical",
+        "width",
+        "length",
+        "height",
+        "visual_contrast"
     ],
     "geometry": [
         "vertex"
     ],
     "tags": {
-        "barrier": "planter",
-        "man_made": "planter"
+        "barrier": "planter"
     },
     "name": "Planter (Barrier)",
     "searchable": false

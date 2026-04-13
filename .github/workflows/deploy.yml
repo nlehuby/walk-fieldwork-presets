@@ -27,6 +27,9 @@ jobs:
       - name: Build presets
         run: npm run dist
 
+      - name: Update translations files
+        run: npm run translations
+
       - name: "Set up Python"
         uses: actions/setup-python@v5
         with:

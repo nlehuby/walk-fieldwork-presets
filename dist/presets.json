@@ -26689,7 +26689,6 @@
             "operator",
             "collection_times",
             "ref",
-            "post_box/type-GB",
             "royal_cypher-GB"
         ],
         "moreFields": [
@@ -33247,12 +33246,7 @@
         "name": "{point}"
     },
     "@templates/crossing/markings_yes": {
-        "fields": [
-            "crossing/markings_yes",
-            "crossing/markings_yes-BG",
-            "crossing/markings_yes-DE-AT-CH",
-            "crossing/markings_yes-PL"
-        ],
+        "fields": [],
         "geometry": [
             "point",
             "line"
@@ -33269,12 +33263,7 @@
         "name": "{point}"
     },
     "@templates/crossing/markings": {
-        "fields": [
-            "crossing/markings",
-            "crossing/markings-BG",
-            "crossing/markings-DE-AT-CH",
-            "crossing/markings-PL"
-        ],
+        "fields": [],
         "geometry": [
             "point",
             "line"

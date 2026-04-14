@@ -2,8 +2,18 @@
     "key": "leaf_type",
     "type": "combo",
     "label": "Leaf Type",
-    "stringsCrossReference": "{leaf_type}",
-    "iconsCrossReference": "{leaf_type}",
+    "strings": {
+        "options": {
+            "broadleaved": "Broadleaved",
+            "needleleaved": "Needleleaved",
+            "mixed": "Mixed",
+            "leafless": "Leafless"
+        }
+    },
+    "icons": {
+        "broadleaved": "maki-park",
+        "needleleaved": "roentgen-needleleaved_tree"
+    },
     "options": [
         "broadleaved",
         "needleleaved",

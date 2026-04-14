@@ -1,7 +1,7 @@
 {
     "key": "covered",
     "type": "check",
-    "label": "{covered}",
+    "label": "Covered",
     "strings": {
         "options": {
             "undefined": "Assumed to be No",

@@ -28,7 +28,7 @@ function syncTranslations(options) {
     !f.endsWith('.min.json')
   );*/
 
-    const files = ["fr.json", "fr-FR.json"]
+    const files = ["fr.json"]
 
   function syncObject(source, target, path) {
     for (const key in source) {

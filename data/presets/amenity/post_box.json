@@ -54,10 +54,5 @@
         "postal box",
         "postbox"
     ],
-    "locationSet": {
-        "exclude": [
-            "us"
-        ]
-    },
     "name": "Mail Drop Box"
 }

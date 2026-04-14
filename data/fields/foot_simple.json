@@ -8,33 +8,21 @@
                 "title": "Allowed",
                 "description": "Access allowed by law; a right of way"
             },
-            "no": {
-                "title": "Prohibited",
-                "description": "Access not allowed to the general public"
+            "designated": {
+                "title": "Designated",
+                "description": "Access allowed according to signs or specific local laws"
             },
             "permissive": {
                 "title": "Permissive",
                 "description": "Access allowed until such time as the owner revokes the permission"
             },
-            "private": {
-                "title": "Private",
-                "description": "Access allowed only with permission of the owner on an individual basis"
-            },
-            "designated": {
-                "title": "Designated",
-                "description": "Access allowed according to signs or specific local laws"
-            },
             "destination": {
                 "title": "Destination",
                 "description": "Access allowed only to reach a destination"
             },
-            "customers": {
-                "title": "Customers",
-                "description": "Restricted to customers at the destination"
-            },
-            "permit": {
-                "title": "Permit",
-                "description": "Access allowed only with a valid permit or license"
+            "no": {
+                "title": "Prohibited",
+                "description": "Access not allowed to the general public"
             },
             "unknown": {
                 "title": "Unknown",

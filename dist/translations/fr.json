@@ -248,7 +248,7 @@
                     "placeholder": "50, 100, 200..."
                 },
                 "circumference": {
-                    "label": "Circonférence (à hauteur de poitrine)",
+                    "label": "Circonférence du tronc (à hauteur de poitrine)",
                     "placeholder": "1 m, 20 cm, 30\"…",
                     "terms": "circonférence,contour,longueur,rayon,diamètre,diamètre à hauteur de poitrine,diamètre à hauteur d'homme"
                 },
@@ -285,7 +285,7 @@
                     "label": "Type",
                     "options": {
                         "traffic_signals": "Passage avec feux de signalisation",
-                        "uncontrolled": "Traversée non protégée",
+                        "uncontrolled": "Traversée sans feu",
                         "unmarked": "Pas de marquage routiers ni de feux de signalisation"
                     }
                 },
@@ -306,14 +306,14 @@
                         "pictograms": "Pictogrammes peints",
                         "surface": "Traitement de surface uniquement",
                         "yes": "Marquage quelconque",
-                        "zebra": "Barres longitudinales",
+                        "zebra": "Zébra (Barres longitudinales)",
                         "zebra:bicolour": "Marquage longitudinal bicolore",
                         "zebra:double": "Zébra double",
                         "zebra:paired": "Zébra par paires"
                     }
                 },
                 "crossing_raised": {
-                    "label": "Surélevé",
+                    "label": "Relevé",
                     "options": {
                         "table": "Oui",
                         "undefined": "Non"
@@ -376,7 +376,7 @@
                     "label": "Direction concernée",
                     "options": {
                         "backward": "Vers l'arrière",
-                        "both": "Les deux / Tous",
+                        "both": "Les deux/toutes",
                         "forward": "Vers l'avant"
                     }
                 },
@@ -386,7 +386,7 @@
                         "leashed": "Tenus en laisse",
                         "no": "Interdits",
                         "unleashed": "Laisse non requise",
-                        "yes": "Autorisés"
+                        "yes": "Autorisé"
                     },
                     "terms": "chiens,animaux,canin"
                 },
@@ -397,7 +397,7 @@
                     "label": "Largeur de la porte (mètres)"
                 },
                 "drive_through": {
-                    "label": "Service Drive"
+                    "label": "Drive (service au volant)"
                 },
                 "email": {
                     "label": "Courrier électronique",
@@ -507,7 +507,7 @@
                         "down": "Ça descend",
                         "up": "Ça monte"
                     },
-                    "label": "Incline"
+                    "label": "Sens de l'Inclinaison"
                 },
                 "indoor": {
                     "label": "Intérieur"
@@ -516,15 +516,15 @@
                     "label": "Informel"
                 },
                 "kerb": {
-                    "label": "Aménagement de trottoir, Abaissement (bateau)",
+                    "label": "Bordure de trottoir",
                     "options": {
                         "flush": {
                             "description": "Un trottoir affleurant qui est de niveau avec la zone environnante.",
-                            "title": "Affleurant"
+                            "title": "Affleurante"
                         },
                         "lowered": {
                             "description": "Trottoir abaissé qui peut être utilisé par des utilisateurs en fauteuil roulant, pas plus de quelques centimètres.",
-                            "title": "Abaissé"
+                            "title": "Abaissée"
                         },
                         "no": {
                             "description": "Il n'y a aucun trottoir à cet endroit.",
@@ -532,20 +532,20 @@
                         },
                         "raised": {
                             "description": "Un trottoir surélevé qui ne peut pas être utilisé par des utilisateurs en fauteuil roulant, élevé de plus que quelques centimètres.",
-                            "title": "Surélevé"
+                            "title": "Relevée"
                         },
                         "rolled": {
-                            "description": "Un trottoir surélevé avec un bord arrondi, ce qui le rend plus facile à franchir par les véhicules, mais pas par les fauteuils roulants.",
-                            "title": "Arrondi et surélevé"
+                            "description": "Un trottoir relevé avec un bord arrondi, ce qui le rend plus facile à franchir par les véhicules, mais pas par les fauteuils roulants.",
+                            "title": "Arrondie et relevée"
                         },
                         "yes": {
                             "description": "Une sorte de bordure est présente à cet endroit, on ne sait pas si elle est surélevée, abaissée, à fleur, etc.",
-                            "title": "Oui"
+                            "title": "Inconnue / Autre"
                         }
                     }
                 },
                 "kerb/height": {
-                    "label": "Hauteur"
+                    "label": "Hauteur de la Bordure de Trottoir (mètres)"
                 },
                 "kerb/kerb_barrier": {
                     "label": "Type"
@@ -650,7 +650,7 @@
                     "label": "Largeur maximale"
                 },
                 "maxwidth/physical": {
-                    "label": "Largeur maximale"
+                    "label": "Largeur utile (mètres)"
                 },
                 "message": {
                     "label": "Message"
@@ -717,7 +717,7 @@
                         "alternating": "En alternance",
                         "no": "Non",
                         "reversible": "Réversible",
-                        "undefined": "Par défaut : Non",
+                        "undefined": "Indéfini",
                         "yes": "Oui"
                     },
                     "terms": "une direction,unidirectionnel,unidirectionnelle,sens unique"
@@ -739,9 +739,9 @@
                         "parking:right:orientation": "Right side"
                     },
                     "options": {
-                        "parallel": "Parallel to the Street",
-                        "diagonal": "Diagonal in Relation to the Street (~45°)",
-                        "perpendicular": "Meets the Street at a Straight Angle (~90°)"
+                        "parallel": "Créneau",
+                        "diagonal": "Épi",
+                        "perpendicular": "Bataille"
                     }
                 },
                 "overlap": {
@@ -985,7 +985,7 @@
                     "options": {
                         "bridge": "Pont",
                         "cutting": "Tranchée",
-                        "embankment": "Remblai",
+                        "embankment": "Terre-plein",
                         "ford": "Gué",
                         "tunnel": "Tunnel"
                     },
@@ -1177,27 +1177,27 @@
                     "label": "Largeur (mètres)"
                 },
                 "wheelchair_turning_cycle_simple_diameter": {
-                    "label": "Diamètre de la zone de manoeuvre"
+                    "label": "Diamètre de la zone de manœuvre (mètres)"
                 },
                 "wheelchair_turning_cycle_simple": {
-                    "label": "Zone de manoeuvre"
+                    "label": "Zone de manœuvre"
                 },
                 "wheelchair_turning_cycle_ramp": {
-                    "label": "Zone de manoeuvre",
+                    "label": "Zone de manœuvre",
                     "options": {
                         "up": "Uniquement en haut de la rampe",
                         "down": "Uniquement en bas de la rampe",
                         "up;down": "En haut et en bas",
-                        "no": "Pas de zone de manoeuvre"
+                        "no": "Pas de zone de manœuvre"
                     }
                 },
                 "wheelchair_turning_cycle_entrance": {
-                    "label": "Zone de manoeuvre",
+                    "label": "Zone de manœuvre",
                     "options": {
                         "inside": "Uniquement à l'intérieur",
                         "outside": "Uniquement à l'extérieur",
                         "inside;outside": "À l'intérieur et à l'extérieur",
-                        "no": "Pas de zone de manoeuvre"
+                        "no": "Pas de zone de manœuvre"
                     }
                 },
                 "wheelchair_call_button": {
@@ -1214,7 +1214,7 @@
                     "options": {
                         "kerb": "Surépaisseur au sol d'au moins 3cm, située sous l'obstacle",
                         "pole": "Élément bas, à max 0,40m du sol",
-                        "yes": "Autre élément, détectable avec une caenne blanche",
+                        "yes": "Autre élément, détectable avec une canne blanche",
                         "no": "Pas de rappel tactile"
                     }
                 },
@@ -1363,40 +1363,28 @@
                     "label": "Accès pour les Piétons",
                     "options": {
                         "yes": {
-                            "title": "Allowed",
-                            "description": "Access allowed by law; a right of way"
-                        },
-                        "no": {
-                            "title": "Prohibited",
-                            "description": "Access not allowed to the general public"
-                        },
-                        "permissive": {
-                            "title": "Permissive",
-                            "description": "Access allowed until such time as the owner revokes the permission"
-                        },
-                        "private": {
-                            "title": "Private",
-                            "description": "Access allowed only with permission of the owner on an individual basis"
+                            "description": "Accès autorisé par la loi ; droit de passage",
+                            "title": "Autorisé"
                         },
                         "designated": {
-                            "title": "Designated",
-                            "description": "Access allowed according to signs or specific local laws"
+                            "description": "Accès autorisé selon la signalisation ou la réglementation locale ",
+                            "title": "Prévu spécifiquement pour"
+                        },
+                        "permissive": {
+                            "description": "Accès autorisé jusqu'à ce que le propriétaire révoques la permission",
+                            "title": "Accès toléré"
                         },
                         "destination": {
-                            "title": "Destination",
-                            "description": "Access allowed only to reach a destination"
+                            "description": "Accès autorisé uniquement pour atteindre une destination",
+                            "title": "Interdit sauf riverains"
                         },
-                        "customers": {
-                            "title": "Customers",
-                            "description": "Restricted to customers at the destination"
-                        },
-                        "permit": {
-                            "title": "Permit",
-                            "description": "Access allowed only with a valid permit or license"
+                        "no": {
+                            "description": "Accès non autorisé au public",
+                            "title": "Interdit"
                         },
                         "unknown": {
-                            "title": "Unknown",
-                            "description": "Access conditions are unknown or unclear"
+                            "description": "Les conditions d'accès sont inconnues ou pas claires",
+                            "title": "Inconnu"
                         }
                     }
                 },
@@ -1428,7 +1416,7 @@
                     "label": "Annonce sonore de l'étage atteint"
                 },
                 "kerb/width": {
-                    "label": "Largeur de l'Abaissé de Trottoir"
+                    "label": "Largeur de l'Abaissé de Trottoir (mètres)"
                 },
                 "kerb/visibility_obstacle": {
                     "label": "Obstacle à la Co-visibilité",
@@ -1462,7 +1450,7 @@
                     "label": "Feux piétons"
                 },
                 "crossing/markings_condition": {
-                    "label": "État du marquage au sole",
+                    "label": "État du marquage au sol",
                     "placeholder": "bon, mauvais, ...",
                     "options": {
                         "excellent": "Excellent",
@@ -2900,10 +2888,10 @@
                     "name": "Bloc"
                 },
                 "barrier/bollard": {
-                    "name": "Borne"
+                    "name": "Potelet"
                 },
                 "barrier/bollard_line": {
-                    "name": "Rangée de bornes"
+                    "name": "Rangée de Potelets"
                 },
                 "barrier/border_control": {
                     "name": "Poste-frontière",
@@ -2922,7 +2910,7 @@
                     "terms": "barrière,glissière,sécurité,route,câble,câble métallique"
                 },
                 "barrier/cattle_grid": {
-                    "name": "Grille à bétail",
+                    "name": "Barrière à bétail",
                     "terms": "grille à bétail,barrière canadienne,passage canadien,pas canadien,bovistop,grille a betail,grille bétail,barres à bétail,barres à animaux,bétail,piétons,randonneurs,animaux,animal,vache,cheval,barres fosse,vide,trou,cattle grid,grid cattle"
                 },
                 "barrier/chain": {
@@ -2932,7 +2920,7 @@
                     "name": "Mur d'enceinte"
                 },
                 "barrier/cycle_barrier": {
-                    "name": "Barrière à vélos",
+                    "name": "Barrière à vélo",
                     "terms": "chicane vélos,barrière vélos,barrières vélos,passage vélos,chicane bicyclettes,barrière bicyclettes,barrières bicyclettes,passage bicyclettes,chicane à vélos,barrière à vélos,barrières à vélos,passage à vélos,chicane à bicyclettes,barrière à bicyclettes,barrières à bicyclettes,passage à bicyclettes,barrière pour vélos,barrières pour vélos,passage pour vélos,barrière pour bicyclettes,barrières pour bicyclettes,passage pour bicyclettes,chicane,barrières,barrieres,passage,rétrécissement,goulot,portillon à chicane,vélos,bicyclettes,cycle barrier,traffic calming"
                 },
                 "barrier/ditch": {
@@ -2958,7 +2946,7 @@
                     "name": "Portail"
                 },
                 "barrier/guard_rail": {
-                    "name": "barrière de sécurité",
+                    "name": "Barrière de sécurité",
                     "terms": "barrière de sécurité,barre de sécurité,garde-fou,garde-corps,rampe"
                 },
                 "barrier/hampshire_gate": {
@@ -2991,8 +2979,8 @@
                     "terms": "abaissement de trottoir,bateau,bordure abaissée,rampe d'accès,plan incliné,charretière"
                 },
                 "barrier/kerb/raised": {
-                    "name": "Bordure de trottoir surélevée",
-                    "terms": "trottoir,bord,relèvement de trottoir,trottoir surélevé"
+                    "name": "Bordure de trottoir relevée",
+                    "terms": "trottoir,bord,relèvement de trottoir,trottoir relevé"
                 },
                 "barrier/kerb/rolled": {
                     "name": "Bordure de trottoir creusée",
@@ -3179,7 +3167,7 @@
                     "name": "Bâtiment d'hôtel"
                 },
                 "building/house": {
-                    "name": "Maison",
+                    "name": "Maison mitoyenne",
                     "terms": "maison mitoyenne,maison de ville,maison en rangée,maison en bande,maisons mitoyennes,maisons de ville,maisons en rangée,maisons en bande,logements,résidences,habitations,maisons,building house,house"
                 },
                 "building/house/terraced": {
@@ -3309,7 +3297,7 @@
                     "terms": "tombe,enterrement,cimetière,mausolée"
                 },
                 "climbing/crag": {
-                    "name": "Rocher de grimpe",
+                    "name": "Site d'escalade",
                     "aliases": "Climbing Cliff"
                 },
                 "climbing/route": {
@@ -3351,7 +3339,7 @@
                     "name": "Forgeron"
                 },
                 "craft/boatbuilder": {
-                    "name": "Constructeur de bateaux"
+                    "name": "Constructeur naval"
                 },
                 "craft/bookbinder": {
                     "name": "Relieur",
@@ -3425,7 +3413,7 @@
                     "terms": "menuisier,meubles"
                 },
                 "craft/key_cutter": {
-                    "name": "Reproduction de clés",
+                    "name": "Reproduction de clef",
                     "terms": "reproduction de clés"
                 },
                 "craft/locksmith": {
@@ -3505,7 +3493,7 @@
                     "name": "Tapissier"
                 },
                 "craft/watchmaker": {
-                    "name": "Horloger (montres)"
+                    "name": "Horloger"
                 },
                 "craft/window_construction": {
                     "name": "Construction de fenêtres",
@@ -3656,7 +3644,7 @@
                     "terms": "secours,pghm"
                 },
                 "emergency/phone": {
-                    "name": "Téléphone d'urgence",
+                    "name": "Téléphone de secours",
                     "terms": "téléphone d'urgence"
                 },
                 "emergency/siren": {
@@ -3890,7 +3878,7 @@
                     "terms": "passage,traversée,piéton,signalisation,feux,protégé"
                 },
                 "highway/crossing/uncontrolled": {
-                    "name": "Passage piéton non protégé",
+                    "name": "Passage piéton sans feu",
                     "terms": "passage piéton marqué"
                 },
                 "highway/crossing/unmarked": {
@@ -3917,7 +3905,7 @@
                     "terms": "passage,traversée,cycliste,protégé,signalisation,lumineuse,feux"
                 },
                 "highway/cycleway/crossing/uncontrolled": {
-                    "name": "Passage cycliste non protégé",
+                    "name": "Passage cycliste sans feu",
                     "terms": "passage cycliste,passage piéton,passage clouté"
                 },
                 "highway/cycleway/crossing/unmarked": {
@@ -4006,7 +3994,7 @@
                     "terms": "borne kilométrique"
                 },
                 "highway/mini_roundabout": {
-                    "name": "Mini carrefour giratoire",
+                    "name": "Mini rond-point",
                     "terms": "mini rond-point"
                 },
                 "highway/motorway": {
@@ -4040,7 +4028,7 @@
                     "name": "Traversée piétonne et cycliste avec feux piétons"
                 },
                 "highway/path/crossing/uncontrolled": {
-                    "name": "Traversée piétonne et cycliste marquée"
+                    "name": "Traversée piétonne et cycliste sans feu"
                 },
                 "highway/path/crossing/unmarked": {
                     "name": "Traversée piétonne et cycliste non marquée"
@@ -4108,7 +4096,7 @@
                     "name": "Ruelle"
                 },
                 "highway/service/drive-through": {
-                    "name": "Service Drive"
+                    "name": "Drive (service au volant)"
                 },
                 "highway/service/driveway": {
                     "name": "Allée"
@@ -4172,8 +4160,8 @@
                     "terms": "miroir de sécurité"
                 },
                 "highway/traffic_signals": {
-                    "name": "Feux de signalisation routière",
-                    "terms": "feux de circulation,feux tricolores,feux rouges,feux de signalisation"
+                    "name": "Feux tricolores",
+                    "terms": "feux de circulation,feux tricolores,feux rouges"
                 },
                 "highway/trailhead": {
                     "name": "Début du sentier",
@@ -4270,7 +4258,7 @@
                     "name": "Ruines"
                 },
                 "historic/tomb": {
-                    "name": "Tombe"
+                    "name": "Tombe historique"
                 },
                 "historic/wayside_cross": {
                     "name": "Croix/Calvaire",
@@ -6243,7 +6231,7 @@
                     "terms": "portique,support,structure,câble,électrique,électricité"
                 },
                 "power/substation": {
-                    "name": "Sous-station"
+                    "name": "Poste de transformation"
                 },
                 "power/switch": {
                     "name": "Appareil de connexion électrique"
@@ -6293,7 +6281,7 @@
                     "terms": "gare de métro léger,station de métro léger,quai de métro léger,arrêt de métro léger,gare,stop,arrêt,station,attente voyageur,métro léger"
                 },
                 "public_transport/platform/light_rail_point": {
-                    "name": "Station de métro léger"
+                    "name": "Arrêt de métro léger"
                 },
                 "public_transport/platform/monorail": {
                     "name": "Quai de monorail",
@@ -7438,7 +7426,7 @@
                     "terms": "bienvenue"
                 },
                 "tourism/information/guidepost": {
-                    "name": "Panneau d'indications",
+                    "name": "Panneau indicateur",
                     "terms": "poteau indicateur"
                 },
                 "tourism/information/map": {
@@ -7647,7 +7635,7 @@
                     "name": "Itinéraire de délestage"
                 },
                 "type/route/ferry": {
-                    "name": "Itinéraire de ferry"
+                    "name": "Trajet de ferry"
                 },
                 "type/route/foot": {
                     "name": "Itinéraire pédestre"
@@ -7841,7 +7829,9 @@
                 "landuse/industrial/industrial_point": {},
                 "landuse/industrial/brewery": {},
                 "highway/trunk_link-US-CA": {},
-                "highway/traffic_sign": {},
+                "highway/traffic_sign": {
+                    "name": "Panneau routier"
+                },
                 "highway/primary_link-US-CA": {},
                 "highway/motorway_link-US-CA": {},
                 "highway/path/traffic_island_shared": {},
@@ -7883,7 +7873,6 @@
                 "amenity/driving_school": {},
                 "amenity/dancing_school": {},
                 "amenity/college": {},
-                "amenity/post_box/post_box-US": {},
                 "amenity/doctors/gynaecology": {
                     "name": "Obstetrician / Gynecologist",
                     "aliases": "Gynecologist\nObstetrician",

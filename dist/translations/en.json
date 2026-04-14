@@ -78,6 +78,33 @@
                 "wholesale": {
                     "label": "Wholesale"
                 },
+                "wheelchair_turning_cycle_simple_diameter": {
+                    "label": "Wheelchair Turning Cycle Diameter"
+                },
+                "wheelchair_turning_cycle_simple": {
+                    "label": "Wheelchair Turning Cycle"
+                },
+                "wheelchair_turning_cycle_ramp": {
+                    "label": "Wheelchair Turning Cycle Position",
+                    "options": {
+                        "up": "Up only",
+                        "down": "Down only",
+                        "up;down": "Up and down",
+                        "no": "None"
+                    }
+                },
+                "wheelchair_turning_cycle_entrance": {
+                    "label": "Wheelchair Turning Cycle Position",
+                    "options": {
+                        "inside": "Inside only",
+                        "outside": "Outside only",
+                        "inside;outside": "Inside and outside",
+                        "no": "None"
+                    }
+                },
+                "wheelchair_call_button": {
+                    "label": "Wheelchair call button"
+                },
                 "wheelchair": {
                     "label": "Wheelchair Access",
                     "terms": "handicap access",
@@ -143,6 +170,12 @@
                 "voltage_electrified": {},
                 "voltage": {
                     "label": "Voltage"
+                },
+                "visual_contrast": {
+                    "label": "Visual Contrast"
+                },
+                "visual_announcement": {
+                    "label": "Visual Announcement"
                 },
                 "visibility": {
                     "label": "Visibility",
@@ -444,6 +477,47 @@
                         "only": "Takeaway Only"
                     }
                 },
+                "tactile_warning": {
+                    "label": "Walking stick detectable warning",
+                    "options": {
+                        "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+                        "pole": "Pole on floor, at 40cm max",
+                        "yes": "Other tactile warning",
+                        "no": "No tactile warning"
+                    }
+                },
+                "tactile_paving_steps": {
+                    "label": "Tactile Paving",
+                    "options": {
+                        "partial": "Up only",
+                        "incorrect": "Down only",
+                        "yes": "Up and Down",
+                        "no": "None"
+                    }
+                },
+                "tactile_paving_defects": {
+                    "label": "Tactile Paving Defects",
+                    "options": {
+                        "curved": "Curved",
+                        "across": "Across",
+                        "too_large": "Too large",
+                        "insufficient_width": "Insufficient width",
+                        "insufficient_depth": "insufficient depth",
+                        "non_contrasted": "non contrasted",
+                        "none": "no defects"
+                    }
+                },
+                "tactile_paving_condition": {
+                    "label": "Tactile Paving Condition",
+                    "options": {
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible"
+                    }
+                },
                 "tactile_paving": {
                     "label": "Tactile Paving"
                 },
@@ -617,6 +691,15 @@
                 "stile": {
                     "label": "Type"
                 },
+                "step_stair_nosing": {
+                    "label": "Step stair nosing"
+                },
+                "step_length": {
+                    "label": "Step Length (Meters)"
+                },
+                "step_height": {
+                    "label": "Step Height (Meters)"
+                },
                 "step_count": {
                     "label": "Number of Steps"
                 },
@@ -693,6 +776,9 @@
                         "yoga": "Yoga"
                     }
                 },
+                "speech_output": {
+                    "label": "Speech Output"
+                },
                 "species": {
                     "label": "Species",
                     "placeholder": "Acer platanoides, Quercus robur, …"
@@ -756,6 +842,19 @@
                 },
                 "sms": {
                     "label": "SMS"
+                },
+                "smoothness_simple": {
+                    "label": "Smoothness",
+                    "placeholder": "good, bad, ...",
+                    "options": {
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible",
+                        "impassable": "Impassable / No wheeled vehicle"
+                    }
                 },
                 "smoothness": {
                     "label": "Smoothness",
@@ -1252,6 +1351,9 @@
                         "zipwire": "Zipline / Zipwire"
                     }
                 },
+                "platform_height": {
+                    "label": "Platform Height (Meters)"
+                },
                 "plant": {
                     "label": "Plant"
                 },
@@ -1513,6 +1615,12 @@
                         "water_utility": "Water Utility Office"
                     }
                 },
+                "obstacle_wheelchair": {
+                    "label": "Is an obstacle for wheelchair users ?"
+                },
+                "obstacle_blind": {
+                    "label": "Is an obstacle for blind people ?"
+                },
                 "nudism": {
                     "label": "Nudism",
                     "terms": "naturism,naturist,nude recreation,nudist",
@@ -1606,6 +1714,9 @@
                 "minspeed": {
                     "label": "Minimum Speed Limit",
                     "placeholder": "20, 30, 40..."
+                },
+                "min_height_obstacle": {
+                    "label": "Height of Bottom (Meters)"
                 },
                 "min_height": {
                     "label": "Height of Bottom (Meters)"
@@ -1708,6 +1819,15 @@
                         "steel": "Steel",
                         "stone": "Stone",
                         "wood": "Wood"
+                    }
+                },
+                "markings": {
+                    "label": "markings",
+                    "options": {
+                        "traffic_sign": "traffic sign",
+                        "pictograms": "pictograms",
+                        "traffic_sign;pictograms ": "traffic sign and pictograms ",
+                        "no": "no markings"
                     }
                 },
                 "marker": {
@@ -1820,6 +1940,9 @@
                 "level": {
                     "label": "Level",
                     "terms": "building floor,deck,storey,story"
+                },
+                "length_buffer": {
+                    "label": "Extra length (Meters)"
                 },
                 "length": {
                     "label": "Length (Meters)"
@@ -1978,6 +2101,29 @@
                         "down": "Down"
                     }
                 },
+                "incline_percentage": {
+                    "options": {
+                        "0%": "flat (0%)",
+                        "3%": "gentle (3%)",
+                        "5%": "medium (5%)",
+                        "8%": "steep (8%)",
+                        "12%": "very steep (12%)",
+                        "-3%": "gentle (-3%)",
+                        "-5%": "medium (-5%)",
+                        "-8%": "steep (-8%)",
+                        "-12%": "very steep (-12%)"
+                    }
+                },
+                "incline_across_percentage": {
+                    "label": "Lateral Incline",
+                    "options": {
+                        "0%": "flat (0%)",
+                        "2%": "medium right tilt (2%)",
+                        "5%": "strong right tilt (5%)",
+                        "-2%": "medium left tilt (-2%)",
+                        "-5%": "strong left tilt (-5%)"
+                    }
+                },
                 "incline": {
                     "label": "Incline"
                 },
@@ -2079,6 +2225,13 @@
                         "wayside_cross": "Wayside Cross",
                         "wayside_shrine": "Wayside Shrine",
                         "wreck": "Shipwreck"
+                    }
+                },
+                "highway_shape": {
+                    "label": "Highway shape",
+                    "options": {
+                        "flat": "flat",
+                        "bulged": "bulged"
                     }
                 },
                 "highway_cartpath": {
@@ -2188,12 +2341,28 @@
                 "handrest": {
                     "label": "Handrest"
                 },
+                "handrail_side": {
+                    "label": "Handrail",
+                    "options": {
+                        "rigth": "Rigth only",
+                        "left": "Left only",
+                        "both": "Both sides",
+                        "center": "Only one handrail, on the center of the stairs",
+                        "no": "None"
+                    }
+                },
+                "handrail_height": {
+                    "label": "Handrail Height (Meters)"
+                },
                 "handrail": {
                     "label": "Handrail"
                 },
                 "handicap": {
                     "label": "Handicap",
                     "placeholder": "1-18"
+                },
+                "guiding_strips": {
+                    "label": "Guiding Strips"
                 },
                 "guest_house": {
                     "label": "Type"
@@ -2253,6 +2422,47 @@
                 },
                 "footrest": {
                     "label": "Footrest"
+                },
+                "foot_simple": {
+                    "label": "Foot access",
+                    "options": {
+                        "yes": {
+                            "title": "Allowed",
+                            "description": "Access allowed by law; a right of way"
+                        },
+                        "no": {
+                            "title": "Prohibited",
+                            "description": "Access not allowed to the general public"
+                        },
+                        "permissive": {
+                            "title": "Permissive",
+                            "description": "Access allowed until such time as the owner revokes the permission"
+                        },
+                        "private": {
+                            "title": "Private",
+                            "description": "Access allowed only with permission of the owner on an individual basis"
+                        },
+                        "designated": {
+                            "title": "Designated",
+                            "description": "Access allowed according to signs or specific local laws"
+                        },
+                        "destination": {
+                            "title": "Destination",
+                            "description": "Access allowed only to reach a destination"
+                        },
+                        "customers": {
+                            "title": "Customers",
+                            "description": "Restricted to customers at the destination"
+                        },
+                        "permit": {
+                            "title": "Permit",
+                            "description": "Access allowed only with a valid permit or license"
+                        },
+                        "unknown": {
+                            "title": "Unknown",
+                            "description": "Access conditions are unknown or unclear"
+                        }
+                    }
                 },
                 "flood_prone": {
                     "label": "Flood Prone"
@@ -2349,6 +2559,12 @@
                 "except": {
                     "label": "Exceptions"
                 },
+                "entrance_ramp": {
+                    "label": "Amovible ramp"
+                },
+                "entrance_coloured_band": {
+                    "label": "Coloured band on transparent door"
+                },
                 "entrance": {
                     "label": "Type",
                     "options": {
@@ -2374,6 +2590,9 @@
                 "emergency_combo": {
                     "label": "Type"
                 },
+                "emergency_button": {
+                    "label": "Emergency Button"
+                },
                 "emergency": {
                     "label": "Emergency"
                 },
@@ -2397,6 +2616,9 @@
                 "email": {
                     "label": "Email",
                     "placeholder": "example@example.com"
+                },
+                "elevator_mirror": {
+                    "label": "Mirror in Elevator"
                 },
                 "electrified": {
                     "label": "Electrification",
@@ -2898,6 +3120,9 @@
                 "count": {
                     "label": "Number of Features"
                 },
+                "conveying_motion_sensor": {
+                    "label": "Motion sensor"
+                },
                 "conveying_escalator": {
                     "label": "Escalator"
                 },
@@ -3368,8 +3593,14 @@
                         "no": "None"
                     }
                 },
+                "automatic_door": {
+                    "label": "Automatic Door"
+                },
                 "automated": {
                     "label": "Automated"
+                },
+                "audio_loop": {
+                    "label": "Audio Induction Loop"
                 },
                 "attraction": {
                     "label": "Type",
@@ -3475,6 +3706,9 @@
                         "settlement": "Historic Settlement",
                         "tumulus": "Tumulus"
                     }
+                },
+                "announcement": {
+                    "label": "Announcement"
                 },
                 "animal_shelter": {
                     "label": "For Animals"
@@ -4362,7 +4596,7 @@
                     "label": "Nearest Building Address"
                 },
                 "maxwidth/physical": {
-                    "label": "Width Limit"
+                    "label": "Width Limit (Meters)"
                 },
                 "maxspeed/hgv": {
                     "label": "Truck Speed Limit",
@@ -4382,11 +4616,42 @@
                         "double": "Opposing Bars"
                     }
                 },
+                "kerb/width": {
+                    "label": "Kerb Width"
+                },
+                "kerb/visibility_obstacle": {
+                    "label": "Visibility Obstacle at kerb",
+                    "options": {
+                        "parking_space": "car parking space",
+                        "waste_disposal": "waste disposal",
+                        "recycling": "recycling disposal",
+                        "hedge": "hedge",
+                        "building": "building"
+                    }
+                },
+                "kerb/visibility": {
+                    "label": "Visibility at kerb",
+                    "options": {
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad"
+                    }
+                },
                 "kerb/kerb_barrier": {
                     "label": "Type"
                 },
+                "kerb/incline": {
+                    "label": "Kerb Incline",
+                    "options": {
+                        "0%": "flat (0%)",
+                        "3%": "gentle (3%)",
+                        "5%": "medium (5%)",
+                        "8%": "steep (8%)",
+                        "12%": "very steep (12%)"
+                    }
+                },
                 "kerb/height": {
-                    "label": "Height"
+                    "label": "Kerb Height (Meters)"
                 },
                 "junction/ref_oneway": {
                     "label": "Junction Number"
@@ -4711,10 +4976,25 @@
                         "removable": "Removable"
                     }
                 },
+                "crossing/signals": {
+                    "label": "Traffic signals"
+                },
                 "crossing/markings_yes": {},
                 "crossing/markings_yes-PL": {},
                 "crossing/markings_yes-DE-AT-CH": {},
                 "crossing/markings_yes-BG": {},
+                "crossing/markings_condition": {
+                    "label": "Crossing markings condition",
+                    "placeholder": "good, bad, ...",
+                    "options": {
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible"
+                    }
+                },
                 "crossing/markings": {
                     "label": "Crossing Markings",
                     "options": {
@@ -6358,6 +6638,10 @@
                 "railway/train_wash": {
                     "name": "Train Wash",
                     "terms": "clean,wash"
+                },
+                "railway/train_station_entrance": {
+                    "name": "Subway Entrance",
+                    "terms": "metro,transit"
                 },
                 "railway/switch": {
                     "name": "Railway Switch",
@@ -8692,6 +8976,7 @@
                     "name": "Traffic Signals",
                     "terms": "light,stoplight,traffic light"
                 },
+                "highway/traffic_sign": {},
                 "highway/traffic_mirror": {
                     "name": "Traffic Mirror",
                     "terms": "blind spot,convex,corner,curved,roadside,round,safety,sphere,visibility"
@@ -8883,7 +9168,6 @@
                     "name": "Bridle Path",
                     "terms": "bridleway,equestrian,horse,trail"
                 },
-                "highway/traffic_sign": {},
                 "highway/bus_stop": {
                     "name": "Bus Stop"
                 },
@@ -8951,6 +9235,12 @@
                     "name": "Sidewalk",
                     "terms": "pavement,sidepath"
                 },
+                "highway/footway/ramp": {
+                    "name": "Ramp"
+                },
+                "highway/footway/platform": {
+                    "name": "Platform"
+                },
                 "highway/footway/crossing": {
                     "name": "Pedestrian Crossing",
                     "terms": "crosswalk,foot path crossing"
@@ -8966,21 +9256,6 @@
                 "highway/footway/informal": {
                     "name": "Informal Foot Path"
                 },
-                "highway/footway/crossing/unmarked": {
-                    "name": "Unmarked Crossing",
-                    "terms": "unmarked crosswalk,unmarked foot path crossing,unmarked pedestrian crossing"
-                },
-                "highway/footway/crossing/uncontrolled": {
-                    "name": "Marked Crossing",
-                    "terms": "crosswalk,marked crosswalk,marked foot path crossing,marked pedestrian crosswalk,zebra crossing"
-                },
-                "highway/footway/crossing/traffic_signals": {
-                    "name": "Crossing With Pedestrian Signals",
-                    "terms": "crosswalk (lights),pedestrian crossing (lights),pedestrian traffic lights,pedestrian traffic signals"
-                },
-                "highway/footway/crossing/zebra": {},
-                "highway/footway/crossing/marked": {},
-                "highway/footway/crossing/informal": {},
                 "highway/cycleway/traffic_island_shared": {
                     "name": "Cycle & Foot Refuge Island",
                     "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
@@ -9820,6 +10095,9 @@
                 "barrier/retaining_wall": {
                     "name": "Retaining Wall"
                 },
+                "barrier/planter": {
+                    "name": "Planter (Barrier)"
+                },
                 "barrier/motorcycle_barrier": {
                     "name": "Motorcycle Barrier",
                     "terms": "motorbike barrier"
@@ -9913,9 +10191,6 @@
                 },
                 "barrier/yes": {
                     "name": "Barrier (Unspecified Type)"
-                },
-                "barrier/planter": {
-                    "name": "Planter (Barrier)"
                 },
                 "barrier/handrail": {
                     "name": "Handrail"

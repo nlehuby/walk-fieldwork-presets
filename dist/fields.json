@@ -49,6 +49,43 @@
         "key": "wholesale",
         "type": "typeCombo"
     },
+    "wheelchair_turning_cycle_simple_diameter": {
+        "key": "wheelchair:turning_cycle:diameter",
+        "type": "number",
+        "minValue": 0,
+        "prerequisiteTag": {
+            "key": "wheelchair:turning_cycle",
+            "valueNot": "no"
+        }
+    },
+    "wheelchair_turning_cycle_simple": {
+        "key": "wheelchair:turning_cycle",
+        "type": "check"
+    },
+    "wheelchair_turning_cycle_ramp": {
+        "key": "wheelchair:turning_cycle",
+        "type": "combo",
+        "options": [
+            "up",
+            "down",
+            "up;down",
+            "no"
+        ]
+    },
+    "wheelchair_turning_cycle_entrance": {
+        "key": "wheelchair:turning_cycle",
+        "type": "combo",
+        "options": [
+            "inside",
+            "outside",
+            "inside;outside",
+            "no"
+        ]
+    },
+    "wheelchair_call_button": {
+        "key": "wheelchair:call_button",
+        "type": "check"
+    },
     "wheelchair": {
         "key": "wheelchair",
         "type": "radio",
@@ -134,6 +171,14 @@
     "voltage": {
         "key": "voltage",
         "type": "combo"
+    },
+    "visual_contrast": {
+        "key": "visual_contrast",
+        "type": "check"
+    },
+    "visual_announcement": {
+        "key": "visual_announcement",
+        "type": "check"
     },
     "visibility": {
         "key": "visibility",
@@ -516,6 +561,71 @@
             "only"
         ]
     },
+    "tactile_warning": {
+        "key": "tactile_warning",
+        "type": "combo",
+        "prerequisiteTag": {
+            "key": "obstacle:blind",
+            "value": "yes"
+        },
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "kerb",
+            "pole",
+            "yes",
+            "no"
+        ]
+    },
+    "tactile_paving_steps": {
+        "key": "tactile_paving",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "partial",
+            "incorrect",
+            "yes",
+            "no"
+        ]
+    },
+    "tactile_paving_defects": {
+        "key": "tactile_paving:defects",
+        "type": "multiCombo",
+        "autoSuggestions": false,
+        "prerequisiteTag": {
+            "key": "tactile_paving",
+            "valueNot": "no"
+        },
+        "customValues": false,
+        "options": [
+            "curved",
+            "across",
+            "too_large",
+            "insufficient_width",
+            "insufficient_depth",
+            "non_contrasted",
+            "none"
+        ]
+    },
+    "tactile_paving_condition": {
+        "key": "tactile_paving:condition",
+        "type": "combo",
+        "autoSuggestions": false,
+        "prerequisiteTag": {
+            "key": "tactile_paving",
+            "valueNot": "no"
+        },
+        "customValues": false,
+        "options": [
+            "excellent",
+            "good",
+            "intermediate",
+            "bad",
+            "very_bad",
+            "horrible"
+        ]
+    },
     "tactile_paving": {
         "key": "tactile_paving",
         "type": "check"
@@ -727,6 +837,20 @@
         "key": "stile",
         "type": "combo"
     },
+    "step_stair_nosing": {
+        "key": "step:stair_nosing",
+        "type": "check"
+    },
+    "step_length": {
+        "key": "step:length",
+        "type": "number",
+        "minValue": 0
+    },
+    "step_height": {
+        "key": "step:height",
+        "type": "number",
+        "minValue": 0
+    },
     "step_count": {
         "key": "step_count",
         "type": "number",
@@ -807,6 +931,10 @@
             "yoga"
         ]
     },
+    "speech_output": {
+        "key": "speech_output",
+        "type": "check"
+    },
     "species": {
         "key": "species",
         "type": "combo",
@@ -886,6 +1014,21 @@
     "sms": {
         "key": "sms",
         "type": "check"
+    },
+    "smoothness_simple": {
+        "key": "smoothness",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "excellent",
+            "good",
+            "intermediate",
+            "bad",
+            "very_bad",
+            "horrible",
+            "impassable"
+        ]
     },
     "smoothness": {
         "key": "smoothness",
@@ -1535,6 +1678,11 @@
             "zipwire"
         ]
     },
+    "platform_height": {
+        "key": "platform:height",
+        "type": "number",
+        "minValue": 0
+    },
     "plant": {
         "key": "plant",
         "type": "combo"
@@ -1825,6 +1973,14 @@
             "water_utility"
         ]
     },
+    "obstacle_wheelchair": {
+        "key": "obstacle:wheelchair",
+        "type": "check"
+    },
+    "obstacle_blind": {
+        "key": "obstacle:blind",
+        "type": "check"
+    },
     "nudism": {
         "key": "nudism",
         "type": "combo",
@@ -1946,6 +2102,15 @@
     "minspeed": {
         "key": "minspeed",
         "type": "roadspeed"
+    },
+    "min_height_obstacle": {
+        "key": "min_height",
+        "minValue": 0,
+        "type": "number",
+        "prerequisiteTag": {
+            "key": "obstacle:blind",
+            "value": "yes"
+        }
     },
     "min_height": {
         "key": "min_height",
@@ -2100,6 +2265,18 @@
             "wood"
         ]
     },
+    "markings": {
+        "key": "markings",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "traffic_sign",
+            "pictograms",
+            "traffic_sign;pictograms ",
+            "no"
+        ]
+    },
     "marker": {
         "key": "marker",
         "type": "typeCombo",
@@ -2227,6 +2404,11 @@
         "prerequisiteTag": {
             "keyNot": "building"
         }
+    },
+    "length_buffer": {
+        "key": "length:buffer",
+        "type": "number",
+        "minValue": 0
     },
     "length": {
         "key": "length",
@@ -2444,6 +2626,37 @@
             "down"
         ]
     },
+    "incline_percentage": {
+        "key": "incline",
+        "type": "combo",
+        "label": "{incline}",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "0%",
+            "3%",
+            "5%",
+            "8%",
+            "12%",
+            "-3%",
+            "-5%",
+            "-8%",
+            "-12%"
+        ]
+    },
+    "incline_across_percentage": {
+        "key": "incline:across",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "0%",
+            "2%",
+            "5%",
+            "-2%",
+            "-5%"
+        ]
+    },
     "incline": {
         "key": "incline",
         "type": "combo"
@@ -2539,6 +2752,16 @@
             "wayside_cross",
             "wayside_shrine",
             "wreck"
+        ]
+    },
+    "highway_shape": {
+        "key": "highway:shape",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "flat",
+            "bulged"
         ]
     },
     "highway_cartpath": {
@@ -2680,6 +2903,27 @@
         "type": "check",
         "default": "yes"
     },
+    "handrail_side": {
+        "key": "handrail",
+        "type": "combo",
+        "autoSuggestions": false,
+        "options": [
+            "rigth",
+            "left",
+            "both",
+            "center",
+            "no"
+        ]
+    },
+    "handrail_height": {
+        "key": "handrail:height",
+        "type": "number",
+        "minValue": 0,
+        "prerequisiteTag": {
+            "key": "handrail",
+            "valueNot": "no"
+        }
+    },
     "handrail": {
         "key": "handrail",
         "type": "check"
@@ -2687,6 +2931,10 @@
     "handicap": {
         "key": "handicap",
         "type": "number"
+    },
+    "guiding_strips": {
+        "key": "guiding_strips",
+        "type": "check"
     },
     "guest_house": {
         "key": "guest_house",
@@ -2791,6 +3039,21 @@
     "footrest": {
         "key": "footrest",
         "type": "check"
+    },
+    "foot_simple": {
+        "key": "foot",
+        "type": "combo",
+        "options": [
+            "yes",
+            "no",
+            "permissive",
+            "private",
+            "designated",
+            "destination",
+            "customers",
+            "permit",
+            "unknown"
+        ]
     },
     "flood_prone": {
         "key": "flood_prone",
@@ -2910,6 +3173,18 @@
         "key": "except",
         "type": "combo"
     },
+    "entrance_ramp": {
+        "key": "entrance:ramp",
+        "type": "check"
+    },
+    "entrance_coloured_band": {
+        "key": "entrance:coloured_band",
+        "type": "check",
+        "prerequisiteTag": {
+            "key": "material",
+            "value": "glass"
+        }
+    },
     "entrance": {
         "key": "entrance",
         "type": "typeCombo",
@@ -2938,6 +3213,10 @@
     "emergency_combo": {
         "key": "emergency",
         "type": "combo"
+    },
+    "emergency_button": {
+        "key": "emergency_button",
+        "type": "check"
     },
     "emergency": {
         "key": "emergency",
@@ -2970,6 +3249,10 @@
             "contact:email"
         ],
         "type": "email"
+    },
+    "elevator_mirror": {
+        "key": "elevator:mirror",
+        "type": "check"
     },
     "electrified": {
         "key": "electrified",
@@ -3651,13 +3934,17 @@
         "type": "number",
         "minValue": 1
     },
+    "conveying_motion_sensor": {
+        "key": "conveying:motion_sensor",
+        "type": "check"
+    },
     "conveying_escalator": {
         "key": "conveying",
         "type": "check"
     },
     "conveying": {
         "key": "conveying",
-        "type": "typeCombo",
+        "type": "combo",
         "autoSuggestions": false,
         "customValues": false,
         "options": [
@@ -4220,8 +4507,16 @@
             "no"
         ]
     },
+    "automatic_door": {
+        "key": "automatic_door",
+        "type": "check"
+    },
     "automated": {
         "key": "automated",
+        "type": "check"
+    },
+    "audio_loop": {
+        "key": "audio_loop",
         "type": "check"
     },
     "attraction": {
@@ -4337,6 +4632,10 @@
             "settlement",
             "tumulus"
         ]
+    },
+    "announcement": {
+        "key": "announcement",
+        "type": "check"
     },
     "animal_shelter": {
         "key": "animal_shelter",
@@ -5654,8 +5953,8 @@
     },
     "maxwidth/physical": {
         "key": "maxwidth:physical",
-        "type": "roadheight",
-        "snake_case": false
+        "type": "number",
+        "minValue": 0
     },
     "maxspeed/hgv": {
         "key": "maxspeed:hgv",
@@ -5685,6 +5984,39 @@
             "double"
         ]
     },
+    "kerb/width": {
+        "key": "kerb:width",
+        "type": "roadheight",
+        "snake_case": false
+    },
+    "kerb/visibility_obstacle": {
+        "key": "kerb:visibility:obstacle",
+        "type": "combo",
+        "autoSuggestions": false,
+        "prerequisiteTag": {
+            "key": "kerb:visibility",
+            "valueNot": "good"
+        },
+        "customValues": false,
+        "options": [
+            "parking_space",
+            "waste_disposal",
+            "recycling",
+            "hedge",
+            "building"
+        ]
+    },
+    "kerb/visibility": {
+        "key": "kerb:visibility",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "good",
+            "intermediate",
+            "bad"
+        ]
+    },
     "kerb/kerb_barrier": {
         "key": "kerb",
         "type": "combo",
@@ -5698,10 +6030,21 @@
         "autoSuggestions": false,
         "iconsCrossReference": "{kerb}"
     },
+    "kerb/incline": {
+        "key": "kerb:incline",
+        "type": "combo",
+        "options": [
+            "0%",
+            "3%",
+            "5%",
+            "8%",
+            "12%"
+        ]
+    },
     "kerb/height": {
         "key": "kerb:height",
-        "type": "combo",
-        "snake_case": false
+        "type": "number",
+        "minValue": 0
     },
     "junction/ref_oneway": {
         "key": "junction:ref",
@@ -6176,6 +6519,10 @@
             "removable"
         ]
     },
+    "crossing/signals": {
+        "key": "crossing:signals",
+        "type": "check"
+    },
     "crossing/markings_yes": {
         "key": "crossing:markings",
         "type": "combo",
@@ -6258,6 +6605,20 @@
                 "BG"
             ]
         }
+    },
+    "crossing/markings_condition": {
+        "key": "crossing:markings:condition",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "excellent",
+            "good",
+            "intermediate",
+            "bad",
+            "very_bad",
+            "horrible"
+        ]
     },
     "crossing/markings": {
         "key": "crossing:markings",

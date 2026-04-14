@@ -283,6 +283,25 @@
             "level",
             "address"
         ],
+        "moreFields": [
+            "entrance",
+            "wheelchair_call_button",
+            "ref",
+            "lit",
+            "access_simple",
+            "wheelchair",
+            "level",
+            "address",
+            "entrance_ramp",
+            "material",
+            "entrance_coloured_band",
+            "width",
+            "automatic_door",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "wheelchair_turning_cycle_entrance",
+            "kerb/height"
+        ],
         "geometry": [
             "vertex"
         ],
@@ -6941,6 +6960,33 @@
             "railway": "wash"
         }
     },
+    "railway/train_station_entrance": {
+        "icon": "maki-entrance",
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "fields": [
+            "name",
+            "level",
+            "wheelchair",
+            "ref"
+        ],
+        "moreFields": [
+            "door",
+            "material",
+            "entrance_coloured_band",
+            "width",
+            "automatic_door",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "wheelchair_turning_cycle_entrance",
+            "kerb/height"
+        ],
+        "tags": {
+            "railway": "train_station_entrance"
+        }
+    },
     "railway/switch": {
         "icon": "temaki-junction",
         "fields": [
@@ -6967,6 +7013,17 @@
             "level",
             "wheelchair",
             "ref"
+        ],
+        "moreFields": [
+            "door",
+            "material",
+            "entrance_coloured_band",
+            "width",
+            "automatic_door",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "wheelchair_turning_cycle_entrance",
+            "kerb/height"
         ],
         "tags": {
             "railway": "subway_entrance"
@@ -7969,12 +8026,16 @@
             "shelter"
         ],
         "moreFields": [
+            "platform_height",
+            "wheelchair_turning_cycle_simple",
+            "wheelchair_turning_cycle_simple_diameter",
+            "tactile_paving",
+            "tactile_paving_condition",
             "bench",
             "bin",
             "gnis/feature_id-US",
             "level",
             "lit",
-            "tactile_paving",
             "wheelchair"
         ],
         "geometry": [
@@ -7996,6 +8057,16 @@
             "surface"
         ],
         "moreFields": [
+            "name",
+            "smoothness_simple",
+            "platform_height",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "wheelchair_turning_cycle_simple",
+            "wheelchair_turning_cycle_simple_diameter",
+            "incline_percentage",
+            "incline_across_percentage",
             "access",
             "covered",
             "indoor",
@@ -11385,6 +11456,10 @@
             "taxon",
             "diameter_crown",
             "diameter",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "obstacle_blind",
+            "min_height_obstacle",
             "ref"
         ],
         "geometry": [
@@ -12766,6 +12841,15 @@
         "moreFields": [
             "colour",
             "manufacturer",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle",
             "line_management"
         ],
         "geometry": [
@@ -12924,6 +13008,12 @@
         ],
         "moreFields": [
             "model",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
             "street_cabinet"
         ],
         "tags": {
@@ -19464,6 +19554,31 @@
             "traffic_signals/countdown"
         ]
     },
+    "highway/traffic_sign": {
+        "icon": "fas-directions",
+        "fields": [
+            "{traffic_sign}"
+        ],
+        "moreFields": [
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
+        ],
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "highway": "traffic_sign"
+        },
+        "name": "{traffic_sign}"
+    },
     "highway/traffic_mirror": {
         "icon": "maki-circle-stroked",
         "geometry": [
@@ -19472,6 +19587,17 @@
         ],
         "fields": [
             "direction"
+        ],
+        "moreFields": [
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "tags": {
             "highway": "traffic_mirror"
@@ -19582,6 +19708,11 @@
             "height",
             "operator",
             "ref"
+        ],
+        "moreFields": [
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "visual_contrast"
         ]
     },
     "highway/stop": {
@@ -19611,7 +19742,15 @@
             "structure"
         ],
         "moreFields": [
+            "handrail_side",
+            "smoothness_simple",
+            "tactile_paving_steps",
+            "tactile_paving_condition",
+            "step_stair_nosing",
+            "step_height",
+            "step_length",
             "covered_no",
+            "access_simple",
             "dog",
             "indoor",
             "level_semi",
@@ -19619,8 +19758,8 @@
             "oneway",
             "ref",
             "ramp",
-            "stroller",
-            "wheelchair"
+            "structure",
+            "stroller"
         ],
         "geometry": [
             "line"
@@ -20066,11 +20205,16 @@
             "access"
         ],
         "moreFields": [
+            "name",
             "bridge/ref",
-            "covered_no",
-            "incline",
-            "maxweight_bridge",
-            "smoothness"
+            "smoothness_simple",
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
+            "indoor",
+            "guiding_strips",
+            "tunnel/name",
+            "maxweight_bridge"
         ],
         "geometry": [
             "line"
@@ -20090,8 +20234,16 @@
             "access"
         ],
         "moreFields": [
+            "name",
             "bridge/name",
-            "bridge/ref"
+            "bridge/ref",
+            "smoothness_simple",
+            "tunnel/name",
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
+            "indoor",
+            "guiding_strips"
         ],
         "geometry": [
             "area"
@@ -20108,19 +20260,20 @@
             "width",
             "structure",
             "tunnel/name",
-            "access",
-            "incline"
+            "access"
         ],
         "moreFields": [
             "bridge/name",
             "bridge/ref",
-            "covered_no",
             "dog",
-            "gnis/feature_id-US",
             "horse_scale",
             "informal",
             "lit",
-            "maxweight_bridge",
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
+            "guiding_strips",
+            "smoothness_simple",
             "mtb/scale",
             "mtb/scale/imba",
             "mtb/scale/uphill",
@@ -20128,9 +20281,8 @@
             "oneway",
             "ref",
             "sac_scale",
-            "smoothness",
-            "stroller",
             "trail_visibility",
+            "segregated",
             "wheelchair"
         ],
         "geometry": [
@@ -20341,28 +20493,18 @@
             "access"
         ],
         "moreFields": [
-            "bridge/name",
-            "bridge/ref",
-            "covered_no",
-            "bicycle_road",
-            "cyclestreet-BE-NL",
-            "cycleway",
-            "sidewalk",
-            "flood_prone",
-            "hazard_highway",
-            "junction_line",
+            "name",
+            "oneway",
+            "maxspeed",
+            "lanes",
+            "width",
+            "smoothness_simple",
             "lit",
-            "maxaxleload_bridge",
-            "maxheight",
-            "maxlength",
-            "maxweight_bridge",
-            "maxwidth",
-            "oneway/bicycle",
-            "parking/side/parking",
-            "parking/side/orientation",
-            "smoothness",
-            "trolley_wire",
-            "width"
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
+            "indoor",
+            "guiding_strips"
         ],
         "geometry": [
             "line"
@@ -20422,19 +20564,15 @@
             "incline"
         ],
         "moreFields": [
-            "bridge/name",
-            "bridge/ref",
-            "covered_no",
-            "dog",
-            "informal",
+            "name",
+            "wheelchair",
+            "smoothness_simple",
             "lit",
-            "maxweight_bridge",
-            "not/name",
-            "oneway",
-            "smoothness",
-            "stroller",
-            "tactile_paving",
-            "wheelchair"
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
+            "indoor",
+            "guiding_strips"
         ],
         "geometry": [
             "line"
@@ -20507,10 +20645,35 @@
             "maxweight"
         ],
         "moreFields": [
+            "elevator_mirror",
+            "lit",
+            "handrail_side",
+            "handrail_height",
+            "wheelchair_turning_cycle_simple",
+            "wheelchair_turning_cycle_simple_diameter",
+            "maxweight",
+            "smoothness_simple",
+            "supervised",
             "dog",
             "manufacturer",
             "maxheight",
-            "opening_hours"
+            "ref",
+            "operator",
+            "level_semi",
+            "access_simple",
+            "wheelchair",
+            "opening_hours",
+            "door/width",
+            "width",
+            "length",
+            "speech_output",
+            "announcement",
+            "visual_announcement",
+            "audio_loop",
+            "emergency_button",
+            "automatic_door",
+            "tactile_paving",
+            "tactile_paving_condition"
         ],
         "geometry": [
             "vertex",
@@ -20555,8 +20718,13 @@
         ],
         "moreFields": [
             "bridge/name",
+            "foot_simple",
             "bridge/ref",
             "covered_no",
+            "smoothness_simple",
+            "incline_percentage",
+            "incline_across_percentage",
+            "covered",
             "dog",
             "lit",
             "maxspeed",
@@ -20580,8 +20748,13 @@
             "tactile_paving"
         ],
         "moreFields": [
-            "kerb",
-            "flashing_lights"
+            "crossing",
+            "flashing_lights",
+            "crossing/markings",
+            "crossing/markings_condition",
+            "crossing/signals",
+            "traffic_signals/sound",
+            "highway_shape"
         ],
         "geometry": [
             "vertex"
@@ -20600,7 +20773,12 @@
             "wheelchair"
         ],
         "moreFields": [
+            "smoothness_simple",
+            "lit",
+            "incline_percentage",
+            "incline_across_percentage",
             "indoor",
+            "guiding_strips",
             "maxheight",
             "stroller"
         ],
@@ -20731,21 +20909,6 @@
             "highway": "bridleway"
         }
     },
-    "highway/traffic_sign": {
-        "icon": "fas-directions",
-        "fields": [
-            "{traffic_sign}"
-        ],
-        "geometry": [
-            "point",
-            "vertex"
-        ],
-        "tags": {
-            "highway": "traffic_sign"
-        },
-        "searchable": false,
-        "name": "{traffic_sign}"
-    },
     "highway/bus_stop": {
         "icon": "temaki-bus",
         "fields": [
@@ -20777,6 +20940,10 @@
         ],
         "moreFields": [
             "{highway/steps}",
+            "tactile_paving_steps",
+            "tactile_paving_condition",
+            "conveying_motion_sensor",
+            "supervised",
             "dog",
             "handrail",
             "operator",
@@ -20977,7 +21144,8 @@
             "value": "traffic_island"
         },
         "fields": [
-            "{highway/cycleway/traffic_island_shared}"
+            "{highway/cycleway/traffic_island_shared}",
+            "{highway/path}"
         ],
         "moreFields": [
             "{highway/path}"
@@ -20992,6 +21160,7 @@
             "access",
             "trail_visibility",
             "smoothness",
+            "{highway/path}",
             "incline"
         ],
         "moreFields": [
@@ -21058,7 +21227,8 @@
         },
         "icon": "temaki-pedestrian_and_cyclist",
         "fields": [
-            "{highway/cycleway/bicycle_foot}"
+            "{highway/cycleway/bicycle_foot}",
+            "{highway/path}"
         ],
         "moreFields": [
             "{highway/path}"
@@ -21084,14 +21254,14 @@
         "icon": "temaki-cyclist_crosswalk",
         "fields": [
             "crossing",
+            "{highway/path}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "{@templates/crossing/bicycle_more}",
-            "flashing_lights"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21122,10 +21292,12 @@
         },
         "icon": "temaki-ped_cyclist_crosswalk",
         "fields": [
-            "{highway/cycleway/crossing/bicycle_foot}"
+            "{highway/cycleway/crossing/bicycle_foot}",
+            "{highway/path}"
         ],
         "moreFields": [
-            "{highway/path/crossing}"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21155,12 +21327,12 @@
         "fields": [
             "crossing",
             "{@templates/crossing/defaults}",
+            "{highway/path}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "{@templates/crossing/bicycle_more}",
-            "flashing_lights"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21188,12 +21360,12 @@
             "crossing",
             "{@templates/crossing/markings_yes}",
             "{@templates/crossing/defaults}",
+            "{highway/path}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "{@templates/crossing/bicycle_more}",
-            "flashing_lights"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21216,13 +21388,12 @@
             "{@templates/crossing/traffic_signal}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
+            "{highway/path}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/traffic_signal_more}",
-            "{@templates/crossing/geometry_way_more}",
-            "{@templates/crossing/bicycle_more}",
-            "flashing_lights"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21244,12 +21415,12 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
+            "{highway/path}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "{@templates/crossing/bicycle_more}",
-            "flashing_lights"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21276,10 +21447,12 @@
         "icon": "temaki-pedestrian",
         "fields": [
             "crossing",
+            "{highway/path}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}"
+            "{highway/path}",
+            "crossing"
         ],
         "geometry": [
             "line"
@@ -21339,16 +21512,68 @@
             "value": "sidewalk"
         }
     },
+    "highway/footway/ramp": {
+        "fields": [
+            "smoothness_simple",
+            "width",
+            "handrail_side",
+            "incline_percentage",
+            "incline_across_percentage",
+            "maxweight",
+            "wheelchair_turning_cycle_ramp"
+        ],
+        "moreFields": [
+            "guiding_strips",
+            "surface"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "footway",
+            "footway": "ramp"
+        },
+        "reference": {
+            "key": "footway",
+            "value": "ramp"
+        }
+    },
+    "highway/footway/platform": {
+        "icon": "temaki-board_bus",
+        "fields": [
+            "smoothness_simple",
+            "maxwidth/physical",
+            "incline_percentage",
+            "incline_across_percentage"
+        ],
+        "moreFields": [
+            "lit",
+            "guiding_strips",
+            "wheelchair"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "footway",
+            "footway": "platform"
+        }
+    },
     "highway/footway/crossing": {
         "fields": [
             "crossing",
+            "{highway/footway}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
             "surface"
         ],
         "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
+            "surface",
+            "guiding_strips",
+            "smoothness_simple",
+            "lit",
+            "incline_percentage",
+            "incline_across_percentage"
         ],
         "geometry": [
             "line"
@@ -21373,7 +21598,16 @@
             "wheelchair"
         ],
         "moreFields": [
-            "{highway/footway}"
+            "name",
+            "access_simple",
+            "lit",
+            "wheelchair",
+            "{highway/footway}",
+            "tactile_paving_steps",
+            "tactile_paving_condition",
+            "conveying_motion_sensor",
+            "incline_percentage",
+            "incline_across_percentage"
         ],
         "geometry": [
             "line"
@@ -21390,6 +21624,7 @@
         "icon": "temaki-striped_zone",
         "fields": [
             "access_aisle",
+            "{highway/footway}",
             "width",
             "surface",
             "tactile_paving",
@@ -21397,15 +21632,8 @@
             "wheelchair"
         ],
         "moreFields": [
-            "covered_no",
-            "dog",
-            "incline",
-            "lit",
-            "maxweight_bridge",
-            "ref",
-            "smoothness",
-            "stroller",
-            "structure"
+            "{highway/footway}",
+            "access_aisle"
         ],
         "geometry": [
             "line"
@@ -21423,6 +21651,7 @@
         "icon": "fas-shoe-prints",
         "fields": [
             "surface",
+            "{highway/footway}",
             "width",
             "access",
             "trail_visibility",
@@ -21430,7 +21659,7 @@
             "incline"
         ],
         "moreFields": [
-            "covered_no",
+            "trail_visibility",
             "dog",
             "informal",
             "lit",
@@ -21450,172 +21679,6 @@
         "reference": {
             "key": "informal"
         },
-        "searchable": false
-    },
-    "highway/footway/crossing/unmarked": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing",
-            "{@templates/crossing/defaults}",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "unmarked"
-        },
-        "addTags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "unmarked",
-            "crossing:markings": "no"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "unmarked"
-        }
-    },
-    "highway/footway/crossing/uncontrolled": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing",
-            "{@templates/crossing/markings_yes}",
-            "{@templates/crossing/defaults}",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "uncontrolled"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "uncontrolled"
-        }
-    },
-    "highway/footway/crossing/traffic_signals": {
-        "icon": "temaki-railway_signals",
-        "fields": [
-            "crossing",
-            "{@templates/crossing/traffic_signal}",
-            "{@templates/crossing/markings}",
-            "{@templates/crossing/defaults}",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/traffic_signal_more}",
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "traffic_signals"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "traffic_signals"
-        }
-    },
-    "highway/footway/crossing/zebra": {
-        "icon": "temaki-pedestrian_crosswalk",
-        "fields": [
-            "crossing",
-            "{@templates/crossing/markings}",
-            "{@templates/crossing/defaults}",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "zebra"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "zebra"
-        },
-        "name": "{highway/footway/crossing/uncontrolled}",
-        "searchable": false
-    },
-    "highway/footway/crossing/marked": {
-        "icon": "temaki-pedestrian_crosswalk",
-        "fields": [
-            "crossing",
-            "{@templates/crossing/markings}",
-            "{@templates/crossing/defaults}",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}",
-            "flashing_lights"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "marked"
-        },
-        "addTags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "marked",
-            "crossing:markings": "yes"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "marked"
-        },
-        "name": "{highway/footway/crossing/uncontrolled}",
-        "searchable": false
-    },
-    "highway/footway/crossing/informal": {
-        "icon": "temaki-pedestrian",
-        "fields": [
-            "crossing",
-            "surface"
-        ],
-        "moreFields": [
-            "{@templates/crossing/geometry_way_more}"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "crossing",
-            "crossing": "informal"
-        },
-        "reference": {
-            "key": "crossing",
-            "value": "informal"
-        },
-        "name": "{highway/crossing/informal}",
         "searchable": false
     },
     "highway/cycleway/traffic_island_shared": {
@@ -21948,11 +22011,11 @@
         "fields": [
             "crossing",
             "{@templates/crossing/defaults}",
+            "{highway/crossing}",
             "tactile_paving"
         ],
         "moreFields": [
-            "kerb",
-            "flashing_lights"
+            "{highway/crossing}"
         ],
         "geometry": [
             "vertex"
@@ -21964,6 +22027,7 @@
         "addTags": {
             "highway": "crossing",
             "crossing": "unmarked",
+            "crossing:signals": "no",
             "crossing:markings": "no"
         },
         "reference": {
@@ -21976,12 +22040,12 @@
         "fields": [
             "crossing",
             "{@templates/crossing/markings_yes}",
+            "{highway/crossing}",
             "{@templates/crossing/defaults}",
             "tactile_paving"
         ],
         "moreFields": [
-            "kerb",
-            "flashing_lights"
+            "{highway/crossing}"
         ],
         "geometry": [
             "vertex"
@@ -22000,14 +22064,18 @@
         "fields": [
             "crossing",
             "{@templates/crossing/traffic_signal}",
+            "{highway/crossing}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
             "tactile_paving"
         ],
         "moreFields": [
-            "{@templates/crossing/traffic_signal_more}",
-            "kerb",
-            "flashing_lights"
+            "crossing",
+            "crossing/markings",
+            "crossing/markings_condition",
+            "crossing/signals",
+            "traffic_signals/sound",
+            "button_operated"
         ],
         "geometry": [
             "vertex"
@@ -22015,6 +22083,11 @@
         "tags": {
             "highway": "crossing",
             "crossing": "traffic_signals"
+        },
+        "addTags": {
+            "highway": "crossing",
+            "crossing": "traffic_signals",
+            "crossing:signals": "yes"
         },
         "reference": {
             "key": "crossing",
@@ -22027,11 +22100,11 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
+            "{highway/crossing}",
             "tactile_paving"
         ],
         "moreFields": [
-            "kerb",
-            "flashing_lights"
+            "{highway/crossing}"
         ],
         "geometry": [
             "vertex"
@@ -22053,11 +22126,11 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
+            "{highway/crossing}",
             "tactile_paving"
         ],
         "moreFields": [
-            "kerb",
-            "flashing_lights"
+            "{highway/crossing}"
         ],
         "geometry": [
             "vertex"
@@ -22081,10 +22154,12 @@
     "highway/crossing/informal": {
         "icon": "temaki-pedestrian",
         "fields": [
-            "crossing"
+            "crossing",
+            "{highway/crossing}"
         ],
         "moreFields": [
-            "{highway/crossing}"
+            "{highway/crossing}",
+            "kerb/kerb_barrier"
         ],
         "geometry": [
             "vertex"
@@ -23223,7 +23298,13 @@
             "{emergency/fire_hydrant}"
         ],
         "moreFields": [
-            "{emergency/fire_hydrant}"
+            "{emergency/fire_hydrant}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "tags": {
             "emergency": "fire_hydrant",
@@ -25859,7 +25940,16 @@
             "access"
         ],
         "moreFields": [
-            "entrance"
+            "entrance",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "tags": {
             "barrier": "wicket_gate"
@@ -25890,7 +25980,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -25926,7 +26020,16 @@
             "{barrier/gate}"
         ],
         "moreFields": [
-            "{barrier/gate}"
+            "{barrier/gate}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex"
@@ -25943,7 +26046,11 @@
             "material"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -25996,7 +26103,16 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26023,13 +26139,42 @@
             "barrier": "retaining_wall"
         }
     },
+    "barrier/planter": {
+        "icon": "maki-garden",
+        "fields": [
+            "access",
+            "material"
+        ],
+        "moreFields": [
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "barrier": "planter"
+        },
+        "searchable": false
+    },
     "barrier/motorcycle_barrier": {
         "icon": "maki-roadblock",
         "fields": [
             "access"
         ],
         "moreFields": [
-            "wheelchair"
+            "wheelchair",
+            "maxwidth/physical",
+            "opening",
+            "spacing",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26044,7 +26189,16 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26064,7 +26218,16 @@
             "opening_hours"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex"
@@ -26079,7 +26242,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26091,13 +26258,20 @@
     "barrier/kerb": {
         "icon": "temaki-kerb-unspecified",
         "fields": [
-            "kerb/kerb_barrier",
+            "kerb",
             "tactile_paving",
             "wheelchair",
             "two_sided"
         ],
         "moreFields": [
-            "material"
+            "material",
+            "wheelchair",
+            "two_sided",
+            "tactile_paving_condition",
+            "tactile_paving_defects",
+            "kerb/height",
+            "kerb/visibility",
+            "kerb/visibility_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26131,7 +26305,11 @@
             "maxheight"
         ],
         "moreFields": [
-            "direction_vertex"
+            "direction_vertex",
+            "obstacle_blind",
+            "length",
+            "visual_contrast",
+            "tactile_warning"
         ],
         "geometry": [
             "vertex"
@@ -26203,7 +26381,16 @@
             "colour",
             "manufacturer",
             "operator",
-            "ref"
+            "ref",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26219,7 +26406,11 @@
             "access"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "maxwidth/physical",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26275,7 +26466,14 @@
             "deflection"
         ],
         "moreFields": [
-            "cycle_barrier/installation"
+            "cycle_barrier/installation",
+            "overlap",
+            "deflection",
+            "access",
+            "wheelchair",
+            "tactile_paving",
+            "tactile_paving_condition",
+            "visual_contrast"
         ],
         "geometry": [
             "vertex"
@@ -26309,7 +26507,16 @@
             "locked"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "vertex",
@@ -26428,7 +26635,13 @@
             "colour"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "geometry": [
             "point",
@@ -26445,7 +26658,13 @@
             "material"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "geometry": [
             "point",
@@ -26470,28 +26689,19 @@
             "barrier"
         ],
         "moreFields": [
-            "{barrier}"
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "searchable": false,
         "matchScore": 0.5
-    },
-    "barrier/planter": {
-        "icon": "maki-garden",
-        "fields": [
-            "access",
-            "material"
-        ],
-        "moreFields": [
-            "{barrier}"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "barrier": "planter",
-            "man_made": "planter"
-        },
-        "searchable": false
     },
     "barrier/handrail": {
         "icon": "temaki-railing",
@@ -26550,7 +26760,9 @@
             "kerb/height"
         ],
         "moreFields": [
-            "{barrier/kerb}"
+            "{barrier/kerb}",
+            "kerb/incline",
+            "kerb/width"
         ],
         "geometry": [
             "vertex",
@@ -26596,7 +26808,9 @@
             "kerb/height"
         ],
         "moreFields": [
-            "{barrier/kerb}"
+            "{barrier/kerb}",
+            "kerb/incline",
+            "kerb/width"
         ],
         "geometry": [
             "vertex",
@@ -26622,7 +26836,9 @@
             "{barrier/kerb}"
         ],
         "moreFields": [
-            "{barrier/kerb}"
+            "{barrier/kerb}",
+            "kerb/incline",
+            "kerb/width"
         ],
         "tags": {
             "barrier": "kerb",
@@ -27825,6 +28041,12 @@
             "level",
             "manufacturer",
             "material",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
             "ref"
         ],
         "geometry": [
@@ -28085,6 +28307,15 @@
             "manufacturer",
             "material",
             "post_box/type",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle",
             "support",
             "wheelchair"
         ],
@@ -30737,7 +30968,16 @@
             "{amenity/vending_machine}"
         ],
         "moreFields": [
-            "{amenity/vending_machine}"
+            "{amenity/vending_machine}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "tags": {
             "amenity": "vending_machine",
@@ -32588,6 +32828,19 @@
         ],
         "fields": [
             "{amenity/parking_space}"
+        ],
+        "moreFields": [
+            "capacity",
+            "parking",
+            "orientation/orientation_parking",
+            "smoothness_simple",
+            "surface",
+            "width",
+            "length",
+            "markings",
+            "incline_percentage",
+            "incline_across_percentage",
+            "length_buffer"
         ],
         "tags": {
             "amenity": "parking_space",
@@ -34712,7 +34965,16 @@
         ],
         "moreFields": [
             "{advertising}",
-            "direction"
+            "direction",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "point",
@@ -34730,7 +34992,16 @@
         ],
         "moreFields": [
             "{advertising}",
-            "direction"
+            "direction",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "point",
@@ -34746,7 +35017,13 @@
             "{advertising}"
         ],
         "moreFields": [
-            "{advertising}"
+            "{advertising}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast"
         ],
         "geometry": [
             "point",
@@ -34764,7 +35041,16 @@
         ],
         "moreFields": [
             "{advertising}",
-            "direction"
+            "direction",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "point",
@@ -34782,7 +35068,16 @@
         ],
         "moreFields": [
             "{advertising}",
-            "direction"
+            "direction",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "min_height_obstacle"
         ],
         "geometry": [
             "point",

@@ -3520,6 +3520,15 @@
         },
         {
             "key": "railway",
+            "value": "train_station_entrance",
+            "description": "🄿 Subway Entrance",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance.svg"
+        },
+        {
+            "key": "railway",
             "value": "switch",
             "description": "🄿 Railway Switch",
             "object_types": [
@@ -6199,7 +6208,7 @@
         {
             "key": "man_made",
             "value": "planter",
-            "description": "🄿 Planter, 🄿 Planter (Barrier) (unsearchable)",
+            "description": "🄿 Planter",
             "object_types": [
                 "node",
                 "area"
@@ -8965,6 +8974,15 @@
         },
         {
             "key": "highway",
+            "value": "traffic_sign",
+            "description": "🄿 Traffic Sign",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-directions.svg"
+        },
+        {
+            "key": "highway",
             "value": "traffic_mirror",
             "description": "🄿 Traffic Mirror",
             "object_types": [
@@ -9312,7 +9330,7 @@
         {
             "key": "highway",
             "value": "corridor",
-            "description": "🄿 Indoor Corridor",
+            "description": "🄿 Indoor Corridor, 🄳 (deprecated tag) ➜ highway=footway + footway=corridor + indoor=yes",
             "object_types": [
                 "way"
             ],
@@ -9353,15 +9371,6 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/horse-riding.svg"
-        },
-        {
-            "key": "highway",
-            "value": "traffic_sign",
-            "description": "🄿 Traffic Sign (unsearchable)",
-            "object_types": [
-                "node"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-directions.svg"
         },
         {
             "key": "highway",
@@ -9482,7 +9491,7 @@
         {
             "key": "crossing",
             "value": "unmarked",
-            "description": "🄿 Unmarked Cycle & Foot Crossing (unsearchable), 🄿 Unmarked Crossing, 🄿 Unmarked Cycle Crossing, 🄵🅅 Type: No Road Markings or Traffic Signals",
+            "description": "🄿 Unmarked Cycle & Foot Crossing (unsearchable), 🄿 Unmarked Cycle Crossing, 🄿 Unmarked Crossing, 🄵🅅 Type: No Road Markings or Traffic Signals",
             "object_types": [
                 "way"
             ],
@@ -9491,7 +9500,7 @@
         {
             "key": "crossing",
             "value": "uncontrolled",
-            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Crossing, 🄿 Marked Cycle Crossing, 🄵🅅 Type: Only Road Markings",
+            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Cycle Crossing, 🄿 Marked Crossing, 🄵🅅 Type: Only Road Markings",
             "object_types": [
                 "way"
             ],
@@ -9500,7 +9509,7 @@
         {
             "key": "crossing",
             "value": "traffic_signals",
-            "description": "🄿 Cycle & Foot Crossing With Pedestrian Signals (unsearchable), 🄿 Crossing With Pedestrian Signals, 🄿 Cycle Crossing With Traffic Signals, 🄵🅅 Type: Crossing With Traffic Signals",
+            "description": "🄿 Cycle & Foot Crossing With Pedestrian Signals (unsearchable), 🄿 Cycle Crossing With Traffic Signals, 🄿 Crossing With Pedestrian Signals, 🄵🅅 Type: Crossing With Traffic Signals",
             "object_types": [
                 "way"
             ],
@@ -9509,7 +9518,7 @@
         {
             "key": "crossing",
             "value": "marked",
-            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Crossing (unsearchable), 🄿 Marked Cycle Crossing (unsearchable)",
+            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Cycle Crossing (unsearchable), 🄿 Marked Crossing (unsearchable)",
             "object_types": [
                 "way"
             ],
@@ -9544,6 +9553,23 @@
         },
         {
             "key": "footway",
+            "value": "ramp",
+            "description": "🄿 Ramp",
+            "object_types": [
+                "way"
+            ]
+        },
+        {
+            "key": "footway",
+            "value": "platform",
+            "description": "🄿 Platform",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/board_bus.svg"
+        },
+        {
+            "key": "footway",
             "value": "crossing",
             "description": "🄿 Pedestrian Crossing",
             "object_types": [
@@ -9558,15 +9584,6 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/striped_zone.svg"
-        },
-        {
-            "key": "crossing",
-            "value": "zebra",
-            "description": "🄿 Marked Crossing (unsearchable)",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_crosswalk.svg"
         },
         {
             "key": "cycleway",
@@ -9589,7 +9606,7 @@
         {
             "key": "foot",
             "value": "designated",
-            "description": "🄿 Cycle & Foot Path, 🄿 Cycle & Foot Crossing, 🄵🅅 Allowed Access: `designated`",
+            "description": "🄿 Cycle & Foot Path, 🄿 Cycle & Foot Crossing, 🄵🅅 Foot access: `designated`, 🄵🅅 Allowed Access: `designated`",
             "object_types": [
                 "way"
             ],
@@ -9603,6 +9620,15 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/cyclist_crosswalk.svg"
+        },
+        {
+            "key": "crossing",
+            "value": "zebra",
+            "description": "🄿 Marked Crossing (unsearchable)",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_crosswalk.svg"
         },
         {
             "key": "healthcare",
@@ -11641,6 +11667,15 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/wall.svg"
+        },
+        {
+            "key": "barrier",
+            "value": "planter",
+            "description": "🄿 Planter (Barrier) (unsearchable), 🄵🅅 Barrier: Yes",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/garden.svg"
         },
         {
             "key": "barrier",
@@ -15398,6 +15433,53 @@
             "description": "🄵 Wholesale"
         },
         {
+            "key": "wheelchair:turning_cycle:diameter",
+            "description": "🄵 Wheelchair Turning Cycle Diameter"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "description": "🄵 Wheelchair Turning Cycle, 🄵 Wheelchair Turning Cycle Position"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "up",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Up only"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "down",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Down only"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "up;down",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Up and down"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "no",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: None"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "inside",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Inside only"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "outside",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Outside only"
+        },
+        {
+            "key": "wheelchair:turning_cycle",
+            "value": "inside;outside",
+            "description": "🄵🅅 Wheelchair Turning Cycle Position: Inside and outside"
+        },
+        {
+            "key": "wheelchair:call_button",
+            "description": "🄵 Wheelchair call button"
+        },
+        {
             "key": "wheelchair",
             "description": "🄵 Wheelchair Access"
         },
@@ -15481,6 +15563,14 @@
         {
             "key": "voltage",
             "description": "🄵 Voltage"
+        },
+        {
+            "key": "visual_contrast",
+            "description": "🄵 Visual Contrast"
+        },
+        {
+            "key": "visual_announcement",
+            "description": "🄵 Visual Announcement"
         },
         {
             "key": "visibility",
@@ -16005,8 +16095,118 @@
             "description": "🄵🅅 Takeaway: Takeaway Only"
         },
         {
+            "key": "tactile_warning",
+            "description": "🄵 Walking stick detectable warning"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "kerb",
+            "description": "🄵🅅 Walking stick detectable warning: Kerb on floor, behind obstacle (at least 3cm)"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "pole",
+            "description": "🄵🅅 Walking stick detectable warning: Pole on floor, at 40cm max"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "yes",
+            "description": "🄵🅅 Walking stick detectable warning: Other tactile warning"
+        },
+        {
+            "key": "tactile_warning",
+            "value": "no",
+            "description": "🄵🅅 Walking stick detectable warning: No tactile warning"
+        },
+        {
             "key": "tactile_paving",
             "description": "🄵 Tactile Paving"
+        },
+        {
+            "key": "tactile_paving",
+            "value": "partial",
+            "description": "🄵🅅 Tactile Paving: Up only"
+        },
+        {
+            "key": "tactile_paving",
+            "value": "incorrect",
+            "description": "🄵🅅 Tactile Paving: Down only"
+        },
+        {
+            "key": "tactile_paving",
+            "value": "yes",
+            "description": "🄵🅅 Tactile Paving: Up and Down"
+        },
+        {
+            "key": "tactile_paving",
+            "value": "no",
+            "description": "🄵🅅 Tactile Paving: None"
+        },
+        {
+            "key": "tactile_paving:defects",
+            "description": "🄵 Tactile Paving Defects"
+        },
+        {
+            "key": "tactile_paving:defectscurved",
+            "description": "🄵🅅 Tactile Paving Defects: Curved"
+        },
+        {
+            "key": "tactile_paving:defectsacross",
+            "description": "🄵🅅 Tactile Paving Defects: Across"
+        },
+        {
+            "key": "tactile_paving:defectstoo_large",
+            "description": "🄵🅅 Tactile Paving Defects: Too large"
+        },
+        {
+            "key": "tactile_paving:defectsinsufficient_width",
+            "description": "🄵🅅 Tactile Paving Defects: Insufficient width"
+        },
+        {
+            "key": "tactile_paving:defectsinsufficient_depth",
+            "description": "🄵🅅 Tactile Paving Defects: insufficient depth"
+        },
+        {
+            "key": "tactile_paving:defectsnon_contrasted",
+            "description": "🄵🅅 Tactile Paving Defects: non contrasted"
+        },
+        {
+            "key": "tactile_paving:defectsnone",
+            "description": "🄵🅅 Tactile Paving Defects: no defects"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "description": "🄵 Tactile Paving Condition"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "excellent",
+            "description": "🄵🅅 Tactile Paving Condition: Excellent"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "good",
+            "description": "🄵🅅 Tactile Paving Condition: Good"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "intermediate",
+            "description": "🄵🅅 Tactile Paving Condition: Intermediate"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "bad",
+            "description": "🄵🅅 Tactile Paving Condition: Bad / uncomfortable"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "very_bad",
+            "description": "🄵🅅 Tactile Paving Condition: Very bad"
+        },
+        {
+            "key": "tactile_paving:condition",
+            "value": "horrible",
+            "description": "🄵🅅 Tactile Paving Condition: Horrible"
         },
         {
             "key": "switch",
@@ -16406,6 +16606,18 @@
             "description": "🄵 Type"
         },
         {
+            "key": "step:stair_nosing",
+            "description": "🄵 Step stair nosing"
+        },
+        {
+            "key": "step:length",
+            "description": "🄵 Step Length (Meters)"
+        },
+        {
+            "key": "step:height",
+            "description": "🄵 Step Height (Meters)"
+        },
+        {
             "key": "step_count",
             "description": "🄵 Number of Steps"
         },
@@ -16549,6 +16761,10 @@
             "key": "sport",
             "value": "speedway",
             "description": "🄵🅅 Sports: Motorcycle Speedway"
+        },
+        {
+            "key": "speech_output",
+            "description": "🄵 Speech Output"
         },
         {
             "key": "species",
@@ -16740,42 +16956,42 @@
         {
             "key": "smoothness",
             "value": "excellent",
-            "description": "🄵🅅 Smoothness: Thin Rollers: rollerblade, skateboard"
+            "description": "🄵🅅 Smoothness: Excellent, 🄵🅅 Smoothness: Thin Rollers: rollerblade, skateboard"
         },
         {
             "key": "smoothness",
             "value": "good",
-            "description": "🄵🅅 Smoothness: Thin Wheels: racing bike"
+            "description": "🄵🅅 Smoothness: Good, 🄵🅅 Smoothness: Thin Wheels: racing bike"
         },
         {
             "key": "smoothness",
             "value": "intermediate",
-            "description": "🄵🅅 Smoothness: Wheels: city bike, wheelchair, scooter"
+            "description": "🄵🅅 Smoothness: Intermediate, 🄵🅅 Smoothness: Wheels: city bike, wheelchair, scooter"
         },
         {
             "key": "smoothness",
             "value": "bad",
-            "description": "🄵🅅 Smoothness: Robust Wheels: trekking bike, car, rickshaw"
+            "description": "🄵🅅 Smoothness: Bad / uncomfortable, 🄵🅅 Smoothness: Robust Wheels: trekking bike, car, rickshaw"
         },
         {
             "key": "smoothness",
             "value": "very_bad",
-            "description": "🄵🅅 Smoothness: High Clearance: light duty off-road vehicle"
+            "description": "🄵🅅 Smoothness: Very bad, 🄵🅅 Smoothness: High Clearance: light duty off-road vehicle"
         },
         {
             "key": "smoothness",
             "value": "horrible",
-            "description": "🄵🅅 Smoothness: Off-Road: heavy duty off-road vehicle"
-        },
-        {
-            "key": "smoothness",
-            "value": "very_horrible",
-            "description": "🄵🅅 Smoothness: Specialized off-road: tractor, ATV"
+            "description": "🄵🅅 Smoothness: Horrible, 🄵🅅 Smoothness: Off-Road: heavy duty off-road vehicle"
         },
         {
             "key": "smoothness",
             "value": "impassable",
             "description": "🄵🅅 Smoothness: Impassable / No wheeled vehicle"
+        },
+        {
+            "key": "smoothness",
+            "value": "very_horrible",
+            "description": "🄵🅅 Smoothness: Specialized off-road: tractor, ATV"
         },
         {
             "key": "smoking",
@@ -17818,6 +18034,10 @@
             "description": "🄵🅅 Type: Youth Bench"
         },
         {
+            "key": "platform:height",
+            "description": "🄵 Platform Height (Meters)"
+        },
+        {
             "key": "plant",
             "description": "🄵 Plant"
         },
@@ -18177,6 +18397,14 @@
             "key": "office",
             "value": "logistics",
             "description": "🄵🅅 Type: Forwarding Agency"
+        },
+        {
+            "key": "obstacle:wheelchair",
+            "description": "🄵 Is an obstacle for wheelchair users ?"
+        },
+        {
+            "key": "obstacle:blind",
+            "description": "🄵 Is an obstacle for blind people ?"
         },
         {
             "key": "nudism",
@@ -18644,6 +18872,30 @@
             "description": "🄵🅅 Material: Wood"
         },
         {
+            "key": "markings",
+            "description": "🄵 markings"
+        },
+        {
+            "key": "markings",
+            "value": "traffic_sign",
+            "description": "🄵🅅 markings: traffic sign"
+        },
+        {
+            "key": "markings",
+            "value": "pictograms",
+            "description": "🄵🅅 markings: pictograms"
+        },
+        {
+            "key": "markings",
+            "value": "traffic_sign;pictograms ",
+            "description": "🄵🅅 markings: traffic sign and pictograms "
+        },
+        {
+            "key": "markings",
+            "value": "no",
+            "description": "🄵🅅 markings: no markings"
+        },
+        {
             "key": "marker",
             "value": "aerial",
             "description": "🄵🅅 Type: `aerial`"
@@ -18770,6 +19022,10 @@
         {
             "key": "level",
             "description": "🄵 Levels, 🄵 Level"
+        },
+        {
+            "key": "length:buffer",
+            "description": "🄵 Extra length (Meters)"
         },
         {
             "key": "length",
@@ -18961,6 +19217,80 @@
             "description": "🄵🅅 Incline: Down"
         },
         {
+            "key": "incline",
+            "value": "0%",
+            "description": "🄵🅅 Incline: flat (0%)"
+        },
+        {
+            "key": "incline",
+            "value": "3%",
+            "description": "🄵🅅 Incline: gentle (3%)"
+        },
+        {
+            "key": "incline",
+            "value": "5%",
+            "description": "🄵🅅 Incline: medium (5%)"
+        },
+        {
+            "key": "incline",
+            "value": "8%",
+            "description": "🄵🅅 Incline: steep (8%)"
+        },
+        {
+            "key": "incline",
+            "value": "12%",
+            "description": "🄵🅅 Incline: very steep (12%)"
+        },
+        {
+            "key": "incline",
+            "value": "-3%",
+            "description": "🄵🅅 Incline: gentle (-3%)"
+        },
+        {
+            "key": "incline",
+            "value": "-5%",
+            "description": "🄵🅅 Incline: medium (-5%)"
+        },
+        {
+            "key": "incline",
+            "value": "-8%",
+            "description": "🄵🅅 Incline: steep (-8%)"
+        },
+        {
+            "key": "incline",
+            "value": "-12%",
+            "description": "🄵🅅 Incline: very steep (-12%)"
+        },
+        {
+            "key": "incline:across",
+            "description": "🄵 Lateral Incline"
+        },
+        {
+            "key": "incline:across",
+            "value": "0%",
+            "description": "🄵🅅 Lateral Incline: flat (0%)"
+        },
+        {
+            "key": "incline:across",
+            "value": "2%",
+            "description": "🄵🅅 Lateral Incline: medium right tilt (2%)"
+        },
+        {
+            "key": "incline:across",
+            "value": "5%",
+            "description": "🄵🅅 Lateral Incline: strong right tilt (5%)"
+        },
+        {
+            "key": "incline:across",
+            "value": "-2%",
+            "description": "🄵🅅 Lateral Incline: medium left tilt (-2%)"
+        },
+        {
+            "key": "incline:across",
+            "value": "-5%",
+            "description": "🄵🅅 Lateral Incline: strong left tilt (-5%)"
+        },
+        {
             "key": "image",
             "description": "🄵 Image"
         },
@@ -19087,6 +19417,20 @@
             "key": "historic",
             "value": "shieling",
             "description": "🄵🅅 Type: Shieling"
+        },
+        {
+            "key": "highway:shape",
+            "description": "🄵 Highway shape"
+        },
+        {
+            "key": "highway:shape",
+            "value": "flat",
+            "description": "🄵🅅 Highway shape: flat"
+        },
+        {
+            "key": "highway:shape",
+            "value": "bulged",
+            "description": "🄵🅅 Highway shape: bulged"
         },
         {
             "key": "highspeed",
@@ -19326,8 +19670,41 @@
             "description": "🄵 Handrail"
         },
         {
+            "key": "handrail",
+            "value": "rigth",
+            "description": "🄵🅅 Handrail: Rigth only"
+        },
+        {
+            "key": "handrail",
+            "value": "left",
+            "description": "🄵🅅 Handrail: Left only"
+        },
+        {
+            "key": "handrail",
+            "value": "both",
+            "description": "🄵🅅 Handrail: Both sides"
+        },
+        {
+            "key": "handrail",
+            "value": "center",
+            "description": "🄵🅅 Handrail: Only one handrail, on the center of the stairs"
+        },
+        {
+            "key": "handrail",
+            "value": "no",
+            "description": "🄵🅅 Handrail: None"
+        },
+        {
+            "key": "handrail:height",
+            "description": "🄵 Handrail Height (Meters)"
+        },
+        {
             "key": "handicap",
             "description": "🄵 Handicap"
+        },
+        {
+            "key": "guiding_strips",
+            "description": "🄵 Guiding Strips"
         },
         {
             "key": "guest_house",
@@ -19396,6 +19773,50 @@
         {
             "key": "footrest",
             "description": "🄵 Footrest"
+        },
+        {
+            "key": "foot",
+            "description": "🄵 Foot access, 🄵 Allowed Access"
+        },
+        {
+            "key": "foot",
+            "value": "yes",
+            "description": "🄵🅅 Foot access: `yes`, 🄵🅅 Allowed Access: `yes`"
+        },
+        {
+            "key": "foot",
+            "value": "no",
+            "description": "🄵🅅 Foot access: `no`, 🄵🅅 Allowed Access: `no`"
+        },
+        {
+            "key": "foot",
+            "value": "permissive",
+            "description": "🄵🅅 Foot access: `permissive`, 🄵🅅 Allowed Access: `permissive`"
+        },
+        {
+            "key": "foot",
+            "value": "private",
+            "description": "🄵🅅 Foot access: `private`, 🄵🅅 Allowed Access: `private`"
+        },
+        {
+            "key": "foot",
+            "value": "destination",
+            "description": "🄵🅅 Foot access: `destination`, 🄵🅅 Allowed Access: `destination`"
+        },
+        {
+            "key": "foot",
+            "value": "customers",
+            "description": "🄵🅅 Foot access: `customers`, 🄵🅅 Allowed Access: `customers`"
+        },
+        {
+            "key": "foot",
+            "value": "permit",
+            "description": "🄵🅅 Foot access: `permit`, 🄵🅅 Allowed Access: `permit`"
+        },
+        {
+            "key": "foot",
+            "value": "unknown",
+            "description": "🄵🅅 Foot access: `unknown`, 🄵🅅 Allowed Access: `unknown`"
         },
         {
             "key": "flood_prone",
@@ -19569,6 +19990,14 @@
             "description": "🄵 Exceptions"
         },
         {
+            "key": "entrance:ramp",
+            "description": "🄵 Amovible ramp"
+        },
+        {
+            "key": "entrance:coloured_band",
+            "description": "🄵 Coloured band on transparent door"
+        },
+        {
             "key": "entrance",
             "value": "yes",
             "description": "🄵🅅 Type: Unspecified"
@@ -19610,6 +20039,10 @@
         {
             "key": "emergency_ward_entrance",
             "description": "🄵 Type"
+        },
+        {
+            "key": "emergency_button",
+            "description": "🄵 Emergency Button"
         },
         {
             "key": "embassy",
@@ -19662,6 +20095,10 @@
         {
             "key": "contact:email",
             "description": "🄵 Email"
+        },
+        {
+            "key": "elevator:mirror",
+            "description": "🄵 Mirror in Elevator"
         },
         {
             "key": "electrified",
@@ -20519,6 +20956,10 @@
             "description": "🄵 Number of Features"
         },
         {
+            "key": "conveying:motion_sensor",
+            "description": "🄵 Motion sensor"
+        },
+        {
             "key": "conveying",
             "value": "forward",
             "description": "🄵🅅 Movement Direction: Forward"
@@ -21147,11 +21588,6 @@
             "description": "🄵🅅 Type: Retention"
         },
         {
-            "key": "barrier",
-            "value": "planter",
-            "description": "🄵🅅 Barrier: Yes"
-        },
-        {
             "key": "bar",
             "description": "🄵 Bar"
         },
@@ -21187,8 +21623,16 @@
             "description": "🄵🅅 Baby Nursing Area: None"
         },
         {
+            "key": "automatic_door",
+            "description": "🄵 Automatic Door"
+        },
+        {
             "key": "automated",
             "description": "🄵 Automated"
+        },
+        {
+            "key": "audio_loop",
+            "description": "🄵 Audio Induction Loop"
         },
         {
             "key": "attraction",
@@ -21326,6 +21770,10 @@
             "key": "archaeological_site",
             "value": "tumulus",
             "description": "🄵🅅 Type: Tumulus"
+        },
+        {
+            "key": "announcement",
+            "description": "🄵 Announcement"
         },
         {
             "key": "animal_shelter",
@@ -21523,52 +21971,8 @@
         },
         {
             "key": "foot",
-            "description": "🄵 Allowed Access"
-        },
-        {
-            "key": "foot",
-            "value": "yes",
-            "description": "🄵🅅 Allowed Access: `yes`"
-        },
-        {
-            "key": "foot",
-            "value": "no",
-            "description": "🄵🅅 Allowed Access: `no`"
-        },
-        {
-            "key": "foot",
-            "value": "permissive",
-            "description": "🄵🅅 Allowed Access: `permissive`"
-        },
-        {
-            "key": "foot",
-            "value": "private",
-            "description": "🄵🅅 Allowed Access: `private`"
-        },
-        {
-            "key": "foot",
-            "value": "destination",
-            "description": "🄵🅅 Allowed Access: `destination`"
-        },
-        {
-            "key": "foot",
-            "value": "customers",
-            "description": "🄵🅅 Allowed Access: `customers`"
-        },
-        {
-            "key": "foot",
             "value": "dismount",
             "description": "🄵🅅 Allowed Access: `dismount`"
-        },
-        {
-            "key": "foot",
-            "value": "permit",
-            "description": "🄵🅅 Allowed Access: `permit`"
-        },
-        {
-            "key": "foot",
-            "value": "unknown",
-            "description": "🄵🅅 Allowed Access: `unknown`"
         },
         {
             "key": "motor_vehicle",
@@ -23214,7 +23618,7 @@
         },
         {
             "key": "maxwidth:physical",
-            "description": "🄵 Width Limit"
+            "description": "🄵 Width Limit (Meters)"
         },
         {
             "key": "maxspeed:hgv",
@@ -23247,8 +23651,89 @@
             "description": "🄵🅅 Type: Opposing Bars"
         },
         {
+            "key": "kerb:width",
+            "description": "🄵 Kerb Width"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "description": "🄵 Visibility Obstacle at kerb"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "value": "parking_space",
+            "description": "🄵🅅 Visibility Obstacle at kerb: car parking space"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "value": "waste_disposal",
+            "description": "🄵🅅 Visibility Obstacle at kerb: waste disposal"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "value": "recycling",
+            "description": "🄵🅅 Visibility Obstacle at kerb: recycling disposal"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "value": "hedge",
+            "description": "🄵🅅 Visibility Obstacle at kerb: hedge"
+        },
+        {
+            "key": "kerb:visibility:obstacle",
+            "value": "building",
+            "description": "🄵🅅 Visibility Obstacle at kerb: building"
+        },
+        {
+            "key": "kerb:visibility",
+            "description": "🄵 Visibility at kerb"
+        },
+        {
+            "key": "kerb:visibility",
+            "value": "good",
+            "description": "🄵🅅 Visibility at kerb: Good"
+        },
+        {
+            "key": "kerb:visibility",
+            "value": "intermediate",
+            "description": "🄵🅅 Visibility at kerb: Intermediate"
+        },
+        {
+            "key": "kerb:visibility",
+            "value": "bad",
+            "description": "🄵🅅 Visibility at kerb: Bad"
+        },
+        {
+            "key": "kerb:incline",
+            "description": "🄵 Kerb Incline"
+        },
+        {
+            "key": "kerb:incline",
+            "value": "0%",
+            "description": "🄵🅅 Kerb Incline: flat (0%)"
+        },
+        {
+            "key": "kerb:incline",
+            "value": "3%",
+            "description": "🄵🅅 Kerb Incline: gentle (3%)"
+        },
+        {
+            "key": "kerb:incline",
+            "value": "5%",
+            "description": "🄵🅅 Kerb Incline: medium (5%)"
+        },
+        {
+            "key": "kerb:incline",
+            "value": "8%",
+            "description": "🄵🅅 Kerb Incline: steep (8%)"
+        },
+        {
+            "key": "kerb:incline",
+            "value": "12%",
+            "description": "🄵🅅 Kerb Incline: very steep (12%)"
+        },
+        {
             "key": "kerb:height",
-            "description": "🄵 Height"
+            "description": "🄵 Kerb Height (Meters)"
         },
         {
             "key": "junction:ref",
@@ -24014,6 +24499,10 @@
             "description": "🄵🅅 Installation: Removable"
         },
         {
+            "key": "crossing:signals",
+            "description": "🄵 Traffic signals"
+        },
+        {
             "key": "crossing:markings",
             "description": "🄵 Crossing Markings"
         },
@@ -24046,6 +24535,40 @@
             "key": "crossing:markings",
             "value": "dashes",
             "description": "🄵🅅 Crossing Markings: Dashed Transverse Lines"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "description": "🄵 Crossing markings condition"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "excellent",
+            "description": "🄵🅅 Crossing markings condition: Excellent"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "good",
+            "description": "🄵🅅 Crossing markings condition: Good"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "intermediate",
+            "description": "🄵🅅 Crossing markings condition: Intermediate"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "bad",
+            "description": "🄵🅅 Crossing markings condition: Bad / uncomfortable"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "very_bad",
+            "description": "🄵🅅 Crossing markings condition: Very bad"
+        },
+        {
+            "key": "crossing:markings:condition",
+            "value": "horrible",
+            "description": "🄵🅅 Crossing markings condition: Horrible"
         },
         {
             "key": "crossing:markings",
@@ -25991,7 +26514,7 @@
         {
             "key": "highway",
             "value": "platform",
-            "description": "🄳 (deprecated tag) ➜ highway=platform + public_transport=platform"
+            "description": "🄳 (deprecated tag) ➜ highway=footway + footway=platform"
         },
         {
             "key": "highway",

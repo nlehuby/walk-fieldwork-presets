@@ -29,6 +29,6 @@
         "key": "crossing",
         "value": "marked"
     },
-    "name": "{highway/path/crossing/uncontrolled}",
+    "name": "Cycle & Foot Crossing",
     "searchable": false
 }

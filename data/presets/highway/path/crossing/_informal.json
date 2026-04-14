@@ -21,6 +21,6 @@
         "key": "crossing",
         "value": "informal"
     },
-    "name": "{highway/crossing/informal}",
+    "name": "Informal Crossing",
     "searchable": false
 }

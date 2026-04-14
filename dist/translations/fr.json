@@ -1269,7 +1269,7 @@
                     "label": "Hauteurs de la Marche (mètres)"
                 },
                 "speech_output": {
-                    "label": "Annonces sonores"
+                    "label": "Annonces Sonores de prise en compte des boutons sélectionnés"
                 },
                 "smoothness_simple": {
                     "label": "État du revêtement",
@@ -1422,7 +1422,7 @@
                     "label": "Boucle à Inducation Magnétique"
                 },
                 "announcement": {
-                    "label": "Annonce sonore de l'étage atteint"
+                    "label": "Annonces sonores de l'étage atteint"
                 },
                 "kerb/width": {
                     "label": "Largeur de l'Abaissé de Trottoir (mètres)"
@@ -7843,18 +7843,30 @@
                 },
                 "highway/primary_link-US-CA": {},
                 "highway/motorway_link-US-CA": {},
-                "highway/path/traffic_island_shared": {},
-                "highway/path/bicycle_foot": {},
-                "highway/path/crossing/bicycle_foot": {},
-                "highway/path/crossing/marked": {},
-                "highway/path/crossing/informal": {},
+                "highway/path/traffic_island_shared": {
+                    "name": "Îlot de refuge partagé"
+                },
+                "highway/path/bicycle_foot": {
+                    "name": "Chemin cycliste et piéton"
+                },
+                "highway/path/crossing/bicycle_foot": {
+                    "name": "Passage cycliste et piéton"
+                },
+                "highway/path/crossing/marked": {
+                    "name": "Passage cycliste et piéton"
+                },
+                "highway/path/crossing/informal": {
+                    "name": "Passage piéton informel partagé"
+                },
                 "highway/footway/ramp": {
                     "name": "Rampe"
                 },
                 "highway/footway/platform": {
                     "name": "Quai"
                 },
-                "highway/cycleway/crossing/marked": {},
+                "highway/cycleway/crossing/marked": {
+                    "name": "Passage cycliste et piéton"
+                },
                 "highway/crossing/zebra": {},
                 "highway/crossing/marked": {},
                 "building/house/terrace": {},
@@ -7901,7 +7913,15 @@
                 "@templates/crossing/markings": {},
                 "@templates/crossing/geometry_way_more": {},
                 "@templates/crossing/defaults": {},
-                "@templates/crossing/bicycle_more": {}
+                "@templates/crossing/bicycle_more": {},
+                "highway/cycleway/bicycle_foot_yes": {
+                    "name": "Piste cyclable partagée avec les piétons",
+                    "terms": "bicycle and foot path,bike and pedestrian path,green way,greenway,mixed-use trail,multi-use path,multi-use trail,rail trail,segregated trail,shared path,shared use path"
+                },
+                "highway/footway/indoor": {
+                    "name": "Cheminement en intérieur",
+                    "terms": "gallery,hall,hallway,indoor,passage,passageway"
+                }
             }
         }
     }

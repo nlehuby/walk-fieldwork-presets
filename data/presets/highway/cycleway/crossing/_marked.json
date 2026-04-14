@@ -29,6 +29,6 @@
         "value": "marked"
     },
     "matchScore": 0.95,
-    "name": "{highway/cycleway/crossing/uncontrolled}",
+    "name": "Cycle & Foot Crossing",
     "searchable": false
 }

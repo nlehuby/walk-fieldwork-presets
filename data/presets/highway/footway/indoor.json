@@ -22,10 +22,11 @@
         "line"
     ],
     "tags": {
-        "highway": "corridor"
+        "highway": "footway",
+        "indoor": "yes"
     },
     "addTags": {
-        "highway": "corridor",
+        "highway": "footway",
         "indoor": "yes"
     },
     "terms": [
@@ -36,5 +37,5 @@
         "passage",
         "passageway"
     ],
-    "name": "Indoor Corridor"
+    "name": "Indoor Footway"
 }

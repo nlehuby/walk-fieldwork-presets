@@ -39,5 +39,5 @@
         "value": "crossing"
     },
     "matchScore": 0.9,
-    "name": "{highway/cycleway/crossing/bicycle_foot}"
+    "name": "Cycle & Foot Crossing"
 }

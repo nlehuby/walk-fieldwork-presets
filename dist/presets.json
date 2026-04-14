@@ -19502,6 +19502,7 @@
             "indoor",
             "guiding_strips",
             "maxheight",
+            "surface",
             "stroller"
         ],
         "geometry": [
@@ -20283,6 +20284,7 @@
             "indoor",
             "guiding_strips",
             "maxheight",
+            "surface",
             "stroller"
         ],
         "geometry": [

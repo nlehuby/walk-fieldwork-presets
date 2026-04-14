@@ -16374,7 +16374,8 @@
       "incline_percentage",
       "incline_across_percentage",
       "indoor",
-      "guiding_strips"
+      "guiding_strips",
+      "surface"
     ],
     "moreFields": [
       "name",
@@ -17425,7 +17426,8 @@
       "incline_percentage",
       "incline_across_percentage",
       "indoor",
-      "guiding_strips"
+      "guiding_strips",
+      "surface"
     ],
     "moreFields": [
       "name",

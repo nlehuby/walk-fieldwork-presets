@@ -5,8 +5,7 @@
         "operator",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "scuba_diving"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/poi}"

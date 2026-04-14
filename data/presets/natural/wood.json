@@ -1,9 +1,7 @@
 {
     "icon": "maki-park-alt1",
     "fields": [
-        "name",
-        "leaf_type",
-        "leaf_cycle"
+        "name"
     ],
     "moreFields": [
         "species/wikidata"

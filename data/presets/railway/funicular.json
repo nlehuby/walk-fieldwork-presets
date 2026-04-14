@@ -4,17 +4,12 @@
         "name",
         "operator",
         "incline",
-        "structure",
-        "gauge",
-        "service_rail"
+        "structure"
     ],
     "moreFields": [
         "bridge/ref",
         "covered_no",
-        "electrified",
-        "frequency_electrified",
-        "maxspeed",
-        "voltage_electrified"
+        "maxspeed"
     ],
     "geometry": [
         "line"

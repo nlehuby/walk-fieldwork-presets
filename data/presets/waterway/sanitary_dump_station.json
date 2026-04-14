@@ -3,15 +3,10 @@
     "fields": [
         "name",
         "operator",
-        "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
-        "water_point"
+        "access_simple"
     ],
     "moreFields": [
-        "opening_hours",
-        "seamark/type"
+        "opening_hours"
     ],
     "geometry": [
         "point",

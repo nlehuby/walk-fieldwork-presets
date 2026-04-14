@@ -3,14 +3,10 @@
     "fields": [
         "name",
         "address",
-        "opening_hours",
-        "outdoor_seating",
-        "brewery"
+        "opening_hours"
     ],
     "moreFields": [
-        "{amenity/bar}",
-        "cuisine",
-        "website/menu"
+        "{amenity/bar}"
     ],
     "geometry": [
         "point",

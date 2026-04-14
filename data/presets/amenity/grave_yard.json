@@ -1,7 +1,6 @@
 {
     "icon": "maki-cemetery",
     "fields": [
-        "religion",
         "address"
     ],
     "moreFields": [

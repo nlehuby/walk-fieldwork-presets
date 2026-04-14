@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "capacity_volume",
         "access_simple",
         "layer"
     ],

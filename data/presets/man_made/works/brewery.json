@@ -5,8 +5,7 @@
         "website"
     ],
     "moreFields": [
-        "{man_made/works}",
-        "min_age"
+        "{man_made/works}"
     ],
     "geometry": [
         "point",

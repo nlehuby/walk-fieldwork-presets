@@ -2,15 +2,13 @@
     "icon": "maki-park",
     "fields": [
         "name",
-        "operator",
-        "trees"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",
         "address",
         "species/wikidata",
-        "surface",
-        "description"
+        "surface"
     ],
     "geometry": [
         "area"

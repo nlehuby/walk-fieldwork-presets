@@ -2,12 +2,9 @@
     "icon": "temaki-bicycle_wash",
     "fields": [
         "name",
-        "fee",
-        "payment_multi_fee",
         "capacity",
         "access",
-        "operator",
-        "self_service"
+        "operator"
     ],
     "moreFields": [
         "{@templates/poi}",

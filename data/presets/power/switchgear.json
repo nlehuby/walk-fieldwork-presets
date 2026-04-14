@@ -1,9 +1,6 @@
 {
     "icon": "temaki-power_switch",
-    "fields": [
-        "voltage",
-        "location"
-    ],
+    "fields": [],
     "geometry": [
         "area"
     ],

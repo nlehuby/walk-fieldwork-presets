@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "water",
         "covered"
     ],
     "moreFields": [

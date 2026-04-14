@@ -2,7 +2,6 @@
     "icon": "temaki-tools",
     "fields": [
         "name",
-        "trade",
         "{shop}"
     ],
     "moreFields": [

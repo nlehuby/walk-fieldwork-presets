@@ -2,7 +2,6 @@
     "icon": "maki-pitch",
     "fields": [
         "name",
-        "sport",
         "{club}"
     ],
     "moreFields": [

@@ -6,8 +6,7 @@
         "area"
     ],
     "fields": [
-        "material",
-        "barrier_planter"
+        "material"
     ],
     "moreFields": [
         "{man_made}"

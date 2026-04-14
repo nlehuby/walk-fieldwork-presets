@@ -14,12 +14,7 @@
         "blind",
         "branch_brand",
         "brand",
-        "charge_fee",
         "dog",
-        "fee",
-        "max_age",
-        "min_age",
-        "fhrs/id-GB",
         "operator"
     ],
     "geometry": [

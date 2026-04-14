@@ -1,8 +1,6 @@
 {
     "icon": "fas-plane",
-    "fields": [
-        "ref_aeroway_gate"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex"

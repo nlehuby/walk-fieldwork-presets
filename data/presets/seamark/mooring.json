@@ -2,9 +2,7 @@
     "icon": "temaki-horn_cleat",
     "fields": [
         "ref",
-        "operator",
-        "seamark/mooring/category",
-        "seamark/type"
+        "operator"
     ],
     "geometry": [
         "point"

@@ -2,10 +2,7 @@
     "icon": "fas-map",
     "fields": [
         "operator",
-        "map_type",
-        "map_size",
-        "direction",
-        "activity"
+        "direction"
     ],
     "moreFields": [
         "{tourism/information}"

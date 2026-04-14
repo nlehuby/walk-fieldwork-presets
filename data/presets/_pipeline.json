@@ -1,7 +1,6 @@
 {
     "icon": "iD-pipeline-line",
     "fields": [
-        "pipeline",
         "operator"
     ],
     "geometry": [

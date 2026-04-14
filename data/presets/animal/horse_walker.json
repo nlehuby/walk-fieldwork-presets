@@ -1,7 +1,6 @@
 {
     "icon": "temaki-amusement_park",
     "fields": [
-        "building_area",
         "covered"
     ],
     "moreFields": [

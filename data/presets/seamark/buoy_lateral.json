@@ -2,12 +2,7 @@
     "icon": "temaki-buoy",
     "fields": [
         "ref",
-        "operator",
-        "seamark/buoy_lateral/colour",
-        "seamark/buoy_lateral/category",
-        "seamark/buoy_lateral/shape",
-        "seamark/buoy_lateral/system",
-        "seamark/type"
+        "operator"
     ],
     "geometry": [
         "point",

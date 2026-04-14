@@ -1,7 +1,5 @@
 {
-    "fields": [
-        "addr/interpolation"
-    ],
+    "fields": [],
     "geometry": [
         "line"
     ],

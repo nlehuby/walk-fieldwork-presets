@@ -1,8 +1,7 @@
 {
     "icon": "iD-waterway-canal",
     "fields": [
-        "{natural/water}",
-        "salt"
+        "{natural/water}"
     ],
     "moreFields": [
         "{natural/water}"

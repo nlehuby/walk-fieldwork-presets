@@ -1,10 +1,7 @@
 {
     "icon": "iD-route-detour",
     "fields": [
-        "name",
-        "ref_route",
-        "from",
-        "to"
+        "name"
     ],
     "moreFields": [
         "{type/route}"

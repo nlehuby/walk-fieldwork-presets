@@ -2,7 +2,6 @@
     "icon": "temaki-racetrack_oval",
     "fields": [
         "surface",
-        "sport/sport_racing_nonmotor",
         "lit",
         "width",
         "lanes"

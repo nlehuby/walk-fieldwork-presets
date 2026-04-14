@@ -2,40 +2,21 @@
     "icon": "maki-cafe",
     "fields": [
         "name",
-        "cuisine",
         "address",
         "building_area_yes",
         "opening_hours",
-        "outdoor_seating",
         "{@templates/internet_access}",
         "phone",
-        "website",
-        "opening_hours/drive_through"
+        "website"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "air_conditioning",
-        "bar",
         "branch_brand",
         "brand",
         "capacity",
-        "changing_table",
-        "delivery",
-        "diet_multi",
         "drive_through",
-        "highchair",
-        "min_age",
-        "organic",
-        "reservation",
-        "smoking",
-        "stroller",
-        "takeaway",
-        "toilets",
-        "toilets/wheelchair",
-        "toilets/menstrual_products_poi",
-        "fhrs/id-GB",
-        "website/menu"
+        "stroller"
     ],
     "geometry": [
         "point",

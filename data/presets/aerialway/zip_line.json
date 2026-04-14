@@ -4,8 +4,6 @@
     ],
     "fields": [
         "name",
-        "oneway_yes",
-        "aerialway/duration",
         "maxweight",
         "access_simple"
     ],

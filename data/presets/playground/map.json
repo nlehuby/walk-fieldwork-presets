@@ -5,12 +5,10 @@
         "area"
     ],
     "fields": [
-        "subject/wikidata",
         "surface"
     ],
     "moreFields": [
-        "colour",
-        "subject"
+        "colour"
     ],
     "tags": {
         "playground": "map"

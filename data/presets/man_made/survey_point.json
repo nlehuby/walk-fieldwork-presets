@@ -2,15 +2,9 @@
     "icon": "temaki-benchmark_disk",
     "fields": [
         "name",
-        "ref",
-        "survey_point/structure",
-        "survey_point/purpose",
-        "ele_node"
+        "ref"
     ],
-    "moreFields": [
-        "survey_point/datum_aligned",
-        "inscription"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "vertex"

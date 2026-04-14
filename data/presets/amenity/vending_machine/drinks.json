@@ -2,7 +2,6 @@
     "icon": "temaki-vending_cold_drink",
     "fields": [
         "vending",
-        "drink_multi",
         "{amenity/vending_machine}"
     ],
     "moreFields": [

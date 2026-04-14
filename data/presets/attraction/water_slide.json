@@ -6,9 +6,7 @@
         "layer"
     ],
     "moreFields": [
-        "{attraction}",
-        "max_age",
-        "min_age"
+        "{attraction}"
     ],
     "geometry": [
         "point",

@@ -2,7 +2,6 @@
     "icon": "maki-waste-basket",
     "fields": [
         "operator",
-        "waste",
         "collection_times",
         "material",
         "colour"

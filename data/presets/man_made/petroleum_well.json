@@ -3,8 +3,7 @@
     "fields": [
         "name",
         "ref",
-        "operator",
-        "substance"
+        "operator"
     ],
     "moreFields": [
         "gnis/feature_id-US"

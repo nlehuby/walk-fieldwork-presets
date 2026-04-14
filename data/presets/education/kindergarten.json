@@ -3,22 +3,14 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
-        "phone",
-        "preschool"
+        "phone"
     ],
     "moreFields": [
         "{@templates/contact}",
         "capacity",
-        "fhrs/id-GB",
         "gnis/feature_id-US",
-        "ref/edubase-GB",
-        "internet_access",
-        "internet_access/ssid",
         "level",
-        "max_age",
-        "min_age",
         "not/name",
         "opening_hours",
         "payment_multi",

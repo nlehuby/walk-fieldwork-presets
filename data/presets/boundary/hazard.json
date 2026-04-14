@@ -1,8 +1,7 @@
 {
     "icon": "fas-triangle-exclamation",
     "fields": [
-        "name",
-        "hazard_boundary"
+        "name"
     ],
     "geometry": [
         "area"

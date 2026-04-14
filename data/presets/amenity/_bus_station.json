@@ -2,7 +2,6 @@
     "icon": "temaki-bus",
     "fields": [
         "name",
-        "building_area",
         "operator",
         "{@templates/internet_access}"
     ],

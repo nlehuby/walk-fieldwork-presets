@@ -2,14 +2,10 @@
     "icon": "iD-waterway-canal",
     "fields": [
         "name",
-        "width",
-        "lock"
+        "width"
     ],
     "moreFields": [
-        "gnis/feature_id-US",
-        "intermittent",
-        "salt",
-        "tidal"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "line"

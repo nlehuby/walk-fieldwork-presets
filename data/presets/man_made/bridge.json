@@ -2,16 +2,13 @@
     "icon": "maki-bridge",
     "fields": [
         "name",
-        "bridge_combo",
         "layer",
-        "maxweight",
-        "ref_bridge_number"
+        "maxweight"
     ],
     "moreFields": [
         "gnis/feature_id-US",
         "manufacturer",
-        "material",
-        "seamark/type"
+        "material"
     ],
     "geometry": [
         "area"

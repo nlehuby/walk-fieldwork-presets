@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "surface",
-        "sport/sport_racing_nonmotor",
         "lit",
         "width",
         "lanes"

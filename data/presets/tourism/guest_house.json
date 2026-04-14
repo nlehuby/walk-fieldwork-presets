@@ -3,24 +3,16 @@
     "fields": [
         "name",
         "operator",
-        "guest_house",
         "address",
         "website",
         "email",
         "phone",
         "building_area_yes",
-        "rooms",
         "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "air_conditioning",
-        "building/levels_building",
-        "fhrs/id-GB",
-        "height_building",
-        "reservation",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

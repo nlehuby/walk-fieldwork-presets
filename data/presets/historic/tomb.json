@@ -2,9 +2,7 @@
     "icon": "maki-cemetery",
     "fields": [
         "name",
-        "tomb",
         "building_area_yes",
-        "inscription",
         "access_simple"
     ],
     "moreFields": [

@@ -1,10 +1,7 @@
 {
     "icon": "maki-triangle-stroked",
     "fields": [
-        "name",
-        "population",
-        "population/date",
-        "source/population"
+        "name"
     ],
     "moreFields": [
         "{place}"

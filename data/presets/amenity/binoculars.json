@@ -3,12 +3,8 @@
     "fields": [
         "operator",
         "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
         "direction",
-        "height",
-        "ele_node"
+        "height"
     ],
     "moreFields": [
         "colour",

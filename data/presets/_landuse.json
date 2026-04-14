@@ -1,7 +1,6 @@
 {
     "fields": [
-        "name",
-        "landuse"
+        "name"
     ],
     "geometry": [
         "area"

@@ -1,9 +1,7 @@
 {
     "icon": "maki-suitcase",
     "fields": [
-        "{office}",
-        "religion",
-        "denomination"
+        "{office}"
     ],
     "moreFields": [
         "{office}"

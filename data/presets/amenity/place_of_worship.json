@@ -2,22 +2,14 @@
     "icon": "maki-place-of-worship",
     "fields": [
         "name",
-        "religion",
-        "denomination",
         "address",
-        "building_area_yes",
-        "service_times"
+        "building_area_yes"
     ],
     "moreFields": [
         "{@templates/contact}",
-        "air_conditioning",
-        "baby_feeding",
         "gnis/feature_id-US",
-        "internet_access",
-        "internet_access/ssid",
         "level",
         "opening_hours",
-        "polling_station",
         "wheelchair"
     ],
     "geometry": [

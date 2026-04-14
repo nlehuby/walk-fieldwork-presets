@@ -9,9 +9,7 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "charge_fee",
-        "fee"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

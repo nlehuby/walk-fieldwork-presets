@@ -2,19 +2,10 @@
     "icon": "maki-horse-riding",
     "fields": [
         "name",
-        "ref_route",
-        "operator",
-        "network_horse",
-        "network/type",
-        "from",
-        "to",
-        "via"
+        "operator"
     ],
     "moreFields": [
-        "ascent",
-        "colour",
-        "descent",
-        "distance"
+        "colour"
     ],
     "geometry": [
         "relation"

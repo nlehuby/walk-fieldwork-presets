@@ -3,8 +3,6 @@
     "fields": [
         "ref",
         "operator",
-        "marker",
-        "utility",
         "{marker}"
     ],
     "moreFields": [

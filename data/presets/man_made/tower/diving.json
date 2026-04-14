@@ -5,8 +5,7 @@
         "area"
     ],
     "fields": [
-        "{man_made/tower}",
-        "tower/platforms"
+        "{man_made/tower}"
     ],
     "moreFields": [
         "{man_made/tower}"

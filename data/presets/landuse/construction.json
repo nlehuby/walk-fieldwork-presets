@@ -2,11 +2,7 @@
     "icon": "temaki-bulldozer",
     "fields": [
         "name",
-        "construction",
-        "operator",
-        "opening_date",
-        "check_date",
-        "note"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

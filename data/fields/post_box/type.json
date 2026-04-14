@@ -1,10 +1,5 @@
 {
     "key": "post_box:type",
-    "locationSet": {
-        "exclude": [
-            "gb"
-        ]
-    },
     "type": "typeCombo",
     "label": "Type",
     "strings": {

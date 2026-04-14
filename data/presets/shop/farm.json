@@ -1,12 +1,10 @@
 {
     "icon": "fas-apple-alt",
     "fields": [
-        "{shop}",
-        "organic"
+        "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "fhrs/id-GB"
+        "{shop}"
     ],
     "geometry": [
         "point",

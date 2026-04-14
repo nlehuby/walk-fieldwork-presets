@@ -2,14 +2,11 @@
     "icon": "fas-tractor",
     "fields": [
         "name",
-        "operator",
-        "crop",
-        "produce"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",
-        "address",
-        "irrigation_pivot"
+        "address"
     ],
     "geometry": [
         "area"

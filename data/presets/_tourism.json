@@ -1,8 +1,7 @@
 {
     "icon": "maki-attraction",
     "fields": [
-        "name",
-        "tourism"
+        "name"
     ],
     "geometry": [
         "point",

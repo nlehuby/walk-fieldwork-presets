@@ -1,7 +1,6 @@
 {
     "icon": "temaki-roller_coaster",
     "fields": [
-        "roller_coaster/track",
         "height",
         "layer"
     ],

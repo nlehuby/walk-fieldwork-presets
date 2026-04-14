@@ -2,7 +2,6 @@
     "icon": "temaki-school",
     "fields": [
         "name",
-        "education",
         "{education}"
     ],
     "moreFields": [

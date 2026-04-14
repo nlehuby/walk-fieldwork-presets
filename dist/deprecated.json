@@ -1638,8 +1638,18 @@
             "highway": "platform"
         },
         "replace": {
-            "highway": "platform",
-            "public_transport": "platform"
+            "highway": "footway",
+            "footway": "platform"
+        }
+    },
+    {
+        "old": {
+            "highway": "corridor"
+        },
+        "replace": {
+            "highway": "footway",
+            "footway": "corridor",
+            "indoor": "yes"
         }
     },
     {

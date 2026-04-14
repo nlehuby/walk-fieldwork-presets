@@ -1,7 +1,6 @@
 {
     "fields": [
-        "name",
-        "aerialway"
+        "name"
     ],
     "moreFields": [
         "layer"

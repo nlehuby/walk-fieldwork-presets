@@ -1,8 +1,7 @@
 {
     "icon": "maki-basketball",
     "fields": [
-        "{leisure/pitch}",
-        "hoops"
+        "{leisure/pitch}"
     ],
     "moreFields": [
         "{leisure/pitch}"

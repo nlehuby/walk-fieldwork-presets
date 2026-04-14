@@ -1,10 +1,5 @@
 {
-    "fields": [
-        "crossing/markings_yes",
-        "crossing/markings_yes-BG",
-        "crossing/markings_yes-DE-AT-CH",
-        "crossing/markings_yes-PL"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "line"

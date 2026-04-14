@@ -2,8 +2,7 @@
     "icon": "fas-seedling",
     "fields": [
         "name",
-        "operator",
-        "plant"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

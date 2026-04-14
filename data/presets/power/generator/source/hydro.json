@@ -2,10 +2,7 @@
     "icon": "temaki-power",
     "fields": [
         "ref",
-        "operator",
-        "generator/method/hydro",
-        "generator/type",
-        "generator/output/electricity"
+        "operator"
     ],
     "moreFields": [
         "{power/generator}"

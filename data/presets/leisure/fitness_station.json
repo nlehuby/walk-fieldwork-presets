@@ -1,7 +1,6 @@
 {
     "icon": "temaki-horizontal_bar",
     "fields": [
-        "fitness_station",
         "ref",
         "wheelchair",
         "blind"

@@ -1,7 +1,6 @@
 {
     "fields": [
-        "name",
-        "place"
+        "name"
     ],
     "moreFields": [
         "gnis/feature_id-US"

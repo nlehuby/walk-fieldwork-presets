@@ -2,10 +2,7 @@
     "icon": "roentgen-building_construction",
     "fields": [
         "name",
-        "construction",
-        "address",
-        "opening_date",
-        "check_date"
+        "address"
     ],
     "moreFields": [
         "{building}"

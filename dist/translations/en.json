@@ -55,28 +55,35 @@
                 }
             },
             "fields": {
-                "wood_provided": {
-                    "label": "Firewood Provided"
-                },
-                "windings": {
-                    "label": "Windings",
-                    "placeholder": "1, 2, 3..."
-                },
-                "wikipedia": {
-                    "label": "Wikipedia"
-                },
-                "wikimedia_commons": {
-                    "label": "Wikimedia Commons Page",
-                    "placeholder": "File:Example.jpg"
-                },
-                "wikidata": {
-                    "label": "Wikidata"
-                },
                 "width": {
                     "label": "Width (Meters)"
                 },
-                "wholesale": {
-                    "label": "Wholesale"
+                "wheelchair_turning_cycle_simple_diameter": {
+                    "label": "Wheelchair Turning Cycle Diameter"
+                },
+                "wheelchair_turning_cycle_simple": {
+                    "label": "Wheelchair Turning Cycle"
+                },
+                "wheelchair_turning_cycle_ramp": {
+                    "label": "Wheelchair Turning Cycle Position",
+                    "options": {
+                        "up": "Up only",
+                        "down": "Down only",
+                        "up;down": "Up and down",
+                        "no": "None"
+                    }
+                },
+                "wheelchair_turning_cycle_entrance": {
+                    "label": "Wheelchair Turning Cycle Position",
+                    "options": {
+                        "inside": "Inside only",
+                        "outside": "Outside only",
+                        "inside;outside": "Inside and outside",
+                        "no": "None"
+                    }
+                },
+                "wheelchair_call_button": {
+                    "label": "Wheelchair call button"
                 },
                 "wheelchair": {
                     "label": "Wheelchair Access",
@@ -88,28 +95,10 @@
                         "no": "No"
                     }
                 },
-                "wetland": {
-                    "label": "Type",
-                    "options": {
-                        "marsh": "Marsh",
-                        "reedbed": "Reed Bed",
-                        "saltmarsh": "Coastal Salt Marsh",
-                        "tidalflat": "Tidal Flat",
-                        "wet_meadow": "Wet Meadow",
-                        "swamp": "Swamp",
-                        "mangrove": "Mangrove",
-                        "bog": "Bog",
-                        "fen": "Fen",
-                        "string_bog": "String Bog"
-                    }
-                },
                 "website": {
                     "label": "Website",
                     "terms": "internet presence,uri,url,webpage",
                     "placeholder": "https://example.com"
-                },
-                "waterway": {
-                    "label": "Type"
                 },
                 "water_source": {
                     "label": "Water Source",
@@ -122,27 +111,14 @@
                         "groundwater": "Groundwater"
                     }
                 },
-                "water_point": {
-                    "label": "Water Point"
-                },
-                "water": {
-                    "label": "Type"
-                },
-                "waste": {
-                    "label": "Waste",
-                    "options": {
-                        "cigarettes": "Cigarettes",
-                        "dog_excrement": "Dog Excrement",
-                        "organic": "Organic Waste",
-                        "trash": "Trash"
-                    }
-                },
                 "wall": {
                     "label": "Type"
                 },
-                "voltage_electrified": {},
-                "voltage": {
-                    "label": "Voltage"
+                "visual_contrast": {
+                    "label": "Visual Contrast"
+                },
+                "visual_announcement": {
+                    "label": "Visual Announcement"
                 },
                 "visibility": {
                     "label": "Visibility",
@@ -151,16 +127,6 @@
                         "street": "5 to 20m (16 to 65ft)",
                         "area": "Over 20m (65ft)"
                     }
-                },
-                "video_calls": {
-                    "label": "Video Calls"
-                },
-                "via": {
-                    "label": "Via"
-                },
-                "vhf": {
-                    "label": "VHF Channel",
-                    "terms": "call sign,very high frequency"
                 },
                 "vending": {
                     "label": "Types of Goods",
@@ -204,45 +170,8 @@
                         "ferry": "Ferry"
                     }
                 },
-                "valve": {
-                    "label": "Type"
-                },
                 "utility_semi": {
                     "label": "Utilities"
-                },
-                "utility": {
-                    "label": "Utility",
-                    "options": {
-                        "gas": "Gas",
-                        "oil": "Oil",
-                        "power": "Power",
-                        "sewerage": "Waste Water",
-                        "street_lighting": "Street Lighting",
-                        "telecom": "Telecom",
-                        "water": "Water"
-                    }
-                },
-                "usage_waterway": {
-                    "label": "Usage Type",
-                    "options": {
-                        "transportation": "Transportation",
-                        "transmission": "Transmission",
-                        "irrigation": "Irrigation",
-                        "headrace": "Headrace",
-                        "tailrace": "Tailrace",
-                        "spillway": "Spillway"
-                    }
-                },
-                "usage_rail": {
-                    "label": "Usage Type",
-                    "options": {
-                        "main": "Main",
-                        "branch": "Branch",
-                        "industrial": "Industrial",
-                        "military": "Military",
-                        "test": "Test",
-                        "tourism": "Tourism"
-                    }
                 },
                 "two_sided": {
                     "label": "Two-Sided",
@@ -251,46 +180,6 @@
                         "undefined": "No",
                         "yes": "Yes"
                     }
-                },
-                "turning_circle": {
-                    "label": "Shape"
-                },
-                "tunnel_combo": {
-                    "label": "Type",
-                    "options": {
-                        "avalanche_protector": "Avalanche Protector",
-                        "building_passage": "Building Passage",
-                        "culvert": "Culvert",
-                        "flooded": "Flooded Tunnel"
-                    }
-                },
-                "tunnel": {
-                    "label": "Type",
-                    "placeholder": "Default"
-                },
-                "trolley_wire": {
-                    "label": "Overhead Trolley Wires"
-                },
-                "trench": {
-                    "label": "Type"
-                },
-                "trees": {
-                    "label": "Trees"
-                },
-                "transformer": {
-                    "label": "Type",
-                    "options": {
-                        "main": "Main: Forwards power",
-                        "distribution": "Distribution: Feeds final consumers, installed outside substations",
-                        "generator": "Generator: Steps-up voltage in power plants",
-                        "converter": "Converter: Feeds power converters",
-                        "phase_angle_regulator": "Phase Angle Regulator",
-                        "auxiliary": "Auxiliary: Feeds internal systems in substations",
-                        "yes": "Unknown Role"
-                    }
-                },
-                "trailer": {
-                    "label": "Trailer Access"
                 },
                 "trail_visibility": {
                     "label": "Trail Visibility",
@@ -304,176 +193,56 @@
                         "no": "No: pathless, excellent orientation skills required"
                     }
                 },
-                "traffic_signals": {
-                    "label": "Type"
-                },
                 "traffic_sign": {
                     "label": "Traffic Sign"
-                },
-                "traffic_calming_road": {
-                    "label": "Traffic Calming",
-                    "terms": "bump,chicane,choker,cushion,flat top,hump,rumble strip,slow,speed,table,traffic island"
-                },
-                "traffic_calming": {
-                    "label": "Type",
-                    "options": {
-                        "bump": "Speed Bump",
-                        "chicane": "Traffic Chicane",
-                        "choker": "Traffic Choker",
-                        "choked_table": "Choked Speed Table",
-                        "cushion": "Speed Cushion",
-                        "dip": "Dip",
-                        "double_dip": "Double Dip",
-                        "hump": "Speed Hump",
-                        "island": "Traffic Calming Island",
-                        "mini_bumps": "Mini Speed Bumps",
-                        "rumble_strip": "Rumble Strip",
-                        "table": "Speed Table"
-                    }
-                },
-                "trade": {
-                    "label": "Type"
-                },
-                "tracktype": {
-                    "label": "Track Type",
-                    "placeholder": "Solid, Mostly Solid, Soft...",
-                    "options": {
-                        "grade1": "Solid: paved",
-                        "grade2": "Mostly Solid: gravel/rock with some soft material mixed in",
-                        "grade3": "Even mixture of hard and soft materials",
-                        "grade4": "Mostly Soft: soil/sand/grass with some hard material mixed in",
-                        "grade5": "Soft: soil/sand/grass"
-                    }
-                },
-                "tourism": {
-                    "label": "Type"
-                },
-                "tomb": {
-                    "label": "Type",
-                    "options": {
-                        "columbarium": "Columbarium",
-                        "crypt": "Crypt",
-                        "dolmen": "Dolmen",
-                        "hypogeum": "Hypogeum",
-                        "mausoleum": "Mausoleum",
-                        "pyramid": "Pyramid",
-                        "rock-cut": "Rock-cut Tomb",
-                        "sarcophagus": "Sarcophagus",
-                        "table": "Table",
-                        "tumulus": "Tumulus",
-                        "vault": "Vault",
-                        "war_grave": "Single War Grave"
-                    }
-                },
-                "toll": {
-                    "label": "Toll"
-                },
-                "toilets": {
-                    "label": "Toilets",
-                    "terms": "bathroom,latrine,lavatory,outhouse,privy,restroom,toilet,water closet,w.c.,wc"
-                },
-                "to": {
-                    "label": "To"
-                },
-                "tidal": {
-                    "label": "Tidal"
-                },
-                "tents": {
-                    "label": "Tents"
-                },
-                "telecom": {
-                    "label": "Type",
-                    "options": {
-                        "connection_point": "Connection Point",
-                        "data_center": "Data Center",
-                        "distribution_point": "Distribution Point",
-                        "exchange": "Exchange",
-                        "service_device": "Service Device"
-                    }
-                },
-                "tee_disc_golf": {
-                    "label": "Tee Color",
-                    "placeholder": "Blue, White, Red...",
-                    "options": {
-                        "gold": "Gold",
-                        "blue": "Blue",
-                        "white": "White",
-                        "red": "Red",
-                        "green": "Green",
-                        "purple": "Purple"
-                    }
-                },
-                "tee": {
-                    "label": "Tee Color/Type"
                 },
                 "taxon": {
                     "label": "Taxon",
                     "placeholder": "Acer platanoides Columnare, Pyrus calleryana Chanticleer …"
                 },
-                "taxi_vehicle": {
-                    "label": "Vehicle Type",
+                "tactile_warning": {
+                    "label": "Walking stick detectable warning",
                     "options": {
-                        "motorcar": {
-                            "title": "Motorcar",
-                            "description": "Regular car (implied default)"
-                        },
-                        "motorcycle": {
-                            "title": "Motorcycle",
-                            "description": "With passengers 'riding pillion' (e.g. mototáxi, etc.)"
-                        },
-                        "auto_rickshaw": {
-                            "title": "Auto Rickshaw",
-                            "description": "Motorized rickshaws (e.g. bajaj, tricycle, tuk-tuk, etc.)"
-                        },
-                        "cycle_rickshaw": {
-                            "title": "Cycle Rickshaw",
-                            "description": "Pedal-powered rickshaws (e.g. padyak, velotaxi, etc.)"
-                        }
+                        "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+                        "pole": "Pole on floor, at 40cm max",
+                        "yes": "Other tactile warning",
+                        "no": "No tactile warning"
                     }
                 },
-                "target": {
-                    "label": "Target"
-                },
-                "takeaway": {
-                    "label": "Takeaway",
-                    "terms": "take out,takeout",
-                    "placeholder": "Yes, No, Takeaway Only...",
+                "tactile_paving_steps": {
+                    "label": "Tactile Paving",
                     "options": {
-                        "yes": "Yes",
-                        "no": "No",
-                        "only": "Takeaway Only"
+                        "partial": "Up only",
+                        "incorrect": "Down only",
+                        "yes": "Up and Down",
+                        "no": "None"
+                    }
+                },
+                "tactile_paving_defects": {
+                    "label": "Tactile Paving Defects",
+                    "options": {
+                        "curved": "Curved",
+                        "across": "Across",
+                        "too_large": "Too large",
+                        "insufficient_width": "Insufficient width",
+                        "insufficient_depth": "insufficient depth",
+                        "non_contrasted": "non contrasted",
+                        "none": "no defects"
+                    }
+                },
+                "tactile_paving_condition": {
+                    "label": "Tactile Paving Condition",
+                    "options": {
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible"
                     }
                 },
                 "tactile_paving": {
                     "label": "Tactile Paving"
-                },
-                "switch": {
-                    "label": "Type",
-                    "options": {
-                        "mechanical": "Mechanical",
-                        "circuit_breaker": "Circuit Breaker",
-                        "disconnector": "Disconnector",
-                        "earthing": "Earthing"
-                    }
-                },
-                "swimming_pool": {
-                    "label": "Type",
-                    "options": {
-                        "swimming": "Lap Pool",
-                        "plunge": "Diving",
-                        "wading": "Wading / Leisure",
-                        "spa": "Spa",
-                        "wave_pool": "Wave Pool",
-                        "lazy_river": "Lazy River",
-                        "personal": "Personal / Backyard",
-                        "kids": "Kids Pool"
-                    }
-                },
-                "swimming": {
-                    "label": "Swimming"
-                },
-                "surveillance": {
-                    "label": "Surveillance Kind"
                 },
                 "surface": {
                     "label": "Surface",
@@ -513,77 +282,6 @@
                     "label": "Supervised",
                     "terms": "guarded,manned"
                 },
-                "substation_pipeline": {
-                    "label": "Type",
-                    "options": {
-                        "transmission": "Transmission",
-                        "distribution": "Regional Distribution",
-                        "minor_distribution": "Local Distribution",
-                        "industrial": "Industrial",
-                        "compression": "Compression",
-                        "measurement": "Measurement",
-                        "valve": "Valve",
-                        "valve_group": "Valve Group",
-                        "inspection_gauge": "Inspection Gauge",
-                        "field_gathering": "Field Gathering"
-                    }
-                },
-                "substation": {
-                    "label": "Type",
-                    "options": {
-                        "transmission": "High-Voltage Transmission",
-                        "distribution": "Regional Distribution",
-                        "minor_distribution": "Local Distribution",
-                        "industrial": "Industrial",
-                        "generation": "Generation",
-                        "transition": "Overground/Underground Transition",
-                        "traction": "Traction System Supply",
-                        "converter": "High-Voltage AC/DC Converter",
-                        "compensation": "Reactive Power Compensation"
-                    }
-                },
-                "substance": {
-                    "label": "Substance",
-                    "options": {
-                        "fuel": "Fuel",
-                        "gas": "Natural Gas",
-                        "hot_water": "Hot Water",
-                        "oil": "Crude Oil",
-                        "rainwater": "Rainwater",
-                        "sewage": "Sewage",
-                        "water": "Drinking Water"
-                    }
-                },
-                "subject": {
-                    "label": "Subject"
-                },
-                "studio": {
-                    "label": "Type"
-                },
-                "structure_waterway": {
-                    "label": "Structure",
-                    "placeholder": "Unknown",
-                    "options": {
-                        "tunnel": "Tunnel",
-                        "bridge": "Bridge"
-                    }
-                },
-                "structure_power": {
-                    "label": "Structure",
-                    "options": {
-                        "lattice": "Lattice",
-                        "solid": "Solid",
-                        "tubular": "Tubular"
-                    }
-                },
-                "structure_canal": {
-                    "label": "Structure",
-                    "placeholder": "Unknown",
-                    "options": {
-                        "bridge": "Bridge",
-                        "tunnel": "Tunnel"
-                    }
-                },
                 "structure": {
                     "label": "Structure",
                     "placeholder": "Unknown",
@@ -607,91 +305,23 @@
                 "street_cabinet": {
                     "label": "Type"
                 },
-                "stop": {
-                    "label": "Stop Type",
-                    "options": {
-                        "all": "All Ways",
-                        "minor": "Minor Road"
-                    }
-                },
                 "stile": {
                     "label": "Type"
+                },
+                "step_stair_nosing": {
+                    "label": "Step stair nosing"
+                },
+                "step_length": {
+                    "label": "Step Length (Meters)"
+                },
+                "step_height": {
+                    "label": "Step Height (Meters)"
                 },
                 "step_count": {
                     "label": "Number of Steps"
                 },
-                "static_caravans": {
-                    "label": "Mobile Homes"
-                },
-                "start_date": {
-                    "label": "Start Date",
-                    "terms": "inception",
-                    "placeholder": "YYYY-MM-DD"
-                },
-                "stars": {
-                    "label": "Stars",
-                    "terms": "rating"
-                },
-                "sport": {
-                    "label": "Sports",
-                    "options": {
-                        "10pin": "Ten-Pin Bowling",
-                        "9pin": "Nine-Pin Bowling",
-                        "american_football": "American Football",
-                        "athletics": "Track & Field",
-                        "badminton": "Badminton",
-                        "baseball": "Baseball",
-                        "basketball": "Basketball",
-                        "beachvolleyball": "Beach Volleyball",
-                        "billiards": "Cue Sports",
-                        "bmx": "BMX",
-                        "boules": "Boules",
-                        "bowls": "Bowls",
-                        "canoe": "Canoeing",
-                        "chess": "Chess",
-                        "climbing": "Climbing",
-                        "cricket": "Cricket",
-                        "curling": "Curling",
-                        "cycling": "Cycling",
-                        "darts": "Darts",
-                        "disc_golf": "Disc Golf",
-                        "dog_racing": "Dog Racing",
-                        "equestrian": "Equestrian Sports",
-                        "fitness": "Fitness Training",
-                        "free_flying": "Paragliding / Hang Gliding",
-                        "futsal": "Futsal",
-                        "gaelic_games": "Gaelic Games",
-                        "golf": "Golf",
-                        "gymnastics": "Gymnastics",
-                        "handball": "Team Handball",
-                        "horse_racing": "Horse Racing",
-                        "ice_hockey": "Ice Hockey",
-                        "ice_skating": "Ice Skating",
-                        "ice_stock": "Ice Stock",
-                        "karting": "Kart Racing",
-                        "motocross": "Motocross",
-                        "motor": "Motorsports",
-                        "multi": "Unspecified Other Sports",
-                        "netball": "Netball",
-                        "orienteering": "Orienteering",
-                        "padel": "Padel",
-                        "pelota": "Pelota",
-                        "rugby_union": "Rugby Union",
-                        "running": "Running",
-                        "scuba_diving": "Scuba Diving",
-                        "shooting": "Shooting",
-                        "skateboard": "Skateboard",
-                        "skiing": "Skiing",
-                        "ski_jumping": "Ski Jumping",
-                        "soccer": "Soccer",
-                        "softball": "Softball",
-                        "speedway": "Motorcycle Speedway",
-                        "swimming": "Swimming",
-                        "table_tennis": "Table Tennis",
-                        "tennis": "Tennis",
-                        "volleyball": "Volleyball",
-                        "yoga": "Yoga"
-                    }
+                "speech_output": {
+                    "label": "Speech Output"
                 },
                 "species": {
                     "label": "Species",
@@ -700,62 +330,18 @@
                 "spacing": {
                     "label": "Distance Between Barriers (Meters)"
                 },
-                "source": {
-                    "label": "Sources",
+                "smoothness_simple": {
+                    "label": "Smoothness",
+                    "placeholder": "good, bad, ...",
                     "options": {
-                        "survey": "Survey",
-                        "local knowledge": "Local Knowledge",
-                        "aerial imagery": "Aerial Imagery",
-                        "gps": "GPS",
-                        "streetlevel imagery": "Street-Level Photos",
-                        "osm notes": "OpenStreetMap Notes"
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible",
+                        "impassable": "Impassable / No wheeled vehicle"
                     }
-                },
-                "social_facility_for": {
-                    "label": "People Served",
-                    "options": {
-                        "abused": "Abuse victims",
-                        "child": "Children",
-                        "dementia": "People suffering from dementia",
-                        "disabled": "People with disabilities",
-                        "diseased": "People suffering from a disease",
-                        "displaced": "People displaced by disasters or conflicts",
-                        "drug_addicted": "Drug addicted",
-                        "homeless": "Homeless",
-                        "juvenile": "Juveniles",
-                        "mental_health": "People with mental health problems",
-                        "migrant": "Migrants",
-                        "orphan": "Orphans",
-                        "refugee": "Refugees",
-                        "senior": "Elderly",
-                        "terminally_ill": "People with a terminal illness",
-                        "underprivileged": "Underprivileged people",
-                        "unemployed": "People without a job",
-                        "veteran": "Veterans",
-                        "victim": "Victims of crime",
-                        "woman": "Women"
-                    }
-                },
-                "social_facility": {
-                    "label": "Type",
-                    "options": {
-                        "ambulatory_care": "Ambulatory Care",
-                        "assisted_living": "Assisted Living",
-                        "day_care": "Day Care",
-                        "food_bank": "Food Bank",
-                        "group_home": "Group Home",
-                        "nursing_home": "Nursing Home",
-                        "outreach": "Outreach",
-                        "shelter": "Shelter",
-                        "workshop": "Workshop"
-                    }
-                },
-                "snowmobile": {
-                    "label": "Snowmobile Access",
-                    "terms": "ski-doo"
-                },
-                "sms": {
-                    "label": "SMS"
                 },
                 "smoothness": {
                     "label": "Smoothness",
@@ -771,137 +357,11 @@
                         "impassable": "Impassable / No wheeled vehicle"
                     }
                 },
-                "smoking": {
-                    "label": "Smoking",
-                    "placeholder": "No, Separated, Yes...",
-                    "options": {
-                        "no": "No smoking anywhere",
-                        "separated": "In smoking areas, not physically isolated",
-                        "isolated": "In smoking areas, physically isolated",
-                        "outside": "Allowed outside",
-                        "yes": "Allowed everywhere",
-                        "dedicated": "Dedicated to smokers (e.g. smokers' club)"
-                    }
-                },
-                "site": {
-                    "label": "Type"
-                },
-                "sidewalk": {
-                    "label": "Sidewalks",
-                    "placeholder": "Yes, No, Mapped Separately",
-                    "types": {
-                        "sidewalk:left": "Left Side",
-                        "sidewalk:right": "Right Side"
-                    },
-                    "options": {
-                        "yes": {
-                            "title": "Yes",
-                            "description": "There is a sidewalk"
-                        },
-                        "no": {
-                            "title": "No",
-                            "description": "No sidewalk"
-                        },
-                        "separate": {
-                            "title": "Mapped Separately",
-                            "description": "The sidewalk is mapped using separate ways"
-                        }
-                    }
-                },
-                "side": {
-                    "label": "Side",
-                    "options": {
-                        "left": "Left of Cyclist",
-                        "right": "Right of Cyclist"
-                    }
-                },
-                "shower": {
-                    "label": "Showers"
-                },
-                "short_name": {
-                    "label": "Short Name",
-                    "terms": "abbreviation,acronym,initialism"
-                },
-                "shop": {
-                    "label": "Type"
-                },
-                "shoes": {
-                    "label": "Shoes"
-                },
-                "shelter_type": {
-                    "label": "Type"
-                },
                 "shelter": {
                     "label": "Shelter"
                 },
-                "service_times": {
-                    "label": "Service Times"
-                },
-                "service_rail": {
-                    "label": "Service Type",
-                    "options": {
-                        "spur": "Spur",
-                        "yard": "Yard",
-                        "siding": "Siding",
-                        "crossover": "Crossover"
-                    }
-                },
-                "service": {
-                    "label": "Type",
-                    "options": {
-                        "driveway": "Driveway",
-                        "parking_aisle": "Parking Aisle",
-                        "alley": "Alley",
-                        "drive-through": "Drive-Through",
-                        "emergency_access": "Emergency Access"
-                    }
-                },
-                "self_service": {
-                    "label": "Self-Service"
-                },
-                "self_checkout": {
-                    "label": "Self Checkout",
-                    "options": {
-                        "yes": "Yes",
-                        "only": "Only",
-                        "no": "No"
-                    }
-                },
                 "segregated": {
                     "label": "Bicycle-Pedestrian Separation"
-                },
-                "second_hand": {
-                    "label": "Sells Used",
-                    "placeholder": "Yes, No, Only",
-                    "options": {
-                        "yes": "Yes",
-                        "no": "No",
-                        "only": "Only"
-                    }
-                },
-                "seats": {
-                    "label": "Seats",
-                    "placeholder": "2, 4, 6..."
-                },
-                "seasonal": {
-                    "label": "Seasonal"
-                },
-                "scuba_diving": {
-                    "label": "Services"
-                },
-                "screen": {
-                    "label": "Screens",
-                    "placeholder": "1, 4, 8…"
-                },
-                "sanitary_dump_station": {
-                    "label": "Toilet Disposal"
-                },
-                "sample_collection": {
-                    "label": "Samples"
-                },
-                "salt": {
-                    "label": "Salt",
-                    "terms": "salinated,saline"
                 },
                 "sac_scale": {
                     "label": "Hiking Difficulty",
@@ -915,12 +375,6 @@
                         "demanding_alpine_hiking": "T5: Demanding Alpine Hiking",
                         "difficult_alpine_hiking": "T6: Difficult Alpine Hiking"
                     }
-                },
-                "rwn_ref": {
-                    "label": "Walking Code"
-                },
-                "ruins": {
-                    "label": "Type"
                 },
                 "royal_cypher-GB": {
                     "label": "Royal Cypher",
@@ -936,144 +390,14 @@
                         "no": "No"
                     }
                 },
-                "route_master": {
-                    "label": "Type"
-                },
-                "route": {
-                    "label": "Type"
-                },
-                "roundtrip": {
-                    "label": "Forms Loop",
-                    "terms": "circular,closed,looping,roundtrip"
-                },
-                "rooms": {
-                    "label": "Rooms"
-                },
-                "room": {
-                    "label": "Type"
-                },
-                "restrictions": {
-                    "label": "Turn Restrictions"
-                },
-                "restriction": {
-                    "label": "Type"
-                },
-                "resource": {
-                    "label": "Resources",
-                    "options": {
-                        "aggregate": "Aggregate",
-                        "clay": "Clay",
-                        "coal": "Coal",
-                        "gold": "Gold",
-                        "gravel": "Gravel",
-                        "iron_ore": "Iron Ore",
-                        "limestone": "Limestone",
-                        "peat": "Peat",
-                        "sand": "Sand"
-                    }
-                },
-                "resort": {
-                    "label": "Type"
-                },
-                "residential": {
-                    "label": "Type"
-                },
-                "reservation": {
-                    "label": "Reservations",
-                    "options": {
-                        "yes": "Accepted",
-                        "no": "Not Accepted",
-                        "required": "Required",
-                        "recommended": "Recommended"
-                    }
-                },
-                "religion": {
-                    "label": "Religion",
-                    "options": {
-                        "bahai": "Bahá’í",
-                        "benzhu": "Benzhu",
-                        "buddhist": "Buddhist",
-                        "caodaism": "Caodaist",
-                        "chinese_folk": "Chinese Folk Religion",
-                        "christian": "Christian",
-                        "confucian": "Confucian",
-                        "hindu": "Hindu",
-                        "jain": "Jain",
-                        "jewish": "Jewish",
-                        "multifaith": "Multifaith",
-                        "muslim": "Muslim",
-                        "none": "Nonreligious",
-                        "pagan": "Pagan",
-                        "shinto": "Shinto",
-                        "sikh": "Sikh",
-                        "spiritualist": "Spiritualist",
-                        "taoist": "Taoist",
-                        "tenrikyo": "Tenrikyo",
-                        "unitarian_universalist": "Unitarian Universalist",
-                        "vietnamese_folk": "Vietnamese Folk Religion",
-                        "voodoo": "Voodoo"
-                    }
-                },
-                "relation": {
-                    "label": "Type"
-                },
-                "reg_name": {
-                    "label": "Regional Name"
-                },
-                "ref_taxiway": {
-                    "label": "Taxiway Name",
-                    "placeholder": "e.g. A5"
-                },
                 "ref_stop_position": {
                     "label": "Stop Number"
-                },
-                "ref_sector": {
-                    "label": "Section Number"
-                },
-                "ref_runway": {
-                    "label": "Runway Number",
-                    "placeholder": "e.g. 01L/19R"
-                },
-                "ref_route": {
-                    "label": "Route Number"
-                },
-                "ref_room_number": {
-                    "label": "Room Number"
-                },
-                "ref_road_number": {
-                    "label": "Road Number"
-                },
-                "ref_rail": {
-                    "label": "Line Number"
                 },
                 "ref_platform": {
                     "label": "Platform Number"
                 },
-                "ref_highway_junction": {
-                    "label": "Junction Number"
-                },
-                "ref_golf_hole": {
-                    "label": "Hole Number",
-                    "placeholder": "1-18"
-                },
-                "ref_disc_golf_hole": {
-                    "label": "Hole Number",
-                    "placeholder": "1-18"
-                },
-                "ref_bridge_number": {},
-                "ref_aeroway_gate": {
-                    "label": "Gate Number"
-                },
                 "ref": {
                     "label": "Reference Code"
-                },
-                "recycling_type": {
-                    "label": "Type",
-                    "placeholder": "Container, Center",
-                    "options": {
-                        "container": "Container",
-                        "centre": "Center"
-                    }
                 },
                 "recycling_accepts": {
                     "label": "Accepts",
@@ -1096,16 +420,6 @@
                         "food_waste": "Food Waste"
                     }
                 },
-                "real_fire-GB-IE": {
-                    "label": "Real Fire",
-                    "terms": "fire,fire place"
-                },
-                "rcn_ref": {
-                    "label": "Cycling Code"
-                },
-                "rating": {
-                    "label": "Power Rating"
-                },
                 "ramp": {
                     "label": "Embedded Ramp",
                     "terms": "bicycle stairway,push ramp,runnel,wheeling ramp",
@@ -1115,166 +429,14 @@
                         "separate": "Separately Mapped"
                     }
                 },
-                "railway": {
-                    "label": "Type"
-                },
-                "pump": {
-                    "label": "Pump",
-                    "options": {
-                        "yes": "Yes",
-                        "manual": "Manual Hand Pump",
-                        "powered": "Machine-Powered Pump",
-                        "no": "None"
-                    }
-                },
-                "product": {
-                    "label": "Products"
-                },
-                "produce": {
-                    "label": "Produce"
-                },
-                "preschool": {
-                    "label": "Preschool"
-                },
-                "power_supply": {
-                    "label": "Power Supply"
-                },
-                "power": {
-                    "label": "Type"
-                },
-                "post": {
-                    "label": "Delivery Address"
-                },
-                "portable": {
-                    "label": "Portable",
-                    "terms": "detached,mobile,moveable"
-                },
-                "population": {
-                    "label": "Population"
-                },
-                "polling_station": {
-                    "label": "Polling Place",
-                    "terms": "voting place"
-                },
-                "plots": {
-                    "label": "Plots",
-                    "placeholder": "10, 20, 30..."
-                },
-                "playground": {
-                    "label": "Type",
-                    "options": {
-                        "activitypanel": "Activity Panel",
-                        "aerialrotator": "Aerial Rotator",
-                        "agility_trail": "Agility Trail",
-                        "archimedes_screw": "Archimedes Screw",
-                        "balance": "Balancing Device (unspecified)",
-                        "balancebeam": "Balance Beam",
-                        "ball_pool": "Ball Pool",
-                        "bannister_bars": "Banister Bars",
-                        "basketrotator": "Basket Rotator",
-                        "basketswing": "Basket Swing",
-                        "belt_bridge": "Belt Bridge",
-                        "blackboard": "Blackboard",
-                        "bridge": "Bridge",
-                        "cushion": "Bouncy Cushion",
-                        "chute": "Chute",
-                        "climbing": "Climbing Device (unspecified)",
-                        "climbing_pole": "Climbing Pole",
-                        "climbing_slope": "Climbing Slope",
-                        "climbingframe": "Climbing Frame",
-                        "climbingwall": "Climbing Wall",
-                        "dome": "Dome",
-                        "excavator": "Excavator",
-                        "exercise": "Exercise Device",
-                        "funnel_ball": "Funnel Ball",
-                        "hammock": "Hammock",
-                        "hamster_wheel": "Hamster Wheel",
-                        "hopscotch": "Hopscotch",
-                        "horizontal_bar": "Horizontal Bar",
-                        "ladder": "Ladder",
-                        "map": "Map",
-                        "maze": "Maze",
-                        "marble_run": "Marble Run",
-                        "monkey_bars": "Monkey Bars",
-                        "mound": "Artificial Mound",
-                        "musical_instrument": "Musical Instrument",
-                        "parallel_bars": "Parallel Bars",
-                        "platform": "Platform",
-                        "playhouse": "Playhouse",
-                        "pump": "Pump",
-                        "ride_on": "Fixed Riding Device",
-                        "rope_swing": "Rope Swing",
-                        "rope_traverse": "Rope Traverse",
-                        "rotator": "Rotating Device (unspecified)",
-                        "roundabout": "Merry-Go-Round / Roundabout",
-                        "sand": "Sand Play Device (unspecified)",
-                        "sand_pulley": "Sand Pulley",
-                        "sand_seesaw": "Sand Seesaw",
-                        "sand_wheel": "Sand Wheel",
-                        "sandpit": "Sandbox / Sandpit",
-                        "seat": "Seat",
-                        "seesaw": "Seesaw",
-                        "rotating_seesaw": "Rotating Seesaw",
-                        "sieve": "Sieve",
-                        "sledding": "Sledding Hill",
-                        "slide": "Slide",
-                        "speaking_tube": "Speaking Tube",
-                        "spinner": "Spinner",
-                        "spinner_bowl": "Spinner Bowl",
-                        "spinning_circle": "Spinning Circle",
-                        "spinning_disc": "Spinning Disc",
-                        "spring_board": "Spring Board",
-                        "springy": "Spring Rider",
-                        "splash_pad": "Splash Pad",
-                        "stepping_post": "Stepping Post",
-                        "stepping_stone": "Stepping Stone",
-                        "steps": "Steps",
-                        "structure": "Playground Structure",
-                        "swing": "Swing",
-                        "baby_swing": "Baby Swing",
-                        "tire_swing": "Tire Swing",
-                        "table": "Table",
-                        "teenshelter": "Teen Shelter",
-                        "track": "Playground Track",
-                        "trampoline": "Trampoline",
-                        "tunnel_tube": "Tunnel Tube",
-                        "water": "Water Device (unspecified)",
-                        "water_barrier": "Water Barrier",
-                        "water_basin": "Water Basin",
-                        "water_cannon": "Water Cannon",
-                        "water_channel": "Water Channel",
-                        "water_seesaw": "Water Seesaw",
-                        "water_sprayer": "Water Sprayer",
-                        "water_stream": "Water Stream",
-                        "water_wheel": "Water Wheel",
-                        "wobble_bridge": "Wobble Bridge",
-                        "youth_bench": "Youth Bench",
-                        "zipwire": "Zipline / Zipwire"
-                    }
-                },
-                "plant": {
-                    "label": "Plant"
-                },
-                "place": {
-                    "label": "Type"
-                },
-                "pipeline": {
-                    "label": "Type"
-                },
-                "picnic_table": {
-                    "label": "Picnic Table",
-                    "terms": "bench,outdoor table"
+                "platform_height": {
+                    "label": "Platform Height (Meters)"
                 },
                 "phone": {
                     "label": "Telephone",
                     "terms": "phone number",
                     "placeholder": "+000 0000 0000 0000"
                 },
-                "phases": {
-                    "label": "Phases",
-                    "placeholder": "1, 2, 3..."
-                },
-                "payment_multi_fee": {},
                 "payment_multi": {
                     "label": "Payment Types",
                     "options": {
@@ -1322,9 +484,6 @@
                     }
                 },
                 "parking_space": {
-                    "label": "Type"
-                },
-                "parking_entrance": {
                     "label": "Type"
                 },
                 "parking": {
@@ -1384,41 +543,8 @@
                         }
                     }
                 },
-                "park_ride": {
-                    "label": "Park and Ride"
-                },
-                "parcel_pickup": {
-                    "label": "Parcel Pickup",
-                    "options": {
-                        "undefined": "Assumed to be Yes",
-                        "yes": "Yes",
-                        "no": "No"
-                    }
-                },
-                "parcel_dropoff": {
-                    "label": "Parcel Dropoff"
-                },
-                "par": {
-                    "label": "Par",
-                    "placeholder": "3, 4, 5..."
-                },
-                "panoramax": {
-                    "label": "Panoramax Image ID"
-                },
                 "overlap": {
                     "label": "Overlap Width (Meters)"
-                },
-                "outdoor_seating": {
-                    "label": "Outdoor Seating"
-                },
-                "organic": {
-                    "label": "Organic Products",
-                    "terms": "natural,non-gmo",
-                    "options": {
-                        "no": "None",
-                        "yes": "Some",
-                        "only": "Only"
-                    }
                 },
                 "operator": {
                     "label": "Operator"
@@ -1427,24 +553,8 @@
                     "label": "Hours",
                     "placeholder": "Unknown"
                 },
-                "opening_date": {
-                    "label": "Expected Opening Date",
-                    "placeholder": "YYYY-MM-DD"
-                },
                 "opening": {
                     "label": "Opening Width (Meters)"
-                },
-                "openfire": {
-                    "label": "Open Fires Allowed"
-                },
-                "oneway_yes": {
-                    "options": {
-                        "undefined": "Assumed to be Yes",
-                        "yes": "Yes",
-                        "no": "No",
-                        "reversible": "Reversible",
-                        "alternating": "Alternating"
-                    }
                 },
                 "oneway": {
                     "label": "One Way",
@@ -1457,143 +567,19 @@
                         "alternating": "Alternating"
                     }
                 },
-                "official_name": {
-                    "label": "Official Name",
-                    "terms": "formal name,full name,legal name"
+                "obstacle_wheelchair": {
+                    "label": "Is an obstacle for wheelchair users ?"
                 },
-                "office": {
-                    "label": "Type",
-                    "options": {
-                        "accountant": "Accountant Office",
-                        "adoption_agency": "Adoption Agency",
-                        "advertising_agency": "Advertising Agency",
-                        "architect": "Architect Office",
-                        "association": "Nonprofit Organization Office",
-                        "charity": "Charity Office",
-                        "company": "Corporate Office",
-                        "construction_company": "Construction Company Office",
-                        "consulting": "Consultancy Office",
-                        "courier": "Courier Office",
-                        "coworking": "Coworking Space",
-                        "diplomatic": "Diplomatic Office",
-                        "educational_institution": "Educational Institution",
-                        "employment_agency": "Employment Agency",
-                        "energy_supplier": "Energy Supplier Office",
-                        "engineer": "Engineering Office",
-                        "estate_agent": "Real Estate Office",
-                        "financial": "Financial Office",
-                        "financial_advisor": "Financial Advisor",
-                        "forestry": "Forestry Office",
-                        "foundation": "Foundation Office",
-                        "government": "Government Office",
-                        "graphic_design": "Graphic Design Office",
-                        "guide": "Tour Guide Office",
-                        "insurance": "Insurance Office",
-                        "it": "Information Technology Office",
-                        "lawyer": "Law Office",
-                        "logistics": "Forwarding Agency",
-                        "moving_company": "Moving Company Office",
-                        "newspaper": "Newspaper Office",
-                        "ngo": "NGO Office",
-                        "notary": "Notary Office",
-                        "physician": "Physician",
-                        "political_party": "Political Party Office",
-                        "private_investigator": "Private Investigator Office",
-                        "property_management": "Property Management Office",
-                        "quango": "Quasi-NGO Office",
-                        "religion": "Religious Office",
-                        "research": "Research Office",
-                        "security": "Security Office",
-                        "surveyor": "Surveyor Office",
-                        "tax_advisor": "Tax Advisor Office",
-                        "telecommunication": "Telecom Office",
-                        "therapist": "Therapist Office",
-                        "travel_agent": "Travel Agency",
-                        "union": "Labor Union Office",
-                        "water_utility": "Water Utility Office"
-                    }
-                },
-                "nudism": {
-                    "label": "Nudism",
-                    "terms": "naturism,naturist,nude recreation,nudist",
-                    "options": {
-                        "customary": "Customary",
-                        "designated": "Designated",
-                        "no": "Prohibited",
-                        "obligatory": "Obligatory",
-                        "permissive": "Permissive",
-                        "yes": "Allowed"
-                    }
-                },
-                "note": {
-                    "label": "Note",
-                    "terms": "comment"
-                },
-                "network_road": {
-                    "label": "Network"
-                },
-                "network_horse": {
-                    "label": "Network Class",
-                    "placeholder": "Local, Regional, National, International",
-                    "options": {
-                        "lhn": "Local",
-                        "rhn": "Regional",
-                        "nhn": "National",
-                        "ihn": "International"
-                    }
-                },
-                "network_foot": {
-                    "label": "Network Class",
-                    "placeholder": "Local, Regional, National, International",
-                    "options": {
-                        "lwn": "Local",
-                        "rwn": "Regional",
-                        "nwn": "National",
-                        "iwn": "International"
-                    }
-                },
-                "network_bicycle": {
-                    "label": "Network Class",
-                    "placeholder": "Local, Regional, National, International",
-                    "options": {
-                        "lcn": "Local",
-                        "rcn": "Regional",
-                        "ncn": "National",
-                        "icn": "International"
-                    }
+                "obstacle_blind": {
+                    "label": "Is an obstacle for blind people ?"
                 },
                 "network": {
                     "label": "Network"
-                },
-                "natural": {
-                    "label": "Natural"
-                },
-                "nat_name": {
-                    "label": "National Name"
                 },
                 "name": {
                     "label": "Name",
                     "terms": "label,title",
                     "placeholder": "Common name (if any)"
-                },
-                "museum": {
-                    "label": "Type"
-                },
-                "motorboat": {
-                    "label": "Motorboat Access"
-                },
-                "mooring": {
-                    "label": "Mooring",
-                    "options": {
-                        "yes": "Yes",
-                        "no": "No",
-                        "private": "Private",
-                        "commercial": "Commercial",
-                        "guest": "Guests"
-                    }
-                },
-                "monitoring_multi": {
-                    "label": "Monitoring"
                 },
                 "model": {
                     "label": "Model"
@@ -1603,85 +589,28 @@
                     "terms": "phone number",
                     "placeholder": "+31 42 123 4567"
                 },
-                "minspeed": {
-                    "label": "Minimum Speed Limit",
-                    "placeholder": "20, 30, 40..."
-                },
-                "min_height": {
+                "min_height_obstacle": {
                     "label": "Height of Bottom (Meters)"
-                },
-                "min_age": {
-                    "label": "Minimum Age",
-                    "terms": "lower age limit"
-                },
-                "mimics": {
-                    "label": "Mimics",
-                    "terms": "camoflauged,disguised,looks like,tree"
-                },
-                "military_service": {
-                    "label": "Military Service",
-                    "options": {
-                        "air_force": "Air Force",
-                        "army": "Army",
-                        "coast_guard": "Coast Guard",
-                        "marines": "Marines",
-                        "navy": "Navy"
-                    }
-                },
-                "microbrewery": {
-                    "label": "Microbrewery",
-                    "terms": "brewpub,craft beer"
                 },
                 "message": {
                     "label": "Message"
                 },
-                "memorial": {
-                    "label": "Type",
-                    "options": {
-                        "blue_plaque": "Blue Plaque",
-                        "bust": "Bust",
-                        "cross": "Memorial Cross",
-                        "ghost_bike": "Ghost Bike",
-                        "obelisk": "Obelisk",
-                        "plaque": "Commemorative Plaque",
-                        "sculpture": "Sculpture",
-                        "statue": "Statue",
-                        "stele": "Stele",
-                        "stolperstein": "Stolperstein",
-                        "stone": "Stone",
-                        "war_memorial": "War Memorial"
-                    }
-                },
                 "maxwidth": {
                     "label": "Width Limit"
                 },
-                "maxweight_bridge": {},
-                "maxweight": {
+                "maxweight_bridge": {
                     "label": "Weight Limit"
                 },
-                "maxstay": {
-                    "label": "Time Limit"
+                "maxweight": {
+                    "label": "Weight Limit"
                 },
                 "maxspeed": {
                     "label": "Speed Limit",
                     "placeholder": "40, 50, 60..."
                 },
-                "maxlength": {
-                    "label": "Length Limit"
-                },
                 "maxheight": {
                     "label": "Height Limit",
                     "terms": "clearance"
-                },
-                "maxaxleload_bridge": {
-                    "label": "Axle Weight Limit"
-                },
-                "max_age": {
-                    "label": "Maximum Age",
-                    "terms": "upper age limit"
-                },
-                "mattress": {
-                    "label": "Mattresses Available"
                 },
                 "material": {
                     "label": "Material",
@@ -1710,81 +639,20 @@
                         "wood": "Wood"
                     }
                 },
-                "marker": {
-                    "label": "Type",
+                "markings": {
+                    "label": "markings",
                     "options": {
-                        "aerial": {
-                            "title": "Aerial",
-                            "description": "Designed to be visible from the air."
-                        },
-                        "ground": {
-                            "title": "Ground",
-                            "description": "Flat marker laid in the ground."
-                        },
-                        "pedestal": {
-                            "title": "Pedestal",
-                            "description": "Raised marker mounted on a small base."
-                        },
-                        "plate": {
-                            "title": "Plate",
-                            "description": "Flat marker mounted directly on walls or similar."
-                        },
-                        "post": {
-                            "title": "Post",
-                            "description": "Raised marker mounted on a small pole or mast."
-                        },
-                        "stone": {
-                            "title": "Stone",
-                            "description": "Markings directly etched or painted on a stone."
-                        }
+                        "traffic_sign": "traffic sign",
+                        "pictograms": "pictograms",
+                        "traffic_sign;pictograms ": "traffic sign and pictograms ",
+                        "no": "no markings"
                     }
-                },
-                "mapillary": {
-                    "label": "Mapillary Image ID"
-                },
-                "map_type": {
-                    "label": "Type",
-                    "options": {
-                        "topo": "Topographical Map",
-                        "street": "Road Map",
-                        "scheme": "Schematic Map",
-                        "toposcope": "Toposcope"
-                    }
-                },
-                "map_size": {
-                    "label": "Coverage"
                 },
                 "manufacturer": {
                     "label": "Manufacturer"
                 },
-                "manhole": {
-                    "label": "Type"
-                },
-                "man_made": {
-                    "label": "Type"
-                },
                 "locked": {
                     "label": "Locked"
-                },
-                "lockable": {
-                    "label": "Lockable"
-                },
-                "lock": {
-                    "label": "Lock"
-                },
-                "location_pool": {
-                    "options": {
-                        "outdoor": "Outdoor",
-                        "indoor": "Indoor",
-                        "roof": "Rooftop"
-                    }
-                },
-                "location": {
-                    "label": "Location"
-                },
-                "loc_name": {
-                    "label": "Local Name",
-                    "terms": "colloquial name,common name,informal name,nickname"
                 },
                 "lit": {
                     "label": "Lit",
@@ -1797,22 +665,6 @@
                 "line_attachment": {
                     "label": "Line Attachment"
                 },
-                "lifeguard_check": {
-                    "label": "Lifeguard"
-                },
-                "lifeguard": {
-                    "label": "Type",
-                    "options": {
-                        "base": "Lifeguard Base",
-                        "tower": "Lifeguard Tower"
-                    }
-                },
-                "license_classes": {
-                    "label": "Classes of Driver’s License"
-                },
-                "liaison": {
-                    "label": "Type"
-                },
                 "level_semi": {
                     "label": "Levels",
                     "terms": "building floors,decks,storeys,stories,storys"
@@ -1821,16 +673,13 @@
                     "label": "Level",
                     "terms": "building floor,deck,storey,story"
                 },
+                "length_buffer": {
+                    "label": "Extra length (Meters)"
+                },
                 "length": {
                     "label": "Length (Meters)"
                 },
-                "leisure": {
-                    "label": "Type"
-                },
                 "leaf_type_singular": {
-                    "label": "Leaf Type"
-                },
-                "leaf_type": {
                     "label": "Leaf Type",
                     "options": {
                         "broadleaved": "Broadleaved",
@@ -1839,8 +688,7 @@
                         "leafless": "Leafless"
                     }
                 },
-                "leaf_cycle_singular": {},
-                "leaf_cycle": {
+                "leaf_cycle_singular": {
                     "label": "Leaf Cycle",
                     "options": {
                         "evergreen": "Evergreen",
@@ -1850,46 +698,19 @@
                         "mixed": "Mixed"
                     }
                 },
-                "layer_1": {
-                    "placeholder": "0"
-                },
                 "layer": {
                     "label": "Layer",
                     "placeholder": "0"
                 },
-                "language_multi": {
-                    "label": "Languages"
-                },
                 "lanes": {
                     "label": "Lanes",
                     "placeholder": "1, 2, 3..."
-                },
-                "lane_markings": {
-                    "label": "Lane Markings",
-                    "terms": "centerline,lane dividers,lane line,striped,unstriped"
-                },
-                "landuse": {
-                    "label": "Type"
                 },
                 "lamp_type": {
                     "label": "Type"
                 },
                 "lamp_mount": {
                     "label": "Mount"
-                },
-                "label": {
-                    "label": "Label"
-                },
-                "kneipp_water_cure_multi": {
-                    "label": "Basin Types",
-                    "options": {
-                        "foot": "Foot Basin",
-                        "arm": "Arm Basin",
-                        "face": "Face Basin"
-                    }
-                },
-                "kitchen": {
-                    "label": "Kitchen"
                 },
                 "kerb": {
                     "label": "Curb",
@@ -1920,113 +741,45 @@
                         }
                     }
                 },
-                "junction_line": {
-                    "label": "Junction",
-                    "options": {
-                        "roundabout": "Roundabout",
-                        "circular": "Traffic Circle",
-                        "jughandle": "Jughandle"
-                    }
-                },
-                "irrigation_pivot": {
-                    "label": "Center-Pivot Irrigation",
-                    "terms": "central pivot irrigation,circle irrigation,water wheel",
-                    "options": {
-                        "undefined": "No",
-                        "pivot": "Yes"
-                    }
-                },
-                "interval": {
-                    "label": "Interval"
-                },
-                "internet_access": {
-                    "label": "Internet Connection",
-                    "terms": "wifi,wlan",
-                    "options": {
-                        "yes": "Yes",
-                        "no": "No",
-                        "wlan": "Wifi",
-                        "wired": "Wired",
-                        "terminal": "Terminal"
-                    }
-                },
-                "intermittent_yes": {},
-                "intermittent": {
-                    "label": "Intermittent"
-                },
-                "inscription": {
-                    "label": "Inscription"
-                },
-                "information": {
-                    "label": "Type"
-                },
                 "informal": {
                     "label": "Informal"
-                },
-                "industrial": {
-                    "label": "Type"
-                },
-                "indoor_type": {
-                    "label": "Type"
                 },
                 "indoor": {
                     "label": "Indoor"
                 },
                 "incline_steps": {
+                    "label": "Incline",
                     "options": {
                         "up": "Up",
                         "down": "Down"
                     }
                 },
-                "incline": {
-                    "label": "Incline"
-                },
-                "image": {
-                    "label": "Image",
-                    "terms": "icon,image uri,photo,picture",
-                    "placeholder": "https://example.com/photo.jpg"
-                },
-                "icao": {
-                    "label": "ICAO Airport Code"
-                },
-                "iata": {
-                    "label": "IATA Airport Code"
-                },
-                "house": {
-                    "label": "House Type",
+                "incline_percentage": {
+                    "label": "Incline",
                     "options": {
-                        "bungalow": {
-                            "title": "Bungalow",
-                            "description": "A small house with a single storey"
-                        },
-                        "detached": {
-                            "title": "Detached House",
-                            "description": "A house that is not connected to any other houses"
-                        },
-                        "link-detached": {
-                            "title": "Link-Detached House",
-                            "description": "A house that is connected to another house by a garage or other non-living area"
-                        },
-                        "maisonette": {
-                            "title": "Maisonette",
-                            "description": "A residential dwelling, split over two floors with private external entrances rather than a communal entrance"
-                        },
-                        "semi-detached": {
-                            "title": "Semi-Detached House",
-                            "description": "A house that is attached to another house on one side"
-                        },
-                        "terrace": {
-                            "title": "Row of Townhouses",
-                            "description": "A row of houses that are attached to each other in a line (mapping each house as a separate area is preferred)"
-                        },
-                        "terraced": {
-                            "title": "Single Townhouse",
-                            "description": "Individual house in a row of townhouses"
-                        }
+                        "0%": "flat (0%)",
+                        "3%": "gentle (3%)",
+                        "5%": "medium (5%)",
+                        "8%": "steep (8%)",
+                        "12%": "very steep (12%)",
+                        "-3%": "gentle (-3%)",
+                        "-5%": "medium (-5%)",
+                        "-8%": "steep (-8%)",
+                        "-12%": "very steep (-12%)"
                     }
                 },
-                "hot_water": {
-                    "label": "Hot Water"
+                "incline_across_percentage": {
+                    "label": "Lateral Incline",
+                    "options": {
+                        "0%": "flat (0%)",
+                        "2%": "medium right tilt (2%)",
+                        "5%": "strong right tilt (5%)",
+                        "-2%": "medium left tilt (-2%)",
+                        "-5%": "strong left tilt (-5%)"
+                    }
+                },
+                "incline": {
+                    "label": "Incline"
                 },
                 "horse_scale": {
                     "label": "Horseback Riding Difficulty",
@@ -2040,225 +793,79 @@
                         "impossible": "Impassable: Way or bridge not passable for horses. Too narrow, insufficient support, obstacles like ladders. Danger of life."
                     }
                 },
-                "horse_riding": {
-                    "label": "Horseback Riding Center",
+                "highway_shape": {
+                    "label": "Highway shape",
                     "options": {
-                        "undefined": "No",
-                        "horse_riding": "Yes"
+                        "flat": "flat",
+                        "bulged": "bulged"
                     }
-                },
-                "hoops": {
-                    "label": "Hoops",
-                    "placeholder": "1, 2, 4..."
-                },
-                "historic": {
-                    "label": "Type",
-                    "options": {
-                        "archaeological_site": "Archaeological Site",
-                        "bomb_crater": "Bomb Crater",
-                        "boundary_stone": "Boundary Stone",
-                        "building": "Historic Building",
-                        "castle": "Castle",
-                        "charcoal_pile": "Charcoal Pile",
-                        "church": "Church",
-                        "city_gate": "City Gate",
-                        "citywalls": "Citywall",
-                        "fort": "Historic Fort",
-                        "manor": "Manor House",
-                        "memorial": "Memorial",
-                        "milestone": "Milestone",
-                        "millstone": "Millstone",
-                        "mine": "Mine",
-                        "mine_shaft": "Mine Shaft",
-                        "monument": "Monument",
-                        "pillory": "Historic Pillory",
-                        "railway": "Railway",
-                        "ruins": "Ruins",
-                        "shieling": "Shieling",
-                        "tomb": "Tomb",
-                        "wayside_cross": "Wayside Cross",
-                        "wayside_shrine": "Wayside Shrine",
-                        "wreck": "Shipwreck"
-                    }
-                },
-                "highway_cartpath": {
-                    "label": "Type of Path",
-                    "options": {
-                        "path": "Cartpath",
-                        "service": "Service Road"
-                    }
-                },
-                "highway": {
-                    "label": "Type"
-                },
-                "highspeed": {
-                    "label": "High-Speed"
-                },
-                "highchair": {
-                    "label": "High Chair",
-                    "terms": "booster,booster seat,feeding chair,kids chair"
-                },
-                "height_building": {
-                    "label": "Building Height (Meters)"
                 },
                 "height": {
                     "label": "Height (Meters)"
                 },
-                "heating": {
-                    "label": "Heating"
-                },
-                "healthcare_therapist": {},
-                "healthcare": {
-                    "label": "Type",
+                "handrail_side": {
+                    "label": "Handrail",
                     "options": {
-                        "alternative": "Alternative Medicine",
-                        "audiologist": "Audiologist",
-                        "birthing_centre": "Birthing Center",
-                        "blood_bank": "Blood Bank",
-                        "blood_donation": "Blood Donation Center",
-                        "clinic": "Clinic",
-                        "community_health_worker": "Community Health Worker",
-                        "counselling": "Counselling Center",
-                        "dentist": "Dentist",
-                        "dialysis": "Dialysis Center",
-                        "doctor": "Doctor",
-                        "hospice": "Hospice",
-                        "hospital": "Hospital",
-                        "laboratory": "Medical Laboratory",
-                        "midwife": "Midwife",
-                        "nurse": "Nurse",
-                        "occupational_therapist": "Occupational Therapist",
-                        "optometrist": "Optometrist",
-                        "pharmacy": "Pharmacy",
-                        "physiotherapist": "Physiotherapist",
-                        "podiatrist": "Podiatrist",
-                        "psychotherapist": "Psychotherapist",
-                        "rehabilitation": "Rehabilitation Facility",
-                        "sample_collection": "Sample Collection Facility",
-                        "speech_therapist": "Speech Therapist",
-                        "vaccination_centre": "Vaccination Center"
+                        "rigth": "Rigth only",
+                        "left": "Left only",
+                        "both": "Both sides",
+                        "center": "Only one handrail, on the center of the stairs",
+                        "no": "None"
                     }
                 },
-                "hazard_highway": {
-                    "label": "Signed Hazard",
-                    "options": {
-                        "animal_crossing": "Animal Crossing",
-                        "bump": "Bump",
-                        "children": "Children",
-                        "curve": "Curve",
-                        "curves": "Multiple Curves",
-                        "cyclists": "Cyclists",
-                        "dangerous_junction": "Dangerous Junction",
-                        "dip": "Dip",
-                        "falling_rocks": "Falling Rocks",
-                        "frost_heave": "Frost Heave",
-                        "horse_riders": "Horse Riders",
-                        "ice": "Ice",
-                        "landslide": "Landslide",
-                        "loose_gravel": "Loose Gravel",
-                        "low_flying_aircraft": "Low Flying Aircraft",
-                        "pedestrians": "Pedestrians",
-                        "queues_likely": "Stopped Traffic",
-                        "school_zone": "School Zone",
-                        "side_winds": "Side Winds",
-                        "slippery": "Slippery",
-                        "turn": "Turn",
-                        "turns": "Multiple Turns"
-                    }
-                },
-                "hazard_boundary": {
-                    "label": "Hazard",
-                    "options": {
-                        "archery_range": "Arrows",
-                        "avalanche": "Avalanche",
-                        "biohazard": "Biohazard",
-                        "contamination": "Chemical Contamination",
-                        "electricity": "Electric Shock",
-                        "shooting_range": "Gunfire",
-                        "hole": "Hole",
-                        "minefield": "Land Mines",
-                        "nuclear": "Nuclear / Radioactive",
-                        "quicksand": "Quicksand"
-                    }
-                },
-                "hashtags": {
-                    "label": "Hashtags",
-                    "placeholder": "#example"
-                },
-                "handrest": {
-                    "label": "Handrest"
+                "handrail_height": {
+                    "label": "Handrail Height (Meters)"
                 },
                 "handrail": {
                     "label": "Handrail"
                 },
-                "handicap": {
-                    "label": "Handicap",
-                    "placeholder": "1-18"
-                },
-                "guest_house": {
-                    "label": "Type"
-                },
-                "group_only": {
-                    "label": "Groups Only"
-                },
-                "grape_variety": {
-                    "label": "Grape Varieties"
-                },
-                "grades": {
-                    "label": "Grade Levels"
-                },
-                "government": {
-                    "label": "Type"
+                "guiding_strips": {
+                    "label": "Guiding Strips"
                 },
                 "genus": {
                     "label": "Genus",
                     "placeholder": "Acer, Platanus, Quercus …"
                 },
-                "gender_simple": {},
-                "gender": {
-                    "label": "Gender",
-                    "terms": "access,female,male,unisex",
-                    "placeholder": "Unknown",
+                "foot_simple": {
+                    "label": "Foot access",
                     "options": {
-                        "male": "Male",
-                        "female": "Female",
-                        "unisex": "Unisex"
+                        "yes": {
+                            "title": "Allowed",
+                            "description": "Access allowed by law; a right of way"
+                        },
+                        "no": {
+                            "title": "Prohibited",
+                            "description": "Access not allowed to the general public"
+                        },
+                        "permissive": {
+                            "title": "Permissive",
+                            "description": "Access allowed until such time as the owner revokes the permission"
+                        },
+                        "private": {
+                            "title": "Private",
+                            "description": "Access allowed only with permission of the owner on an individual basis"
+                        },
+                        "designated": {
+                            "title": "Designated",
+                            "description": "Access allowed according to signs or specific local laws"
+                        },
+                        "destination": {
+                            "title": "Destination",
+                            "description": "Access allowed only to reach a destination"
+                        },
+                        "customers": {
+                            "title": "Customers",
+                            "description": "Restricted to customers at the destination"
+                        },
+                        "permit": {
+                            "title": "Permit",
+                            "description": "Access allowed only with a valid permit or license"
+                        },
+                        "unknown": {
+                            "title": "Unknown",
+                            "description": "Access conditions are unknown or unclear"
+                        }
                     }
-                },
-                "gauge": {
-                    "label": "Gauge"
-                },
-                "gambling": {
-                    "label": "Games"
-                },
-                "fuel": {
-                    "label": "Fuel"
-                },
-                "from": {
-                    "label": "From"
-                },
-                "frequency_electrified": {},
-                "frequency": {
-                    "label": "Operating Frequency"
-                },
-                "fountain": {
-                    "label": "Type"
-                },
-                "fortification_type": {
-                    "label": "Fortification Type"
-                },
-                "ford": {
-                    "label": "Type",
-                    "placeholder": "Default"
-                },
-                "footrest": {
-                    "label": "Footrest"
-                },
-                "flood_prone": {
-                    "label": "Flood Prone"
-                },
-                "floating": {
-                    "label": "Floating"
                 },
                 "flashing_lights": {
                     "label": "Flashing Lights",
@@ -2283,71 +890,18 @@
                         "yes": "Yes"
                     }
                 },
-                "fixme": {
-                    "label": "Fix Me",
-                    "terms": "help request"
-                },
-                "fitness_station": {
-                    "label": "Equipment Type"
-                },
-                "fishing": {
-                    "label": "Fishing"
-                },
-                "fireplace": {
-                    "label": "Fireplace"
-                },
-                "fire_sprinkler": {
-                    "label": "Fire Sprinkler Inlet",
-                    "options": {
-                        "dry": "Dedicated Network (Normally Dry)",
-                        "wet": "Connected to Mains (Permanently Filled)",
-                        "pre-action": "Connected to Mains (Pre-Action System)",
-                        "yes": "Unknown Type",
-                        "no": "No"
-                    }
-                },
-                "fire_service_inlet": {
-                    "label": "Shape",
-                    "options": {
-                        "pillar": "Pillar/Aboveground",
-                        "underground": "Underground",
-                        "wall": "Wall",
-                        "pipe": "Capped Pipe"
-                    }
-                },
-                "fire_mains": {
-                    "label": "Network-Type",
-                    "options": {
-                        "dry": "Dedicated Network (Normally Dry)",
-                        "wet": "Connected to Mains (Permanently Filled)",
-                        "yes": "Unknown Type",
-                        "no": "No"
-                    }
-                },
                 "fence_type": {
                     "label": "Type"
-                },
-                "fee": {
-                    "label": "Fee"
                 },
                 "fax": {
                     "label": "Fax",
                     "placeholder": "+31 42 123 4567"
                 },
-                "faces": {
-                    "label": "Faces"
+                "entrance_ramp": {
+                    "label": "Amovible ramp"
                 },
-                "expressway-US": {
-                    "label": "Expressway"
-                },
-                "expected_rwn_route_relations": {
-                    "label": "Adjacent Walking Nodes"
-                },
-                "expected_rcn_route_relations": {
-                    "label": "Adjacent Cycling Nodes"
-                },
-                "except": {
-                    "label": "Exceptions"
+                "entrance_coloured_band": {
+                    "label": "Coloured band on transparent door"
                 },
                 "entrance": {
                     "label": "Type",
@@ -2365,98 +919,21 @@
                         "garage": "Garage Door"
                     }
                 },
-                "enforcement": {
-                    "label": "Type"
-                },
-                "emergency_ward_entrance": {
-                    "label": "Type"
-                },
-                "emergency_combo": {
-                    "label": "Type"
-                },
-                "emergency": {
-                    "label": "Emergency"
-                },
-                "embassy": {
-                    "label": "Type",
-                    "options": {
-                        "yes": "Embassy",
-                        "residence": "Official Residence of an Ambassador",
-                        "high_commission": "High Commission",
-                        "mission": "Diplomatic Mission",
-                        "branch_embassy": "Branch of an Embassy",
-                        "nunciature": "Diplomatic Mission of the Holy See",
-                        "delegation": "Delegation",
-                        "interests_section": "Interests Section"
-                    }
-                },
-                "embankment": {
-                    "label": "Type",
-                    "placeholder": "Default"
+                "emergency_button": {
+                    "label": "Emergency Button"
                 },
                 "email": {
                     "label": "Email",
                     "placeholder": "example@example.com"
                 },
-                "electrified": {
-                    "label": "Electrification",
-                    "terms": "contact line,powered,third rail",
-                    "placeholder": "Contact Line, Electrified Rail...",
-                    "options": {
-                        "contact_line": "Contact Line",
-                        "rail": "Electrified Rail",
-                        "yes": "Yes (unspecified)",
-                        "no": "No"
-                    }
-                },
-                "ele_node": {
-                    "terms": "altitude,height"
-                },
-                "ele": {
-                    "label": "Elevation (Meters)",
-                    "terms": "altitude,height"
-                },
-                "education": {
-                    "label": "Type",
-                    "options": {
-                        "college": "College",
-                        "dancing_school": "Dancing School",
-                        "driving_school": "Driving School",
-                        "kindergarten": "Kindergarten",
-                        "language_school": "Language School",
-                        "music_school": "Music School",
-                        "prep_school": "Test Prep / Tutoring School",
-                        "school": "School",
-                        "university": "University"
-                    }
-                },
-                "duration": {
-                    "label": "Duration",
-                    "placeholder": "00:00"
+                "elevator_mirror": {
+                    "label": "Mirror in Elevator"
                 },
                 "drive_through": {
                     "label": "Drive-Through"
                 },
-                "drinking_water_available": {
-                    "label": "Drinking Water Available",
-                    "terms": "drinkworthy,potable"
-                },
-                "drinking_water": {
-                    "label": "Drinkable",
-                    "terms": "drinkworthy,potable"
-                },
-                "drink_multi": {
-                    "label": "Drinks"
-                },
-                "door_type": {
-                    "label": "Type"
-                },
                 "door": {
                     "label": "Door"
-                },
-                "dog_yes": {},
-                "dog_check": {
-                    "label": "Suitable For Dogs"
                 },
                 "dog": {
                     "label": "Dogs",
@@ -2468,31 +945,6 @@
                         "no": "Not Allowed"
                     }
                 },
-                "dock": {
-                    "label": "Type",
-                    "options": {
-                        "drydock": "Dry Dock",
-                        "floating": "Floating Dry Dock",
-                        "tidal": "Impounded Tidal Dock"
-                    }
-                },
-                "distance": {
-                    "label": "Distance",
-                    "terms": "length,mileage"
-                },
-                "display": {
-                    "label": "Display",
-                    "options": {
-                        "analog": "Analog",
-                        "digital": "Digital",
-                        "sundial": "Sundial",
-                        "unorthodox": "Unorthodox"
-                    }
-                },
-                "dispensing": {
-                    "label": "Dispenses Prescriptions"
-                },
-                "direction_vertex_dual": {},
                 "direction_vertex": {
                     "label": "Direction Affected",
                     "options": {
@@ -2502,48 +954,12 @@
                     }
                 },
                 "direction_point": {
+                    "label": "Direction (Degrees Clockwise)",
                     "placeholder": "45, 90, 180, 270"
-                },
-                "direction_clock": {
-                    "label": "Direction",
-                    "options": {
-                        "clockwise": "Clockwise",
-                        "anticlockwise": "Counterclockwise"
-                    }
-                },
-                "direction_cardinal-US-CA-NZ": {
-                    "label": "Direction",
-                    "options": {
-                        "north": "Northbound",
-                        "south": "Southbound",
-                        "east": "Eastbound",
-                        "west": "Westbound"
-                    }
                 },
                 "direction": {
                     "label": "Direction (Degrees Clockwise)",
                     "placeholder": "45, 90, 180, 270"
-                },
-                "diplomatic": {
-                    "label": "Type",
-                    "options": {
-                        "consulate": "Consulate",
-                        "embassy": "Embassy",
-                        "liaison": "Liaison Office"
-                    }
-                },
-                "diet_multi": {
-                    "label": "Dietary Options",
-                    "terms": "fruitarian,gluten free,halal,kosher,lactose free,meat,pescatarian,raw,vegan,vegetarian",
-                    "options": {
-                        "vegetarian": "Vegetarian",
-                        "vegan": "Vegan",
-                        "halal": "Halal",
-                        "gluten_free": "Gluten-Free",
-                        "kosher": "Kosher",
-                        "lactose_free": "Lactose-Free",
-                        "pescetarian": "Pescetarian"
-                    }
                 },
                 "diameter_crown": {
                     "label": "Crown Diameter",
@@ -2552,36 +968,6 @@
                 "diameter": {
                     "label": "Diameter",
                     "placeholder": "5 mm, 10 cm, 15 in…"
-                },
-                "devices": {
-                    "label": "Devices",
-                    "placeholder": "1, 2, 3..."
-                },
-                "destination_waterway": {
-                    "label": "Destination"
-                },
-                "destination_oneway": {},
-                "destination": {
-                    "label": "Destinations"
-                },
-                "design_power_tower": {},
-                "design_power_pole": {},
-                "design": {
-                    "label": "Design"
-                },
-                "description": {
-                    "label": "Description",
-                    "terms": "summary"
-                },
-                "descent": {
-                    "label": "Total Descent",
-                    "terms": "cumulative elevation,descent"
-                },
-                "depth": {
-                    "label": "Depth (Meters)"
-                },
-                "depot": {
-                    "label": "Type"
                 },
                 "departures_board": {
                     "label": "Departures/Arrivals Board",
@@ -2595,63 +981,8 @@
                 "denotation": {
                     "label": "Denotation"
                 },
-                "denomination": {
-                    "label": "Denomination"
-                },
-                "delivery": {
-                    "label": "Delivery"
-                },
                 "deflection": {
                     "label": "Angle"
-                },
-                "date": {
-                    "label": "Date"
-                },
-                "cycleway": {
-                    "label": "Bike Lanes",
-                    "placeholder": "Lane, Track, Contraflow, …",
-                    "types": {
-                        "cycleway:left": "Left Side",
-                        "cycleway:right": "Right Side"
-                    },
-                    "options": {
-                        "no": {
-                            "title": "None",
-                            "description": "No bike lane"
-                        },
-                        "lane": {
-                            "title": "Standard Bike Lane",
-                            "description": "A bike lane separated from auto traffic by a painted line"
-                        },
-                        "shared_lane": {
-                            "title": "Shared Bike Lane",
-                            "description": "A bike lane with no separation from auto traffic"
-                        },
-                        "track": {
-                            "title": "Bike Track",
-                            "description": "A bike lane separated from traffic by a physical barrier"
-                        },
-                        "share_busway": {
-                            "title": "Bike Lane Shared With Bus",
-                            "description": "A bike lane shared with a bus lane"
-                        },
-                        "separate": {
-                            "title": "Cycleway Mapped Separately",
-                            "description": "Indicates that cycleway was mapped as a separate geometry"
-                        },
-                        "opposite_lane": {
-                            "title": "(Deprecated) Opposite Bike Lane",
-                            "description": "Please update with oneway, oneway:bicycle, and cycleway:left/right=lane etc."
-                        },
-                        "opposite": {
-                            "title": "(Deprecated) Contraflow Bike Lane",
-                            "description": "Please update with oneway=yes, oneway:bicycle=no, and cycleway:both=no etc."
-                        }
-                    }
-                },
-                "cyclestreet-BE-NL": {},
-                "cycle_network": {
-                    "label": "Network"
                 },
                 "cycle_barrier": {
                     "label": "Type",
@@ -2663,110 +994,9 @@
                         "tilted": "Tilted"
                     }
                 },
-                "cutting": {
-                    "label": "Type",
-                    "placeholder": "Default"
-                },
                 "currency_multi": {
                     "label": "Currency Types",
                     "terms": "bills,cash,coins,money"
-                },
-                "cuisine": {
-                    "label": "Cuisines",
-                    "terms": "fare,food types",
-                    "options": {
-                        "pizza": "Pizza",
-                        "burger": "Burger",
-                        "coffee_shop": "Coffee Shop",
-                        "regional": "Regional",
-                        "italian": "Italian",
-                        "sandwich": "Sandwich",
-                        "chinese": "Chinese",
-                        "chicken": "Chicken",
-                        "japanese": "Japanese",
-                        "kebab": "Kebab",
-                        "mexican": "Mexican",
-                        "american": "American",
-                        "asian": "Asian",
-                        "ice_cream": "Ice Cream",
-                        "indian": "Indian",
-                        "sushi": "Sushi",
-                        "seafood": "Seafood",
-                        "thai": "Thai",
-                        "french": "French",
-                        "german": "German",
-                        "breakfast": "Breakfast",
-                        "greek": "Greek",
-                        "steak_house": "Steak House",
-                        "fish_and_chips": "Fish and Chips",
-                        "korean": "Korean",
-                        "barbecue": "Barbecue",
-                        "donut": "Donut",
-                        "noodle": "Noodle",
-                        "vietnamese": "Vietnamese",
-                        "fish": "Fish",
-                        "turkish": "Turkish",
-                        "cake": "Cake",
-                        "pasta": "Pasta",
-                        "tex-mex": "Tex-Mex",
-                        "bubble_tea": "Bubble Tea",
-                        "ramen": "Ramen",
-                        "mediterranean": "Mediterranean",
-                        "spanish": "Spanish",
-                        "friture": "Friterie",
-                        "tea": "Tea",
-                        "grill": "Bar and Grill",
-                        "juice": "Juice",
-                        "salad": "Salad",
-                        "crepe": "Crepe",
-                        "hot_dog": "Hot Dog",
-                        "hotpot": "Hot Pot",
-                        "pancake": "Pancake",
-                        "dessert": "Dessert",
-                        "diner": "Diner",
-                        "tapas": "Tapas",
-                        "portuguese": "Portuguese",
-                        "beef_bowl": "Gyūdon",
-                        "russian": "Russian",
-                        "indonesian": "Indonesian",
-                        "wings": "Chicken Wings",
-                        "lebanese": "Lebanese",
-                        "arab": "Arab",
-                        "curry": "Curry",
-                        "malaysian": "Malaysian",
-                        "bagel": "Bagel",
-                        "georgian": "Georgian",
-                        "polish": "Polish",
-                        "african": "African",
-                        "western": "Western",
-                        "sausage": "Sausage",
-                        "filipino": "Filipino",
-                        "caribbean": "Caribbean",
-                        "soba": "Soba",
-                        "peruvian": "Peruvian",
-                        "brazilian": "Brazilian",
-                        "oriental": "Oriental",
-                        "fine_dining": "Fine Dining",
-                        "frozen_yogurt": "Frozen Yogurt",
-                        "argentinian": "Argentinian",
-                        "balkan": "Balkan",
-                        "bavarian": "Bavarian",
-                        "ethiopian": "Ethiopian",
-                        "shawarma": "Shawarma",
-                        "persian": "Persian",
-                        "middle_eastern": "Middle Eastern",
-                        "pastry": "Pastry",
-                        "soup": "Soup",
-                        "fries": "Fries",
-                        "taiwanese": "Taiwanese",
-                        "bistro": "Bistro",
-                        "european": "European",
-                        "moroccan": "Moroccan",
-                        "hawaiian": "Hawaiian",
-                        "brunch": "Brunch",
-                        "udon": "Udon",
-                        "ukrainian": "Ukrainian"
-                    }
                 },
                 "crossing_raised": {
                     "label": "Raised",
@@ -2783,99 +1013,8 @@
                         "unmarked": "No Road Markings or Traffic Signals"
                     }
                 },
-                "crop": {
-                    "label": "Crops",
-                    "options": {
-                        "asparagus": "Asparagus",
-                        "barley": "Barley",
-                        "beet": "Beets",
-                        "cassava": "Cassava",
-                        "coffee": "Coffee",
-                        "cotton": "Cotton",
-                        "cranberries": "Cranberries",
-                        "fast_growing_wood": "Short-Rotation Coppice",
-                        "flowers": "Flowers",
-                        "grape": "Grapes",
-                        "grass": "Grass",
-                        "hop": "Hops",
-                        "lavender": "Lavender",
-                        "maize": "Corn",
-                        "potato": "Potatoes",
-                        "rape": "Rapeseed",
-                        "rice": "Rice",
-                        "strawberry": "Strawberries",
-                        "sugar_beet": "Sugar Beets",
-                        "sugarcane": "Sugarcane",
-                        "sunflower": "Sunflowers",
-                        "soy": "Soybeans",
-                        "tea": "Tea",
-                        "tobacco": "Tobacco",
-                        "vegetable": "Vegetables",
-                        "wheat": "Wheat"
-                    }
-                },
-                "craft": {
-                    "label": "Type",
-                    "options": {
-                        "agricultural_engines": "Agricultural Engines Mechanic",
-                        "basket_maker": "Basket Maker",
-                        "beekeeper": "Beekeeper",
-                        "blacksmith": "Blacksmith",
-                        "boatbuilder": "Boat Builder",
-                        "bookbinder": "Bookbinder",
-                        "brewery": "Brewery",
-                        "builder": "Builder",
-                        "carpenter": "Carpenter",
-                        "carpet_layer": "Carpet Layer",
-                        "caterer": "Caterer",
-                        "chimney_sweeper": "Chimney Sweeper",
-                        "cleaning": "Cleaning Service",
-                        "clockmaker": "Clockmaker",
-                        "confectionery": "Candy Maker",
-                        "distillery": "Distillery",
-                        "dressmaker": "Dressmaker",
-                        "electronics_repair": "Electronics Repair",
-                        "electrician": "Electrician",
-                        "floorer": "Floorer",
-                        "gardener": "Gardener",
-                        "glaziery": "Glaziery",
-                        "grinding_mill": "Grinding Mill",
-                        "handicraft": "Handicraft",
-                        "hvac": "HVAC",
-                        "insulation": "Insulator",
-                        "jeweller": "Jeweller",
-                        "joiner": "Joiner",
-                        "key_cutter": "Key Cutter",
-                        "locksmith": "Locksmith",
-                        "metal_construction": "Metalworker",
-                        "oil_mill": "Oil Mill",
-                        "painter": "Painter",
-                        "parquet_layer": "Parquet Layer",
-                        "photographer": "Photographer",
-                        "photographic_laboratory": "Photographic Laboratory",
-                        "plasterer": "Plasterer",
-                        "plumber": "Plumber",
-                        "pottery": "Pottery Maker",
-                        "rigger": "Rigger",
-                        "roofer": "Roofer",
-                        "saddler": "Saddler",
-                        "sailmaker": "Sailmaker",
-                        "sawmill": "Sawmill",
-                        "scaffolder": "Scaffolder",
-                        "sculptor": "Sculptor",
-                        "shoemaker": "Shoemaker",
-                        "signmaker": "Signmaker",
-                        "stonemason": "Stonemason",
-                        "tailor": "Tailor",
-                        "tiler": "Tiler",
-                        "tinsmith": "Tinsmith",
-                        "upholsterer": "Upholsterer",
-                        "watchmaker": "Watchmaker",
-                        "window_construction": "Window Construction",
-                        "winery": "Winery"
-                    }
-                },
                 "covered_no": {
+                    "label": "Covered",
                     "options": {
                         "undefined": "Assumed to be No",
                         "yes": "Yes",
@@ -2889,17 +1028,8 @@
                     "label": "Couplings",
                     "placeholder": "1, 2, 3..."
                 },
-                "country_flag": {
-                    "label": "Flag Country"
-                },
-                "country": {
-                    "label": "Country"
-                },
-                "count": {
-                    "label": "Number of Features"
-                },
-                "conveying_escalator": {
-                    "label": "Escalator"
+                "conveying_motion_sensor": {
+                    "label": "Motion sensor"
                 },
                 "conveying": {
                     "label": "Movement Direction",
@@ -2909,312 +1039,32 @@
                         "reversible": "Reversible"
                     }
                 },
-                "content": {
-                    "label": "Content"
-                },
-                "consulting": {
-                    "label": "Expertise"
-                },
-                "consulate": {
-                    "label": "Type",
-                    "options": {
-                        "consulate_general": "Consulate General",
-                        "honorary_consul": "Honorary Consul",
-                        "yes": "Consulate",
-                        "consular_office": "Consular Services Office",
-                        "consular_agency": "Consular Services Agency",
-                        "residence": "Official Residence of a Consul"
-                    }
-                },
-                "construction": {
-                    "label": "Type"
-                },
-                "connectivity": {
-                    "label": "Connectivity"
-                },
-                "community_centre": {
-                    "label": "Type",
-                    "options": {
-                        "club_home": "Club Home",
-                        "community_hall": "Community Hall",
-                        "cultural_centre": "Cultural Centre",
-                        "family_centre": "Family Centre",
-                        "parish_hall": "Parish Hall",
-                        "village_hall": "Village Hall",
-                        "youth_centre": "Youth Center"
-                    }
-                },
-                "communication_multi": {
-                    "label": "Communication Types"
-                },
-                "comment": {
-                    "label": "Changeset Comment",
-                    "placeholder": "Brief description of your contributions (required)"
-                },
                 "colour": {
                     "label": "Color"
                 },
-                "collector": {
-                    "label": "Items",
-                    "options": {
-                        "coins": "Coins",
-                        "stamps": "Stamps",
-                        "comics": "Comics"
-                    }
-                },
                 "collection_times": {
                     "label": "Collection Times"
-                },
-                "club": {
-                    "label": "Type"
-                },
-                "clothes": {
-                    "label": "Clothes",
-                    "options": {
-                        "babies": "Baby Clothing",
-                        "children": "Children's Clothing",
-                        "denim": "Jeans Clothing",
-                        "fur": "Fur Clothing",
-                        "hats": "Hats",
-                        "maternity": "Maternity Clothing",
-                        "men": "Men's Clothing",
-                        "motorcycle": "Motorcycle Clothing",
-                        "oversize": "Plus Size Clothing",
-                        "socks": "Socks",
-                        "sports": "Sportswear",
-                        "suits": "Suits",
-                        "swimwear": "Swimwear",
-                        "traditional": "Traditional Garments / Folk Costumes",
-                        "underwear": "Underwear",
-                        "wedding": "Wedding Clothing",
-                        "women": "Women's Clothing",
-                        "workwear": "Workwear"
-                    }
                 },
                 "circumference": {
                     "label": "Circumference (at Breast Height)",
                     "terms": "dbh,diameter at breast height",
                     "placeholder": "1 m, 20 cm, 30\"…"
                 },
-                "check_date": {
-                    "label": "Last Checked Date",
-                    "terms": "last survey date,survey date",
-                    "placeholder": "YYYY-MM-DD"
-                },
-                "charge_toll": {
-                    "label": "Toll Amount",
-                    "placeholder": "1 EUR, 5 USD, 10 JPY…"
-                },
-                "charge_fee": {
-                    "label": "Fee Amount",
-                    "placeholder": "1 EUR, 5 USD, 10 JPY…"
-                },
-                "changing_table": {
-                    "label": "Diaper Changing Table"
-                },
-                "ceremonial_gate": {
-                    "label": "Type",
-                    "options": {
-                        "torii": "Torii",
-                        "paifang": "Paifang",
-                        "hongsalmun": "Hongsalmun",
-                        "iljumun": "Iljumun"
-                    }
-                },
-                "castle_type": {
-                    "label": "Type",
-                    "options": {
-                        "defensive": "Defensive Castle",
-                        "palace": "Palace",
-                        "stately": "Stately Home",
-                        "manor": "Manor House",
-                        "fortress": "Fortress",
-                        "castrum": "Roman Fort",
-                        "shiro": "Shiro",
-                        "kremlin": "Kremlin",
-                        "hillfort": "Hillfort"
-                    }
-                },
-                "cash_in": {
-                    "label": "Deposits"
-                },
-                "caravans": {
-                    "label": "Campervan / Camping Trailer",
-                    "terms": "camper,camper trailer,caravan,tourer"
-                },
-                "capacity_volume": {
-                    "label": "Capacity (Cubic Meters)",
-                    "placeholder": "50, 100, 200..."
-                },
-                "capacity_parking": {
-                    "label": "Total Spaces",
-                    "placeholder": "10, 20, 30..."
-                },
                 "capacity": {
                     "label": "Capacity",
                     "placeholder": "50, 100, 200..."
                 },
-                "canoe": {
-                    "label": "Canoe Access"
-                },
-                "camping": {
-                    "label": "Camping"
-                },
-                "camp_site": {
-                    "label": "Type",
-                    "options": {
-                        "basic": {
-                            "title": "Basic (only tent/vehicle spots)",
-                            "description": "Nothing but a place to pitch a tent or park a vehicle"
-                        },
-                        "standard": {
-                            "title": "Standard (offers toilets and water)",
-                            "description": "Toilets and water are provided or available nearby"
-                        },
-                        "serviced": {
-                            "title": "Serviced (offers showers and electricity)",
-                            "description": "Toilets, water, showers and electricity are provided"
-                        },
-                        "deluxe": {
-                            "title": "Deluxe (offers laundry or swimming pool, etc.)",
-                            "description": "Fully serviced and has additional amenities like a laundry, swimming pool or similar recreation facilities"
-                        }
-                    }
-                },
-                "cai_scale-IT": {
-                    "label": "Hiking Route Difficulty (Italian Alpine Club)",
-                    "placeholder": "T, E, EE, …",
-                    "options": {
-                        "T": "T: Touristic",
-                        "E": "E: For hikers",
-                        "EE": "EE: For expert hikers",
-                        "EEA": "EEA: For expert hikers with equipment",
-                        "EAI": "EAI: Hiking in snowy conditions"
-                    }
-                },
-                "cables": {
-                    "label": "Cables",
-                    "placeholder": "1, 2, 3..."
-                },
-                "cabins": {
-                    "label": "Cabins"
-                },
                 "button_operated": {
                     "label": "Call Button"
                 },
-                "bunker_type": {
-                    "label": "Type"
-                },
-                "building_area_yes": {},
-                "building_area": {},
-                "building": {
-                    "label": "Building",
-                    "terms": "structure",
-                    "options": {
-                        "allotment_house": "Allotment House",
-                        "apartments": "Apartment Building",
-                        "barn": "Barn",
-                        "boathouse": "Boathouse",
-                        "bungalow": "Bungalow",
-                        "bunker": "Bunker",
-                        "cabin": "Cabin",
-                        "carport": "Carport",
-                        "cathedral": "Cathedral Building",
-                        "chapel": "Chapel Building",
-                        "church": "Church Building",
-                        "civic": "Civic Building",
-                        "college": "College Building",
-                        "commercial": "Commercial Building",
-                        "construction": "Building Under Construction",
-                        "cowshed": "Cowshed",
-                        "detached": "Detached House",
-                        "dormitory": "Dormitory",
-                        "farm": "Farm House",
-                        "farm_auxiliary": "Farm Building",
-                        "fire_station": "Fire Station Building",
-                        "garage": "Garage",
-                        "garages": "Garages",
-                        "ger": "Yurt",
-                        "grandstand": "Grandstand",
-                        "greenhouse": "Greenhouse",
-                        "hangar": "Hangar Building",
-                        "hospital": "Hospital Building",
-                        "hotel": "Hotel Building",
-                        "house": "House",
-                        "houseboat": "Houseboat",
-                        "hut": "Hut",
-                        "industrial": "Industrial Building",
-                        "kindergarten": "Preschool / Kindergarten Building",
-                        "manufacture": "Industrial Production Building",
-                        "mosque": "Mosque Building",
-                        "office": "Office Building",
-                        "outbuilding": "Outbuilding",
-                        "pavilion": "Pavilion Building",
-                        "public": "Public Building",
-                        "residential": "Residential Building",
-                        "retail": "Retail Building",
-                        "riding_hall": "Horseback Riding Arena",
-                        "roof": "Roof",
-                        "ruins": "Building Ruins",
-                        "school": "School Building",
-                        "semidetached_house": "Semi-Detached House",
-                        "service": "Service Building",
-                        "shed": "Shed",
-                        "stable": "Stable",
-                        "stadium": "Stadium Building",
-                        "static_caravan": "Mobile Home",
-                        "sty": "Pigsty",
-                        "synagogue": "Synagogue Building",
-                        "temple": "Temple Building",
-                        "terrace": "Row Houses",
-                        "train_station": "Train Station Building",
-                        "transportation": "Transportation Building",
-                        "university": "University Building",
-                        "warehouse": "Warehouse",
-                        "container": "Container"
-                    }
-                },
-                "bridge_combo": {
-                    "label": "Type",
-                    "options": {
-                        "aqueduct": "Aqueduct",
-                        "boardwalk": "Boardwalk",
-                        "cantilever": "Cantilever Bridge",
-                        "covered": "Covered Bridge",
-                        "low_water_crossing": "Low Water Crossing",
-                        "movable": "Movable Bridge",
-                        "trestle": "Trestle Bridge",
-                        "viaduct": "Viaduct"
-                    }
-                },
-                "bridge": {
-                    "label": "Type",
-                    "placeholder": "Default"
-                },
-                "brewery": {
-                    "label": "Sold Beer brands",
-                    "terms": "beer brand,beer dispensing,bottled beer,draft beer,on tap,tap beer"
+                "building_area_yes": {
+                    "label": "Building"
                 },
                 "brand": {
                     "label": "Brand"
                 },
                 "branch_brand": {
                     "label": "Branch"
-                },
-                "boundary": {
-                    "label": "Type"
-                },
-                "boules": {
-                    "label": "Type"
-                },
-                "bottle": {
-                    "label": "Bottle Filling"
-                },
-                "booth": {
-                    "label": "Booth"
-                },
-                "books": {
-                    "label": "Type of Books"
                 },
                 "bollard": {
                     "label": "Type",
@@ -3224,32 +1074,6 @@
                         "foldable": "Foldable Bollard",
                         "removable": "Removable Bollard",
                         "rising": "Rising Bollard"
-                    }
-                },
-                "boat": {
-                    "label": "Boat Access"
-                },
-                "board_type": {
-                    "label": "Type",
-                    "options": {
-                        "art": "Art",
-                        "astronomy": "Astronomy",
-                        "geology": "Geology",
-                        "history": "History",
-                        "nature": "Nature",
-                        "notice": "Notice Board",
-                        "plants": "Plants",
-                        "welcome_sign": "Welcome Sign",
-                        "wildlife": "Wildlife"
-                    }
-                },
-                "blood_components": {
-                    "label": "Blood Components",
-                    "options": {
-                        "whole": "whole blood",
-                        "plasma": "plasma",
-                        "platelets": "platelets",
-                        "stemcells": "stem cell samples"
                     }
                 },
                 "blind": {
@@ -3265,59 +1089,9 @@
                     "label": "Waste Bin",
                     "terms": "garbage can,trash can"
                 },
-                "bike_ride": {
-                    "label": "Bike and Ride"
-                },
-                "bicycle_road": {
-                    "label": "Cycle Street",
-                    "terms": "bicycle boulevard,bicycle road,cyclestreet,neighborhood bikeway,neighborhood byway,neighborhood greenway,neighborway",
-                    "options": {
-                        "undefined": "No",
-                        "yes": "Yes"
-                    }
-                },
-                "bicycle_parking": {
-                    "label": "Type",
-                    "options": {
-                        "stands": "Stand (supports bicycle frame)",
-                        "wall_loops": "Wheelbender (supports wheel only)",
-                        "shed": "Closed Shed",
-                        "lockers": "Individual Lockers",
-                        "building": "In a Building",
-                        "handlebar_holder": "Handlebar Holder"
-                    }
-                },
                 "bench": {
                     "label": "Bench",
                     "terms": "seating"
-                },
-                "beauty": {
-                    "label": "Services",
-                    "options": {
-                        "nails": "Manicure / Pedicure",
-                        "tanning": "Tanning",
-                        "cosmetics": "Cosmetics",
-                        "spa": "Day Spa",
-                        "skin_care": "Skin Care",
-                        "waxing": "Waxing",
-                        "hair_removal": "Hair Removal"
-                    }
-                },
-                "basin": {
-                    "label": "Type",
-                    "options": {
-                        "detention": "Detention",
-                        "evaporation": "Evaporation",
-                        "infiltration": "Infiltration",
-                        "retention": "Retention"
-                    }
-                },
-                "barrier_planter": {
-                    "label": "Barrier",
-                    "options": {
-                        "undefined": "No",
-                        "planter": "Yes"
-                    }
                 },
                 "barrier": {
                     "label": "Type",
@@ -3347,169 +1121,17 @@
                         "turnstile": "Turnstile"
                     }
                 },
-                "bar": {
-                    "label": "Bar"
+                "automatic_door": {
+                    "label": "Automatic Door"
                 },
-                "backrest": {
-                    "label": "Backrest"
+                "audio_loop": {
+                    "label": "Audio Induction Loop"
                 },
-                "backcountry": {
-                    "label": "Backcountry"
-                },
-                "baby_seat": {
-                    "label": "Baby Seat"
-                },
-                "baby_feeding": {
-                    "label": "Baby Nursing Area",
-                    "terms": "baby feeding,breastfeeding,lactation,mothers,nursing",
-                    "options": {
-                        "room": "Dedicated Room",
-                        "yes": "Marked Space",
-                        "no": "None"
-                    }
-                },
-                "automated": {
-                    "label": "Automated"
-                },
-                "attraction": {
-                    "label": "Type",
-                    "options": {
-                        "animal": "Animal Enclosure",
-                        "water_slide": "Water Slide",
-                        "amusement_ride": "Amusement Ride",
-                        "roller_coaster": "Roller Coaster",
-                        "carousel": "Carousel",
-                        "maze": "Maze",
-                        "summer_toboggan": "Summer Toboggan",
-                        "big_wheel": "Ferris Wheel",
-                        "train": "Tourist Train",
-                        "bumper_car": "Bumper Cars",
-                        "bungee_jumping": "Bungee Jumping",
-                        "dark_ride": "Dark Ride",
-                        "drop_tower": "Drop Tower Ride",
-                        "kiddie_ride": "Kiddie Ride",
-                        "log_flume": "Log Flume",
-                        "pirate_ship": "Pirate Ship Ride",
-                        "river_rafting": "River Rapids Ride",
-                        "swing_carousel": "Swing Carousel",
-                        "alpine_coaster": "Alpine Coaster"
-                    }
-                },
-                "atm": {
-                    "label": "ATM"
-                },
-                "athletics_track": {
-                    "label": "Event",
-                    "options": {
-                        "javelin_throw": "Javelin",
-                        "long_jump": "Long Jump",
-                        "pole_vault": "Pole Vault",
-                        "running": "Running",
-                        "sprint": "Sprinting",
-                        "steeplechase": "Steeplechase",
-                        "triple_jump": "Triple Jump"
-                    }
-                },
-                "athletics_pitch": {
-                    "label": "Event",
-                    "options": {
-                        "discus_throw": "Discus",
-                        "hammer_throw": "Hammer Throw",
-                        "high_jump": "High Jump",
-                        "javelin_throw": "Javelin",
-                        "long_jump": "Long Jump",
-                        "pole_vault": "Pole Vault",
-                        "shot_put": "Shot Put",
-                        "triple_jump": "Triple Jump"
-                    }
-                },
-                "ascent": {
-                    "label": "Total Ascent",
-                    "terms": "ascent,climb,cumulative elevation gain"
-                },
-                "artwork_type": {
-                    "label": "Type",
-                    "options": {
-                        "sculpture": "Sculpture",
-                        "statue": "Statue",
-                        "mural": "Mural",
-                        "installation": "Art Installation",
-                        "graffiti": "Graffiti",
-                        "bust": "Bust",
-                        "painting": "Painting",
-                        "mosaic": "Mosaic",
-                        "relief": "Relief",
-                        "stone": "Artistically Worked Stone",
-                        "tilework": "Tile Work"
-                    }
-                },
-                "artist": {
-                    "label": "Artist"
-                },
-                "armrest": {
-                    "label": "Armrests",
-                    "options": {
-                        "undefined": "Unknown",
-                        "yes": "One or more armrests",
-                        "no": "No armrests"
-                    }
-                },
-                "architect": {
-                    "label": "Architect",
-                    "terms": "building designer"
-                },
-                "archaeological_site": {
-                    "label": "Type",
-                    "options": {
-                        "baths": "Baths",
-                        "city": "Historic City",
-                        "crannog": "Crannog",
-                        "enclosure": "Enclosure",
-                        "fortification": "Fortification",
-                        "hut_circle": "Hut Circle",
-                        "megalith": "Megalith",
-                        "necropolis": "Necropolis",
-                        "petroglyph": "Rock Carving",
-                        "roman_circus": "Roman Circus",
-                        "roman_villa": "Roman Villa",
-                        "settlement": "Historic Settlement",
-                        "tumulus": "Tumulus"
-                    }
-                },
-                "animal_shelter": {
-                    "label": "For Animals"
-                },
-                "animal_breeding": {
-                    "label": "For Animals"
-                },
-                "animal_boarding": {
-                    "label": "For Animals"
-                },
-                "amenity": {
-                    "label": "Type"
-                },
-                "alt_name": {
-                    "label": "Alternative Name",
-                    "terms": "aka,alias,also known as,nonstandard name,secondary name"
-                },
-                "air_conditioning": {
-                    "label": "Air Conditioning",
-                    "terms": "cooling system,refrigeration"
-                },
-                "agrarian": {
-                    "label": "Products"
-                },
-                "aeroway": {
-                    "label": "Type"
-                },
-                "aerialway": {
-                    "label": "Type"
+                "announcement": {
+                    "label": "Announcement"
                 },
                 "advertising": {
                     "label": "Type"
-                },
-                "admin_level": {
-                    "label": "Admin Level"
                 },
                 "address": {
                     "label": "Address",
@@ -3555,16 +1177,6 @@
                         "suburb!jp": "Ward (政令市)",
                         "town": "Town",
                         "unit": "Unit"
-                    }
-                },
-                "activity": {
-                    "label": "Activity",
-                    "options": {
-                        "hiking": "Hiking",
-                        "bicycle": "Cycling",
-                        "mtb": "Mountain Biking",
-                        "horse": "Horseback Riding",
-                        "ski": "Skiing"
                     }
                 },
                 "access_simple": {
@@ -3636,60 +1248,6 @@
                         }
                     }
                 },
-                "windings/configuration": {
-                    "label": "Windings Configuration",
-                    "options": {
-                        "star": "Star / Wye",
-                        "delta": "Delta",
-                        "open-delta": "Open Delta",
-                        "zigzag": "Zig Zag",
-                        "open": "Open",
-                        "scott": "Scott",
-                        "leblanc": "Leblanc"
-                    }
-                },
-                "windings/auto": {
-                    "label": "Autotransformer",
-                    "options": {
-                        "undefined": "Assumed to be No",
-                        "yes": "Yes",
-                        "no": "No"
-                    }
-                },
-                "website/menu": {
-                    "label": "Menu Link",
-                    "terms": "menu,menu uri,menu url,online menu,website menu",
-                    "placeholder": "https://example.com"
-                },
-                "water_tank/volume": {
-                    "label": "Volume (Liters)",
-                    "placeholder": "10000, 20000, 30000…"
-                },
-                "voltage/tertiary": {
-                    "label": "Tertiary Voltage"
-                },
-                "voltage/secondary": {
-                    "label": "Secondary Voltage"
-                },
-                "voltage/primary": {
-                    "label": "Primary Voltage"
-                },
-                "volcano/type": {
-                    "label": "Volcano Type",
-                    "options": {
-                        "stratovolcano": "Stratovolcano",
-                        "shield": "Shield",
-                        "scoria": "Scoria"
-                    }
-                },
-                "volcano/status": {
-                    "label": "Volcano Status",
-                    "options": {
-                        "active": "Active",
-                        "dormant": "Dormant",
-                        "extinct": "Extinct"
-                    }
-                },
                 "tunnel/name": {
                     "label": "Tunnel Name"
                 },
@@ -3711,23 +1269,6 @@
                         }
                     }
                 },
-                "traffic_signals/minimap": {
-                    "label": "Tactile Map"
-                },
-                "traffic_signals/direction": {
-                    "label": "Direction Affected",
-                    "options": {
-                        "forward": "Forward",
-                        "backward": "Backward",
-                        "both": "Both / All"
-                    }
-                },
-                "traffic_signals/countdown": {
-                    "label": "Countdown Timer"
-                },
-                "traffic_signals/arrow": {
-                    "label": "Tactile Arrow"
-                },
                 "traffic_sign/direction": {
                     "label": "Direction Affected",
                     "options": {
@@ -3736,400 +1277,11 @@
                         "both": "Both / All"
                     }
                 },
-                "townhall/type": {
-                    "label": "Type"
-                },
-                "tower/type": {
-                    "label": "Type"
-                },
-                "tower/platforms": {
-                    "label": "Platforms",
-                    "placeholder": "1, 2, 3..."
-                },
-                "tower/construction": {
-                    "label": "Construction",
-                    "placeholder": "Guyed, Lattice, Concealed, ..."
-                },
-                "toilets/wheelchair": {
-                    "label": "Wheelchair Accessible Toilet",
-                    "options": {
-                        "yes": "Yes",
-                        "limited": "Limited",
-                        "no": "No"
-                    }
-                },
-                "toilets/position": {
-                    "label": "Positions"
-                },
-                "toilets/menstrual_products_poi": {},
-                "toilets/menstrual_products": {
-                    "label": "Free Menstrual Products Available",
-                    "terms": "feminine hygiene,pads,period,period products,tampons",
-                    "options": {
-                        "yes": "Yes, in all stalls",
-                        "limited": "Limited to some stalls",
-                        "no": "No"
-                    }
-                },
-                "toilets/handwashing": {
-                    "label": "Handwashing"
-                },
-                "toilets/disposal": {
-                    "label": "Disposal",
-                    "options": {
-                        "flush": "Flush",
-                        "pitlatrine": "Pit Latrine",
-                        "chemical": "Chemical",
-                        "bucket": "Bucket"
-                    }
-                },
-                "telescope/type": {
-                    "label": "Type",
-                    "options": {
-                        "optical": "Optical Telescope",
-                        "radio": "Radio Telescope"
-                    }
-                },
-                "telecom/medium": {
-                    "label": "Medium"
-                },
-                "survey_point/structure": {
-                    "label": "Structure",
-                    "options": {
-                        "beacon": "Beacon",
-                        "block": "Block",
-                        "pole": "Pole",
-                        "pillar": "Pillar",
-                        "bracket": "Bracket",
-                        "plaque": "Plaque",
-                        "medallion": "Medallion",
-                        "cairn": "Cairn",
-                        "pin": "Pin",
-                        "indented_pin": "Indented pin",
-                        "cut": "Cut",
-                        "magnet": "Magnet"
-                    }
-                },
-                "survey_point/purpose": {
-                    "label": "Purpose",
-                    "options": {
-                        "horizontal": "Horizontal Alignment",
-                        "vertical": "Vertical Alignment",
-                        "both": "Both"
-                    }
-                },
-                "survey_point/datum_aligned": {
-                    "label": "Aligned to the Local Geodetic Datum"
-                },
                 "survey/date": {
                     "label": "Last Survey Date"
                 },
-                "surveillance/zone": {
-                    "label": "Surveillance Zone"
-                },
-                "surveillance/type": {
-                    "label": "Surveillance Type",
-                    "options": {
-                        "camera": "Camera",
-                        "guard": "Guard",
-                        "ALPR": "Automatic License Plate Reader"
-                    }
-                },
-                "summit/cross": {
-                    "label": "Summit Cross",
-                    "terms": "cross"
-                },
-                "subject/wikidata": {
-                    "label": "Subject Wikidata"
-                },
-                "sport/sport_racing_nonmotor": {
-                    "label": "Sports"
-                },
-                "sport/sport_racing_motor": {
-                    "label": "Sports"
-                },
-                "sport/sport_pub": {
-                    "label": "Sports"
-                },
-                "sport/sport_ice": {
-                    "label": "Sports"
-                },
                 "species/wikidata": {
                     "label": "Species Wikidata"
-                },
-                "source/population": {
-                    "label": "Population Source"
-                },
-                "siren/type": {
-                    "label": "Type",
-                    "options": {
-                        "pneumatic": "Pneumatic",
-                        "electronic": "Electronic",
-                        "other": "Other"
-                    }
-                },
-                "siren/purpose": {
-                    "label": "Purpose"
-                },
-                "service/vehicle": {
-                    "label": "Services"
-                },
-                "service/bicycle": {
-                    "label": "Bicycle Services"
-                },
-                "seamark/type": {
-                    "label": "Seamark",
-                    "terms": "marine"
-                },
-                "seamark/wreck/category": {
-                    "label": "Category"
-                },
-                "seamark/rescue_station/category": {
-                    "label": "Life Saving Equipment",
-                    "options": {
-                        "lifeboat": "Lifeboat (on Land)",
-                        "lifeboat_on_mooring": "Lifeboat (at a Mooring)",
-                        "seaplane": "Seaplane",
-                        "aircraft": "Aircraft",
-                        "hovercraft": "Hovercraft",
-                        "radio": "Radio Station",
-                        "first_aid": "First aid",
-                        "refuge_shipwrecked": "Shipwreck Refuge",
-                        "refuge_intertidal": "Intertidal Refuge",
-                        "tug": "Salvage tug"
-                    }
-                },
-                "seamark/mooring/category": {
-                    "label": "Category"
-                },
-                "seamark/harbour/category_marina": {
-                    "label": "Domestic Facilities",
-                    "options": {
-                        "marina": "Yes",
-                        "marina_no_facilities": "No"
-                    }
-                },
-                "seamark/buoy_lateral/system": {
-                    "label": "System",
-                    "options": {
-                        "iala-a": "IALA A",
-                        "iala-b": "IALA B",
-                        "cevni": "CEVNI",
-                        "other": "Other"
-                    }
-                },
-                "seamark/buoy_lateral/shape": {
-                    "label": "Shape"
-                },
-                "seamark/buoy_lateral/colour": {
-                    "label": "Color",
-                    "options": {
-                        "red": "Red",
-                        "green": "Green",
-                        "red;white;red;white": "Red-White-Red-White",
-                        "green;white;green;white": "Green-White-Green-White",
-                        "red;green;red": "Red-Green-Red",
-                        "green;red;green": "Green-Red-Green",
-                        "white": "White",
-                        "yellow": "Yellow"
-                    }
-                },
-                "seamark/buoy_lateral/category": {
-                    "label": "Category",
-                    "options": {
-                        "port": "Port",
-                        "starboard": "Starboard",
-                        "channel_left": "Channel Left",
-                        "channel_right": "Channel Right",
-                        "waterway_left": "Waterway Left",
-                        "waterway_right": "Waterway Right",
-                        "danger_left": "Danger Left",
-                        "danger_right": "Danger Right",
-                        "preferred_channel_port": "Preferred Channel Port",
-                        "preferred_channel_starboard": "Preferred Channel Starboard"
-                    }
-                },
-                "seamark/beacon_lateral/system": {
-                    "label": "System",
-                    "options": {
-                        "iala-a": "IALA A",
-                        "iala-b": "IALA B",
-                        "cevni": "CEVNI",
-                        "other": "Other"
-                    }
-                },
-                "seamark/beacon_lateral/shape": {
-                    "label": "Shape"
-                },
-                "seamark/beacon_lateral/colour": {
-                    "label": "Color",
-                    "options": {
-                        "red": "Red",
-                        "green": "Green",
-                        "grey": "Grey"
-                    }
-                },
-                "seamark/beacon_lateral/category": {
-                    "label": "Category",
-                    "options": {
-                        "port": "Port",
-                        "starboard": "Starboard",
-                        "waterway_left": "Waterway Left",
-                        "waterway_right": "Waterway Right",
-                        "danger_left": "Danger Left",
-                        "danger_right": "Danger Right"
-                    }
-                },
-                "seamark/beacon_isolated_danger/shape": {
-                    "label": "Shape"
-                },
-                "rotor/diameter": {
-                    "label": "Rotor Diameter (Meters)"
-                },
-                "roof/shape": {
-                    "label": "Roof Shape",
-                    "options": {
-                        "flat": "Flat",
-                        "gabled": "Gabled",
-                        "gabled_height_moved": "Gabled (Height Moved)",
-                        "skillion": "Skillion",
-                        "hipped": "Hipped",
-                        "half-hipped": "Half-Hipped",
-                        "side_hipped": "Side-Hipped",
-                        "side_half-hipped": "Side Half-Hipped",
-                        "mansard": "Mansard",
-                        "gambrel": "Gambrel",
-                        "hipped-and-gabled": "Hipped & Gabled",
-                        "pyramidal": "Pyramidal",
-                        "crosspitched": "Cross-Pitched",
-                        "sawtooth": "Sawtooth",
-                        "butterfly": "Butterfly",
-                        "cone": "Cone",
-                        "dome": "Dome",
-                        "onion": "Onion",
-                        "round": "Round"
-                    }
-                },
-                "roof/height": {
-                    "label": "Roof Height (Meters)"
-                },
-                "roof/colour": {
-                    "label": "Roof Color"
-                },
-                "roller_coaster/track": {
-                    "label": "Type",
-                    "options": {
-                        "lift_hill": {
-                            "title": "Lift Hill",
-                            "description": "An inclined track meant to give the trains potential energy"
-                        },
-                        "launch_straight": {
-                            "title": "Launch Track",
-                            "description": "A section of track meant to accelerate the trains through external input"
-                        },
-                        "brake_run": {
-                            "title": "Brake Run",
-                            "description": "A section of track meant to slow or stop trains"
-                        },
-                        "station": {
-                            "title": "Station",
-                            "description": "A section of track where a train stops to board and unboard passengers"
-                        },
-                        "moving": {
-                            "title": "Moving",
-                            "description": "Any type of moving track, like switch tracks"
-                        },
-                        "waiting": {
-                            "title": "Waiting",
-                            "description": "Tracks used to hold trains if the next block section is occupied"
-                        },
-                        "maintenance": {
-                            "title": "Maintenance",
-                            "description": "Tracks meant to hold spare trains or conduct maintenance"
-                        }
-                    }
-                },
-                "ref/vatin": {
-                    "label": "VAT ID Number",
-                    "terms": "value added tax identification number,vatin"
-                },
-                "ref/isil": {
-                    "label": "ISIL Code"
-                },
-                "ref/edubase-GB": {
-                    "label": "Department for Education Reference",
-                    "terms": "dfe urn,edubase reference"
-                },
-                "ref/linz/place_id-NZ": {
-                    "label": "NZGB Place ID",
-                    "terms": "land information new zealand,linz,new zealand geographic board,ngā pou taunaha o aotearoa,nz,nzgb,toitū te whenua"
-                },
-                "ref/FR/siret-FR": {
-                    "label": "SIRET Number",
-                    "terms": "french company identification number,siret"
-                },
-                "ref/EU/EVSE-EU": {
-                    "label": "EVSE identifier (Electrical Vehicle Supply Equipment)",
-                    "placeholder": "DE*ABC*E12345ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                },
-                "railway/turnout_side": {
-                    "label": "Turnout Side",
-                    "options": {
-                        "left": "Left",
-                        "right": "Right"
-                    }
-                },
-                "railway/track_ref": {
-                    "label": "Track Number"
-                },
-                "railway/switch": {
-                    "label": "Switch Type",
-                    "options": {
-                        "default": "Normal Switch",
-                        "double_slip": "Double-slip Switch",
-                        "single_slip": "Single-slip Switch",
-                        "wye": "Wye Switch",
-                        "three_way": "Three-way Switch",
-                        "abt": "Abt Switch"
-                    }
-                },
-                "railway/signal_box": {
-                    "label": "Type",
-                    "options": {
-                        "mechanical": "Mechanical",
-                        "electric": "Electrical",
-                        "track_diagram": "Digital",
-                        "electronic": "Fully Automated"
-                    }
-                },
-                "railway/ref": {},
-                "railway/position": {
-                    "label": "Milestone Position",
-                    "placeholder": "Distance to one decimal (123.4)"
-                },
-                "railway/local_operated": {
-                    "label": "Locally Operated"
-                },
-                "railway/signal/position": {
-                    "label": "Placement",
-                    "options": {
-                        "left": "Left",
-                        "right": "Right",
-                        "in_track": "In the track",
-                        "bridge": "Overhead (attached to a gantry)",
-                        "overhead": "Overhead (attached to the catenary wire)"
-                    }
-                },
-                "railway/signal/direction": {
-                    "label": "Direction Affected",
-                    "options": {
-                        "forward": "Forward",
-                        "backward": "Backward",
-                        "both": "Both / All"
-                    }
-                },
-                "public_bookcase/type": {
-                    "label": "Type"
                 },
                 "post_box/type": {
                     "label": "Type",
@@ -4139,155 +1291,8 @@
                         "wall": "Mounted in a Wall"
                     }
                 },
-                "post_box/type-GB": {},
-                "population/date": {
-                    "label": "Population Date",
-                    "placeholder": "YYYY-MM-DD"
-                },
-                "playground/theme": {
-                    "label": "Theme"
-                },
-                "plant/source": {
-                    "label": "Energy Source"
-                },
-                "plant/output": {
-                    "label": "Form of Power Output",
-                    "options": {
-                        "electricity": "Electricity",
-                        "hot_water": "Hot Water",
-                        "hot_air": "Hot Air",
-                        "cold_water": "Cold Water",
-                        "cold_air": "Cold Air",
-                        "compressed_air": "Compressed Air",
-                        "steam": "Steam",
-                        "vacuum": "Vacuum"
-                    }
-                },
-                "plant/method": {
-                    "label": "Generation Method"
-                },
-                "plant/output/electricity": {
-                    "label": "Electric Power Output",
-                    "placeholder": "500 MW, 1000 MW, 2000 MW..."
-                },
-                "plant/method/waste": {},
-                "plant/method/solar": {},
-                "plant/method/hydro": {},
-                "piste/type": {
-                    "label": "Type",
-                    "options": {
-                        "downhill": "Downhill",
-                        "nordic": "Nordic",
-                        "skitour": "Skitour",
-                        "sled": "Sled",
-                        "hike": "Hike",
-                        "sleigh": "Sleigh",
-                        "ice_skate": "Ice Skate",
-                        "snow_park": "Snow Park",
-                        "playground": "Playground",
-                        "connection": "Connection",
-                        "ski_jump": "Ski Jump"
-                    }
-                },
-                "piste/grooming_nordic": {
-                    "options": {
-                        "classic": "Classic",
-                        "backcountry": "Backcountry, no grooming",
-                        "classic+skating": "Classic and Skating",
-                        "scooter": "Scooter/Snowmobile",
-                        "skating": "Skating"
-                    }
-                },
-                "piste/grooming_hike": {
-                    "options": {
-                        "classic": "Classic - Winter Hiking",
-                        "backcountry": "Backcountry - Snowshoeing"
-                    }
-                },
-                "piste/grooming_downhill": {
-                    "options": {
-                        "classic": "Classic",
-                        "mogul": "Mogul",
-                        "backcountry": "Backcountry - no grooming"
-                    }
-                },
-                "piste/grooming": {
-                    "label": "Grooming",
-                    "options": {
-                        "classic": "Classic",
-                        "mogul": "Mogul",
-                        "backcountry": "Backcountry",
-                        "classic+skating": "Classic and Skating",
-                        "scooter": "Scooter/Snowmobile",
-                        "skating": "Skating"
-                    }
-                },
-                "piste/difficulty_skitour": {
-                    "placeholder": "Easy, Intermediate, Advanced...",
-                    "options": {
-                        "novice": "Novice - L: <30° incline",
-                        "easy": "Easy - WS: 30-35° incline",
-                        "intermediate": "Intermediate - ZS: 35-40° incline",
-                        "advanced": "Advanced - S: 40-45° incline",
-                        "expert": "Expert - SS: 45–50° incline",
-                        "freeride": "Freeride - AS: 50–55° incline",
-                        "extreme": "Extreme - EX: >55° incline"
-                    }
-                },
-                "piste/difficulty_nordic": {
-                    "placeholder": "Easy, Intermediate, Advanced...",
-                    "options": {
-                        "novice": "Novice - Flat, no effort needed",
-                        "easy": "Easy - Soft hills, short steep section",
-                        "intermediate": "Intermediate - Steep section",
-                        "advanced": "Advanced - Narrow, steep or icy section, sharp turn",
-                        "expert": "Expert - Dangerous terrain around"
-                    }
-                },
-                "piste/difficulty_downhill": {
-                    "placeholder": "Easy, Intermediate, Advanced...",
-                    "options": {
-                        "novice": "Novice (instructional)",
-                        "easy": "Easy (green circle)",
-                        "intermediate": "Intermediate (blue square)",
-                        "advanced": "Advanced (black diamond)",
-                        "expert": "Expert (double black diamond)",
-                        "freeride": "Freeride (off-piste)",
-                        "extreme": "Extreme (climbing equipment required)"
-                    }
-                },
-                "piste/difficulty": {
-                    "label": "Difficulty",
-                    "placeholder": "Easy, Intermediate, Advanced...",
-                    "options": {
-                        "novice": "Novice",
-                        "easy": "Easy",
-                        "intermediate": "Intermediate",
-                        "advanced": "Advanced",
-                        "expert": "Expert",
-                        "freeride": "Freeride",
-                        "extreme": "Extreme"
-                    }
-                },
-                "parking/side/parking": {
-                    "label": "Parking",
-                    "types": {
-                        "parking:left": "Left side",
-                        "parking:right": "Right side"
-                    },
-                    "options": {
-                        "lane": "Roadside Lane",
-                        "street_side": "Street-Side",
-                        "on_kerb": "On Kerb",
-                        "half_on_kerb": "Half On Kerb",
-                        "shoulder": "Shoulder",
-                        "no": "No",
-                        "separate": "Parking mapped separately",
-                        "yes": "Yes (unspecified)"
-                    }
-                },
-                "parking/side/orientation": {
-                    "label": "Parking Orientation",
+                "orientation/orientation_parking": {
+                    "label": "Orientation",
                     "types": {
                         "parking:left:orientation": "Left side",
                         "parking:right:orientation": "Right side"
@@ -4298,25 +1303,9 @@
                         "perpendicular": "Meets the Street at a Straight Angle (~90°)"
                     }
                 },
-                "orientation/orientation_parking": {
-                    "label": "Orientation"
-                },
-                "operator/type": {
-                    "label": "Operator Type"
-                },
-                "opening_hours/drive_through": {
-                    "label": "Drive Through Hours",
-                    "placeholder": "Same as regular business hours"
-                },
-                "oneway/bicycle": {
-                    "label": "One Way (Bicycles)"
-                },
                 "not/name": {
                     "label": "Incorrect Names",
                     "terms": "common mistake names,wrong names"
-                },
-                "network/type": {
-                    "label": "Network Type"
                 },
                 "mtb/scale": {
                     "label": "Mountain Biking Difficulty",
@@ -4354,26 +1343,8 @@
                         "4": "◆◆ Extremely Difficult (double black diamond)"
                     }
                 },
-                "model/wikidata": {
-                    "label": "Model Wikidata"
-                },
-                "memorial/addr_subtags": {},
-                "memorial/addr": {
-                    "label": "Nearest Building Address"
-                },
                 "maxwidth/physical": {
-                    "label": "Width Limit"
-                },
-                "maxspeed/hgv": {
-                    "label": "Truck Speed Limit",
-                    "placeholder": "40, 50, 60..."
-                },
-                "maxspeed/advisory": {
-                    "label": "Advisory Speed Limit",
-                    "placeholder": "40, 50, 60..."
-                },
-                "manufacturer/wikidata": {
-                    "label": "Manufacturer Wikidata"
+                    "label": "Width Limit (Meters)"
                 },
                 "lift_gate/type": {
                     "label": "Type",
@@ -4382,254 +1353,46 @@
                         "double": "Opposing Bars"
                     }
                 },
+                "kerb/width": {
+                    "label": "Kerb Width"
+                },
+                "kerb/visibility_obstacle": {
+                    "label": "Visibility Obstacle at kerb",
+                    "options": {
+                        "parking_space": "car parking space",
+                        "waste_disposal": "waste disposal",
+                        "recycling": "recycling disposal",
+                        "hedge": "hedge",
+                        "building": "building"
+                    }
+                },
+                "kerb/visibility": {
+                    "label": "Visibility at kerb",
+                    "options": {
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad"
+                    }
+                },
                 "kerb/kerb_barrier": {
                     "label": "Type"
                 },
+                "kerb/incline": {
+                    "label": "Kerb Incline",
+                    "options": {
+                        "0%": "flat (0%)",
+                        "3%": "gentle (3%)",
+                        "5%": "medium (5%)",
+                        "8%": "steep (8%)",
+                        "12%": "very steep (12%)"
+                    }
+                },
                 "kerb/height": {
-                    "label": "Height"
-                },
-                "junction/ref_oneway": {
-                    "label": "Junction Number"
-                },
-                "internet_access/ssid": {
-                    "label": "Wifi Network Name",
-                    "terms": "ssid"
-                },
-                "internet_access/fee": {
-                    "label": "Internet Access Fee",
-                    "terms": "wifi fee",
-                    "options": {
-                        "no": "Free",
-                        "yes": "Paid",
-                        "customers": "Customers Only"
-                    }
-                },
-                "holding_position/type": {
-                    "label": "Type",
-                    "options": {
-                        "runway": "Runway",
-                        "intermediate": "Taxiway-Taxiway Intersection",
-                        "ILS": "Instrument Landing System"
-                    }
-                },
-                "historic/civilization": {
-                    "label": "Historic Civilization"
-                },
-                "historic/wreck/visible_at_low_tide": {
-                    "label": "Visible At Low Tide"
-                },
-                "historic/wreck/visible_at_high_tide": {
-                    "label": "Visible At High Tide"
-                },
-                "historic/wreck/date_sunk": {
-                    "label": "Date Sunk"
-                },
-                "height/hub": {
-                    "label": "Height of Hub (Meters)"
-                },
-                "healthcare/speciality": {
-                    "label": "Specialties",
-                    "options": {
-                        "abortion": "Abortion",
-                        "acupuncture": "Acupuncture",
-                        "allergology": "Allergy & Asthma",
-                        "anaesthetics": "Anesthesiology",
-                        "angiology": "Angiology",
-                        "anthroposophical": "Anthroposophic Medicine",
-                        "applied_kinesiology": "Applied Kinesiology",
-                        "aromatherapy": "Aromatherapy",
-                        "ayurveda": "Ayurveda",
-                        "behavior": "Behavior Therapy",
-                        "biochemistry": "Biochemistry",
-                        "biology": "Biology",
-                        "blood_check": "Blood Test",
-                        "body": "Body Therapy",
-                        "cardiology": "Cardiology",
-                        "cardiothoracic_surgery": "Cardiothoracic Surgery",
-                        "child_psychiatry": "Child & Adolescent Psychiatry",
-                        "chiropractic": "Chiropractic",
-                        "clinical_pathology": "Clinical Pathology",
-                        "community": "Community & Public Health",
-                        "depth": "Depth Psychology",
-                        "dermatology": "Dermatology",
-                        "dermatovenereology": "Dermatovenereology",
-                        "diabetology": "Diabetology",
-                        "diagnostic_radiology": "Diagnostic Radiology",
-                        "emergency": "Emergency Medicine",
-                        "endocrinology": "Endocrinology",
-                        "fertility": "Fertility",
-                        "gastroenterology": "Gastroenterology",
-                        "general": "General Practice",
-                        "geriatrics": "Geriatric Medicine",
-                        "gynaecology": "Obstetrics & Gynecology",
-                        "haematology": "Hematology",
-                        "hepatology": "Hepatology",
-                        "herbalism": "Herbalism",
-                        "homeopathy": "Homeopathy",
-                        "humanistic": "Humanistic Psychology",
-                        "hydrotherapy": "Hydrotherapy",
-                        "hypnosis": "Hypnosis",
-                        "infectious_diseases": "Infectious Disease",
-                        "intensive": "Intensive Care",
-                        "internal": "Internal Medicine",
-                        "dental_oral_maxillo_facial_surgery": "Dental, Oral & Maxillofacial Surgery",
-                        "naturopathy": "Naturopathy",
-                        "neonatology": "Neonatology",
-                        "nephrology": "Nephrology",
-                        "neurology": "Neurology",
-                        "neuropsychiatry": "Neuropsychiatry",
-                        "neurosurgery": "Neurosurgery",
-                        "nuclear": "Nuclear Medicine",
-                        "occupational": "Occupational Medicine",
-                        "oncology": "Oncology",
-                        "ophthalmology": "Ophthalmology",
-                        "orthodontics": "Orthodontics",
-                        "orthopaedics": "Orthopedic Surgery",
-                        "osteopathy": "Osteopathy",
-                        "otolaryngology": "Ear, Nose & Throat",
-                        "paediatric_surgery": "Pediatric Surgery",
-                        "paediatrics": "Pediatrics",
-                        "palliative": "Palliative Care",
-                        "pathology": "Pathology",
-                        "physiatry": "Physical Medicine & Rehabilitation",
-                        "plastic_surgery": "Plastic Surgery",
-                        "podiatry": "Podiatry",
-                        "proctology": "Colorectal Surgery",
-                        "psychiatry": "Psychiatry",
-                        "pulmonology": "Pulmonology",
-                        "radiology": "Radiology",
-                        "radiotherapy": "Radiotherapy",
-                        "reflexology": "Reflexology",
-                        "reiki": "Reiki",
-                        "rheumatology": "Rheumatology",
-                        "shiatsu": "Shiatsu",
-                        "stomatology": "Stomatology",
-                        "surgery": "General Surgery",
-                        "systemic": "Systemic Therapy",
-                        "traditional_chinese_medicine": "Traditional Chinese Medicine",
-                        "transplant": "Transplant Surgery",
-                        "trauma": "Trauma Surgery",
-                        "tropical": "Tropical Medicine",
-                        "tuina": "Tuī ná",
-                        "unani": "Unani Medicine",
-                        "urology": "Urology",
-                        "vaccination": "Vaccination",
-                        "vascular_surgery": "Vascular Surgery"
-                    }
+                    "label": "Kerb Height (Meters)"
                 },
                 "gnis/feature_id-US": {
                     "label": "GNIS Feature ID",
                     "terms": "federal geographic names information service,united states board on geographic names,usa"
-                },
-                "geyser/height": {
-                    "label": "Eruption Height"
-                },
-                "generator/type": {
-                    "label": "Type"
-                },
-                "generator/source": {
-                    "label": "Source",
-                    "options": {
-                        "nuclear": "Nuclear Power",
-                        "wind": "Wind",
-                        "hydro": "Hydropower",
-                        "tidal": "Tidal Power",
-                        "wave": "Wave Power",
-                        "geothermal": "Geothermal Energy",
-                        "solar": "Solar Radiation",
-                        "coal": "Coal",
-                        "gas": "Natural Gas",
-                        "biomass": "Plant Matter",
-                        "biofuel": "Plant Based Fuels",
-                        "biogas": "Biogas",
-                        "oil": "Oil",
-                        "diesel": "Diesel",
-                        "gasoline": "Gasoline",
-                        "waste": "Waste",
-                        "battery": "Battery"
-                    }
-                },
-                "generator/method": {
-                    "label": "Method",
-                    "options": {
-                        "fission": "Fission",
-                        "fusion": "Fusion",
-                        "wind_turbine": "Wind Turbine",
-                        "water-storage": "Reservoir",
-                        "water-pumped-storage": "Pumped-Storage",
-                        "run-of-the-river": "Run-of-the-River",
-                        "barrage": "Tidal Barrage",
-                        "stream": "Tidal Stream",
-                        "thermal": "Solar Thermal",
-                        "photovoltaic": "Photovoltaic",
-                        "combustion": "Combustion",
-                        "gasification": "Gasification",
-                        "anaerobic_digestion": "Anaerobic Digestion"
-                    }
-                },
-                "generator/output/electricity": {
-                    "label": "Power Output",
-                    "placeholder": "50 MW, 100 MW, 200 MW..."
-                },
-                "generator/method/hydro": {},
-                "garden/type": {
-                    "label": "Garden Type"
-                },
-                "fuel/fuel_multi": {
-                    "label": "Fuel Types",
-                    "options": {
-                        "diesel": "Diesel",
-                        "GTL_diesel": "GTL Diesel",
-                        "HGV_diesel": "Truck Diesel",
-                        "biodiesel": "Biodiesel",
-                        "octane_80": "Gasoline (80 Octane)",
-                        "octane_85": "Gasoline (85 Octane)",
-                        "octane_87": "Gasoline (87 Octane)",
-                        "octane_88": "Gasoline (88 Octane)",
-                        "octane_89": "Gasoline (89 Octane)",
-                        "octane_90": "Gasoline (90 Octane)",
-                        "octane_91": "Gasoline (91 Octane)",
-                        "octane_92": "Gasoline (92 Octane)",
-                        "octane_93": "Gasoline (93 Octane)",
-                        "octane_95": "Gasoline (95 Octane)",
-                        "octane_97": "Gasoline (97 Octane)",
-                        "octane_98": "Gasoline (98 Octane)",
-                        "octane_100": "Gasoline (100 Octane)",
-                        "e5": "E5 Gasoline",
-                        "e10": "E10 Gasoline",
-                        "e85": "E85 Gasoline",
-                        "lpg": "Liquefied Petroleum Gas (LPG)",
-                        "lng": "Liquefied Natural Gas (LNG)",
-                        "cng": "Compressed Natural Gas (CNG)",
-                        "propane": "Propane",
-                        "LH2": "Liquid Hydrogen",
-                        "h70": "Gaseous Hydrogen (700 bar)",
-                        "adblue": "AdBlue / AUS 32",
-                        "adblue:canister": "AdBlue / AUS 32 (sold in canisters)"
-                    }
-                },
-                "fuel/fuel_multi-RU": {},
-                "flag/wikidata": {
-                    "label": "Flag Wikidata"
-                },
-                "flag/type": {
-                    "label": "Flag Type",
-                    "options": {
-                        "advertising": "Advertising",
-                        "athletic": "Athletic",
-                        "cultural": "Cultural",
-                        "governmental": "Governmental",
-                        "indigenous": "Indigenous",
-                        "religious": "Religious",
-                        "organisation": "Organizational",
-                        "military": "Military",
-                        "municipal": "Municipal",
-                        "national": "National",
-                        "regional": "Regional"
-                    }
-                },
-                "flag/name": {
-                    "label": "Flag Name"
                 },
                 "fire_hydrant/type": {
                     "label": "Shape",
@@ -4655,53 +1418,8 @@
                 "fire_hydrant/diameter": {
                     "label": "Diameter (mm, in, or letters)"
                 },
-                "fhrs/id-GB": {
-                    "label": "FHRS ID",
-                    "terms": "food hygiene rating scheme,food hygiene rating system,food standards agency"
-                },
                 "door/width": {
                     "label": "Door Width (Meters)"
-                },
-                "door/height": {
-                    "label": "Door Height (Meters)"
-                },
-                "dock/width": {
-                    "label": "Dock Width (Meters)"
-                },
-                "dock/height": {
-                    "label": "Dock Height (Meters)"
-                },
-                "disused/shop": {
-                    "label": "Type"
-                },
-                "disused/railway": {
-                    "label": "Type"
-                },
-                "disused/amenity": {
-                    "label": "Type"
-                },
-                "diplomatic/services": {
-                    "label": "Services"
-                },
-                "destination/symbol_oneway": {},
-                "destination/symbol": {
-                    "label": "Destination Symbols"
-                },
-                "destination/ref_oneway": {},
-                "destination/ref": {
-                    "label": "Destination Road Numbers"
-                },
-                "deposit/trolley": {
-                    "label": "Deposit"
-                },
-                "defibrillator/location": {
-                    "label": "Location Description"
-                },
-                "dance/teaching": {
-                    "label": "Offers Dance Lessons"
-                },
-                "dance/style": {
-                    "label": "Dance Styles"
                 },
                 "cycle_barrier/installation": {
                     "label": "Installation",
@@ -4711,10 +1429,21 @@
                         "removable": "Removable"
                     }
                 },
-                "crossing/markings_yes": {},
-                "crossing/markings_yes-PL": {},
-                "crossing/markings_yes-DE-AT-CH": {},
-                "crossing/markings_yes-BG": {},
+                "crossing/signals": {
+                    "label": "Traffic signals"
+                },
+                "crossing/markings_condition": {
+                    "label": "Crossing markings condition",
+                    "placeholder": "good, bad, ...",
+                    "options": {
+                        "excellent": "Excellent",
+                        "good": "Good",
+                        "intermediate": "Intermediate",
+                        "bad": "Bad / uncomfortable",
+                        "very_bad": "Very bad",
+                        "horrible": "Horrible"
+                    }
+                },
                 "crossing/markings": {
                     "label": "Crossing Markings",
                     "options": {
@@ -4735,219 +1464,14 @@
                         "ladder:paired": "Ladder With Paired Longitudinal Bars"
                     }
                 },
-                "crossing/markings-PL": {},
-                "crossing/markings-DE-AT-CH": {},
-                "crossing/markings-BG": {},
-                "crossing/light": {
-                    "label": "Lights"
-                },
                 "crossing/island": {
                     "label": "Refuge Island"
-                },
-                "crossing/bell": {
-                    "label": "Bell"
-                },
-                "crossing/barrier": {
-                    "label": "Barrier Arm",
-                    "options": {
-                        "full": "Full",
-                        "double_half": "Double Half",
-                        "half": "Half",
-                        "no": "No",
-                        "yes": "Yes"
-                    }
-                },
-                "crane/type": {
-                    "label": "Crane Type",
-                    "options": {
-                        "portal_crane": "Portal Crane",
-                        "floor-mounted_crane": "Floor-mounted Crane",
-                        "travel_lift": "Travel Lift",
-                        "gantry_crane": "Gantry Crane",
-                        "tower_crane": "Tower Crane"
-                    }
-                },
-                "contact/webcam": {
-                    "label": "Webcam URL",
-                    "placeholder": "http://example.com/"
-                },
-                "contact/instagram": {
-                    "label": "Instagram account name or URL",
-                    "placeholder": "https://www.instagram.com/openstreetmap/"
-                },
-                "contact/facebook": {
-                    "label": "Facebook Username or URL",
-                    "placeholder": "https://www.facebook.com/LocalBusiness"
-                },
-                "climbing/trad": {
-                    "label": "Traditional climbing"
-                },
-                "climbing/sport": {
-                    "label": "Sport climbing (bolted climbing)"
-                },
-                "climbing/length": {
-                    "label": "Length (Meters)"
-                },
-                "climbing/bolts": {
-                    "label": "Number of Bolts"
-                },
-                "climbing/grade/yds_class": {
-                    "label": "Grade (YDS)",
-                    "placeholder": "5.10a"
-                },
-                "climbing/grade/uiaa": {
-                    "label": "Grade (UIAA)",
-                    "placeholder": "6-"
-                },
-                "climbing/grade/saxon": {
-                    "label": "Grade (Saxon)",
-                    "placeholder": "VIIa"
-                },
-                "climbing/grade/french": {
-                    "label": "Grade (French)",
-                    "placeholder": "5c"
-                },
-                "capacity/tents": {
-                    "label": "Capacity (Tents)",
-                    "placeholder": "10, 20, 50..."
-                },
-                "capacity/persons": {
-                    "label": "Capacity (Persons)",
-                    "placeholder": "50, 100, 200..."
-                },
-                "capacity/disabled_parking": {
-                    "label": "Accessible Spaces",
-                    "placeholder": "1, 2, 3..."
-                },
-                "capacity/caravans": {
-                    "label": "Capacity (Campervan / Camping Trailer)",
-                    "placeholder": "10, 20, 50..."
-                },
-                "camera/type": {
-                    "label": "Camera Type",
-                    "options": {
-                        "fixed": "Fixed",
-                        "panning": "Panning",
-                        "dome": "Dome"
-                    }
-                },
-                "camera/mount": {
-                    "label": "Camera Mount"
-                },
-                "camera/direction": {
-                    "label": "Direction (Degrees Clockwise)",
-                    "placeholder": "45, 90, 180, 270"
-                },
-                "building/prefabricated": {
-                    "label": "Prefabricated",
-                    "terms": "manufactured,modular,portable"
-                },
-                "building/part": {
-                    "label": "Building Part"
-                },
-                "building/material": {
-                    "label": "Material"
-                },
-                "building/levels_building": {},
-                "building/levels": {
-                    "label": "Levels",
-                    "placeholder": "2, 4, 6..."
-                },
-                "building/flats": {
-                    "label": "Units",
-                    "placeholder": "2, 4, 6, 8..."
-                },
-                "building/colour": {
-                    "label": "Façade Color",
-                    "terms": "building color,facade color"
-                },
-                "building/levels/underground": {
-                    "label": "Underground Levels",
-                    "terms": "basement levels",
-                    "placeholder": "2, 4, 6..."
-                },
-                "bridge/support": {
-                    "label": "Type"
                 },
                 "bridge/ref": {
                     "label": "Bridge Number"
                 },
                 "bridge/name": {
                     "label": "Bridge Name"
-                },
-                "bath/type": {
-                    "label": "Specialty",
-                    "options": {
-                        "hammam": "Hammam",
-                        "hot_spring": "Hot Spring",
-                        "lake": "Lake",
-                        "onsen": "Onsen",
-                        "thermal": "Thermal Bath"
-                    }
-                },
-                "bath/sand_bath-JP": {
-                    "label": "Sand Bath"
-                },
-                "bath/open_air": {
-                    "label": "Open Air"
-                },
-                "area/highway": {
-                    "label": "Type"
-                },
-                "aircraft/type": {
-                    "label": "Type",
-                    "options": {
-                        "military": "Military",
-                        "helicopter": "Helicopter",
-                        "airliner": "Airliner",
-                        "jet": "Jet",
-                        "fixed_wing": "Fixed Wing",
-                        "cargo": "Cargo",
-                        "glider": "Glider"
-                    }
-                },
-                "aerialway/occupancy": {
-                    "label": "Occupancy",
-                    "placeholder": "2, 4, 8..."
-                },
-                "aerialway/heating": {
-                    "label": "Heated"
-                },
-                "aerialway/duration": {
-                    "label": "Duration (minutes)",
-                    "placeholder": "1, 2, 3..."
-                },
-                "aerialway/capacity": {
-                    "label": "Capacity (per hour)",
-                    "placeholder": "500, 2500, 5000..."
-                },
-                "aerialway/bubble": {
-                    "label": "Bubble"
-                },
-                "aerialway/access": {
-                    "label": "Access",
-                    "options": {
-                        "entry": "Entry",
-                        "exit": "Exit",
-                        "both": "Both"
-                    }
-                },
-                "aerialway/summer/access": {
-                    "label": "Access (summer)",
-                    "options": {
-                        "entry": "Entry",
-                        "exit": "Exit",
-                        "both": "Both"
-                    }
-                },
-                "addr/interpolation": {
-                    "label": "Type",
-                    "options": {
-                        "all": "All",
-                        "even": "Even",
-                        "odd": "Odd",
-                        "alphabetic": "Alphabetic"
-                    }
                 }
             },
             "presets": {
@@ -6358,6 +2882,10 @@
                 "railway/train_wash": {
                     "name": "Train Wash",
                     "terms": "clean,wash"
+                },
+                "railway/train_station_entrance": {
+                    "name": "Subway Entrance",
+                    "terms": "metro,transit"
                 },
                 "railway/switch": {
                     "name": "Railway Switch",
@@ -8692,6 +5220,7 @@
                     "name": "Traffic Signals",
                     "terms": "light,stoplight,traffic light"
                 },
+                "highway/traffic_sign": {},
                 "highway/traffic_mirror": {
                     "name": "Traffic Mirror",
                     "terms": "blind spot,convex,corner,curved,roadside,round,safety,sphere,visibility"
@@ -8883,7 +5412,6 @@
                     "name": "Bridle Path",
                     "terms": "bridleway,equestrian,horse,trail"
                 },
-                "highway/traffic_sign": {},
                 "highway/bus_stop": {
                     "name": "Bus Stop"
                 },
@@ -8951,6 +5479,12 @@
                     "name": "Sidewalk",
                     "terms": "pavement,sidepath"
                 },
+                "highway/footway/ramp": {
+                    "name": "Ramp"
+                },
+                "highway/footway/platform": {
+                    "name": "Platform"
+                },
                 "highway/footway/crossing": {
                     "name": "Pedestrian Crossing",
                     "terms": "crosswalk,foot path crossing"
@@ -8966,21 +5500,6 @@
                 "highway/footway/informal": {
                     "name": "Informal Foot Path"
                 },
-                "highway/footway/crossing/unmarked": {
-                    "name": "Unmarked Crossing",
-                    "terms": "unmarked crosswalk,unmarked foot path crossing,unmarked pedestrian crossing"
-                },
-                "highway/footway/crossing/uncontrolled": {
-                    "name": "Marked Crossing",
-                    "terms": "crosswalk,marked crosswalk,marked foot path crossing,marked pedestrian crosswalk,zebra crossing"
-                },
-                "highway/footway/crossing/traffic_signals": {
-                    "name": "Crossing With Pedestrian Signals",
-                    "terms": "crosswalk (lights),pedestrian crossing (lights),pedestrian traffic lights,pedestrian traffic signals"
-                },
-                "highway/footway/crossing/zebra": {},
-                "highway/footway/crossing/marked": {},
-                "highway/footway/crossing/informal": {},
                 "highway/cycleway/traffic_island_shared": {
                     "name": "Cycle & Foot Refuge Island",
                     "aliases": "Crosswalk Island\nTraffic Island\nPedestrian Island",
@@ -9820,6 +6339,9 @@
                 "barrier/retaining_wall": {
                     "name": "Retaining Wall"
                 },
+                "barrier/planter": {
+                    "name": "Planter (Barrier)"
+                },
                 "barrier/motorcycle_barrier": {
                     "name": "Motorcycle Barrier",
                     "terms": "motorbike barrier"
@@ -9913,9 +6435,6 @@
                 },
                 "barrier/yes": {
                     "name": "Barrier (Unspecified Type)"
-                },
-                "barrier/planter": {
-                    "name": "Planter (Barrier)"
                 },
                 "barrier/handrail": {
                     "name": "Handrail"

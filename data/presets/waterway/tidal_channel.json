@@ -2,15 +2,10 @@
     "icon": "iD-waterway-stream",
     "fields": [
         "name",
-        "structure_waterway",
-        "width",
-        "salt",
-        "tidal",
-        "intermittent"
+        "width"
     ],
     "moreFields": [
         "covered",
-        "fishing",
         "gnis/feature_id-US"
     ],
     "geometry": [

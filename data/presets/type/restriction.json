@@ -1,9 +1,6 @@
 {
     "icon": "iD-restriction",
-    "fields": [
-        "restriction",
-        "except"
-    ],
+    "fields": [],
     "geometry": [
         "relation"
     ],

@@ -1,14 +1,11 @@
 {
     "icon": "maki-water",
     "fields": [
-        "fire_mains",
-        "fire_sprinkler",
         "couplings"
     ],
     "moreFields": [
         "level",
         "survey/date",
-        "fire_service_inlet",
         "ref"
     ],
     "geometry": [

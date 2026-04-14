@@ -3,13 +3,8 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "informal",
-        "start_date",
-        "capacity",
-        "population",
-        "population/date",
-        "source/population"
+        "capacity"
     ],
     "moreFields": [
         "{@templates/internet_access}"

@@ -13,8 +13,6 @@
         "{@templates/poi}",
         "branch_brand",
         "brand",
-        "charge_fee",
-        "fee",
         "operator"
     ],
     "geometry": [

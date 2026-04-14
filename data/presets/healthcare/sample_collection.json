@@ -3,7 +3,6 @@
     "icon": "fas-vial",
     "fields": [
         "name",
-        "sample_collection",
         "operator",
         "website",
         "phone",

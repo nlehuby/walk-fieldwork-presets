@@ -6,9 +6,7 @@
         "address",
         "building_area_yes",
         "opening_hours",
-        "payment_multi",
-        "self_service",
-        "automated"
+        "payment_multi"
     ],
     "moreFields": [
         "{@templates/poi}"

@@ -2,7 +2,6 @@
     "icon": "maki-shop",
     "fields": [
         "name",
-        "clothes",
         "{shop}"
     ],
     "moreFields": [

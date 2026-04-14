@@ -1,25 +1,13 @@
 {
     "icon": "maki-shelter",
     "fields": [
-        "building",
-        "height",
-        "layer_1"
+        "height"
     ],
     "moreFields": [
         "address",
-        "architect",
-        "building/colour",
-        "building/levels",
-        "building/levels/underground",
-        "building/material",
-        "building/prefabricated",
-        "ele",
         "gnis/feature_id-US",
         "not/name",
-        "operator",
-        "roof/colour",
-        "roof/shape",
-        "roof/height"
+        "operator"
     ],
     "geometry": [
         "area"

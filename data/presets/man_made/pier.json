@@ -2,16 +2,13 @@
     "icon": "temaki-pier_fixed",
     "fields": [
         "name",
-        "mooring",
         "surface",
-        "floating",
         "width",
         "access",
         "lit"
     ],
     "moreFields": [
         "{highway/footway}",
-        "fishing",
         "gnis/feature_id-US",
         "incline"
     ],

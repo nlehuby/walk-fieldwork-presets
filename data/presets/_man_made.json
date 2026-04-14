@@ -1,8 +1,7 @@
 {
     "icon": "temaki-storage_tank",
     "fields": [
-        "name",
-        "man_made"
+        "name"
     ],
     "moreFields": [
         "material"

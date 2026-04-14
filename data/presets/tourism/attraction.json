@@ -6,7 +6,6 @@
         "address"
     ],
     "moreFields": [
-        "fee",
         "gnis/feature_id-US",
         "level",
         "opening_hours"

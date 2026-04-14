@@ -2,8 +2,7 @@
     "icon": "iD-highway-steps",
     "fields": [
         "ref",
-        "level_semi",
-        "conveying_escalator"
+        "level_semi"
     ],
     "geometry": [
         "area"

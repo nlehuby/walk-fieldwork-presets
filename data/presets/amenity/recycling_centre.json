@@ -3,17 +3,12 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
-        "building",
         "opening_hours",
         "recycling_accepts"
     ],
     "moreFields": [
         "{@templates/contact}",
-        "charge_fee",
-        "fee",
-        "payment_multi_fee",
         "wheelchair"
     ],
     "geometry": [

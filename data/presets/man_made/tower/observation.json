@@ -2,8 +2,7 @@
     "icon": "maki-observation-tower",
     "fields": [
         "{man_made/tower}",
-        "access_simple",
-        "fee"
+        "access_simple"
     ],
     "moreFields": [
         "{man_made/tower}",

@@ -2,10 +2,7 @@
     "icon": "temaki-powered_pump",
     "fields": [
         "name",
-        "substation_pipeline",
         "operator",
-        "building",
-        "substance",
         "ref"
     ],
     "moreFields": [

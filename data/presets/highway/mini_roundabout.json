@@ -9,8 +9,6 @@
     "tags": {
         "highway": "mini_roundabout"
     },
-    "fields": [
-        "direction_clock"
-    ],
+    "fields": [],
     "name": "Mini-Roundabout"
 }

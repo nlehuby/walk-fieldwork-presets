@@ -3,17 +3,11 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
-        "address",
-        "social_facility",
-        "social_facility_for"
+        "address"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "baby_feeding",
-        "fhrs/id-GB",
-        "building_area"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

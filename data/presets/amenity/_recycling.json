@@ -1,7 +1,6 @@
 {
     "icon": "maki-recycling",
     "fields": [
-        "recycling_type",
         "recycling_accepts",
         "collection_times"
     ],

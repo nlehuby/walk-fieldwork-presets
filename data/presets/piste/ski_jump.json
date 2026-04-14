@@ -2,9 +2,7 @@
     "icon": "temaki-ski_jumping",
     "fields": [
         "name",
-        "piste/type",
         "ref",
-        "oneway_yes",
         "lit"
     ],
     "geometry": [

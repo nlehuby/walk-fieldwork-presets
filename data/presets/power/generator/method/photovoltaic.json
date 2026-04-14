@@ -2,12 +2,10 @@
     "icon": "fas-solar-panel",
     "fields": [
         "ref",
-        "operator",
-        "generator/output/electricity"
+        "operator"
     ],
     "moreFields": [
-        "{power/generator}",
-        "location"
+        "{power/generator}"
     ],
     "geometry": [
         "area",

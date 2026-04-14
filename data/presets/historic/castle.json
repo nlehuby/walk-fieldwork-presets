@@ -2,11 +2,8 @@
     "icon": "roentgen-fort",
     "fields": [
         "name",
-        "castle_type",
         "building_area_yes",
-        "historic/civilization",
-        "access_simple",
-        "start_date"
+        "access_simple"
     ],
     "moreFields": [
         "{historic}"

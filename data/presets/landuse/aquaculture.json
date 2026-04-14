@@ -2,8 +2,7 @@
     "icon": "maki-aquarium",
     "fields": [
         "name",
-        "operator",
-        "produce"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

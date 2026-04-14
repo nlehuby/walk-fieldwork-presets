@@ -1,7 +1,6 @@
 {
     "fields": [
-        "name",
-        "highway"
+        "name"
     ],
     "geometry": [
         "point",

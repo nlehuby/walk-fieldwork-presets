@@ -2,7 +2,6 @@
     "icon": "fas-th",
     "fields": [
         "name",
-        "collector",
         "{shop}"
     ],
     "moreFields": [

@@ -2,7 +2,6 @@
     "icon": "maki-town-hall",
     "name": "Chitalishte",
     "fields": [
-        "community_centre",
         "{amenity/community_centre}"
     ],
     "moreFields": [

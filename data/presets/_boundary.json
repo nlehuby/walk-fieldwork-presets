@@ -1,7 +1,5 @@
 {
-    "fields": [
-        "boundary"
-    ],
+    "fields": [],
     "geometry": [
         "line"
     ],

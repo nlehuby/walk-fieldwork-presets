@@ -10,7 +10,6 @@
         "power": "*"
     },
     "fields": [
-        "power",
         "operator"
     ],
     "searchable": false,

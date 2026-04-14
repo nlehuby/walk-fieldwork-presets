@@ -1,7 +1,6 @@
 {
     "icon": "fas-running",
     "fields": [
-        "athletics_track",
         "{leisure/track}"
     ],
     "moreFields": [

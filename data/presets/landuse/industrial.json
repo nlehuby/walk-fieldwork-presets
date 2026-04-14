@@ -1,8 +1,7 @@
 {
     "icon": "maki-industry",
     "fields": [
-        "name",
-        "industrial"
+        "name"
     ],
     "moreFields": [
         "{@templates/contact}",

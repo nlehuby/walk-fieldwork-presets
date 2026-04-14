@@ -1,10 +1,7 @@
 {
     "icon": "maki-volcano",
     "fields": [
-        "name",
-        "ele_node",
-        "volcano/status",
-        "volcano/type"
+        "name"
     ],
     "moreFields": [
         "{natural}"

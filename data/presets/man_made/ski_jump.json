@@ -4,9 +4,7 @@
         "name",
         "operator"
     ],
-    "moreFields": [
-        "building"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "area"

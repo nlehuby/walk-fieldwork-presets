@@ -1,7 +1,7 @@
 {
     "key": "maxweight",
     "type": "combo",
-    "label": "{maxweight}",
+    "label": "Weight Limit",
     "snake_case": false,
     "prerequisiteTag": {
         "key": "bridge",

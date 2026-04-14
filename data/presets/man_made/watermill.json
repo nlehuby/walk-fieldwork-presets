@@ -2,7 +2,6 @@
     "icon": "maki-watermill",
     "fields": [
         "name",
-        "start_date",
         "building_area_yes",
         "address"
     ],

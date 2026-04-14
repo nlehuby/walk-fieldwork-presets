@@ -1,12 +1,10 @@
 {
     "icon": "maki-building",
     "fields": [
-        "{building}",
-        "smoking"
+        "{building}"
     ],
     "moreFields": [
-        "{building}",
-        "polling_station"
+        "{building}"
     ],
     "geometry": [
         "area"

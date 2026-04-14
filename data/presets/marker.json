@@ -3,15 +3,11 @@
     "fields": [
         "ref",
         "operator",
-        "marker",
-        "utility",
         "colour",
-        "material",
-        "inscription"
+        "material"
     ],
     "moreFields": [
         "height",
-        "location",
         "manufacturer"
     ],
     "geometry": [

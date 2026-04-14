@@ -3,8 +3,7 @@
     "fields": [
         "operator",
         "manufacturer",
-        "height",
-        "crane/type"
+        "height"
     ],
     "moreFields": [
         "{man_made}"

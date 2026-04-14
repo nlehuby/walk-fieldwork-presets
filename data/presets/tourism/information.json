@@ -1,7 +1,6 @@
 {
     "icon": "maki-information",
     "fields": [
-        "information",
         "operator",
         "address",
         "building_area_yes"

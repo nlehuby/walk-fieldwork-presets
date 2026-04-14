@@ -4,8 +4,6 @@
         "name",
         "material",
         "height",
-        "ele_node",
-        "inscription",
         "direction"
     ],
     "moreFields": [

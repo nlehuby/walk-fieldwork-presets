@@ -3,10 +3,8 @@
     "fields": [
         "access_simple",
         "capacity",
-        "fee",
         "payment_multi",
         "level",
-        "lockable",
         "opening_hours"
     ],
     "moreFields": [

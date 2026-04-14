@@ -1,10 +1,6 @@
 {
     "icon": "temaki-golf_green",
-    "fields": [
-        "ref_golf_hole",
-        "par",
-        "handicap"
-    ],
+    "fields": [],
     "geometry": [
         "line"
     ],

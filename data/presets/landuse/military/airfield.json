@@ -1,9 +1,7 @@
 {
     "icon": "temaki-fighter_jet",
     "fields": [
-        "name",
-        "iata",
-        "icao"
+        "name"
     ],
     "moreFields": [
         "{landuse/military}"

@@ -1,8 +1,7 @@
 {
     "icon": "fas-tractor",
     "fields": [
-        "{shop}",
-        "agrarian"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

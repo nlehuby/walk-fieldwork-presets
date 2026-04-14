@@ -5,19 +5,10 @@
         "vertex"
     ],
     "fields": [
-        "name",
-        "climbing/sport",
-        "climbing/trad",
-        "climbing/bolts"
+        "name"
     ],
     "moreFields": [
-        "climbing/grade/uiaa",
-        "climbing/grade/french",
-        "climbing/grade/saxon",
-        "climbing/grade/yds_class",
-        "website",
-        "climbing/length",
-        "description"
+        "website"
     ],
     "terms": [
         "climbing area",

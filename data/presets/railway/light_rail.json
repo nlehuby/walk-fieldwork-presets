@@ -4,21 +4,14 @@
         "name",
         "operator",
         "structure",
-        "tunnel/name",
-        "gauge",
-        "electrified",
-        "service_rail",
-        "usage_rail",
-        "railway/track_ref"
+        "tunnel/name"
     ],
     "moreFields": [
         "bridge/name",
         "bridge/ref",
         "covered_no",
-        "frequency_electrified",
         "incline",
-        "maxspeed",
-        "voltage_electrified"
+        "maxspeed"
     ],
     "geometry": [
         "line"

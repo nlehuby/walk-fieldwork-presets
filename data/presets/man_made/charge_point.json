@@ -2,8 +2,7 @@
     "icon": "fas-plug-circle-bolt",
     "fields": [
         "capacity",
-        "ref",
-        "ref/EU/EVSE-EU"
+        "ref"
     ],
     "moreFields": [
         "level",

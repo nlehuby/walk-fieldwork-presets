@@ -2,7 +2,6 @@
     "icon": "maki-bbq",
     "fields": [
         "covered",
-        "fuel",
         "access_simple"
     ],
     "moreFields": [

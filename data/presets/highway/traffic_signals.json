@@ -6,13 +6,8 @@
     "tags": {
         "highway": "traffic_signals"
     },
-    "fields": [
-        "traffic_signals",
-        "traffic_signals/direction"
-    ],
-    "moreFields": [
-        "traffic_signals/countdown"
-    ],
+    "fields": [],
+    "moreFields": [],
     "terms": [
         "light",
         "stoplight",

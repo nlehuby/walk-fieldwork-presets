@@ -2,8 +2,6 @@
     "icon": "temaki-shinto",
     "fields": [
         "name",
-        "religion",
-        "denomination",
         "{amenity/place_of_worship}"
     ],
     "moreFields": [

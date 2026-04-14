@@ -1,7 +1,5 @@
 {
-    "fields": [
-        "amenity"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex",

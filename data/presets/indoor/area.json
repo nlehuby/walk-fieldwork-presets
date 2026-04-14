@@ -3,7 +3,6 @@
     "fields": [
         "level",
         "name",
-        "ref_room_number",
         "height"
     ],
     "geometry": [

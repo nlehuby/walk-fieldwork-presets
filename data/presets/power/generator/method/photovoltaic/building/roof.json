@@ -1,8 +1,7 @@
 {
     "icon": "fas-solar-panel",
     "fields": [
-        "{power/generator/method/photovoltaic}",
-        "layer_1"
+        "{power/generator/method/photovoltaic}"
     ],
     "moreFields": [
         "{power/generator}"

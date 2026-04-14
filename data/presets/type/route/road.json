@@ -1,18 +1,10 @@
 {
     "icon": "iD-highway-unclassified",
     "fields": [
-        "name",
-        "ref_route",
-        "network_road",
-        "direction_cardinal-US-CA-NZ",
-        "from",
-        "to",
-        "via"
+        "name"
     ],
     "moreFields": [
-        "colour",
-        "distance",
-        "roundtrip"
+        "colour"
     ],
     "geometry": [
         "relation"

@@ -1,7 +1,6 @@
 {
     "icon": "temaki-pedestrian_walled",
     "fields": [
-        "ref_aeroway_gate",
         "width",
         "access_simple",
         "wheelchair"

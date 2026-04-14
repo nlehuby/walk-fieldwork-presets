@@ -11,11 +11,7 @@
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "capacity",
-        "diet_multi",
-        "outdoor_seating",
-        "smoking",
-        "website/menu"
+        "capacity"
     ],
     "geometry": [
         "point",

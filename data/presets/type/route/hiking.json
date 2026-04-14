@@ -2,21 +2,10 @@
     "icon": "fas-hiking",
     "fields": [
         "name",
-        "ref_route",
-        "operator",
-        "network_foot",
-        "network/type",
-        "from",
-        "to",
-        "via"
+        "operator"
     ],
     "moreFields": [
-        "ascent",
-        "cai_scale-IT",
-        "colour",
-        "descent",
-        "distance",
-        "roundtrip"
+        "colour"
     ],
     "geometry": [
         "relation"

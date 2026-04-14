@@ -1,12 +1,9 @@
 {
     "icon": "maki-cemetery",
     "fields": [
-        "name",
-        "inscription"
+        "name"
     ],
-    "moreFields": [
-        "description"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "area"

@@ -1,14 +1,10 @@
 {
     "icon": "temaki-plaque",
     "fields": [
-        "name",
-        "inscription",
-        "subject/wikidata"
+        "name"
     ],
     "moreFields": [
-        "direction",
-        "image",
-        "wikimedia_commons"
+        "direction"
     ],
     "geometry": [
         "point",

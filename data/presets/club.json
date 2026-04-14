@@ -2,7 +2,6 @@
     "icon": "fas-handshake",
     "fields": [
         "name",
-        "club",
         "operator",
         "address",
         "building_area_yes",
@@ -13,11 +12,7 @@
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "access_simple",
-        "building/levels_building",
-        "height_building",
-        "max_age",
-        "min_age"
+        "access_simple"
     ],
     "geometry": [
         "point",

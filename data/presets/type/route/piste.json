@@ -2,19 +2,10 @@
     "icon": "fas-skiing",
     "fields": [
         "name",
-        "piste/type",
-        "ref_route",
-        "operator",
-        "from",
-        "to",
-        "via"
+        "operator"
     ],
     "moreFields": [
-        "ascent",
-        "colour",
-        "descent",
-        "distance",
-        "roundtrip"
+        "colour"
     ],
     "geometry": [
         "relation"

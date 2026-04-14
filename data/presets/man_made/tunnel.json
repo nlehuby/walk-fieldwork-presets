@@ -2,7 +2,6 @@
     "icon": "temaki-tunnel",
     "fields": [
         "name",
-        "tunnel_combo",
         "layer",
         "width",
         "length",

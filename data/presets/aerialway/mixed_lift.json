@@ -4,13 +4,7 @@
         "line"
     ],
     "fields": [
-        "name",
-        "oneway_yes",
-        "aerialway/occupancy",
-        "aerialway/capacity",
-        "aerialway/duration",
-        "aerialway/bubble",
-        "aerialway/heating"
+        "name"
     ],
     "moreFields": [
         "{aerialway}"

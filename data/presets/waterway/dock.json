@@ -2,7 +2,6 @@
     "icon": "maki-harbor",
     "fields": [
         "name",
-        "dock",
         "operator"
     ],
     "geometry": [

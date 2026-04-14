@@ -1,10 +1,7 @@
 {
     "icon": "maki-park-alt1",
     "fields": [
-        "name",
-        "leaf_type",
-        "leaf_cycle",
-        "produce"
+        "name"
     ],
     "moreFields": [
         "{@templates/contact}",

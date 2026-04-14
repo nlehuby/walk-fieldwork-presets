@@ -4,8 +4,6 @@
         "capacity"
     ],
     "moreFields": [
-        "building",
-        "building/levels",
         "height",
         "address",
         "{building}"

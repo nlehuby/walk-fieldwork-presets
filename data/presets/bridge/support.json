@@ -1,14 +1,12 @@
 {
     "icon": "fas-archway",
     "fields": [
-        "bridge/support",
         "height",
         "layer",
         "material"
     ],
     "moreFields": [
-        "colour",
-        "seamark/type"
+        "colour"
     ],
     "geometry": [
         "point",

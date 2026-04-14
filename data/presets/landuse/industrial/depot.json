@@ -2,8 +2,7 @@
     "icon": "roentgen-buses",
     "fields": [
         "name",
-        "operator",
-        "depot"
+        "operator"
     ],
     "moreFields": [
         "{landuse/industrial}"

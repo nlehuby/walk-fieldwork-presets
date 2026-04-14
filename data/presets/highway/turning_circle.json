@@ -3,9 +3,7 @@
     "geometry": [
         "vertex"
     ],
-    "fields": [
-        "turning_circle"
-    ],
+    "fields": [],
     "tags": {
         "highway": "turning_circle"
     },

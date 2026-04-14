@@ -3,8 +3,6 @@
     "fields": [
         "ref",
         "operator",
-        "structure_power",
-        "design_power_tower",
         "height",
         "material",
         "line_attachment"

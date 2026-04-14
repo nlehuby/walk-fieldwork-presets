@@ -2,14 +2,11 @@
     "icon": "temaki-fish_ladder",
     "fields": [
         "name",
-        "structure_waterway",
-        "width",
-        "seasonal"
+        "width"
     ],
     "moreFields": [
         "covered",
-        "gnis/feature_id-US",
-        "salt"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "line"

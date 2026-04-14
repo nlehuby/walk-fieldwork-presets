@@ -2,8 +2,6 @@
     "icon": "iD-pipeline-line",
     "fields": [
         "operator",
-        "location",
-        "substance",
         "layer",
         "diameter"
     ],

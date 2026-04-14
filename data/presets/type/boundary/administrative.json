@@ -1,8 +1,7 @@
 {
     "icon": "iD-boundary",
     "fields": [
-        "name",
-        "admin_level"
+        "name"
     ],
     "moreFields": [
         "gnis/feature_id-US"

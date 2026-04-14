@@ -9,10 +9,7 @@
         "website"
     ],
     "moreFields": [
-        "{@templates/poi}",
-        "air_conditioning",
-        "min_age",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

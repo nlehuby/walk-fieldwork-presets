@@ -2,9 +2,7 @@
     "icon": "temaki-plane_taxiing",
     "fields": [
         "ref",
-        "holding_position/type",
-        "direction_vertex",
-        "ele_node"
+        "direction_vertex"
     ],
     "geometry": [
         "vertex"

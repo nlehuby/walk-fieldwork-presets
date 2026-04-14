@@ -1,8 +1,7 @@
 {
     "icon": "temaki-motorcycle_repair",
     "fields": [
-        "{shop}",
-        "service/vehicle"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

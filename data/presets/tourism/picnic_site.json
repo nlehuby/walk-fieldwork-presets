@@ -9,14 +9,9 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "charge_fee",
-        "fee",
         "gnis/feature_id-US",
         "level",
-        "payment_multi_fee",
         "phone",
-        "reservation",
-        "smoking",
         "wheelchair"
     ],
     "geometry": [

@@ -1,8 +1,7 @@
 {
     "icon": "maki-building",
     "fields": [
-        "{building}",
-        "building/flats"
+        "{building}"
     ],
     "moreFields": [
         "{building}"

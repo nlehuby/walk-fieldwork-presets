@@ -2,11 +2,7 @@
     "icon": "temaki-power",
     "fields": [
         "ref",
-        "operator",
-        "generator/source",
-        "generator/method",
-        "generator/type",
-        "generator/output/electricity"
+        "operator"
     ],
     "moreFields": [
         "colour",

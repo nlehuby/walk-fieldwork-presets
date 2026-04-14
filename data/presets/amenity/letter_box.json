@@ -1,7 +1,6 @@
 {
     "icon": "temaki-letter_box",
     "fields": [
-        "post",
         "access_simple",
         "height"
     ],
@@ -11,7 +10,6 @@
         "indoor",
         "level",
         "lit",
-        "lockable",
         "manufacturer",
         "material",
         "operator",

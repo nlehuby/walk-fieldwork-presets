@@ -2,8 +2,7 @@
     "icon": "maki-farm",
     "fields": [
         "name",
-        "operator",
-        "crop"
+        "operator"
     ],
     "geometry": [
         "point",

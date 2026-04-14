@@ -3,12 +3,7 @@
     "fields": [
         "name",
         "operator",
-        "plant/source",
-        "plant/method",
-        "plant/output",
-        "plant/output/electricity",
-        "address",
-        "start_date"
+        "address"
     ],
     "moreFields": [
         "gnis/feature_id-US"

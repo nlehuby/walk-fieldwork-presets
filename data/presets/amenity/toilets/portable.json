@@ -1,9 +1,7 @@
 {
     "icon": "temaki-latrine",
     "fields": [
-        "toilets/disposal",
-        "{amenity/toilets}",
-        "toilets/handwashing"
+        "{amenity/toilets}"
     ],
     "moreFields": [
         "{amenity/toilets}"

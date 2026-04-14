@@ -2,7 +2,6 @@
     "icon": "maki-suitcase",
     "fields": [
         "name",
-        "consulting",
         "{office}"
     ],
     "moreFields": [

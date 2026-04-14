@@ -1,9 +1,7 @@
 {
     "icon": "maki-cemetery",
     "fields": [
-        "name",
-        "religion",
-        "denomination"
+        "name"
     ],
     "moreFields": [
         "{@templates/contact}",

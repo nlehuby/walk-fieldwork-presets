@@ -2,9 +2,7 @@
     "icon": "maki-water",
     "fields": [
         "name",
-        "resource",
-        "operator",
-        "intermittent"
+        "operator"
     ],
     "moreFields": [
         "{man_made}"

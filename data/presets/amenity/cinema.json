@@ -3,18 +3,14 @@
     "fields": [
         "name",
         "address",
-        "screen",
         "building_area_yes",
         "opening_hours",
         "payment_multi"
     ],
     "moreFields": [
         "{@templates/poi}",
-        "air_conditioning",
         "branch_brand",
-        "brand",
-        "fhrs/id-GB",
-        "min_age"
+        "brand"
     ],
     "geometry": [
         "point",

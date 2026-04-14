@@ -1,8 +1,7 @@
 {
     "icon": "maki-cemetery",
     "fields": [
-        "name",
-        "ref_sector"
+        "name"
     ],
     "geometry": [
         "point",

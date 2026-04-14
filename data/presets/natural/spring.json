@@ -1,9 +1,7 @@
 {
     "icon": "maki-water",
     "fields": [
-        "name",
-        "drinking_water",
-        "intermittent"
+        "name"
     ],
     "moreFields": [
         "{natural}"

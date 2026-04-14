@@ -13,9 +13,7 @@
         "height",
         "material"
     ],
-    "moreFields": [
-        "seamark/type"
-    ],
+    "moreFields": [],
     "tags": {
         "waterway": "dam"
     },

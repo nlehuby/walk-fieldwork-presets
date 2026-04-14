@@ -4,9 +4,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "clothes",
-        "service/bicycle"
+        "{shop}"
     ],
     "geometry": [
         "point",

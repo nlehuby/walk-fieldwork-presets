@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address"
     ],
     "moreFields": [

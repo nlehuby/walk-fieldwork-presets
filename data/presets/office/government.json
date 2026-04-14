@@ -2,7 +2,6 @@
     "icon": "temaki-town_hall",
     "fields": [
         "name",
-        "government",
         "{office}"
     ],
     "moreFields": [

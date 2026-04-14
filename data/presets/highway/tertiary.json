@@ -4,9 +4,7 @@
         "{highway/primary}"
     ],
     "moreFields": [
-        "{highway/primary}",
-        "bicycle_road",
-        "cyclestreet-BE-NL"
+        "{highway/primary}"
     ],
     "geometry": [
         "line"

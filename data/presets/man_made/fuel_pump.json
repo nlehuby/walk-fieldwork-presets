@@ -2,10 +2,7 @@
     "icon": "maki-fuel",
     "fields": [
         "ref",
-        "fuel/fuel_multi",
-        "fuel/fuel_multi-RU",
-        "operator",
-        "self_service"
+        "operator"
     ],
     "moreFields": [
         "{man_made}"

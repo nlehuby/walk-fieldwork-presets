@@ -11,8 +11,6 @@
     "moreFields": [
         "access_simple",
         "address",
-        "charge_fee",
-        "fee",
         "opening_hours"
     ],
     "geometry": [

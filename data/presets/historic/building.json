@@ -1,8 +1,7 @@
 {
     "icon": "maki-home",
     "fields": [
-        "{building}",
-        "start_date"
+        "{building}"
     ],
     "moreFields": [
         "{building}",

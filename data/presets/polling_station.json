@@ -6,13 +6,11 @@
         "operator",
         "address",
         "opening_hours",
-        "building_area",
         "phone"
     ],
     "moreFields": [
         "{@templates/contact}",
         "{@templates/internet_access}",
-        "air_conditioning",
         "level",
         "wheelchair"
     ],

@@ -1,7 +1,6 @@
 {
     "fields": [
-        "material",
-        "seamark/type"
+        "material"
     ],
     "moreFields": [
         "{man_made}"

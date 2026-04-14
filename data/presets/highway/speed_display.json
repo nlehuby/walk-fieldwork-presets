@@ -9,9 +9,7 @@
         "direction_vertex",
         "maxspeed"
     ],
-    "moreFields": [
-        "maxspeed/advisory"
-    ],
+    "moreFields": [],
     "tags": {
         "highway": "speed_display"
     },

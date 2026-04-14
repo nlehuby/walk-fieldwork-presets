@@ -12,8 +12,7 @@
         "{craft}"
     ],
     "moreFields": [
-        "{craft}",
-        "fhrs/id-GB"
+        "{craft}"
     ],
     "tags": {
         "craft": "confectionery"

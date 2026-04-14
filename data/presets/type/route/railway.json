@@ -2,16 +2,10 @@
     "icon": "temaki-railway_track",
     "fields": [
         "name",
-        "ref_route",
         "operator",
-        "network",
-        "from",
-        "to",
-        "via"
+        "network"
     ],
-    "moreFields": [
-        "distance"
-    ],
+    "moreFields": [],
     "geometry": [
         "relation"
     ],

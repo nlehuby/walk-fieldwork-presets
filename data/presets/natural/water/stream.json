@@ -1,9 +1,6 @@
 {
     "icon": "iD-waterway-stream",
-    "fields": [
-        "water",
-        "intermittent"
-    ],
+    "fields": [],
     "moreFields": [
         "{natural/water}"
     ],

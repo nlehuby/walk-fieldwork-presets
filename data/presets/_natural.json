@@ -1,8 +1,7 @@
 {
     "icon": "maki-natural",
     "fields": [
-        "name",
-        "natural"
+        "name"
     ],
     "moreFields": [
         "gnis/feature_id-US"

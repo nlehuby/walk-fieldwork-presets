@@ -8,8 +8,7 @@
         "{@templates/internet_access}"
     ],
     "moreFields": [
-        "{@templates/internet_access}",
-        "ref/FR/siret-FR"
+        "{@templates/internet_access}"
     ],
     "geometry": [
         "point",

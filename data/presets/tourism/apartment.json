@@ -8,16 +8,11 @@
         "email",
         "phone",
         "building_area_yes",
-        "rooms",
         "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "building/levels_building",
-        "height_building",
-        "reservation",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

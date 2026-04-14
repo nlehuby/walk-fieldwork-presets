@@ -4,10 +4,7 @@
         "name",
         "capacity",
         "network",
-        "operator",
-        "operator/type",
-        "fee",
-        "payment_multi_fee"
+        "operator"
     ],
     "moreFields": [
         "{@templates/poi}",

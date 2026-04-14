@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
         "opening_hours"
     ],
@@ -11,8 +10,7 @@
         "{@templates/contact}",
         "access_simple",
         "dog",
-        "gnis/feature_id-US",
-        "smoking"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "area",

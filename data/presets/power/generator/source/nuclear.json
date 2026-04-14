@@ -2,9 +2,7 @@
     "icon": "temaki-radiation",
     "fields": [
         "ref",
-        "operator",
-        "generator/type",
-        "generator/output/electricity"
+        "operator"
     ],
     "moreFields": [
         "{power/generator}"

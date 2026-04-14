@@ -1,8 +1,7 @@
 {
     "icon": "fas-swimmer",
     "fields": [
-        "{tourism/theme_park}",
-        "sport"
+        "{tourism/theme_park}"
     ],
     "moreFields": [
         "{tourism/theme_park}"

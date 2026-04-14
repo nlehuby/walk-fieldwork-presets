@@ -1,8 +1,7 @@
 {
     "icon": "temaki-storage_fermenter",
     "fields": [
-        "{man_made/works/brewery}",
-        "product"
+        "{man_made/works/brewery}"
     ],
     "moreFields": [
         "{man_made/works/brewery}"

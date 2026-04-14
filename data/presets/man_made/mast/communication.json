@@ -1,12 +1,10 @@
 {
     "icon": "temaki-mast_communication",
     "fields": [
-        "{man_made/mast}",
-        "communication_multi"
+        "{man_made/mast}"
     ],
     "moreFields": [
-        "{man_made/mast}",
-        "mimics"
+        "{man_made/mast}"
     ],
     "geometry": [
         "point",

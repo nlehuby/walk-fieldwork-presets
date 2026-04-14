@@ -3,21 +3,13 @@
     "fields": [
         "name",
         "operator",
-        "capacity",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
-        "sanitary_dump_station",
-        "power_supply"
+        "capacity"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/contact}",
         "address",
-        "gnis/feature_id-US",
-        "seamark/harbour/category_marina",
-        "seamark/type",
-        "vhf"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "area",

@@ -1,9 +1,7 @@
 {
     "icon": "temaki-train_kids",
     "fields": [
-        "{attraction}",
-        "fee",
-        "charge_fee"
+        "{attraction}"
     ],
     "moreFields": [
         "{attraction}"

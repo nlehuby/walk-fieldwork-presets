@@ -2,8 +2,6 @@
     "icon": "maki-religious-christian",
     "fields": [
         "name",
-        "religion",
-        "denomination",
         "{amenity/place_of_worship}"
     ],
     "moreFields": [

@@ -1,10 +1,5 @@
 {
-    "fields": [
-        "crossing/markings",
-        "crossing/markings-BG",
-        "crossing/markings-DE-AT-CH",
-        "crossing/markings-PL"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "line"

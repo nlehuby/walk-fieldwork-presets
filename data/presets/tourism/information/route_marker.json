@@ -4,9 +4,7 @@
         "ref",
         "operator",
         "colour",
-        "material",
-        "ele_node",
-        "activity"
+        "material"
     ],
     "moreFields": [
         "{tourism/information}",

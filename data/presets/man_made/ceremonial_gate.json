@@ -1,14 +1,11 @@
 {
     "icon": "fas-archway",
     "fields": [
-        "ceremonial_gate",
         "height",
-        "material",
-        "religion"
+        "material"
     ],
     "moreFields": [
         "name",
-        "inscription",
         "operator",
         "access",
         "ref",

@@ -8,9 +8,7 @@
         "opening_hours"
     ],
     "moreFields": [
-        "{@templates/poi}",
-        "charge_fee",
-        "fee"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

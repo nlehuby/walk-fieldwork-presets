@@ -1,9 +1,7 @@
 {
     "icon": "maki-shop",
     "fields": [
-        "{shop}",
-        "religion",
-        "denomination"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

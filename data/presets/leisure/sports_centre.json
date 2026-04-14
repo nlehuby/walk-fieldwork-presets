@@ -3,14 +3,8 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
-        "sport",
-        "building_area",
         "address",
-        "fee",
-        "opening_hours",
-        "payment_multi_fee",
-        "charge_fee"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/poi}",

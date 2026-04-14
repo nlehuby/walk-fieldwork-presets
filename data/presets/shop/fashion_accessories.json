@@ -2,7 +2,6 @@
     "icon": "temaki-fashion_accessories",
     "fields": [
         "name",
-        "clothes",
         "{shop}"
     ],
     "moreFields": [

@@ -5,9 +5,6 @@
         "vertex"
     ],
     "fields": [
-        "railway/position",
-        "railway/signal/direction",
-        "railway/signal/position",
         "ref"
     ],
     "tags": {

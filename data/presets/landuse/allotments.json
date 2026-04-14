@@ -5,8 +5,7 @@
     ],
     "fields": [
         "name",
-        "operator",
-        "plots"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

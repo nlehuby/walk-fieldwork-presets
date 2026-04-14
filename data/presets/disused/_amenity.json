@@ -1,7 +1,5 @@
 {
-    "fields": [
-        "disused/amenity"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex",

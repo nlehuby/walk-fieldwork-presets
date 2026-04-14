@@ -1,14 +1,11 @@
 {
     "icon": "fas-shopping-cart",
     "fields": [
-        "capacity",
-        "deposit/trolley",
-        "payment_multi_fee"
+        "capacity"
     ],
     "moreFields": [
         "brand",
         "covered",
-        "fee",
         "indoor",
         "opening_hours",
         "operator"

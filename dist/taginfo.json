@@ -16679,11 +16679,6 @@
             "description": "🄵🅅 Leaf Type: Leafless"
         },
         {
-            "key": "leaf_type",
-            "value": "mixed",
-            "description": "🄵🅅 Leaf Type: Mixed"
-        },
-        {
             "key": "leaf_cycle",
             "description": "🄵 Leaf Cycle"
         },
@@ -17701,44 +17696,6 @@
             "key": "post_box:type",
             "value": "wall",
             "description": "🄵🅅 Type: Mounted in a Wall"
-        },
-        {
-            "key": "parking:left:orientation",
-            "description": "🄵 Parking Orientation"
-        },
-        {
-            "key": "parking:left:orientation",
-            "value": "parallel",
-            "description": "🄵🅅 Parking Orientation: Parallel to the Street"
-        },
-        {
-            "key": "parking:left:orientation",
-            "value": "diagonal",
-            "description": "🄵🅅 Parking Orientation: Diagonal in Relation to the Street (~45°)"
-        },
-        {
-            "key": "parking:left:orientation",
-            "value": "perpendicular",
-            "description": "🄵🅅 Parking Orientation: Meets the Street at a Straight Angle (~90°)"
-        },
-        {
-            "key": "parking:right:orientation",
-            "description": "🄵 Parking Orientation"
-        },
-        {
-            "key": "parking:right:orientation",
-            "value": "parallel",
-            "description": "🄵🅅 Parking Orientation: Parallel to the Street"
-        },
-        {
-            "key": "parking:right:orientation",
-            "value": "diagonal",
-            "description": "🄵🅅 Parking Orientation: Diagonal in Relation to the Street (~45°)"
-        },
-        {
-            "key": "parking:right:orientation",
-            "value": "perpendicular",
-            "description": "🄵🅅 Parking Orientation: Meets the Street at a Straight Angle (~90°)"
         },
         {
             "key": "orientation",

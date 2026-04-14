@@ -793,36 +793,7 @@
         "autoSuggestions": false,
         "customValues": false
     },
-    "leaf_type": {
-        "key": "leaf_type",
-        "type": "combo",
-        "icons": {
-            "broadleaved": "maki-park",
-            "needleleaved": "roentgen-needleleaved_tree"
-        },
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "broadleaved",
-            "needleleaved",
-            "mixed",
-            "leafless"
-        ]
-    },
     "leaf_cycle_singular": {
-        "key": "leaf_cycle",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "evergreen",
-            "deciduous",
-            "semi_evergreen",
-            "semi_deciduous",
-            "mixed"
-        ]
-    },
-    "leaf_cycle": {
         "key": "leaf_cycle",
         "type": "combo",
         "autoSuggestions": false,
@@ -1465,24 +1436,6 @@
             "pillar",
             "lamp",
             "wall"
-        ]
-    },
-    "parking/side/orientation": {
-        "key": "parking:both:orientation",
-        "keys": [
-            "parking:left:orientation",
-            "parking:right:orientation"
-        ],
-        "reference": {
-            "key": "orientation"
-        },
-        "type": "directionalCombo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "parallel",
-            "diagonal",
-            "perpendicular"
         ]
     },
     "orientation/orientation_parking": {

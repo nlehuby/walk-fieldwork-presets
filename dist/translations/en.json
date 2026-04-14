@@ -688,26 +688,7 @@
                         "leafless": "Leafless"
                     }
                 },
-                "leaf_type": {
-                    "label": "Leaf Type",
-                    "options": {
-                        "broadleaved": "Broadleaved",
-                        "needleleaved": "Needleleaved",
-                        "mixed": "Mixed",
-                        "leafless": "Leafless"
-                    }
-                },
                 "leaf_cycle_singular": {
-                    "label": "Leaf Cycle",
-                    "options": {
-                        "evergreen": "Evergreen",
-                        "deciduous": "Deciduous",
-                        "semi_evergreen": "Semi-Evergreen",
-                        "semi_deciduous": "Semi-Deciduous",
-                        "mixed": "Mixed"
-                    }
-                },
-                "leaf_cycle": {
                     "label": "Leaf Cycle",
                     "options": {
                         "evergreen": "Evergreen",
@@ -1308,18 +1289,6 @@
                         "pillar": "Freestanding Box",
                         "lamp": "Attached to a Pole",
                         "wall": "Mounted in a Wall"
-                    }
-                },
-                "parking/side/orientation": {
-                    "label": "Parking Orientation",
-                    "types": {
-                        "parking:left:orientation": "Left side",
-                        "parking:right:orientation": "Right side"
-                    },
-                    "options": {
-                        "parallel": "Parallel to the Street",
-                        "diagonal": "Diagonal in Relation to the Street (~45°)",
-                        "perpendicular": "Meets the Street at a Straight Angle (~90°)"
                     }
                 },
                 "orientation/orientation_parking": {

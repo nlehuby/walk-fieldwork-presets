@@ -17416,6 +17416,37 @@
       "footway": "platform"
     }
   },
+  "highway/footway/indoor": {
+    "icon": "temaki-pedestrian_walled",
+    "fields": [
+      "width",
+      "smoothness_simple",
+      "lit",
+      "incline_percentage",
+      "incline_across_percentage",
+      "indoor",
+      "guiding_strips"
+    ],
+    "moreFields": [
+      "name",
+      "level",
+      "access_simple",
+      "wheelchair",
+      "maxheight",
+      "stroller"
+    ],
+    "geometry": [
+      "line"
+    ],
+    "tags": {
+      "highway": "footway",
+      "indoor": "yes"
+    },
+    "addTags": {
+      "highway": "footway",
+      "indoor": "yes"
+    }
+  },
   "highway/footway/crossing": {
     "fields": [
       "smoothness_simple",

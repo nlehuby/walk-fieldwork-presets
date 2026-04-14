@@ -7560,7 +7560,7 @@
         {
             "key": "indoor",
             "value": "yes",
-            "description": "🄿 Indoor Playground",
+            "description": "🄿 Indoor Playground, 🄿 Indoor Footway",
             "object_types": [
                 "area",
                 "node"

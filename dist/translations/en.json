@@ -5494,6 +5494,10 @@
                 "highway/footway/platform": {
                     "name": "Platform"
                 },
+                "highway/footway/indoor": {
+                    "name": "Indoor Footway",
+                    "terms": "gallery,hall,hallway,indoor,passage,passageway"
+                },
                 "highway/footway/crossing": {
                     "name": "Pedestrian Crossing",
                     "terms": "crosswalk,foot path crossing"

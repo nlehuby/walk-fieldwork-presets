@@ -3,12 +3,10 @@
     "fields": [
         "name",
         "operator",
-        "address",
-        "product"
+        "address"
     ],
     "moreFields": [
         "{@templates/contact}",
-        "building_area",
         "gnis/feature_id-US"
     ],
     "geometry": [

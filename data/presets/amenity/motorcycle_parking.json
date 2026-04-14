@@ -1,7 +1,6 @@
 {
     "icon": "fas-motorcycle",
     "fields": [
-        "capacity_parking",
         "operator",
         "covered",
         "access_simple"

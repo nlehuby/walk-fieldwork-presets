@@ -2,7 +2,6 @@
     "icon": "maki-hospital",
     "fields": [
         "name",
-        "healthcare",
         "{healthcare}"
     ],
     "moreFields": [

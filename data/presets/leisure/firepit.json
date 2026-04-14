@@ -2,12 +2,10 @@
     "icon": "temaki-campfire",
     "fields": [
         "access_simple",
-        "seasonal",
         "width"
     ],
     "moreFields": [
-        "ref",
-        "wood_provided"
+        "ref"
     ],
     "geometry": [
         "point",

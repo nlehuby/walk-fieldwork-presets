@@ -1,8 +1,7 @@
 {
     "icon": "temaki-disc_golf_basket",
     "fields": [
-        "surface",
-        "tee_disc_golf"
+        "surface"
     ],
     "geometry": [
         "point",

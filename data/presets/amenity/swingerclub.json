@@ -1,13 +1,10 @@
 {
     "icon": "maki-heart",
     "fields": [
-        "{amenity/nightclub}",
-        "smoking"
+        "{amenity/nightclub}"
     ],
     "moreFields": [
-        "{@templates/poi}",
-        "air_conditioning",
-        "fee"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

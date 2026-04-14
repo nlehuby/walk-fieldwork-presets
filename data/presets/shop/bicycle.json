@@ -1,8 +1,7 @@
 {
     "icon": "maki-bicycle",
     "fields": [
-        "{shop}",
-        "service/bicycle"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

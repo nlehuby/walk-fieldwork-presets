@@ -1,8 +1,6 @@
 {
     "icon": "temaki-bunker_silo",
-    "fields": [
-        "content"
-    ],
+    "fields": [],
     "moreFields": [
         "gnis/feature_id-US"
     ],

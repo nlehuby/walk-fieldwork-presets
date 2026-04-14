@@ -4,8 +4,6 @@
         "{natural}"
     ],
     "moreFields": [
-        "leaf_type",
-        "leaf_cycle",
         "species/wikidata"
     ],
     "geometry": [

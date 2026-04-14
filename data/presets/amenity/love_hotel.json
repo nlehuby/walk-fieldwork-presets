@@ -5,14 +5,11 @@
         "operator",
         "address",
         "building_area_yes",
-        "rooms",
         "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "min_age",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

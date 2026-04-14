@@ -6,7 +6,6 @@
         "area"
     ],
     "fields": [
-        "monitoring_multi",
         "operator",
         "manufacturer"
     ],

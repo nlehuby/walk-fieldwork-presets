@@ -7,9 +7,7 @@
     "tags": {
         "highway": "emergency_bay"
     },
-    "fields": [
-        "direction_vertex_dual"
-    ],
+    "fields": [],
     "terms": [
         "highway emergency bay"
     ],

@@ -2,23 +2,15 @@
     "icon": "temaki-car_parked",
     "fields": [
         "operator",
-        "operator/type",
         "parking",
-        "capacity_parking",
-        "capacity/disabled_parking",
         "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
         "surface"
     ],
     "moreFields": [
         "{@templates/contact}",
         "address",
         "covered",
-        "maxstay",
         "opening_hours",
-        "park_ride",
         "ref",
         "supervised",
         "wheelchair"

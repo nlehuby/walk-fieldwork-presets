@@ -1,8 +1,6 @@
 {
     "icon": "temaki-yield",
-    "fields": [
-        "direction_vertex_dual"
-    ],
+    "fields": [],
     "geometry": [
         "vertex"
     ],

@@ -1,8 +1,7 @@
 {
     "icon": "maki-blood-bank",
     "fields": [
-        "{healthcare}",
-        "blood_components"
+        "{healthcare}"
     ],
     "moreFields": [
         "{healthcare}"

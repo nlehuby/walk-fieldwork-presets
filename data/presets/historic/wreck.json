@@ -2,15 +2,10 @@
     "icon": "temaki-ruins",
     "fields": [
         "name",
-        "access_simple",
-        "seamark/wreck/category",
-        "historic/wreck/date_sunk",
-        "historic/wreck/visible_at_low_tide",
-        "historic/wreck/visible_at_high_tide"
+        "access_simple"
     ],
     "moreFields": [
-        "{historic}",
-        "seamark/type"
+        "{historic}"
     ],
     "geometry": [
         "point",

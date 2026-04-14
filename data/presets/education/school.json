@@ -3,27 +3,15 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
-        "grades",
-        "religion",
-        "denomination",
-        "website",
-        "building_area"
+        "website"
     ],
     "moreFields": [
         "{@templates/contact}",
         "{@templates/internet_access}",
         "capacity",
-        "charge_fee",
-        "fee",
-        "fhrs/id-GB",
         "gnis/feature_id-US",
-        "ref/edubase-GB",
-        "internet_access",
-        "internet_access/ssid",
         "level",
-        "polling_station",
         "wheelchair"
     ],
     "geometry": [

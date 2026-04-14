@@ -1,7 +1,6 @@
 {
     "icon": "temaki-plane_taxiing",
     "fields": [
-        "ref_taxiway",
         "surface"
     ],
     "geometry": [

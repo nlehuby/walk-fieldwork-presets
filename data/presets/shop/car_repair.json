@@ -1,8 +1,7 @@
 {
     "icon": "maki-car-repair",
     "fields": [
-        "{shop}",
-        "service/vehicle"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

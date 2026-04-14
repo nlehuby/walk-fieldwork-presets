@@ -1,14 +1,10 @@
 {
     "icon": "fas-book",
     "fields": [
-        "{shop}",
-        "books",
-        "internet_access"
+        "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "internet_access/fee",
-        "internet_access/ssid"
+        "{shop}"
     ],
     "geometry": [
         "point",

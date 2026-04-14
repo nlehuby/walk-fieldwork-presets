@@ -4,8 +4,6 @@
         "name",
         "ref",
         "operator",
-        "oneway_yes",
-        "resource",
         "width"
     ],
     "moreFields": [

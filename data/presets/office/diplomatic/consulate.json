@@ -2,7 +2,6 @@
     "icon": "temaki-embassy",
     "fields": [
         "name",
-        "consulate",
         "{office/diplomatic}"
     ],
     "moreFields": [

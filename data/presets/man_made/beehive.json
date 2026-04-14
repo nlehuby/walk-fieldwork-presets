@@ -7,7 +7,6 @@
     "fields": [
         "ref",
         "operator",
-        "seasonal",
         "height",
         "colour"
     ],

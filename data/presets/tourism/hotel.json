@@ -4,11 +4,7 @@
         "{tourism/motel}"
     ],
     "moreFields": [
-        "{tourism/motel}",
-        "bar",
-        "fhrs/id-GB",
-        "ref/FR/siret-FR",
-        "stars"
+        "{tourism/motel}"
     ],
     "geometry": [
         "point",

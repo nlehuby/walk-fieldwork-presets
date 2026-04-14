@@ -3,11 +3,7 @@
     "fields": [
         "name",
         "operator",
-        "plant/source",
-        "plant/method/hydro",
-        "plant/output/electricity",
-        "address",
-        "start_date"
+        "address"
     ],
     "moreFields": [
         "{power/plant}"

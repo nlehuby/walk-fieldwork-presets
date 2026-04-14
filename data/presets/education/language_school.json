@@ -3,11 +3,9 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "language_multi"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/contact}",

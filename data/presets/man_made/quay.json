@@ -1,8 +1,7 @@
 {
     "icon": "temaki-quay",
     "fields": [
-        "name",
-        "mooring"
+        "name"
     ],
     "moreFields": [
         "{man_made}"

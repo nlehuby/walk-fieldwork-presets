@@ -4,12 +4,9 @@
         "name",
         "operator",
         "surface",
-        "access_simple",
-        "min_age",
-        "max_age"
+        "access_simple"
     ],
     "moreFields": [
-        "playground/theme",
         "blind",
         "dog",
         "gnis/feature_id-US",

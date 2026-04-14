@@ -9,8 +9,7 @@
     "moreFields": [
         "{@templates/contact}",
         "address",
-        "gnis/feature_id-US",
-        "seamark/type"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "point",

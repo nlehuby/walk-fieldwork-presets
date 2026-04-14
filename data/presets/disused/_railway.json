@@ -1,8 +1,6 @@
 {
     "icon": "temaki-rail_profile",
-    "fields": [
-        "disused/railway"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex",

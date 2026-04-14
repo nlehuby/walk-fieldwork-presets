@@ -1,15 +1,11 @@
 {
     "icon": "maki-art-gallery",
     "fields": [
-        "name",
-        "artwork_type",
-        "artist"
+        "name"
     ],
     "moreFields": [
         "level",
-        "material",
-        "subject/wikidata",
-        "inscription"
+        "material"
     ],
     "geometry": [
         "point",

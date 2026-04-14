@@ -2,16 +2,11 @@
     "icon": "roentgen-plane",
     "fields": [
         "name",
-        "start_date",
-        "aircraft/type",
         "model"
     ],
     "moreFields": [
         "ref",
-        "model/wikidata",
-        "manufacturer",
-        "manufacturer/wikidata",
-        "description"
+        "manufacturer"
     ],
     "geometry": [
         "point",

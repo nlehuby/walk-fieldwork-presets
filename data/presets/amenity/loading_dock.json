@@ -8,15 +8,11 @@
     ],
     "moreFields": [
         "address",
-        "dock/height",
-        "dock/width",
-        "door/height",
         "door/width",
         "colour",
         "level",
         "lit",
         "maxheight",
-        "maxlength",
         "maxwidth",
         "wheelchair"
     ],

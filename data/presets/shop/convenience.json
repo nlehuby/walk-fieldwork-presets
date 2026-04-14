@@ -4,9 +4,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "fhrs/id-GB",
-        "organic"
+        "{shop}"
     ],
     "geometry": [
         "point",

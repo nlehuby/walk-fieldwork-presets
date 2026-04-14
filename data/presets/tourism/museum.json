@@ -3,24 +3,13 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
-        "museum",
         "address",
         "building_area_yes",
         "opening_hours"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "air_conditioning",
-        "building/levels_building",
-        "charge_fee",
-        "changing_table",
-        "fee",
-        "height_building",
-        "toilets",
-        "toilets/wheelchair",
-        "toilets/menstrual_products_poi"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

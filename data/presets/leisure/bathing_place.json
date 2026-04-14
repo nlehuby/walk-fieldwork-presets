@@ -11,11 +11,7 @@
     "fields": [
         "name",
         "access_simple",
-        "informal",
-        "shower",
-        "toilets",
-        "drinking_water_available",
-        "picnic_table"
+        "informal"
     ],
     "geometry": [
         "point",

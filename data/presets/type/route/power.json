@@ -2,14 +2,9 @@
     "icon": "iD-power-line",
     "fields": [
         "name",
-        "ref_route",
-        "operator",
-        "from",
-        "to"
+        "operator"
     ],
-    "moreFields": [
-        "distance"
-    ],
+    "moreFields": [],
     "geometry": [
         "relation"
     ],

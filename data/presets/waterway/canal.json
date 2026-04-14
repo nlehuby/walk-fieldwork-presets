@@ -2,19 +2,12 @@
     "icon": "iD-waterway-canal",
     "fields": [
         "name",
-        "structure_canal",
         "tunnel/name",
-        "width",
-        "usage_waterway",
-        "intermittent",
-        "lock"
+        "width"
     ],
     "moreFields": [
         "bridge/name",
-        "fishing",
-        "gnis/feature_id-US",
-        "salt",
-        "tidal"
+        "gnis/feature_id-US"
     ],
     "geometry": [
         "line"

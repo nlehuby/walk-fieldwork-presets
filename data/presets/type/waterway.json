@@ -2,8 +2,6 @@
     "icon": "iD-waterway-stream",
     "fields": [
         "name",
-        "waterway",
-        "destination_waterway",
         "ref"
     ],
     "moreFields": [

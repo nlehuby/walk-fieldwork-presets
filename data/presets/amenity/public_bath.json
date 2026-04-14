@@ -2,17 +2,11 @@
     "icon": "fas-water-ladder",
     "fields": [
         "name",
-        "bath/type",
-        "bath/open_air",
-        "address",
-        "building_area",
-        "fee",
-        "charge_fee"
+        "address"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "bath/sand_bath-JP"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

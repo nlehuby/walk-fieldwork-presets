@@ -3,16 +3,10 @@
     "fields": [
         "operator",
         "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
-        "seasonal",
         "wheelchair"
     ],
     "moreFields": [
-        "bottle",
         "covered",
-        "dog_check",
         "indoor",
         "level",
         "lit"

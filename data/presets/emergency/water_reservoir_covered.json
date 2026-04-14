@@ -4,12 +4,9 @@
         "name",
         "ref",
         "operator",
-        "capacity_volume",
         "layer"
     ],
-    "moreFields": [
-        "water_tank/volume"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "vertex",

@@ -4,17 +4,13 @@
         "name",
         "brand",
         "operator",
-        "operator/type",
         "address",
         "building_area_yes"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "air_conditioning",
-        "baby_feeding",
-        "branch_brand",
-        "polling_station"
+        "branch_brand"
     ],
     "geometry": [
         "point",

@@ -3,12 +3,10 @@
     "fields": [
         "ref",
         "operator",
-        "structure_power",
         "material"
     ],
     "moreFields": [
         "colour",
-        "design_power_tower",
         "height",
         "line_management",
         "manufacturer"

@@ -6,15 +6,11 @@
         "address",
         "phone",
         "building_area_yes",
-        "{@templates/internet_access}",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee"
+        "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "reservation"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

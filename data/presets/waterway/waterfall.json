@@ -3,8 +3,7 @@
     "fields": [
         "name",
         "height",
-        "width",
-        "intermittent"
+        "width"
     ],
     "moreFields": [
         "gnis/feature_id-US"

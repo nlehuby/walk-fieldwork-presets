@@ -1,8 +1,7 @@
 {
     "icon": "temaki-hunting_blind",
     "fields": [
-        "access_simple",
-        "lockable"
+        "access_simple"
     ],
     "geometry": [
         "point",

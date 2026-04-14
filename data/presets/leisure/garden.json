@@ -2,13 +2,8 @@
     "icon": "maki-garden",
     "fields": [
         "name",
-        "garden/type",
         "operator",
-        "operator/type",
-        "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee"
+        "access_simple"
     ],
     "moreFields": [
         "{@templates/contact}",

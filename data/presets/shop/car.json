@@ -3,9 +3,7 @@
     "fields": [
         "name",
         "brand",
-        "{shop}",
-        "second_hand",
-        "service/vehicle"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

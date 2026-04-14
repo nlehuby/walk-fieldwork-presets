@@ -2,7 +2,6 @@
     "icon": "temaki-statue",
     "fields": [
         "name",
-        "artist",
         "material"
     ],
     "moreFields": [

@@ -1,13 +1,6 @@
 {
-    "fields": [
-        "internet_access",
-        "internet_access/fee"
-    ],
-    "moreFields": [
-        "internet_access",
-        "internet_access/fee",
-        "internet_access/ssid"
-    ],
+    "fields": [],
+    "moreFields": [],
     "geometry": [
         "point"
     ],

@@ -9,12 +9,7 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "building/levels_building",
-        "height_building",
-        "toilets",
-        "toilets/wheelchair",
-        "toilets/menstrual_products_poi"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

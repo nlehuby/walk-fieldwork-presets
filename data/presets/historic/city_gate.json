@@ -2,9 +2,7 @@
     "icon": "maki-castle",
     "fields": [
         "name",
-        "building_area_yes",
-        "historic/civilization",
-        "start_date"
+        "building_area_yes"
     ],
     "moreFields": [
         "{historic}"

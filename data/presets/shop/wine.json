@@ -4,9 +4,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "fhrs/id-GB",
-        "min_age"
+        "{shop}"
     ],
     "geometry": [
         "point",

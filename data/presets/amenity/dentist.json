@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "healthcare/speciality",
         "address",
         "building_area_yes",
         "opening_hours"

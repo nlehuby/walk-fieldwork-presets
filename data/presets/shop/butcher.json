@@ -18,8 +18,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "fhrs/id-GB"
+        "{shop}"
     ],
     "name": "Butcher",
     "aliases": [

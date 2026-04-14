@@ -2,8 +2,6 @@
     "icon": "maki-place-of-worship",
     "fields": [
         "name",
-        "religion",
-        "denomination",
         "address"
     ],
     "moreFields": [

@@ -1,8 +1,7 @@
 {
     "icon": "maki-hot-spring",
     "fields": [
-        "name",
-        "intermittent"
+        "name"
     ],
     "moreFields": [
         "gnis/feature_id-US"

@@ -8,15 +8,11 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "booth",
-        "fee",
         "indoor",
         "level",
         "lit",
         "model",
         "ref",
-        "sms",
-        "video_calls",
         "wheelchair"
     ],
     "geometry": [

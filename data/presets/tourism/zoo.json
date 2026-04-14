@@ -4,17 +4,11 @@
         "name",
         "operator",
         "address",
-        "opening_hours",
-        "fee",
-        "charge_fee"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "changing_table",
-        "toilets",
-        "toilets/wheelchair",
-        "toilets/menstrual_products_poi"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

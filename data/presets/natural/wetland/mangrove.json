@@ -1,9 +1,6 @@
 {
     "icon": "maki-wetland",
-    "fields": [
-        "salt",
-        "tidal"
-    ],
+    "fields": [],
     "moreFields": [
         "{natural/wetland}"
     ],

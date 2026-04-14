@@ -2,7 +2,6 @@
     "icon": "maki-library",
     "fields": [
         "name",
-        "public_bookcase/type",
         "operator",
         "capacity",
         "lit"
@@ -11,7 +10,6 @@
         "access_simple",
         "address",
         "branch_brand",
-        "books",
         "brand",
         "colour",
         "covered",
@@ -20,7 +18,6 @@
         "height",
         "indoor",
         "level",
-        "location",
         "opening_hours",
         "phone",
         "ref",

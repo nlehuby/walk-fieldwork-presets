@@ -4,8 +4,7 @@
         "name",
         "operator",
         "access_simple",
-        "website",
-        "wikidata"
+        "website"
     ],
     "moreFields": [
         "{@templates/contact}",

@@ -1,7 +1,6 @@
 {
     "icon": "temaki-cable",
     "fields": [
-        "telecom",
         "operator"
     ],
     "geometry": [

@@ -1,14 +1,7 @@
 {
     "icon": "maki-building",
     "fields": [
-        "building/part",
-        "building/levels",
-        "height",
-        "building/material",
-        "building/colour",
-        "roof/colour",
-        "roof/height",
-        "roof/shape"
+        "height"
     ],
     "moreFields": [
         "layer"

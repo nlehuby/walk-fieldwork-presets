@@ -1,8 +1,6 @@
 {
     "icon": "maki-town-hall",
     "fields": [
-        "community_centre",
-        "club",
         "{amenity/community_centre}"
     ],
     "moreFields": [

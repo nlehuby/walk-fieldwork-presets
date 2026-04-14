@@ -4,8 +4,7 @@
         "{building}"
     ],
     "moreFields": [
-        "{building}",
-        "polling_station"
+        "{building}"
     ],
     "geometry": [
         "area"

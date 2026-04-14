@@ -4,9 +4,7 @@
         "name",
         "access_simple",
         "lit",
-        "location_pool",
-        "length",
-        "swimming_pool"
+        "length"
     ],
     "moreFields": [
         "address",

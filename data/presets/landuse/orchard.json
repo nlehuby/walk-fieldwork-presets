@@ -2,8 +2,7 @@
     "icon": "maki-park",
     "fields": [
         "name",
-        "operator",
-        "trees"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

@@ -5,14 +5,10 @@
         "operator",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "min_age",
-        "smoking"
+        "opening_hours"
     ],
     "moreFields": [
-        "{@templates/poi}",
-        "air_conditioning",
-        "fee"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

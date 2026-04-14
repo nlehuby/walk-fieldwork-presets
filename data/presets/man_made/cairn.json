@@ -1,10 +1,7 @@
 {
     "icon": "temaki-cairn",
     "fields": [
-        "height",
-        "ele",
-        "ele_node",
-        "check_date"
+        "height"
     ],
     "moreFields": [
         "colour",

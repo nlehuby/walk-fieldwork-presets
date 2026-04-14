@@ -2,13 +2,10 @@
     "icon": "maki-monument",
     "fields": [
         "name",
-        "memorial",
-        "inscription",
         "material"
     ],
     "moreFields": [
-        "{historic}",
-        "subject/wikidata"
+        "{historic}"
     ],
     "geometry": [
         "point",

@@ -2,11 +2,7 @@
     "name": "Cyclist Waiting Aid",
     "icon": "temaki-guard_rail",
     "fields": [
-        "footrest",
-        "handrest",
-        "direction_vertex",
-        "side",
-        "count"
+        "direction_vertex"
     ],
     "moreFields": [
         "capacity"

@@ -2,7 +2,6 @@
     "icon": "temaki-bunker",
     "fields": [
         "name",
-        "bunker_type",
         "building_area_yes"
     ],
     "moreFields": [

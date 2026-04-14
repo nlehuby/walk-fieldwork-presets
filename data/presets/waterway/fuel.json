@@ -4,16 +4,13 @@
         "name",
         "operator",
         "address",
-        "opening_hours",
-        "fuel/fuel_multi"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/contact}",
         "branch_brand",
         "brand",
-        "building",
         "payment_multi",
-        "seamark/type",
         "wheelchair"
     ],
     "geometry": [

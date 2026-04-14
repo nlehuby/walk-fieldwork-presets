@@ -2,11 +2,8 @@
     "icon": "temaki-airport",
     "fields": [
         "name",
-        "iata",
-        "icao",
         "address",
-        "operator",
-        "operator/type"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",

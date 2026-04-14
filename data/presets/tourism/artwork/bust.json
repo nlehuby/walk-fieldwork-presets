@@ -2,9 +2,7 @@
     "icon": "fas-user-alt",
     "fields": [
         "name",
-        "artist",
-        "material",
-        "inscription"
+        "material"
     ],
     "moreFields": [
         "{tourism/artwork}"

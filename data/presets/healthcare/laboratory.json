@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "healthcare/speciality",
         "website",
         "phone",
         "ref",

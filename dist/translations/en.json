@@ -192,8 +192,7 @@
                     "label": "Via"
                 },
                 "vhf": {
-                    "label": "VHF Channel",
-                    "terms": "call sign,very high frequency"
+                    "label": "VHF Channel"
                 },
                 "vending": {
                     "label": "Types of Goods",
@@ -344,8 +343,7 @@
                     "label": "Traffic Sign"
                 },
                 "traffic_calming_road": {
-                    "label": "Traffic Calming",
-                    "terms": "bump,chicane,choker,cushion,flat top,hump,rumble strip,slow,speed,table,traffic island"
+                    "label": "Traffic Calming"
                 },
                 "traffic_calming": {
                     "label": "Type",
@@ -402,8 +400,7 @@
                     "label": "Toll"
                 },
                 "toilets": {
-                    "label": "Toilets",
-                    "terms": "bathroom,latrine,lavatory,outhouse,privy,restroom,toilet,water closet,w.c.,wc"
+                    "label": "Toilets"
                 },
                 "to": {
                     "label": "To"
@@ -469,7 +466,6 @@
                 },
                 "takeaway": {
                     "label": "Takeaway",
-                    "terms": "take out,takeout",
                     "placeholder": "Yes, No, Takeaway Only...",
                     "options": {
                         "yes": "Yes",
@@ -712,8 +708,7 @@
                     "placeholder": "YYYY-MM-DD"
                 },
                 "stars": {
-                    "label": "Stars",
-                    "terms": "rating"
+                    "label": "Stars"
                 },
                 "sport": {
                     "label": "Sports",
@@ -837,8 +832,7 @@
                     }
                 },
                 "snowmobile": {
-                    "label": "Snowmobile Access",
-                    "terms": "ski-doo"
+                    "label": "Snowmobile Access"
                 },
                 "sms": {
                     "label": "SMS"
@@ -999,8 +993,7 @@
                     "label": "Samples"
                 },
                 "salt": {
-                    "label": "Salt",
-                    "terms": "salinated,saline"
+                    "label": "Salt"
                 },
                 "sac_scale": {
                     "label": "Hiking Difficulty",
@@ -1042,8 +1035,7 @@
                     "label": "Type"
                 },
                 "roundtrip": {
-                    "label": "Forms Loop",
-                    "terms": "circular,closed,looping,roundtrip"
+                    "label": "Forms Loop"
                 },
                 "rooms": {
                     "label": "Rooms"
@@ -1196,8 +1188,7 @@
                     }
                 },
                 "real_fire-GB-IE": {
-                    "label": "Real Fire",
-                    "terms": "fire,fire place"
+                    "label": "Real Fire"
                 },
                 "rcn_ref": {
                     "label": "Cycling Code"
@@ -1245,15 +1236,13 @@
                     "label": "Delivery Address"
                 },
                 "portable": {
-                    "label": "Portable",
-                    "terms": "detached,mobile,moveable"
+                    "label": "Portable"
                 },
                 "population": {
                     "label": "Population"
                 },
                 "polling_station": {
-                    "label": "Polling Place",
-                    "terms": "voting place"
+                    "label": "Polling Place"
                 },
                 "plots": {
                     "label": "Plots",
@@ -1364,8 +1353,7 @@
                     "label": "Type"
                 },
                 "picnic_table": {
-                    "label": "Picnic Table",
-                    "terms": "bench,outdoor table"
+                    "label": "Picnic Table"
                 },
                 "phone": {
                     "label": "Telephone",
@@ -1515,7 +1503,6 @@
                 },
                 "organic": {
                     "label": "Organic Products",
-                    "terms": "natural,non-gmo",
                     "options": {
                         "no": "None",
                         "yes": "Some",
@@ -1623,7 +1610,6 @@
                 },
                 "nudism": {
                     "label": "Nudism",
-                    "terms": "naturism,naturist,nude recreation,nudist",
                     "options": {
                         "customary": "Customary",
                         "designated": "Designated",
@@ -1722,12 +1708,10 @@
                     "label": "Height of Bottom (Meters)"
                 },
                 "min_age": {
-                    "label": "Minimum Age",
-                    "terms": "lower age limit"
+                    "label": "Minimum Age"
                 },
                 "mimics": {
-                    "label": "Mimics",
-                    "terms": "camoflauged,disguised,looks like,tree"
+                    "label": "Mimics"
                 },
                 "military_service": {
                     "label": "Military Service",
@@ -1740,8 +1724,7 @@
                     }
                 },
                 "microbrewery": {
-                    "label": "Microbrewery",
-                    "terms": "brewpub,craft beer"
+                    "label": "Microbrewery"
                 },
                 "message": {
                     "label": "Message"
@@ -1788,8 +1771,7 @@
                     "label": "Axle Weight Limit"
                 },
                 "max_age": {
-                    "label": "Maximum Age",
-                    "terms": "upper age limit"
+                    "label": "Maximum Age"
                 },
                 "mattress": {
                     "label": "Mattresses Available"
@@ -1988,8 +1970,7 @@
                     "placeholder": "1, 2, 3..."
                 },
                 "lane_markings": {
-                    "label": "Lane Markings",
-                    "terms": "centerline,lane dividers,lane line,striped,unstriped"
+                    "label": "Lane Markings"
                 },
                 "landuse": {
                     "label": "Type"
@@ -2053,7 +2034,6 @@
                 },
                 "irrigation_pivot": {
                     "label": "Center-Pivot Irrigation",
-                    "terms": "central pivot irrigation,circle irrigation,water wheel",
                     "options": {
                         "undefined": "No",
                         "pivot": "Yes"
@@ -2064,7 +2044,6 @@
                 },
                 "internet_access": {
                     "label": "Internet Connection",
-                    "terms": "wifi,wlan",
                     "options": {
                         "yes": "Yes",
                         "no": "No",
@@ -2248,8 +2227,7 @@
                     "label": "High-Speed"
                 },
                 "highchair": {
-                    "label": "High Chair",
-                    "terms": "booster,booster seat,feeding chair,kids chair"
+                    "label": "High Chair"
                 },
                 "height_building": {
                     "label": "Building Height (Meters)"
@@ -2386,7 +2364,6 @@
                 "gender_simple": {},
                 "gender": {
                     "label": "Gender",
-                    "terms": "access,female,male,unisex",
                     "placeholder": "Unknown",
                     "options": {
                         "male": "Male",
@@ -2622,7 +2599,6 @@
                 },
                 "electrified": {
                     "label": "Electrification",
-                    "terms": "contact line,powered,third rail",
                     "placeholder": "Contact Line, Electrified Rail...",
                     "options": {
                         "contact_line": "Contact Line",
@@ -2635,8 +2611,7 @@
                     "terms": "altitude,height"
                 },
                 "ele": {
-                    "label": "Elevation (Meters)",
-                    "terms": "altitude,height"
+                    "label": "Elevation (Meters)"
                 },
                 "education": {
                     "label": "Type",
@@ -2660,12 +2635,10 @@
                     "label": "Drive-Through"
                 },
                 "drinking_water_available": {
-                    "label": "Drinking Water Available",
-                    "terms": "drinkworthy,potable"
+                    "label": "Drinking Water Available"
                 },
                 "drinking_water": {
-                    "label": "Drinkable",
-                    "terms": "drinkworthy,potable"
+                    "label": "Drinkable"
                 },
                 "drink_multi": {
                     "label": "Drinks"
@@ -2699,8 +2672,7 @@
                     }
                 },
                 "distance": {
-                    "label": "Distance",
-                    "terms": "length,mileage"
+                    "label": "Distance"
                 },
                 "display": {
                     "label": "Display",
@@ -2756,7 +2728,6 @@
                 },
                 "diet_multi": {
                     "label": "Dietary Options",
-                    "terms": "fruitarian,gluten free,halal,kosher,lactose free,meat,pescatarian,raw,vegan,vegetarian",
                     "options": {
                         "vegetarian": "Vegetarian",
                         "vegan": "Vegan",
@@ -2796,8 +2767,7 @@
                     "terms": "summary"
                 },
                 "descent": {
-                    "label": "Total Descent",
-                    "terms": "cumulative elevation,descent"
+                    "label": "Total Descent"
                 },
                 "depth": {
                     "label": "Depth (Meters)"
@@ -2895,7 +2865,6 @@
                 },
                 "cuisine": {
                     "label": "Cuisines",
-                    "terms": "fare,food types",
                     "options": {
                         "pizza": "Pizza",
                         "burger": "Burger",
@@ -3264,8 +3233,7 @@
                     "label": "Deposits"
                 },
                 "caravans": {
-                    "label": "Campervan / Camping Trailer",
-                    "terms": "camper,camper trailer,caravan,tourer"
+                    "label": "Campervan / Camping Trailer"
                 },
                 "capacity_volume": {
                     "label": "Capacity (Cubic Meters)",
@@ -3334,7 +3302,6 @@
                 "building_area": {},
                 "building": {
                     "label": "Building",
-                    "terms": "structure",
                     "options": {
                         "allotment_house": "Allotment House",
                         "apartments": "Apartment Building",
@@ -3417,8 +3384,7 @@
                     "placeholder": "Default"
                 },
                 "brewery": {
-                    "label": "Sold Beer brands",
-                    "terms": "beer brand,beer dispensing,bottled beer,draft beer,on tap,tap beer"
+                    "label": "Sold Beer brands"
                 },
                 "brand": {
                     "label": "Brand"
@@ -3495,7 +3461,6 @@
                 },
                 "bicycle_road": {
                     "label": "Cycle Street",
-                    "terms": "bicycle boulevard,bicycle road,cyclestreet,neighborhood bikeway,neighborhood byway,neighborhood greenway,neighborway",
                     "options": {
                         "undefined": "No",
                         "yes": "Yes"
@@ -3586,7 +3551,6 @@
                 },
                 "baby_feeding": {
                     "label": "Baby Nursing Area",
-                    "terms": "baby feeding,breastfeeding,lactation,mothers,nursing",
                     "options": {
                         "room": "Dedicated Room",
                         "yes": "Marked Space",
@@ -3655,8 +3619,7 @@
                     }
                 },
                 "ascent": {
-                    "label": "Total Ascent",
-                    "terms": "ascent,climb,cumulative elevation gain"
+                    "label": "Total Ascent"
                 },
                 "artwork_type": {
                     "label": "Type",
@@ -3686,8 +3649,7 @@
                     }
                 },
                 "architect": {
-                    "label": "Architect",
-                    "terms": "building designer"
+                    "label": "Architect"
                 },
                 "archaeological_site": {
                     "label": "Type",
@@ -3727,8 +3689,7 @@
                     "terms": "aka,alias,also known as,nonstandard name,secondary name"
                 },
                 "air_conditioning": {
-                    "label": "Air Conditioning",
-                    "terms": "cooling system,refrigeration"
+                    "label": "Air Conditioning"
                 },
                 "agrarian": {
                     "label": "Products"
@@ -3892,7 +3853,6 @@
                 },
                 "website/menu": {
                     "label": "Menu Link",
-                    "terms": "menu,menu uri,menu url,online menu,website menu",
                     "placeholder": "https://example.com"
                 },
                 "water_tank/volume": {
@@ -3998,7 +3958,6 @@
                 "toilets/menstrual_products_poi": {},
                 "toilets/menstrual_products": {
                     "label": "Free Menstrual Products Available",
-                    "terms": "feminine hygiene,pads,period,period products,tampons",
                     "options": {
                         "yes": "Yes, in all stalls",
                         "limited": "Limited to some stalls",
@@ -4070,8 +4029,7 @@
                     }
                 },
                 "summit/cross": {
-                    "label": "Summit Cross",
-                    "terms": "cross"
+                    "label": "Summit Cross"
                 },
                 "subject/wikidata": {
                     "label": "Subject Wikidata"
@@ -4112,8 +4070,7 @@
                     "label": "Bicycle Services"
                 },
                 "seamark/type": {
-                    "label": "Seamark",
-                    "terms": "marine"
+                    "label": "Seamark"
                 },
                 "seamark/wreck/category": {
                     "label": "Category"
@@ -4284,23 +4241,20 @@
                     }
                 },
                 "ref/vatin": {
-                    "label": "VAT ID Number",
-                    "terms": "value added tax identification number,vatin"
+                    "label": "VAT ID Number"
                 },
                 "ref/isil": {
                     "label": "ISIL Code"
                 },
                 "ref/edubase-GB": {
-                    "label": "Department for Education Reference",
-                    "terms": "dfe urn,edubase reference"
+                    "label": "Department for Education Reference"
                 },
                 "ref/linz/place_id-NZ": {
                     "label": "NZGB Place ID",
                     "terms": "land information new zealand,linz,new zealand geographic board,ngā pou taunaha o aotearoa,nz,nzgb,toitū te whenua"
                 },
                 "ref/FR/siret-FR": {
-                    "label": "SIRET Number",
-                    "terms": "french company identification number,siret"
+                    "label": "SIRET Number"
                 },
                 "ref/EU/EVSE-EU": {
                     "label": "EVSE identifier (Electrical Vehicle Supply Equipment)",
@@ -4657,12 +4611,10 @@
                     "label": "Junction Number"
                 },
                 "internet_access/ssid": {
-                    "label": "Wifi Network Name",
-                    "terms": "ssid"
+                    "label": "Wifi Network Name"
                 },
                 "internet_access/fee": {
                     "label": "Internet Access Fee",
-                    "terms": "wifi fee",
                     "options": {
                         "no": "Free",
                         "yes": "Paid",
@@ -4921,8 +4873,7 @@
                     "label": "Diameter (mm, in, or letters)"
                 },
                 "fhrs/id-GB": {
-                    "label": "FHRS ID",
-                    "terms": "food hygiene rating scheme,food hygiene rating system,food standards agency"
+                    "label": "FHRS ID"
                 },
                 "door/width": {
                     "label": "Door Width (Meters)"
@@ -5119,8 +5070,7 @@
                     "placeholder": "45, 90, 180, 270"
                 },
                 "building/prefabricated": {
-                    "label": "Prefabricated",
-                    "terms": "manufactured,modular,portable"
+                    "label": "Prefabricated"
                 },
                 "building/part": {
                     "label": "Building Part"
@@ -5138,12 +5088,10 @@
                     "placeholder": "2, 4, 6, 8..."
                 },
                 "building/colour": {
-                    "label": "Façade Color",
-                    "terms": "building color,facade color"
+                    "label": "Façade Color"
                 },
                 "building/levels/underground": {
                     "label": "Underground Levels",
-                    "terms": "basement levels",
                     "placeholder": "2, 4, 6..."
                 },
                 "bridge/support": {
@@ -5184,40 +5132,6 @@
                         "fixed_wing": "Fixed Wing",
                         "cargo": "Cargo",
                         "glider": "Glider"
-                    }
-                },
-                "aerialway/occupancy": {
-                    "label": "Occupancy",
-                    "placeholder": "2, 4, 8..."
-                },
-                "aerialway/heating": {
-                    "label": "Heated"
-                },
-                "aerialway/duration": {
-                    "label": "Duration (minutes)",
-                    "placeholder": "1, 2, 3..."
-                },
-                "aerialway/capacity": {
-                    "label": "Capacity (per hour)",
-                    "placeholder": "500, 2500, 5000..."
-                },
-                "aerialway/bubble": {
-                    "label": "Bubble"
-                },
-                "aerialway/access": {
-                    "label": "Access",
-                    "options": {
-                        "entry": "Entry",
-                        "exit": "Exit",
-                        "both": "Both"
-                    }
-                },
-                "aerialway/summer/access": {
-                    "label": "Access (summer)",
-                    "options": {
-                        "entry": "Entry",
-                        "exit": "Exit",
-                        "both": "Both"
                     }
                 },
                 "addr/interpolation": {

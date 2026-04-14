@@ -6,8 +6,6 @@
     "fields": [
         "ref",
         "operator",
-        "valve",
-        "location",
         "diameter"
     ],
     "moreFields": [

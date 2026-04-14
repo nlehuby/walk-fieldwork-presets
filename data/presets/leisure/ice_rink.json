@@ -2,11 +2,8 @@
     "icon": "fas-skating",
     "fields": [
         "name",
-        "seasonal",
-        "sport/sport_ice",
         "operator",
         "address",
-        "building",
         "opening_hours"
     ],
     "moreFields": [

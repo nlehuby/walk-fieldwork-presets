@@ -1,8 +1,7 @@
 {
     "icon": "fas-warehouse",
     "fields": [
-        "{building}",
-        "lockable"
+        "{building}"
     ],
     "moreFields": [
         "{building}"

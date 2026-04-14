@@ -2,7 +2,6 @@
     "icon": "maki-pitch",
     "fields": [
         "name",
-        "sport",
         "access_simple",
         "surface",
         "lit",
@@ -10,12 +9,9 @@
     ],
     "moreFields": [
         "address",
-        "charge_fee",
         "covered",
-        "fee",
         "gnis/feature_id-US",
-        "indoor",
-        "payment_multi_fee"
+        "indoor"
     ],
     "geometry": [
         "area",

@@ -1,7 +1,6 @@
 {
     "icon": "fas-toilet",
     "fields": [
-        "toilets/disposal",
         "{amenity/toilets}"
     ],
     "moreFields": [

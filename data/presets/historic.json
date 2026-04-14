@@ -1,9 +1,6 @@
 {
     "icon": "temaki-ruins",
-    "fields": [
-        "historic",
-        "inscription"
-    ],
+    "fields": [],
     "moreFields": [
         "gnis/feature_id-US"
     ],

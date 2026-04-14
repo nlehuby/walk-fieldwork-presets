@@ -1,7 +1,6 @@
 {
     "icon": "temaki-junction",
     "fields": [
-        "ref_highway_junction",
         "name"
     ],
     "geometry": [

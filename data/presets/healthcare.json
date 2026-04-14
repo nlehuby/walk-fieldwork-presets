@@ -2,11 +2,8 @@
     "icon": "maki-hospital",
     "fields": [
         "name",
-        "healthcare",
         "operator",
-        "healthcare/speciality",
         "address",
-        "building_area",
         "phone",
         "website"
     ],
@@ -14,9 +11,7 @@
         "{@templates/contact}",
         "branch_brand",
         "brand",
-        "building/levels_building",
         "gnis/feature_id-US",
-        "height_building",
         "level",
         "opening_hours",
         "payment_multi",

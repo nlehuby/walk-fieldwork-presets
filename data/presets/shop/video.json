@@ -4,8 +4,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "min_age"
+        "{shop}"
     ],
     "geometry": [
         "point",

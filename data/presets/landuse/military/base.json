@@ -1,8 +1,7 @@
 {
     "icon": "temaki-anchor_medal",
     "fields": [
-        "name",
-        "military_service"
+        "name"
     ],
     "moreFields": [
         "{landuse/military}"

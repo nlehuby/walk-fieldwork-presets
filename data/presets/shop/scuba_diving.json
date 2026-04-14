@@ -1,8 +1,7 @@
 {
     "icon": "temaki-scuba_diving",
     "fields": [
-        "{shop}",
-        "scuba_diving"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

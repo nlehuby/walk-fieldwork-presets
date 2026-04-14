@@ -3,10 +3,7 @@
     "fields": [
         "name",
         "ref",
-        "operator",
-        "water_tank/volume",
-        "drinking_water",
-        "building_area"
+        "operator"
     ],
     "moreFields": [
         "covered",

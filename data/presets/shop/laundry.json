@@ -1,8 +1,7 @@
 {
     "icon": "temaki-laundry",
     "fields": [
-        "{shop}",
-        "self_service"
+        "{shop}"
     ],
     "moreFields": [
         "{shop}"

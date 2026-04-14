@@ -8,8 +8,6 @@
     ],
     "moreFields": [
         "{@templates/contact}",
-        "contact/facebook",
-        "contact/instagram",
         "gnis/feature_id-US",
         "opening_hours",
         "payment_multi"

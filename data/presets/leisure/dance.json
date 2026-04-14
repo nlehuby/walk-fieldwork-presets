@@ -5,9 +5,7 @@
         "operator",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "dance/style",
-        "dance/teaching"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/poi}"

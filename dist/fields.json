@@ -7138,51 +7138,6 @@
             "glider"
         ]
     },
-    "aerialway/occupancy": {
-        "key": "aerialway:occupancy",
-        "type": "number",
-        "minValue": 0
-    },
-    "aerialway/heating": {
-        "key": "aerialway:heating",
-        "type": "check"
-    },
-    "aerialway/duration": {
-        "key": "aerialway:duration",
-        "type": "number",
-        "minValue": 0
-    },
-    "aerialway/capacity": {
-        "key": "aerialway:capacity",
-        "type": "number",
-        "minValue": 0
-    },
-    "aerialway/bubble": {
-        "key": "aerialway:bubble",
-        "type": "check"
-    },
-    "aerialway/access": {
-        "key": "aerialway:access",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "entry",
-            "exit",
-            "both"
-        ]
-    },
-    "aerialway/summer/access": {
-        "key": "aerialway:summer:access",
-        "type": "combo",
-        "autoSuggestions": false,
-        "customValues": false,
-        "options": [
-            "entry",
-            "exit",
-            "both"
-        ]
-    },
     "addr/interpolation": {
         "key": "addr:interpolation",
         "type": "combo",

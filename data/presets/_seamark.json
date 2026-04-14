@@ -1,8 +1,6 @@
 {
     "icon": "maki-harbor",
-    "fields": [
-        "seamark/type"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex",

@@ -13,13 +13,7 @@
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "air_conditioning",
-        "building/levels_building",
-        "height_building",
-        "payment_multi",
-        "fhrs/id-GB",
-        "reservation",
-        "smoking"
+        "payment_multi"
     ],
     "geometry": [
         "point",

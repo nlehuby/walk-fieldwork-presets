@@ -4,8 +4,7 @@
         "name",
         "network",
         "operator",
-        "address",
-        "building_area"
+        "address"
     ],
     "geometry": [
         "point",

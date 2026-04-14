@@ -6,18 +6,11 @@
     "fields": [
         "name",
         "operator",
-        "duration",
-        "access",
-        "toll",
-        "from",
-        "to"
+        "access"
     ],
     "moreFields": [
-        "charge_toll",
-        "distance",
         "dog",
         "email",
-        "interval",
         "maxheight",
         "maxweight",
         "maxwidth",
@@ -25,11 +18,6 @@
         "oneway",
         "opening_hours",
         "phone",
-        "ref_route",
-        "reservation",
-        "roundtrip",
-        "via",
-        "vhf",
         "wheelchair"
     ],
     "tags": {

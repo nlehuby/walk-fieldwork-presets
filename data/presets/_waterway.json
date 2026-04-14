@@ -1,7 +1,6 @@
 {
     "fields": [
-        "name",
-        "waterway"
+        "name"
     ],
     "geometry": [
         "point",

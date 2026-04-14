@@ -1,7 +1,5 @@
 {
-    "fields": [
-        "emergency_combo"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "vertex",

@@ -1,9 +1,7 @@
 {
     "icon": "maki-water",
     "fields": [
-        "name",
-        "geyser/height",
-        "ele_node"
+        "name"
     ],
     "moreFields": [
         "{natural}"

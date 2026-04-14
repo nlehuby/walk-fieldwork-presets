@@ -1,8 +1,7 @@
 {
     "icon": "maki-horse-riding",
     "fields": [
-        "name",
-        "horse_riding"
+        "name"
     ],
     "moreFields": [
         "{@templates/contact}",

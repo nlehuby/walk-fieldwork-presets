@@ -3,14 +3,12 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
         "access_simple",
         "website"
     ],
     "moreFields": [
         "{@templates/contact}",
-        "dog_yes",
         "gnis/feature_id-US",
         "ref"
     ],

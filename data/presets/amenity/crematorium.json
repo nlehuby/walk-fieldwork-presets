@@ -11,8 +11,7 @@
         "{@templates/contact}",
         "address",
         "gnis/feature_id-US",
-        "level",
-        "ref/FR/siret-FR"
+        "level"
     ],
     "geometry": [
         "point",

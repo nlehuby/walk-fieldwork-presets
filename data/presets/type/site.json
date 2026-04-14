@@ -1,8 +1,7 @@
 {
     "icon": "iD-relation",
     "fields": [
-        "name",
-        "site"
+        "name"
     ],
     "geometry": [
         "relation"

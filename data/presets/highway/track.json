@@ -2,7 +2,6 @@
     "icon": "fas-truck-monster",
     "fields": [
         "name",
-        "tracktype",
         "surface",
         "width",
         "structure",
@@ -15,7 +14,6 @@
         "bridge/name",
         "bridge/ref",
         "covered_no",
-        "flood_prone",
         "horse_scale",
         "maxweight_bridge",
         "mtb/scale",

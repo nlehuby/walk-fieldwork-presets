@@ -1,16 +1,9 @@
 {
     "icon": "temaki-plaque",
     "fields": [
-        "name",
-        "inscription",
-        "wikidata"
+        "name"
     ],
     "moreFields": [
-        "memorial/addr",
-        "memorial/addr_subtags",
-        "subject/wikidata",
-        "image",
-        "wikimedia_commons",
         "website"
     ],
     "geometry": [

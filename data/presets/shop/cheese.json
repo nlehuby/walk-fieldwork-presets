@@ -10,8 +10,6 @@
     "fields": [
         "{shop}"
     ],
-    "moreFields": [
-        "fhrs/id-GB"
-    ],
+    "moreFields": [],
     "name": "Cheese Store"
 }

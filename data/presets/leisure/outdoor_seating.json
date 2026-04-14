@@ -8,9 +8,7 @@
         "name",
         "operator",
         "capacity",
-        "lit",
-        "seasonal",
-        "heating"
+        "lit"
     ],
     "moreFields": [
         "level",

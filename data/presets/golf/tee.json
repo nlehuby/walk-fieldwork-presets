@@ -1,7 +1,6 @@
 {
     "icon": "roentgen-golf_tee",
     "fields": [
-        "tee",
         "surface"
     ],
     "geometry": [

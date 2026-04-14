@@ -3,9 +3,7 @@
     "fields": [
         "{natural/wetland}"
     ],
-    "moreFields": [
-        "tidal"
-    ],
+    "moreFields": [],
     "geometry": [
         "area"
     ],

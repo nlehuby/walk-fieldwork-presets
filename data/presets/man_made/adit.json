@@ -8,7 +8,6 @@
     "fields": [
         "name",
         "operator",
-        "resource",
         "direction"
     ],
     "moreFields": [

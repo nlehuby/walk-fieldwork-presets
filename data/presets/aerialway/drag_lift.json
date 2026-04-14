@@ -4,9 +4,7 @@
         "line"
     ],
     "fields": [
-        "name",
-        "aerialway/capacity",
-        "aerialway/duration"
+        "name"
     ],
     "moreFields": [
         "{aerialway}"

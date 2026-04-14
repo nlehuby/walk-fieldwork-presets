@@ -2,7 +2,6 @@
     "icon": "temaki-golf_cart",
     "fields": [
         "name",
-        "highway_cartpath",
         "{golf/path}",
         "maxspeed"
     ],

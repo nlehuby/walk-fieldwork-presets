@@ -2,9 +2,7 @@
     "icon": "roentgen-ford",
     "fields": [
         "name",
-        "depth",
-        "access",
-        "seasonal"
+        "access"
     ],
     "moreFields": [
         "gnis/feature_id-US"

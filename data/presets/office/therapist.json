@@ -8,8 +8,6 @@
         "office": "therapist"
     },
     "fields": [
-        "healthcare_therapist",
-        "healthcare/speciality",
         "{office}"
     ],
     "moreFields": [

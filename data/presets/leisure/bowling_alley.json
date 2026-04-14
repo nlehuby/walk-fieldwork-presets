@@ -9,11 +9,7 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "air_conditioning",
-        "min_age",
-        "fhrs/id-GB",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

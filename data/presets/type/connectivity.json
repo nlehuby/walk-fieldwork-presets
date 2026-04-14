@@ -1,8 +1,6 @@
 {
     "icon": "iD-relation",
-    "fields": [
-        "connectivity"
-    ],
+    "fields": [],
     "geometry": [
         "relation"
     ],

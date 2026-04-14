@@ -1,13 +1,11 @@
 {
     "icon": "maki-library",
     "fields": [
-        "operator",
-        "operator/type"
+        "operator"
     ],
     "moreFields": [
         "collection_times",
         "colour",
-        "ref/isil",
         "lit"
     ],
     "geometry": [

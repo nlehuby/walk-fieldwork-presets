@@ -1,8 +1,7 @@
 {
     "icon": "maki-water",
     "fields": [
-        "{natural/water}",
-        "salt"
+        "{natural/water}"
     ],
     "moreFields": [
         "{natural/water}"

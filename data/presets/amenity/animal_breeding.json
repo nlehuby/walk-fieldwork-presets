@@ -4,9 +4,7 @@
         "name",
         "operator",
         "address",
-        "building_area",
-        "opening_hours",
-        "animal_breeding"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/poi}"

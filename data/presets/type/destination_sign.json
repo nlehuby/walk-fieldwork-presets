@@ -1,11 +1,6 @@
 {
     "icon": "iD-relation",
-    "fields": [
-        "destination",
-        "destination/ref",
-        "destination/symbol",
-        "distance"
-    ],
+    "fields": [],
     "geometry": [
         "relation"
     ],

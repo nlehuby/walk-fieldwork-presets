@@ -2,13 +2,9 @@
     "icon": "roentgen-cannon",
     "fields": [
         "name",
-        "start_date",
         "direction"
     ],
     "moreFields": [
-        "description",
-        "wikipedia",
-        "wikidata",
         "ref"
     ],
     "geometry": [

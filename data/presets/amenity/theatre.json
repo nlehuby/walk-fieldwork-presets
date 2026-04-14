@@ -9,9 +9,7 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "air_conditioning",
-        "min_age"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

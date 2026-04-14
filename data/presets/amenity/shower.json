@@ -3,17 +3,12 @@
     "fields": [
         "opening_hours",
         "access_simple",
-        "fee",
-        "payment_multi_fee",
-        "charge_fee",
         "supervised",
         "building_area_yes",
-        "hot_water",
         "wheelchair"
     ],
     "moreFields": [
         "address",
-        "gender",
         "level",
         "operator"
     ],

@@ -25566,64 +25566,6 @@
             "description": "🄵🅅 Type: Glider"
         },
         {
-            "key": "aerialway:occupancy",
-            "description": "🄵 Occupancy"
-        },
-        {
-            "key": "aerialway:heating",
-            "description": "🄵 Heated"
-        },
-        {
-            "key": "aerialway:duration",
-            "description": "🄵 Duration (minutes)"
-        },
-        {
-            "key": "aerialway:capacity",
-            "description": "🄵 Capacity (per hour)"
-        },
-        {
-            "key": "aerialway:bubble",
-            "description": "🄵 Bubble"
-        },
-        {
-            "key": "aerialway:access",
-            "description": "🄵 Access"
-        },
-        {
-            "key": "aerialway:access",
-            "value": "entry",
-            "description": "🄵🅅 Access: Entry"
-        },
-        {
-            "key": "aerialway:access",
-            "value": "exit",
-            "description": "🄵🅅 Access: Exit"
-        },
-        {
-            "key": "aerialway:access",
-            "value": "both",
-            "description": "🄵🅅 Access: Both"
-        },
-        {
-            "key": "aerialway:summer:access",
-            "description": "🄵 Access (summer)"
-        },
-        {
-            "key": "aerialway:summer:access",
-            "value": "entry",
-            "description": "🄵🅅 Access (summer): Entry"
-        },
-        {
-            "key": "aerialway:summer:access",
-            "value": "exit",
-            "description": "🄵🅅 Access (summer): Exit"
-        },
-        {
-            "key": "aerialway:summer:access",
-            "value": "both",
-            "description": "🄵🅅 Access (summer): Both"
-        },
-        {
             "key": "addr:interpolation",
             "value": "all",
             "description": "🄵🅅 Type: All"

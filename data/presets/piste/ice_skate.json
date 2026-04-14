@@ -2,8 +2,6 @@
     "icon": "fas-skating",
     "fields": [
         "name",
-        "piste/type",
-        "sport/sport_ice",
         "oneway",
         "lit"
     ],

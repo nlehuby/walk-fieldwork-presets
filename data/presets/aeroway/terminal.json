@@ -4,13 +4,9 @@
         "name",
         "operator",
         "building_area_yes",
-        "wheelchair",
-        "baby_feeding"
+        "wheelchair"
     ],
-    "moreFields": [
-        "air_conditioning",
-        "smoking"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "area"

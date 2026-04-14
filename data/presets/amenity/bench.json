@@ -1,17 +1,13 @@
 {
     "icon": "temaki-bench",
     "fields": [
-        "backrest",
-        "armrest",
-        "material",
-        "seats"
+        "material"
     ],
     "moreFields": [
         "colour",
         "access_simple",
         "direction",
         "height",
-        "inscription",
         "level",
         "lit",
         "manufacturer",

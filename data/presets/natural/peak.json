@@ -1,12 +1,10 @@
 {
     "icon": "maki-mountain",
     "fields": [
-        "name",
-        "ele_node"
+        "name"
     ],
     "moreFields": [
-        "{natural}",
-        "summit/cross"
+        "{natural}"
     ],
     "geometry": [
         "point",

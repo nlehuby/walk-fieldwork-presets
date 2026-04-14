@@ -3,7 +3,6 @@
     "fields": [
         "ref",
         "operator",
-        "telecom/medium",
         "address",
         "building_area_yes"
     ],

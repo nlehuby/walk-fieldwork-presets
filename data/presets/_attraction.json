@@ -2,11 +2,8 @@
     "icon": "maki-star",
     "fields": [
         "name",
-        "attraction",
         "operator",
-        "opening_hours",
-        "fee",
-        "charge_fee"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/contact}",

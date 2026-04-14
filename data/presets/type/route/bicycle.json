@@ -1,22 +1,10 @@
 {
     "icon": "maki-bicycle",
     "fields": [
-        "name",
-        "ref_route",
-        "network_bicycle",
-        "cycle_network",
-        "network/type",
-        "from",
-        "to",
-        "via"
+        "name"
     ],
     "moreFields": [
-        "ascent",
-        "colour",
-        "descent",
-        "direction_cardinal-US-CA-NZ",
-        "distance",
-        "roundtrip"
+        "colour"
     ],
     "geometry": [
         "relation"

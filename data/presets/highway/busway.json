@@ -15,13 +15,9 @@
         "bridge/name",
         "bridge/ref",
         "lit",
-        "maxaxleload_bridge",
         "maxheight",
-        "maxlength",
-        "maxspeed/advisory",
         "maxweight_bridge",
-        "maxwidth",
-        "trolley_wire"
+        "maxwidth"
     ],
     "geometry": [
         "line"

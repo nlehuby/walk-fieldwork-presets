@@ -3,17 +3,13 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
         "website",
         "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "denomination",
-        "ref/edubase-GB",
-        "religion"
+        "{@templates/poi}"
     ],
     "geometry": [
         "area",

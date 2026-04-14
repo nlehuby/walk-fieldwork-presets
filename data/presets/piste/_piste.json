@@ -2,9 +2,6 @@
     "icon": "fas-skiing",
     "fields": [
         "name",
-        "piste/type",
-        "piste/difficulty",
-        "piste/grooming",
         "oneway",
         "lit"
     ],

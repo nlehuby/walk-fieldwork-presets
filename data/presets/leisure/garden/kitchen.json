@@ -5,17 +5,12 @@
     ],
     "fields": [
         "name",
-        "garden/type",
-        "operator",
-        "operator/type"
+        "operator"
     ],
     "moreFields": [
         "{@templates/contact}",
         "access_simple",
-        "charge_fee",
-        "fee",
-        "gnis/feature_id-US",
-        "payment_multi_fee"
+        "gnis/feature_id-US"
     ],
     "tags": {
         "leisure": "garden",

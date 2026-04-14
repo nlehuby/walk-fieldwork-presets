@@ -4,9 +4,7 @@
         "{craft}"
     ],
     "moreFields": [
-        "{craft}",
-        "fhrs/id-GB",
-        "min_age"
+        "{craft}"
     ],
     "geometry": [
         "point",

@@ -3,8 +3,7 @@
     "fields": [
         "name",
         "building_area_yes",
-        "access_simple",
-        "start_date"
+        "access_simple"
     ],
     "moreFields": [
         "{historic}"

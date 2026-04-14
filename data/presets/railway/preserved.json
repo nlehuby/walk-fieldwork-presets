@@ -1,7 +1,6 @@
 {
     "icon": "temaki-train_steam",
     "fields": [
-        "railway",
         "{railway/light_rail}"
     ],
     "moreFields": [

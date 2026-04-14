@@ -4,11 +4,7 @@
         "line"
     ],
     "fields": [
-        "name",
-        "aerialway/occupancy",
-        "aerialway/capacity",
-        "aerialway/duration",
-        "aerialway/heating"
+        "name"
     ],
     "moreFields": [
         "{aerialway}"

@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "seamark/rescue_station/category",
         "address",
         "building_area_yes",
         "phone",

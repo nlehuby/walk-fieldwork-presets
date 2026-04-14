@@ -4,15 +4,7 @@
         "point",
         "vertex"
     ],
-    "fields": [
-        "surveillance",
-        "surveillance/type",
-        "camera/type",
-        "camera/mount",
-        "camera/direction",
-        "surveillance/zone",
-        "contact/webcam"
-    ],
+    "fields": [],
     "moreFields": [
         "manufacturer"
     ],

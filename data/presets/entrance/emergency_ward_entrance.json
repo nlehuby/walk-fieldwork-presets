@@ -2,7 +2,6 @@
     "icon": "maki-hospital",
     "fields": [
         "ref",
-        "emergency_ward_entrance",
         "address",
         "level",
         "opening_hours"

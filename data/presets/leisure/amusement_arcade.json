@@ -8,11 +8,7 @@
     ],
     "moreFields": [
         "{@templates/internet_access}",
-        "{@templates/poi}",
-        "air_conditioning",
-        "max_age",
-        "min_age",
-        "smoking"
+        "{@templates/poi}"
     ],
     "geometry": [
         "point",

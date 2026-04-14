@@ -14,9 +14,7 @@
         "brand",
         "gnis/feature_id-US",
         "level",
-        "ref/FR/siret-FR",
         "payment_multi",
-        "polling_station",
         "wheelchair"
     ],
     "geometry": [

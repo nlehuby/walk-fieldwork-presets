@@ -4,16 +4,12 @@
         "name",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "min_age"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "air_conditioning",
-        "operator",
-        "outdoor_seating",
-        "smoking"
+        "operator"
     ],
     "geometry": [
         "point",

@@ -4,8 +4,7 @@
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "baby_feeding"
+        "{shop}"
     ],
     "geometry": [
         "point",

@@ -1,14 +1,11 @@
 {
     "icon": "fas-hot-tub-person",
     "fields": [
-        "access_simple",
-        "location_pool"
+        "access_simple"
     ],
     "moreFields": [
         "level",
-        "gender",
         "lit",
-        "nudism",
         "opening_hours",
         "operator"
     ],

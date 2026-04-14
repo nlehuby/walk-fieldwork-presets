@@ -1,12 +1,9 @@
 {
     "icon": "temaki-mast",
     "fields": [
-        "tower/type",
-        "tower/construction",
         "height"
     ],
     "moreFields": [
-        "communication_multi",
         "gnis/feature_id-US",
         "manufacturer",
         "material"

@@ -5,8 +5,7 @@
         "operator",
         "payment_multi",
         "currency_multi",
-        "address",
-        "building_area"
+        "address"
     ],
     "moreFields": [
         "{@templates/poi}"

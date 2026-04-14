@@ -1,8 +1,7 @@
 {
     "icon": "iD-boundary",
     "fields": [
-        "name",
-        "boundary"
+        "name"
     ],
     "geometry": [
         "relation"

@@ -4,8 +4,7 @@
         "{railway/light_rail}"
     ],
     "moreFields": [
-        "{railway/light_rail}",
-        "highspeed"
+        "{railway/light_rail}"
     ],
     "geometry": [
         "line"

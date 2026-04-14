@@ -2,9 +2,7 @@
     "icon": "temaki-railway_track_askew",
     "fields": [
         "name",
-        "structure",
-        "service_rail",
-        "usage_rail"
+        "structure"
     ],
     "moreFields": [
         "bridge/ref",

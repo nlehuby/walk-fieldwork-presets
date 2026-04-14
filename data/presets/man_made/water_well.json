@@ -3,8 +3,6 @@
     "fields": [
         "ref",
         "operator",
-        "drinking_water",
-        "pump",
         "access_simple"
     ],
     "moreFields": [

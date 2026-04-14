@@ -5,16 +5,12 @@
         "operator",
         "address",
         "building_area_yes",
-        "opening_hours",
-        "gambling",
-        "smoking"
+        "opening_hours"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "air_conditioning",
-        "level",
-        "min_age"
+        "level"
     ],
     "geometry": [
         "point",

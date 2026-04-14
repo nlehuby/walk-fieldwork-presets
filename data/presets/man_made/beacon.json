@@ -4,9 +4,7 @@
         "name",
         "height"
     ],
-    "moreFields": [
-        "seamark/type"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "vertex",

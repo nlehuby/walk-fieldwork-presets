@@ -1,9 +1,7 @@
 {
     "icon": "temaki-manhole",
     "fields": [
-        "manhole",
         "operator",
-        "label",
         "ref"
     ],
     "moreFields": [

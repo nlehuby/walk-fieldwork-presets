@@ -3,23 +3,15 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "building_area_yes",
         "opening_hours",
         "address",
-        "ref/isil",
         "{@templates/internet_access}"
     ],
     "moreFields": [
         "{@templates/internet_access}",
         "{@templates/poi}",
-        "access_simple",
-        "air_conditioning",
-        "baby_feeding",
-        "books",
-        "changing_table",
-        "polling_station",
-        "toilets"
+        "access_simple"
     ],
     "geometry": [
         "point",

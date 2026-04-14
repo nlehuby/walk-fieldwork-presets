@@ -1,8 +1,6 @@
 {
     "icon": "fas-store-alt-slash",
-    "fields": [
-        "disused/shop"
-    ],
+    "fields": [],
     "geometry": [
         "point",
         "area"

@@ -2,13 +2,9 @@
     "icon": "temaki-power_shutoff",
     "fields": [
         "name",
-        "railway/ref",
-        "railway/signal_box",
         "building_area_yes"
     ],
-    "moreFields": [
-        "railway/position"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "area"

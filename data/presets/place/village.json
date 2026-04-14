@@ -1,10 +1,7 @@
 {
     "icon": "maki-village",
     "fields": [
-        "name",
-        "population",
-        "population/date",
-        "source/population"
+        "name"
     ],
     "moreFields": [
         "{place}"

@@ -4,8 +4,7 @@
         "ref",
         "operator",
         "covered",
-        "indoor",
-        "booth"
+        "indoor"
     ],
     "moreFields": [
         "level"

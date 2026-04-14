@@ -1,9 +1,5 @@
 {
-    "moreFields": [
-        "traffic_signals/arrow",
-        "traffic_signals/countdown",
-        "traffic_signals/minimap"
-    ],
+    "moreFields": [],
     "geometry": [
         "point",
         "line"

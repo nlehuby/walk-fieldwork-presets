@@ -2,7 +2,6 @@
     "icon": "fas-satellite-dish",
     "fields": [
         "name",
-        "telescope/type",
         "operator",
         "ref"
     ],

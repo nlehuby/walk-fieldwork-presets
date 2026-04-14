@@ -3,7 +3,6 @@
     "fields": [
         "name",
         "operator",
-        "operator/type",
         "address",
         "building_area_yes",
         "opening_hours",
@@ -12,13 +11,9 @@
     "moreFields": [
         "{@templates/contact}",
         "{@templates/internet_access}",
-        "baby_feeding",
         "capacity",
-        "fhrs/id-GB",
         "gnis/feature_id-US",
         "level",
-        "max_age",
-        "min_age",
         "not/name",
         "payment_multi",
         "wheelchair"

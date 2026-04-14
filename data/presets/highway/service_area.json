@@ -2,7 +2,6 @@
     "icon": "iD-highway-service",
     "fields": [
         "name",
-        "service",
         "maxspeed",
         "surface",
         "structure",
@@ -12,13 +11,10 @@
         "bridge/name",
         "bridge/ref",
         "covered_no",
-        "flood_prone",
         "lit",
         "maxheight",
-        "maxspeed/advisory",
         "maxweight_bridge",
-        "smoothness",
-        "trolley_wire"
+        "smoothness"
     ],
     "geometry": [
         "area"

@@ -3,12 +3,10 @@
     "fields": [
         "name",
         "operator",
-        "sport",
         "{shop}"
     ],
     "moreFields": [
-        "{shop}",
-        "service/bicycle"
+        "{shop}"
     ],
     "geometry": [
         "point",

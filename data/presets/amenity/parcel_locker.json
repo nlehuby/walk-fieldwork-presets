@@ -2,8 +2,6 @@
     "icon": "temaki-vending_lockers",
     "fields": [
         "operator",
-        "parcel_pickup",
-        "parcel_dropoff",
         "opening_hours",
         "payment_multi",
         "ref",
@@ -13,8 +11,7 @@
         "brand",
         "collection_times",
         "colour",
-        "indoor",
-        "surveillance"
+        "indoor"
     ],
     "geometry": [
         "point",

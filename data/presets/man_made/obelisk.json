@@ -2,7 +2,6 @@
     "icon": "temaki-obelisk",
     "fields": [
         "name",
-        "inscription",
         "height",
         "material",
         "colour"

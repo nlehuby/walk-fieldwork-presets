@@ -4,10 +4,7 @@
         "point",
         "area"
     ],
-    "fields": [
-        "internet_access/ssid",
-        "internet_access/fee"
-    ],
+    "fields": [],
     "moreFields": [
         "level"
     ],

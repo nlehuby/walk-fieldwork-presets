@@ -1,8 +1,7 @@
 {
     "icon": "maki-art-gallery",
     "fields": [
-        "name",
-        "artist"
+        "name"
     ],
     "moreFields": [
         "{tourism/artwork}"

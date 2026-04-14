@@ -6,8 +6,6 @@
     ],
     "fields": [
         "ref",
-        "fuel/fuel_multi",
-        "fuel/fuel_multi-RU",
         "operator"
     ],
     "moreFields": [

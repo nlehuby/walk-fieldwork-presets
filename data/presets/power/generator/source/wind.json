@@ -2,14 +2,10 @@
     "icon": "temaki-wind_turbine",
     "fields": [
         "ref",
-        "operator",
-        "generator/type",
-        "generator/output/electricity"
+        "operator"
     ],
     "moreFields": [
-        "{power/generator}",
-        "height/hub",
-        "rotor/diameter"
+        "{power/generator}"
     ],
     "geometry": [
         "point",

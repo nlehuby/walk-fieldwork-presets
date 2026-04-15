@@ -1,0 +1,20 @@
+{
+    "icon": "maki-information",
+    "fields": [
+        "audio_loop",
+        "wheelchair",
+        "indoor"
+    ],
+    "moreFields": [
+        "lit",
+        "level"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "amenity": "reception_desk"
+    },
+    "name": "Reception Desk"
+}

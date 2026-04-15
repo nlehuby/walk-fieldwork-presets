@@ -30,9 +30,7 @@
         "door/width",
         "width",
         "length",
-        "speech_output",
         "announcement",
-        "visual_announcement",
         "audio_loop",
         "emergency_button",
         "automatic_door",
@@ -45,10 +43,11 @@
         "area"
     ],
     "tags": {
-        "highway": "elevator"
+        "highway": "elevator",
+        "elevator:type": "cabin_free"
     },
     "terms": [
         "lift"
     ],
-    "name": "Elevator"
+    "name": "Small Elevator"
 }

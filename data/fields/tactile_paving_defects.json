@@ -1,6 +1,6 @@
 {
     "key": "tactile_paving:defects",
-    "type": "multiCombo",
+    "type": "semiCombo",
     "label": "Tactile Paving Defects",
     "strings": {
         "options": {

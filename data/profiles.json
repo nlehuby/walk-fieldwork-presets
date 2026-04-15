@@ -8,6 +8,7 @@
                 "advertising/*",
                 "amenity/parking_space/disabled",
                 "amenity/post_box",
+                "amenity/reception_desk",
                 "amenity/recycling_container",
                 "amenity/vending_machine/parking_tickets",
                 "barrier/*",
@@ -156,6 +157,14 @@
                     "tactile_warning",
                     "min_height_obstacle",
                     "panoramax"
+                ]
+            },
+            "amenity/reception_desk": {
+                "required": [
+                    "audio_loop",
+                    "wheelchair",
+                    "indoor",
+                    "level"
                 ]
             },
             "amenity/recycling_container": {
@@ -494,6 +503,7 @@
                     "incline_percentage",
                     "incline_across_percentage",
                     "indoor",
+                    "level",
                     "guiding_strips"
                 ]
             },
@@ -547,7 +557,24 @@
                     "emergency_button",
                     "automatic_door",
                     "tactile_paving",
-                    "tactile_paving_condition"
+                    "tactile_paving_condition",
+                    "indoor",
+                    "level_semi"
+                ]
+            },
+            "highway/elevator_without_cabin": {
+                "required": [
+                    "door/width",
+                    "width",
+                    "length",
+                    "announcement",
+                    "audio_loop",
+                    "emergency_button",
+                    "automatic_door",
+                    "tactile_paving",
+                    "tactile_paving_condition",
+                    "indoor",
+                    "level_semi"
                 ]
             },
             "highway/footway": {
@@ -583,6 +610,7 @@
             "highway/footway/conveying": {
                 "required": [
                     "conveying",
+                    "level",
                     "tactile_paving_steps",
                     "tactile_paving_condition",
                     "width",
@@ -597,6 +625,21 @@
                     "lit",
                     "incline_percentage",
                     "incline_across_percentage"
+                ]
+            },
+            "highway/footway/indoor": {
+                "required": [
+                    "surface",
+                    "width",
+                    "smoothness_simple",
+                    "structure",
+                    "tunnel/name",
+                    "lit",
+                    "incline_percentage",
+                    "incline_across_percentage",
+                    "indoor",
+                    "level",
+                    "guiding_strips"
                 ]
             },
             "highway/footway/platform": {
@@ -615,7 +658,8 @@
                     "incline_percentage",
                     "incline_across_percentage",
                     "maxweight",
-                    "wheelchair_turning_cycle_ramp"
+                    "wheelchair_turning_cycle_ramp",
+                    "level_semi"
                 ]
             },
             "highway/living_street": {
@@ -697,6 +741,7 @@
                 "required": [
                     "smoothness_simple",
                     "incline_steps",
+                    "level_semi",
                     "handrail_side",
                     "tactile_paving_steps",
                     "tactile_paving_condition",

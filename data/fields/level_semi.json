@@ -2,6 +2,19 @@
     "key": "level",
     "type": "semiCombo",
     "label": "Levels",
+    "strings": {
+        "options": {
+            "-2": "-2",
+            "-1": "-1",
+            "0": "0",
+            "1": "1",
+            "2": "2"
+        }
+    },
+    "prerequisiteTag": {
+        "key": "indoor",
+        "value": "yes"
+    },
     "terms": [
         "building floors",
         "decks",

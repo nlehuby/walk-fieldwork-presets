@@ -518,7 +518,7 @@
                     "label": "Sens de l'Inclinaison"
                 },
                 "indoor": {
-                    "label": "Intérieur"
+                    "label": "En intérieur"
                 },
                 "informal": {
                     "label": "Informel"
@@ -586,11 +586,25 @@
                 },
                 "level": {
                     "label": "Niveau (étage)",
-                    "terms": "niveau,étage,palier"
+                    "terms": "niveau,étage,palier",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "level_semi": {
                     "label": "Niveaux",
-                    "terms": "niveaux,étages,paliers"
+                    "terms": "niveaux,étages,paliers",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "lift_gate/type": {
                     "label": "Type",
@@ -1178,7 +1192,7 @@
                         "limited": "Limité",
                         "no": "Non",
                         "yes": "Oui",
-                        "designated": "Designated"
+                        "designated": "À destination exclusive des UFR"
                     },
                     "terms": "accès en fauteuil roulant,fauteuil roulant,handicapé"
                 },
@@ -7921,6 +7935,13 @@
                 "highway/footway/indoor": {
                     "name": "Cheminement en intérieur",
                     "terms": "gallery,hall,hallway,indoor,passage,passageway"
+                },
+                "amenity/reception_desk": {
+                    "name": "Accueil"
+                },
+                "highway/elevator_without_cabin": {
+                    "name": "Élévateur",
+                    "terms": "lift"
                 }
             }
         }

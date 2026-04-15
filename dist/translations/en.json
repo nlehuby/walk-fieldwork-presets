@@ -997,6 +997,7 @@
                 },
                 "crossing_raised": {
                     "label": "Raised",
+                    "terms": "flat top,hump,slow,speed",
                     "options": {
                         "undefined": "No",
                         "table": "Yes"

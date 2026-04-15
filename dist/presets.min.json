@@ -16356,7 +16356,8 @@
       "crossing_raised",
       "tactile_paving",
       "crossing",
-      "flashing_lights"
+      "flashing_lights",
+      "crossing_raised"
     ],
     "geometry": [
       "vertex"
@@ -16457,6 +16458,7 @@
     "icon": "temaki-bus",
     "fields": [
       "name",
+      "vehicles",
       "platform_height",
       "wheelchair_turning_cycle_simple",
       "wheelchair_turning_cycle_simple_diameter",
@@ -16467,7 +16469,6 @@
       "ref_stop_position",
       "network",
       "operator",
-      "vehicles",
       "departures_board",
       "shelter",
       "bench",
@@ -18042,7 +18043,8 @@
       "tactile_paving",
       "tactile_paving",
       "crossing",
-      "flashing_lights"
+      "flashing_lights",
+      "crossing_raised"
     ],
     "geometry": [
       "vertex"
@@ -18081,7 +18083,8 @@
       "crossing_raised",
       "tactile_paving",
       "crossing",
-      "flashing_lights"
+      "flashing_lights",
+      "crossing_raised"
     ],
     "geometry": [
       "vertex"
@@ -18154,7 +18157,8 @@
       "tactile_paving",
       "tactile_paving",
       "crossing",
-      "flashing_lights"
+      "flashing_lights",
+      "crossing_raised"
     ],
     "geometry": [
       "vertex"
@@ -18189,7 +18193,8 @@
       "tactile_paving",
       "tactile_paving",
       "crossing",
-      "flashing_lights"
+      "flashing_lights",
+      "crossing_raised"
     ],
     "geometry": [
       "vertex"
@@ -18227,6 +18232,7 @@
       "tactile_paving",
       "crossing",
       "flashing_lights",
+      "crossing_raised",
       "kerb/kerb_barrier"
     ],
     "geometry": [

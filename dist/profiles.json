@@ -479,6 +479,7 @@
         "required": [
           "name",
           "platform_height",
+          "vehicles",
           "wheelchair_turning_cycle_simple",
           "wheelchair_turning_cycle_simple_diameter",
           "tactile_paving",
@@ -502,6 +503,7 @@
           "crossing/markings",
           "crossing/markings_condition",
           "crossing/signals",
+          "traffic_calming",
           "traffic_signals/sound",
           "highway_shape"
         ]

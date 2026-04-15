@@ -317,7 +317,8 @@
                     "options": {
                         "table": "Oui",
                         "undefined": "Non"
-                    }
+                    },
+                    "terms": "flat top,hump,slow,speed"
                 },
                 "currency_multi": {
                     "label": "Types de devises",

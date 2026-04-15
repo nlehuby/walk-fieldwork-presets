@@ -6724,6 +6724,9 @@
                     "name": "Recycling Center",
                     "terms": "bottle,can,dump,garbage,glass,recycle,rubbish,scrap,trash"
                 },
+                "amenity/reception_desk": {
+                    "name": "Reception Desk"
+                },
                 "amenity/ranger_station": {
                     "name": "Ranger Station",
                     "terms": "backcountry office,permit center,permit centre,visitor center,visitor centre,warden center,warden office"

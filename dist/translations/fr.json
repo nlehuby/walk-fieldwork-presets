@@ -7935,6 +7935,9 @@
                 "highway/footway/indoor": {
                     "name": "Cheminement en intérieur",
                     "terms": "gallery,hall,hallway,indoor,passage,passageway"
+                },
+                "amenity/reception_desk": {
+                    "name": "Reception Desk"
                 }
             }
         }

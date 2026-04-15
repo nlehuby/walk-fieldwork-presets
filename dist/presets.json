@@ -26591,6 +26591,25 @@
             "value": "centre"
         }
     },
+    "amenity/reception_desk": {
+        "icon": "maki-information",
+        "fields": [
+            "audio_loop",
+            "wheelchair",
+            "indoor"
+        ],
+        "moreFields": [
+            "lit",
+            "level"
+        ],
+        "geometry": [
+            "point",
+            "vertex"
+        ],
+        "tags": {
+            "amenity": "reception_desk"
+        }
+    },
     "amenity/ranger_station": {
         "icon": "maki-ranger-station",
         "fields": [

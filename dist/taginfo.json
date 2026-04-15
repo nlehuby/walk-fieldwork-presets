@@ -12535,6 +12535,15 @@
         },
         {
             "key": "amenity",
+            "value": "reception_desk",
+            "description": "🄿 Reception Desk",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/information.svg"
+        },
+        {
+            "key": "amenity",
             "value": "ranger_station",
             "description": "🄿 Ranger Station",
             "object_types": [

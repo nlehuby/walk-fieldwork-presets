@@ -8,6 +8,7 @@
         "advertising/*",
         "amenity/parking_space/disabled",
         "amenity/post_box",
+        "amenity/reception_desk",
         "amenity/recycling_container",
         "amenity/vending_machine/parking_tickets",
         "barrier/*",
@@ -156,6 +157,14 @@
           "tactile_warning",
           "min_height_obstacle",
           "panoramax"
+        ]
+      },
+      "amenity/reception_desk": {
+        "required": [
+          "audio_loop",
+          "wheelchair",
+          "indoor",
+          "level"
         ]
       },
       "amenity/recycling_container": {
@@ -549,6 +558,7 @@
           "automatic_door",
           "tactile_paving",
           "tactile_paving_condition",
+          "indoor",
           "level_semi"
         ]
       },

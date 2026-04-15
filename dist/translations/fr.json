@@ -317,8 +317,7 @@
                     "options": {
                         "table": "Oui",
                         "undefined": "Non"
-                    },
-                    "terms": "flat top,hump,slow,speed"
+                    }
                 },
                 "currency_multi": {
                     "label": "Types de devises",
@@ -587,11 +586,25 @@
                 },
                 "level": {
                     "label": "Niveau (étage)",
-                    "terms": "niveau,étage,palier"
+                    "terms": "niveau,étage,palier",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "level_semi": {
                     "label": "Niveaux",
-                    "terms": "niveaux,étages,paliers"
+                    "terms": "niveaux,étages,paliers",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "lift_gate/type": {
                     "label": "Type",

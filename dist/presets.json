@@ -19472,7 +19472,6 @@
         "moreFields": [
             "crossing",
             "flashing_lights",
-            "crossing_raised",
             "crossing/markings",
             "crossing/markings_condition",
             "crossing/signals",

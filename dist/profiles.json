@@ -503,7 +503,6 @@
           "crossing/markings",
           "crossing/markings_condition",
           "crossing/signals",
-          "crossing_raised",
           "traffic_signals/sound",
           "highway_shape"
         ]
@@ -513,7 +512,6 @@
           "crossing/markings",
           "crossing/markings_condition",
           "crossing/signals",
-          "crossing_raised",
           "traffic_signals/sound",
           "highway_shape"
         ]
@@ -550,7 +548,8 @@
           "emergency_button",
           "automatic_door",
           "tactile_paving",
-          "tactile_paving_condition"
+          "tactile_paving_condition",
+          "level_semi"
         ]
       },
       "highway/footway": {
@@ -586,6 +585,7 @@
       "highway/footway/conveying": {
         "required": [
           "conveying",
+          "level",
           "tactile_paving_steps",
           "tactile_paving_condition",
           "width",
@@ -633,7 +633,8 @@
           "incline_percentage",
           "incline_across_percentage",
           "maxweight",
-          "wheelchair_turning_cycle_ramp"
+          "wheelchair_turning_cycle_ramp",
+          "level_semi"
         ]
       },
       "highway/living_street": {
@@ -715,6 +716,7 @@
         "required": [
           "smoothness_simple",
           "incline_steps",
+          "level_semi",
           "handrail_side",
           "tactile_paving_steps",
           "tactile_paving_condition",

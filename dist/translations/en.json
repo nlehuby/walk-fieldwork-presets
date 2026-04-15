@@ -668,11 +668,25 @@
                 },
                 "level_semi": {
                     "label": "Levels",
-                    "terms": "building floors,decks,storeys,stories,storys"
+                    "terms": "building floors,decks,storeys,stories,storys",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "level": {
                     "label": "Level",
-                    "terms": "building floor,deck,storey,story"
+                    "terms": "building floor,deck,storey,story",
+                    "options": {
+                        "0": "0 (Rez-de-chaussée)",
+                        "1": "1",
+                        "2": "2",
+                        "-2": "-2",
+                        "-1": "-1"
+                    }
                 },
                 "length_buffer": {
                     "label": "Extra length (Meters)"
@@ -997,7 +1011,6 @@
                 },
                 "crossing_raised": {
                     "label": "Raised",
-                    "terms": "flat top,hump,slow,speed",
                     "options": {
                         "undefined": "No",
                         "table": "Yes"

@@ -15652,7 +15652,8 @@
       "tactile_paving_condition",
       "step_stair_nosing",
       "step_height",
-      "step_length"
+      "step_length",
+      "level_semi"
     ],
     "moreFields": [
       "name",
@@ -15665,7 +15666,6 @@
       "access_simple",
       "dog",
       "indoor",
-      "level_semi",
       "lit",
       "oneway",
       "ref",
@@ -16246,6 +16246,8 @@
   "highway/elevator": {
     "icon": "temaki-elevator",
     "fields": [
+      "level_semi",
+      "level_semi",
       "door/width",
       "width",
       "length",
@@ -16261,7 +16263,6 @@
     "moreFields": [
       "ref",
       "operator",
-      "level_semi",
       "access_simple",
       "wheelchair",
       "maxweight",
@@ -16279,7 +16280,6 @@
       "maxheight",
       "ref",
       "operator",
-      "level_semi",
       "access_simple",
       "wheelchair",
       "opening_hours"
@@ -16344,8 +16344,6 @@
   },
   "highway/crossing": {
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -16355,6 +16353,7 @@
     "moreFields": [
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing",
       "flashing_lights"
@@ -18027,9 +18026,6 @@
   "highway/crossing/unmarked": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18039,8 +18035,10 @@
     "moreFields": [
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "tactile_paving",
       "crossing",
@@ -18067,9 +18065,6 @@
   "highway/crossing/uncontrolled": {
     "icon": "temaki-pedestrian_crosswalk",
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18080,8 +18075,10 @@
       "crossing",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing",
       "flashing_lights"
@@ -18102,8 +18099,6 @@
     "icon": "temaki-railway_signals",
     "fields": [
       "traffic_signals/sound",
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18115,8 +18110,10 @@
       "traffic_signals/vibration",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing",
       "button_operated"
@@ -18141,9 +18138,6 @@
   "highway/crossing/zebra": {
     "icon": "temaki-pedestrian_crosswalk",
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18153,8 +18147,10 @@
     "moreFields": [
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "tactile_paving",
       "crossing",
@@ -18177,9 +18173,6 @@
   "highway/crossing/marked": {
     "icon": "temaki-pedestrian_crosswalk",
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18189,8 +18182,10 @@
     "moreFields": [
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "tactile_paving",
       "crossing",
@@ -18218,8 +18213,6 @@
   "highway/crossing/informal": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "crossing_raised",
-      "crossing_raised",
       "crossing/markings",
       "crossing/markings_condition",
       "crossing/signals",
@@ -18230,6 +18223,7 @@
       "crossing",
       "crossing",
       "crossing/island",
+      "crossing_raised",
       "tactile_paving",
       "crossing",
       "flashing_lights",

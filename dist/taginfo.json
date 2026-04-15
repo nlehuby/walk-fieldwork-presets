@@ -15692,31 +15692,38 @@
             "description": "🄵 Tactile Paving Defects"
         },
         {
-            "key": "tactile_paving:defectscurved",
+            "key": "tactile_paving:defects",
+            "value": "curved",
             "description": "🄵🅅 Tactile Paving Defects: Curved"
         },
         {
-            "key": "tactile_paving:defectsacross",
+            "key": "tactile_paving:defects",
+            "value": "across",
             "description": "🄵🅅 Tactile Paving Defects: Across"
         },
         {
-            "key": "tactile_paving:defectstoo_large",
+            "key": "tactile_paving:defects",
+            "value": "too_large",
             "description": "🄵🅅 Tactile Paving Defects: Too large"
         },
         {
-            "key": "tactile_paving:defectsinsufficient_width",
+            "key": "tactile_paving:defects",
+            "value": "insufficient_width",
             "description": "🄵🅅 Tactile Paving Defects: Insufficient width"
         },
         {
-            "key": "tactile_paving:defectsinsufficient_depth",
+            "key": "tactile_paving:defects",
+            "value": "insufficient_depth",
             "description": "🄵🅅 Tactile Paving Defects: insufficient depth"
         },
         {
-            "key": "tactile_paving:defectsnon_contrasted",
+            "key": "tactile_paving:defects",
+            "value": "non_contrasted",
             "description": "🄵🅅 Tactile Paving Defects: non contrasted"
         },
         {
-            "key": "tactile_paving:defectsnone",
+            "key": "tactile_paving:defects",
+            "value": "none",
             "description": "🄵🅅 Tactile Paving Defects: no defects"
         },
         {
@@ -16669,6 +16676,31 @@
         {
             "key": "level",
             "description": "🄵 Levels, 🄵 Level"
+        },
+        {
+            "key": "level",
+            "value": "0",
+            "description": "🄵🅅 Levels: 0 (Rez-de-chaussée), 🄵🅅 Level: 0 (Rez-de-chaussée)"
+        },
+        {
+            "key": "level",
+            "value": "1",
+            "description": "🄵🅅 Levels: 1, 🄵🅅 Level: 1"
+        },
+        {
+            "key": "level",
+            "value": "2",
+            "description": "🄵🅅 Levels: 2, 🄵🅅 Level: 2"
+        },
+        {
+            "key": "level",
+            "value": "-2",
+            "description": "🄵🅅 Levels: -2, 🄵🅅 Level: -2"
+        },
+        {
+            "key": "level",
+            "value": "-1",
+            "description": "🄵🅅 Levels: -1, 🄵🅅 Level: -1"
         },
         {
             "key": "length:buffer",

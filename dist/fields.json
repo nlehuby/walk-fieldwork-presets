@@ -225,7 +225,7 @@
     },
     "tactile_paving_defects": {
         "key": "tactile_paving:defects",
-        "type": "multiCombo",
+        "type": "semiCombo",
         "autoSuggestions": false,
         "prerequisiteTag": {
             "key": "tactile_paving",
@@ -760,14 +760,32 @@
     },
     "level_semi": {
         "key": "level",
-        "type": "semiCombo"
+        "type": "semiCombo",
+        "prerequisiteTag": {
+            "key": "indoor",
+            "value": "yes"
+        },
+        "options": [
+            "0",
+            "1",
+            "2",
+            "-2",
+            "-1"
+        ]
     },
     "level": {
         "key": "level",
         "type": "combo",
         "prerequisiteTag": {
             "keyNot": "building"
-        }
+        },
+        "options": [
+            "0",
+            "1",
+            "2",
+            "-2",
+            "-1"
+        ]
     },
     "length_buffer": {
         "key": "length:buffer",

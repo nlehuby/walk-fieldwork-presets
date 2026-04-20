@@ -3,7 +3,7 @@
     "fields": [
         "crossing",
         "{highway/path}",
-        "surface"
+        "surface_footway"
     ],
     "moreFields": [
         "{highway/path}",

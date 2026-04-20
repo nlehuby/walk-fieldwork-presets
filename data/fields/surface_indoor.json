@@ -1,0 +1,18 @@
+{
+    "key": "surface",
+    "type": "combo",
+    "label": "Surface",
+    "strings": {
+        "options": {
+            "tiles": "Tiles",
+            "metal": "Metal",
+            "metal_grid": "Metal Grid",
+            "carpet": "Carpet",
+            "linoleum": "Linoleum",
+            "sett": "Sett",
+            "wood": "Wood",
+            "asphalt": "Asphalt",
+            "concrete": "Concrete"
+        }
+    }
+}

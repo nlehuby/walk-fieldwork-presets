@@ -15,7 +15,7 @@
         "indoor",
         "guiding_strips",
         "maxheight",
-        "surface",
+        "surface_indoor",
         "stroller"
     ],
     "geometry": [

@@ -2,7 +2,7 @@
     "icon": "iD-other-line",
     "fields": [
         "name",
-        "surface",
+        "surface_footway",
         "width",
         "structure",
         "tunnel/name",

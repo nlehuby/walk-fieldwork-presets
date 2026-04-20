@@ -5,7 +5,7 @@
         "oneway",
         "maxspeed",
         "lanes",
-        "surface",
+        "surface_footway",
         "structure",
         "tunnel/name",
         "access"

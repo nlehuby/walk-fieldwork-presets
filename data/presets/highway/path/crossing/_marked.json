@@ -5,7 +5,7 @@
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
         "{highway/path}",
-        "surface"
+        "surface_footway"
     ],
     "moreFields": [
         "{highway/path}",

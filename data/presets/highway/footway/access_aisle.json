@@ -4,7 +4,7 @@
         "access_aisle",
         "{highway/footway}",
         "width",
-        "surface",
+        "surface_footway",
         "tactile_paving",
         "access",
         "wheelchair"

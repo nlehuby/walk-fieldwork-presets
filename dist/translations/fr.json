@@ -633,27 +633,8 @@
                 "material": {
                     "label": "Matériau",
                     "options": {
-                        "adobe": "Adobe",
-                        "aluminium": "Aluminium",
-                        "brass": "Laiton",
-                        "brick": "Brique",
-                        "bronze": "Bronze",
-                        "concrete": "Béton",
-                        "dry_stone": "Pierre sèche",
                         "glass": "Verre / Matériau transparent",
-                        "granite": "Granit",
-                        "iron": "Fer",
-                        "limestone": "Calcaire",
-                        "marble": "Marbre",
                         "metal": "Métal",
-                        "plastic": "Plastique",
-                        "reinforced_concrete": "Béton armé",
-                        "rock": "Roche",
-                        "sand": "Sable",
-                        "sandstone": "Grès",
-                        "soil": "Terre",
-                        "steel": "Acier",
-                        "stone": "Pierre",
                         "wood": "Bois"
                     }
                 },
@@ -1036,7 +1017,7 @@
                         "grass": "Herbe",
                         "grass_paver": "Pavés en gazon",
                         "gravel": "Graviers",
-                        "ground": "Sol",
+                        "ground": "Sol nu",
                         "metal": "Métal",
                         "mud": "Boue permanente",
                         "paved": "Oui",
@@ -1416,7 +1397,7 @@
                     "label": "Rampe amovible"
                 },
                 "entrance_coloured_band": {
-                    "label": "Bandes colorées sur vitre transparante (vitrophanie)"
+                    "label": "Bandes colorées sur vitre transparente (vitrophanie)"
                 },
                 "emergency_button": {
                     "label": "Bouton d'Appel d'Urgence"
@@ -1483,6 +1464,54 @@
                         "bad": "Mauvais état / Inconforts d'usage",
                         "very_bad": "Très mauvais état",
                         "horrible": "Horrible"
+                    }
+                },
+                "surface_parking_space": {
+                    "label": "Revêtement",
+                    "options": {
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton",
+                        "grass_paver": "Pavés végétalisés (alvéolé gazonnant)",
+                        "sett": "Pavés",
+                        "paving_stones": "Pavés",
+                        "paved": "Autre revêtement",
+                        "compacted": "Compacté",
+                        "fine_gravel": "Graviers fins",
+                        "ground": "Sol nu",
+                        "grass": "Herbe",
+                        "unpaved": "Non revêtu (autre)"
+                    }
+                },
+                "surface_indoor": {
+                    "label": "Revêtement",
+                    "options": {
+                        "tiles": "Carrelage",
+                        "metal": "Métal",
+                        "metal_grid": "Grille métallique",
+                        "carpet": "Moquette",
+                        "linoleum": "Linoleum",
+                        "sett": "Pavés",
+                        "paving_stones": "Pavés",
+                        "wood": "Bois",
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton"
+                    }
+                },
+                "surface_footway": {
+                    "label": "Revêtement",
+                    "options": {
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton",
+                        "sett": "Pavés",
+                        "paving_stones": "Pavés",
+                        "metal": "Métal",
+                        "wood": "Bois",
+                        "paved": "Autre revêtement",
+                        "compacted": "Compacté",
+                        "fine_gravel": "Graviers fins",
+                        "ground": "Sol nu",
+                        "grass": "Herbe",
+                        "unpaved": "Non revêtu (autre)"
                     }
                 }
             },

@@ -19,7 +19,7 @@
         "operator",
         "manufacturer",
         "step_count",
-        "surface"
+        "surface_footway"
     ],
     "geometry": [
         "line"

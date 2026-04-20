@@ -13,7 +13,7 @@
         "parking",
         "orientation/orientation_parking",
         "smoothness_simple",
-        "surface",
+        "surface_parking_space",
         "width",
         "length",
         "markings",

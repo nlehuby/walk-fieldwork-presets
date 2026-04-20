@@ -10,7 +10,7 @@
     ],
     "moreFields": [
         "guiding_strips",
-        "surface"
+        "surface_footway"
     ],
     "geometry": [
         "line"

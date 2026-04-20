@@ -136,7 +136,7 @@
                 "required": [
                     "orientation/orientation_parking",
                     "smoothness_simple",
-                    "surface",
+                    "surface_parking_space",
                     "width",
                     "length",
                     "markings",
@@ -496,7 +496,7 @@
             },
             "highway/corridor": {
                 "required": [
-                    "surface",
+                    "surface_indoor",
                     "width",
                     "smoothness_simple",
                     "lit",
@@ -532,7 +532,7 @@
             },
             "highway/cycleway/*": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -579,7 +579,7 @@
             },
             "highway/footway": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -594,7 +594,7 @@
             },
             "highway/footway/*": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -629,7 +629,7 @@
             },
             "highway/footway/indoor": {
                 "required": [
-                    "surface",
+                    "surface_indoor",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -664,7 +664,7 @@
             },
             "highway/living_street": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -679,7 +679,7 @@
             },
             "highway/path": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -694,7 +694,7 @@
             },
             "highway/path/*": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -709,7 +709,7 @@
             },
             "highway/pedestrian_area": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",
@@ -724,7 +724,7 @@
             },
             "highway/pedestrian_line": {
                 "required": [
-                    "surface",
+                    "surface_footway",
                     "width",
                     "smoothness_simple",
                     "structure",

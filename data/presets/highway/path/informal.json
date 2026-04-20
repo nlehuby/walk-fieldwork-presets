@@ -1,7 +1,7 @@
 {
     "icon": "fas-shoe-prints",
     "fields": [
-        "surface",
+        "surface_footway",
         "width",
         "access",
         "trail_visibility",

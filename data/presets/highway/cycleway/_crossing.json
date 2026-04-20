@@ -4,7 +4,7 @@
         "crossing",
         "{@templates/crossing/markings}",
         "{@templates/crossing/defaults}",
-        "surface"
+        "surface_footway"
     ],
     "moreFields": [
         "{@templates/crossing/geometry_way_more}",

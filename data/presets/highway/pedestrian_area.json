@@ -2,7 +2,7 @@
     "icon": "temaki-pedestrian",
     "fields": [
         "name",
-        "surface",
+        "surface_footway",
         "lit",
         "width",
         "structure",

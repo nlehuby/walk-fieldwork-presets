@@ -3,7 +3,7 @@
     "fields": [
         "name",
         "oneway",
-        "surface",
+        "surface_footway",
         "smoothness",
         "width",
         "structure",

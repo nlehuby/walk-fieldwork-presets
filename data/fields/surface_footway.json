@@ -1,0 +1,20 @@
+{
+    "key": "surface",
+    "type": "combo",
+    "label": "Surface",
+    "strings": {
+        "options": {
+            "asphalt": "Asphalt",
+            "concrete": "Concrete",
+            "sett": "Sett",
+            "metal": "Metal",
+            "wood": "Wood",
+            "paved": "Other Paved",
+            "compacted": "Compacted",
+            "fine_gravel": "Fine Gravel",
+            "ground": "Ground",
+            "grass": "Grass",
+            "unpaved": "Other Unpaved"
+        }
+    }
+}

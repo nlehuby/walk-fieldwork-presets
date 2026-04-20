@@ -3,11 +3,10 @@
         "crossing",
         "{highway/footway}",
         "{@templates/crossing/markings}",
-        "{@templates/crossing/defaults}",
-        "surface"
+        "{@templates/crossing/defaults}"
     ],
     "moreFields": [
-        "surface",
+        "surface_footway",
         "guiding_strips",
         "smoothness_simple",
         "lit",

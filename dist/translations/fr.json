@@ -633,27 +633,8 @@
                 "material": {
                     "label": "Matériau",
                     "options": {
-                        "adobe": "Adobe",
-                        "aluminium": "Aluminium",
-                        "brass": "Laiton",
-                        "brick": "Brique",
-                        "bronze": "Bronze",
-                        "concrete": "Béton",
-                        "dry_stone": "Pierre sèche",
                         "glass": "Verre / Matériau transparent",
-                        "granite": "Granit",
-                        "iron": "Fer",
-                        "limestone": "Calcaire",
-                        "marble": "Marbre",
                         "metal": "Métal",
-                        "plastic": "Plastique",
-                        "reinforced_concrete": "Béton armé",
-                        "rock": "Roche",
-                        "sand": "Sable",
-                        "sandstone": "Grès",
-                        "soil": "Terre",
-                        "steel": "Acier",
-                        "stone": "Pierre",
                         "wood": "Bois"
                     }
                 },
@@ -1036,7 +1017,7 @@
                         "grass": "Herbe",
                         "grass_paver": "Pavés en gazon",
                         "gravel": "Graviers",
-                        "ground": "Sol",
+                        "ground": "Sol nu",
                         "metal": "Métal",
                         "mud": "Boue permanente",
                         "paved": "Oui",
@@ -1237,6 +1218,7 @@
                     "options": {
                         "kerb": "Surépaisseur au sol d'au moins 3cm, située sous l'obstacle",
                         "pole": "Élément bas, à max 0,40m du sol",
+                        "bar": "Barre horizontale basse, à max 0,40m du sol",
                         "yes": "Autre élément, détectable avec une canne blanche",
                         "no": "Pas de rappel tactile"
                     }
@@ -1482,6 +1464,51 @@
                         "bad": "Mauvais état / Inconforts d'usage",
                         "very_bad": "Très mauvais état",
                         "horrible": "Horrible"
+                    }
+                },
+                "surface_parking_space": {
+                    "label": "Revêtement",
+                    "options": {
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton",
+                        "grass_paver": "Pavés végétalisé (alvéolé gazonnant)",
+                        "sett": "Pavés",
+                        "paved": "Autre revêtement",
+                        "compacted": "Compacté",
+                        "fine_gravel": "Graviers fins",
+                        "ground": "Sol nu",
+                        "grass": "Herbe",
+                        "unpaved": "Non revêtu (autre)"
+                    }
+                },
+                "surface_indoor": {
+                    "label": "Revêtement",
+                    "options": {
+                        "tiles": "Carrelage",
+                        "metal": "Métal",
+                        "metal_grid": "Grille métallique",
+                        "carpet": "Moquette",
+                        "linoleum": "Linoleum",
+                        "sett": "Pavés",
+                        "wood": "Bois",
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton"
+                    }
+                },
+                "surface_footway": {
+                    "label": "Revêtement",
+                    "options": {
+                        "asphalt": "Asphalte",
+                        "concrete": "Béton",
+                        "sett": "Pavés",
+                        "metal": "Métal",
+                        "wood": "Bois",
+                        "paved": "Autre revêtement",
+                        "compacted": "Compacté",
+                        "fine_gravel": "Graviers fins",
+                        "ground": "Sol nu",
+                        "grass": "Herbe",
+                        "unpaved": "Non revêtu (autre)"
                     }
                 }
             },

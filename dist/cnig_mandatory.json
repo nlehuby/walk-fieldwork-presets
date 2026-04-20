@@ -15660,7 +15660,7 @@
       "access_simple",
       "handrail",
       "tactile_paving",
-      "surface",
+      "surface_footway",
       "structure",
       "covered_no",
       "access_simple",
@@ -15877,7 +15877,7 @@
   "highway/pedestrian_line": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "lit",
       "width",
       "structure",
@@ -15907,7 +15907,7 @@
   "highway/pedestrian_area": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "lit",
       "width",
       "structure",
@@ -15936,7 +15936,7 @@
   "highway/path": {
     "icon": "iD-other-line",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16074,7 +16074,7 @@
   "highway/living_street": {
     "icon": "iD-highway-living-street",
     "fields": [
-      "surface",
+      "surface_footway",
       "structure",
       "tunnel/name",
       "width",
@@ -16132,7 +16132,7 @@
   "highway/footway": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16362,7 +16362,7 @@
     "moreFields": [
       "name",
       "oneway",
-      "surface",
+      "surface_footway",
       "smoothness",
       "width",
       "structure",
@@ -16425,7 +16425,7 @@
       "incline_across_percentage",
       "indoor",
       "guiding_strips",
-      "surface"
+      "surface_indoor"
     ],
     "moreFields": [
       "name",
@@ -16575,7 +16575,7 @@
       "operator",
       "manufacturer",
       "step_count",
-      "surface"
+      "surface_footway"
     ],
     "geometry": [
       "line"
@@ -16751,11 +16751,11 @@
       "value": "traffic_island"
     },
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16794,9 +16794,9 @@
   "highway/path/informal": {
     "icon": "fas-shoe-prints",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16839,7 +16839,7 @@
       "line"
     ],
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16896,10 +16896,10 @@
     },
     "icon": "temaki-pedestrian_and_cyclist",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -16954,11 +16954,11 @@
   "highway/path/crossing": {
     "icon": "temaki-cyclist_crosswalk",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17018,8 +17018,8 @@
     },
     "icon": "temaki-ped_cyclist_crosswalk",
     "fields": [
-      "surface",
-      "surface",
+      "surface_footway",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17078,11 +17078,11 @@
   "highway/path/crossing/unmarked": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17136,11 +17136,11 @@
   "highway/path/crossing/uncontrolled": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17188,11 +17188,11 @@
   "highway/path/crossing/traffic_signals": {
     "icon": "temaki-railway_signals",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17243,11 +17243,11 @@
   "highway/path/crossing/marked": {
     "icon": "temaki-pedestrian_crosswalk",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17301,11 +17301,11 @@
   "highway/path/crossing/informal": {
     "icon": "temaki-pedestrian",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
-      "surface",
+      "surface_footway",
       "lit",
       "incline_percentage",
       "incline_across_percentage",
@@ -17354,7 +17354,7 @@
       "line"
     ],
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17388,7 +17388,7 @@
       "line"
     ],
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17431,7 +17431,7 @@
     ],
     "moreFields": [
       "guiding_strips",
-      "surface"
+      "surface_footway"
     ],
     "geometry": [
       "line"
@@ -17477,7 +17477,7 @@
       "incline_across_percentage",
       "indoor",
       "guiding_strips",
-      "surface"
+      "surface_indoor"
     ],
     "moreFields": [
       "name",
@@ -17508,7 +17508,7 @@
     "moreFields": [
       "crossing",
       "name",
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17516,8 +17516,7 @@
       "incline",
       "crossing/island",
       "crossing_raised",
-      "surface",
-      "surface",
+      "surface_footway",
       "guiding_strips"
     ],
     "geometry": [
@@ -17576,12 +17575,12 @@
   "highway/footway/access_aisle": {
     "icon": "temaki-striped_zone",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
       "width",
-      "surface",
+      "surface_footway",
       "smoothness_simple",
       "lit",
       "incline_percentage",
@@ -17617,8 +17616,8 @@
   "highway/footway/informal": {
     "icon": "fas-shoe-prints",
     "fields": [
-      "surface",
-      "surface",
+      "surface_footway",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17670,7 +17669,7 @@
       "line"
     ],
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "tunnel/name",
@@ -17733,7 +17732,6 @@
     },
     "icon": "fas-motorcycle",
     "fields": [
-      "surface",
       "width",
       "structure",
       "smoothness_simple",
@@ -17745,6 +17743,7 @@
     "moreFields": [
       "name",
       "oneway",
+      "surface",
       "smoothness",
       "access",
       "incline",
@@ -17789,7 +17788,7 @@
     },
     "icon": "temaki-pedestrian_and_cyclist",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "smoothness_simple",
@@ -17849,7 +17848,7 @@
     },
     "icon": "temaki-pedestrian_and_cyclist",
     "fields": [
-      "surface",
+      "surface_footway",
       "width",
       "structure",
       "smoothness_simple",
@@ -17899,7 +17898,7 @@
   "highway/cycleway/crossing": {
     "icon": "temaki-cyclist_crosswalk",
     "fields": [
-      "surface",
+      "surface_footway",
       "lit"
     ],
     "moreFields": [
@@ -18004,7 +18003,7 @@
     },
     "icon": "temaki-ped_cyclist_crosswalk",
     "fields": [
-      "surface",
+      "surface_footway",
       "lit"
     ],
     "moreFields": [
@@ -18039,7 +18038,7 @@
   "highway/cycleway/crossing/marked": {
     "icon": "temaki-cyclist_crosswalk",
     "fields": [
-      "surface",
+      "surface_footway",
       "lit"
     ],
     "moreFields": [
@@ -26317,7 +26316,7 @@
     "fields": [
       "orientation/orientation_parking",
       "smoothness_simple",
-      "surface",
+      "surface_parking_space",
       "width",
       "length",
       "markings",

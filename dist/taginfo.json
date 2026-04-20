@@ -15669,6 +15669,11 @@
         },
         {
             "key": "tactile_warning",
+            "value": "bar",
+            "description": "🄵🅅 Walking stick detectable warning: Low bar, at 40cm max"
+        },
+        {
+            "key": "tactile_warning",
             "value": "pole",
             "description": "🄵🅅 Walking stick detectable warning: Pole on floor, at 40cm max"
         },
@@ -15785,18 +15790,28 @@
         },
         {
             "key": "surface",
-            "value": "artificial_turf",
-            "description": "🄵🅅 Surface: Artificial Turf"
-        },
-        {
-            "key": "surface",
             "value": "asphalt",
             "description": "🄵🅅 Surface: Asphalt"
         },
         {
             "key": "surface",
-            "value": "clay",
-            "description": "🄵🅅 Surface: Clay"
+            "value": "concrete",
+            "description": "🄵🅅 Surface: Concrete"
+        },
+        {
+            "key": "surface",
+            "value": "grass_paver",
+            "description": "🄵🅅 Surface: Grass Paver"
+        },
+        {
+            "key": "surface",
+            "value": "sett",
+            "description": "🄵🅅 Surface: Sett"
+        },
+        {
+            "key": "surface",
+            "value": "paved",
+            "description": "🄵🅅 Surface: Other Paved, 🄵🅅 Surface: Paved"
         },
         {
             "key": "surface",
@@ -15805,8 +15820,63 @@
         },
         {
             "key": "surface",
-            "value": "concrete",
-            "description": "🄵🅅 Surface: Concrete"
+            "value": "fine_gravel",
+            "description": "🄵🅅 Surface: Fine Gravel"
+        },
+        {
+            "key": "surface",
+            "value": "ground",
+            "description": "🄵🅅 Surface: Ground"
+        },
+        {
+            "key": "surface",
+            "value": "grass",
+            "description": "🄵🅅 Surface: Grass"
+        },
+        {
+            "key": "surface",
+            "value": "unpaved",
+            "description": "🄵🅅 Surface: Other Unpaved, 🄵🅅 Surface: Unpaved"
+        },
+        {
+            "key": "surface",
+            "value": "tiles",
+            "description": "🄵🅅 Surface: Tiles"
+        },
+        {
+            "key": "surface",
+            "value": "metal",
+            "description": "🄵🅅 Surface: Metal"
+        },
+        {
+            "key": "surface",
+            "value": "metal_grid",
+            "description": "🄵🅅 Surface: Metal Grid"
+        },
+        {
+            "key": "surface",
+            "value": "carpet",
+            "description": "🄵🅅 Surface: Carpet"
+        },
+        {
+            "key": "surface",
+            "value": "linoleum",
+            "description": "🄵🅅 Surface: Linoleum"
+        },
+        {
+            "key": "surface",
+            "value": "wood",
+            "description": "🄵🅅 Surface: Wood"
+        },
+        {
+            "key": "surface",
+            "value": "artificial_turf",
+            "description": "🄵🅅 Surface: Artificial Turf"
+        },
+        {
+            "key": "surface",
+            "value": "clay",
+            "description": "🄵🅅 Surface: Clay"
         },
         {
             "key": "surface",
@@ -15825,43 +15895,13 @@
         },
         {
             "key": "surface",
-            "value": "fine_gravel",
-            "description": "🄵🅅 Surface: Fine Gravel"
-        },
-        {
-            "key": "surface",
-            "value": "grass",
-            "description": "🄵🅅 Surface: Grass"
-        },
-        {
-            "key": "surface",
-            "value": "grass_paver",
-            "description": "🄵🅅 Surface: Grass Paver"
-        },
-        {
-            "key": "surface",
             "value": "gravel",
             "description": "🄵🅅 Surface: Gravel"
         },
         {
             "key": "surface",
-            "value": "ground",
-            "description": "🄵🅅 Surface: Ground"
-        },
-        {
-            "key": "surface",
-            "value": "metal",
-            "description": "🄵🅅 Surface: Metal"
-        },
-        {
-            "key": "surface",
             "value": "mud",
             "description": "🄵🅅 Surface: Persistently Muddy"
-        },
-        {
-            "key": "surface",
-            "value": "paved",
-            "description": "🄵🅅 Surface: Paved"
         },
         {
             "key": "surface",
@@ -15885,11 +15925,6 @@
         },
         {
             "key": "surface",
-            "value": "sett",
-            "description": "🄵🅅 Surface: Sett"
-        },
-        {
-            "key": "surface",
             "value": "tartan",
             "description": "🄵🅅 Surface: Tartan"
         },
@@ -15897,16 +15932,6 @@
             "key": "surface",
             "value": "unhewn_cobblestone",
             "description": "🄵🅅 Surface: Cobblestone (uncut, rounded stones)"
-        },
-        {
-            "key": "surface",
-            "value": "unpaved",
-            "description": "🄵🅅 Surface: Unpaved"
-        },
-        {
-            "key": "surface",
-            "value": "wood",
-            "description": "🄵🅅 Surface: Wood"
         },
         {
             "key": "surface",
@@ -16540,108 +16565,13 @@
         },
         {
             "key": "material",
-            "value": "adobe",
-            "description": "🄵🅅 Material: Adobe"
-        },
-        {
-            "key": "material",
-            "value": "aluminium",
-            "description": "🄵🅅 Material: Aluminum"
-        },
-        {
-            "key": "material",
-            "value": "brass",
-            "description": "🄵🅅 Material: Brass"
-        },
-        {
-            "key": "material",
-            "value": "brick",
-            "description": "🄵🅅 Material: Brick"
-        },
-        {
-            "key": "material",
-            "value": "bronze",
-            "description": "🄵🅅 Material: Bronze"
-        },
-        {
-            "key": "material",
-            "value": "concrete",
-            "description": "🄵🅅 Material: Concrete"
-        },
-        {
-            "key": "material",
-            "value": "dry_stone",
-            "description": "🄵🅅 Material: Dry Stone"
-        },
-        {
-            "key": "material",
             "value": "glass",
             "description": "🄵🅅 Material: Glass"
         },
         {
             "key": "material",
-            "value": "granite",
-            "description": "🄵🅅 Material: Granite"
-        },
-        {
-            "key": "material",
-            "value": "iron",
-            "description": "🄵🅅 Material: Iron"
-        },
-        {
-            "key": "material",
-            "value": "limestone",
-            "description": "🄵🅅 Material: Limestone"
-        },
-        {
-            "key": "material",
-            "value": "marble",
-            "description": "🄵🅅 Material: Marble"
-        },
-        {
-            "key": "material",
             "value": "metal",
             "description": "🄵🅅 Material: Metal"
-        },
-        {
-            "key": "material",
-            "value": "plastic",
-            "description": "🄵🅅 Material: Plastic"
-        },
-        {
-            "key": "material",
-            "value": "reinforced_concrete",
-            "description": "🄵🅅 Material: Reinforced Concrete"
-        },
-        {
-            "key": "material",
-            "value": "rock",
-            "description": "🄵🅅 Material: Rock"
-        },
-        {
-            "key": "material",
-            "value": "sand",
-            "description": "🄵🅅 Material: Sand"
-        },
-        {
-            "key": "material",
-            "value": "sandstone",
-            "description": "🄵🅅 Material: Sandstone"
-        },
-        {
-            "key": "material",
-            "value": "soil",
-            "description": "🄵🅅 Material: Soil, Earth"
-        },
-        {
-            "key": "material",
-            "value": "steel",
-            "description": "🄵🅅 Material: Steel"
-        },
-        {
-            "key": "material",
-            "value": "stone",
-            "description": "🄵🅅 Material: Stone"
         },
         {
             "key": "material",

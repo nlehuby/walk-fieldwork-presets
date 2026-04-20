@@ -18598,7 +18598,7 @@
             "handrail",
             "step_count",
             "tactile_paving",
-            "surface",
+            "surface_footway",
             "width",
             "structure"
         ],
@@ -18965,7 +18965,7 @@
         "icon": "temaki-pedestrian",
         "fields": [
             "name",
-            "surface",
+            "surface_footway",
             "lit",
             "width",
             "oneway",
@@ -18995,7 +18995,7 @@
         "icon": "temaki-pedestrian",
         "fields": [
             "name",
-            "surface",
+            "surface_footway",
             "lit",
             "width",
             "structure",
@@ -19024,7 +19024,7 @@
         "icon": "iD-other-line",
         "fields": [
             "name",
-            "surface",
+            "surface_footway",
             "width",
             "structure",
             "tunnel/name",
@@ -19217,7 +19217,7 @@
             "oneway",
             "maxspeed",
             "lanes",
-            "surface",
+            "surface_footway",
             "structure",
             "tunnel/name",
             "access"
@@ -19284,7 +19284,7 @@
         "icon": "temaki-pedestrian",
         "fields": [
             "name",
-            "surface",
+            "surface_footway",
             "width",
             "structure",
             "tunnel/name",
@@ -19479,7 +19479,7 @@
         "fields": [
             "name",
             "oneway",
-            "surface",
+            "surface_footway",
             "smoothness",
             "width",
             "structure",
@@ -19551,7 +19551,7 @@
             "indoor",
             "guiding_strips",
             "maxheight",
-            "surface",
+            "surface_indoor",
             "stroller"
         ],
         "geometry": [
@@ -19712,7 +19712,7 @@
             "operator",
             "manufacturer",
             "step_count",
-            "surface"
+            "surface_footway"
         ],
         "geometry": [
             "line"
@@ -19916,7 +19916,7 @@
     "highway/path/informal": {
         "icon": "fas-shoe-prints",
         "fields": [
-            "surface",
+            "surface_footway",
             "width",
             "access",
             "trail_visibility",
@@ -20017,7 +20017,7 @@
             "{highway/path}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20087,7 +20087,7 @@
             "crossing",
             "{@templates/crossing/defaults}",
             "{highway/path}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20120,7 +20120,7 @@
             "{@templates/crossing/markings_yes}",
             "{@templates/crossing/defaults}",
             "{highway/path}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20148,7 +20148,7 @@
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
             "{highway/path}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20175,7 +20175,7 @@
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
             "{highway/path}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20206,7 +20206,7 @@
         "fields": [
             "crossing",
             "{highway/path}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{highway/path}",
@@ -20281,7 +20281,7 @@
         ],
         "moreFields": [
             "guiding_strips",
-            "surface"
+            "surface_footway"
         ],
         "geometry": [
             "line"
@@ -20333,7 +20333,7 @@
             "indoor",
             "guiding_strips",
             "maxheight",
-            "surface",
+            "surface_indoor",
             "stroller"
         ],
         "geometry": [
@@ -20353,11 +20353,10 @@
             "crossing",
             "{highway/footway}",
             "{@templates/crossing/markings}",
-            "{@templates/crossing/defaults}",
-            "surface"
+            "{@templates/crossing/defaults}"
         ],
         "moreFields": [
-            "surface",
+            "surface_footway",
             "guiding_strips",
             "smoothness_simple",
             "lit",
@@ -20415,7 +20414,7 @@
             "access_aisle",
             "{highway/footway}",
             "width",
-            "surface",
+            "surface_footway",
             "tactile_paving",
             "access",
             "wheelchair"
@@ -20439,7 +20438,7 @@
     "highway/footway/informal": {
         "icon": "fas-shoe-prints",
         "fields": [
-            "surface",
+            "surface_footway",
             "{highway/footway}",
             "width",
             "access",
@@ -20575,7 +20574,7 @@
             "name",
             "segregated",
             "oneway",
-            "surface",
+            "surface_footway",
             "smoothness",
             "width",
             "structure",
@@ -20621,7 +20620,7 @@
             "name",
             "segregated",
             "oneway",
-            "surface",
+            "surface_footway",
             "smoothness",
             "width",
             "structure",
@@ -20657,7 +20656,7 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/geometry_way_more}",
@@ -20685,7 +20684,7 @@
         "fields": [
             "crossing",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/geometry_way_more}",
@@ -20717,7 +20716,7 @@
             "crossing",
             "{@templates/crossing/defaults}",
             "{@templates/crossing/markings_yes}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/geometry_way_more}",
@@ -20744,7 +20743,7 @@
             "{@templates/crossing/traffic_signal}",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/traffic_signal_more}",
@@ -20781,7 +20780,7 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/geometry_way_more}",
@@ -20813,7 +20812,7 @@
             "crossing",
             "{@templates/crossing/markings}",
             "{@templates/crossing/defaults}",
-            "surface"
+            "surface_footway"
         ],
         "moreFields": [
             "{@templates/crossing/geometry_way_more}",
@@ -31038,7 +31037,7 @@
             "parking",
             "orientation/orientation_parking",
             "smoothness_simple",
-            "surface",
+            "surface_parking_space",
             "width",
             "length",
             "markings",

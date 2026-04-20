@@ -206,6 +206,7 @@
         "customValues": false,
         "options": [
             "kerb",
+            "bar",
             "pole",
             "yes",
             "no"
@@ -263,6 +264,54 @@
     "tactile_paving": {
         "key": "tactile_paving",
         "type": "check"
+    },
+    "surface_parking_space": {
+        "key": "surface",
+        "type": "combo",
+        "options": [
+            "asphalt",
+            "concrete",
+            "grass_paver",
+            "sett",
+            "paved",
+            "compacted",
+            "fine_gravel",
+            "ground",
+            "grass",
+            "unpaved"
+        ]
+    },
+    "surface_indoor": {
+        "key": "surface",
+        "type": "combo",
+        "options": [
+            "tiles",
+            "metal",
+            "metal_grid",
+            "carpet",
+            "linoleum",
+            "sett",
+            "wood",
+            "asphalt",
+            "concrete"
+        ]
+    },
+    "surface_footway": {
+        "key": "surface",
+        "type": "combo",
+        "options": [
+            "asphalt",
+            "concrete",
+            "sett",
+            "metal",
+            "wood",
+            "paved",
+            "compacted",
+            "fine_gravel",
+            "ground",
+            "grass",
+            "unpaved"
+        ]
     },
     "surface": {
         "key": "surface",
@@ -700,27 +749,8 @@
         "key": "material",
         "type": "combo",
         "options": [
-            "adobe",
-            "aluminium",
-            "brass",
-            "brick",
-            "bronze",
-            "concrete",
-            "dry_stone",
             "glass",
-            "granite",
-            "iron",
-            "limestone",
-            "marble",
             "metal",
-            "plastic",
-            "reinforced_concrete",
-            "rock",
-            "sand",
-            "sandstone",
-            "soil",
-            "steel",
-            "stone",
             "wood"
         ]
     },

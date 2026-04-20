@@ -204,6 +204,7 @@
                     "label": "Walking stick detectable warning",
                     "options": {
                         "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+                        "bar": "Low bar, at 40cm max",
                         "pole": "Pole on floor, at 40cm max",
                         "yes": "Other tactile warning",
                         "no": "No tactile warning"
@@ -243,6 +244,51 @@
                 },
                 "tactile_paving": {
                     "label": "Tactile Paving"
+                },
+                "surface_parking_space": {
+                    "label": "Surface",
+                    "options": {
+                        "asphalt": "Asphalt",
+                        "concrete": "Concrete",
+                        "grass_paver": "Grass Paver",
+                        "sett": "Sett",
+                        "paved": "Other Paved",
+                        "compacted": "Compacted",
+                        "fine_gravel": "Fine Gravel",
+                        "ground": "Ground",
+                        "grass": "Grass",
+                        "unpaved": "Other Unpaved"
+                    }
+                },
+                "surface_indoor": {
+                    "label": "Surface",
+                    "options": {
+                        "tiles": "Tiles",
+                        "metal": "Metal",
+                        "metal_grid": "Metal Grid",
+                        "carpet": "Carpet",
+                        "linoleum": "Linoleum",
+                        "sett": "Sett",
+                        "wood": "Wood",
+                        "asphalt": "Asphalt",
+                        "concrete": "Concrete"
+                    }
+                },
+                "surface_footway": {
+                    "label": "Surface",
+                    "options": {
+                        "asphalt": "Asphalt",
+                        "concrete": "Concrete",
+                        "sett": "Sett",
+                        "metal": "Metal",
+                        "wood": "Wood",
+                        "paved": "Other Paved",
+                        "compacted": "Compacted",
+                        "fine_gravel": "Fine Gravel",
+                        "ground": "Ground",
+                        "grass": "Grass",
+                        "unpaved": "Other Unpaved"
+                    }
                 },
                 "surface": {
                     "label": "Surface",
@@ -616,27 +662,8 @@
                 "material": {
                     "label": "Material",
                     "options": {
-                        "adobe": "Adobe",
-                        "aluminium": "Aluminum",
-                        "brass": "Brass",
-                        "brick": "Brick",
-                        "bronze": "Bronze",
-                        "concrete": "Concrete",
-                        "dry_stone": "Dry Stone",
                         "glass": "Glass",
-                        "granite": "Granite",
-                        "iron": "Iron",
-                        "limestone": "Limestone",
-                        "marble": "Marble",
                         "metal": "Metal",
-                        "plastic": "Plastic",
-                        "reinforced_concrete": "Reinforced Concrete",
-                        "rock": "Rock",
-                        "sand": "Sand",
-                        "sandstone": "Sandstone",
-                        "soil": "Soil, Earth",
-                        "steel": "Steel",
-                        "stone": "Stone",
                         "wood": "Wood"
                     }
                 },

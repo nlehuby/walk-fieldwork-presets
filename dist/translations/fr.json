@@ -1237,6 +1237,7 @@
                     "options": {
                         "kerb": "Surépaisseur au sol d'au moins 3cm, située sous l'obstacle",
                         "pole": "Élément bas, à max 0,40m du sol",
+                        "bar": "Barre horizontale basse, à max 0,40m du sol",
                         "yes": "Autre élément, détectable avec une canne blanche",
                         "no": "Pas de rappel tactile"
                     }

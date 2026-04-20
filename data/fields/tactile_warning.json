@@ -5,6 +5,7 @@
     "strings": {
         "options": {
             "kerb": "Kerb on floor, behind obstacle (at least 3cm)",
+            "bar": "Low bar, at 40cm max",
             "pole": "Pole on floor, at 40cm max",
             "yes": "Other tactile warning",
             "no": "No tactile warning"

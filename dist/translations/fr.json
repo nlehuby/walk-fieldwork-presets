@@ -1397,7 +1397,7 @@
                     "label": "Rampe amovible"
                 },
                 "entrance_coloured_band": {
-                    "label": "Bandes colorées sur vitre transparante (vitrophanie)"
+                    "label": "Bandes colorées sur vitre transparente (vitrophanie)"
                 },
                 "emergency_button": {
                     "label": "Bouton d'Appel d'Urgence"
@@ -1471,7 +1471,7 @@
                     "options": {
                         "asphalt": "Asphalte",
                         "concrete": "Béton",
-                        "grass_paver": "Pavés végétalisé (alvéolé gazonnant)",
+                        "grass_paver": "Pavés végétalisés (alvéolé gazonnant)",
                         "sett": "Pavés",
                         "paved": "Autre revêtement",
                         "compacted": "Compacté",

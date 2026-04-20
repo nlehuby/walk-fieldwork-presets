@@ -3,6 +3,18 @@
     "minValue": 0,
     "type": "number",
     "label": "Height of Bottom (Meters)",
+    "help": {
+        "fr": {
+            "text": "Indique la hauteur entre le sol et le bas de l'obstacle dans le cas d'un obstacle en saillie, lorsqu'on passe en dessous de l'obstacle.",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252Fh7aHGa8TFjKQd5X5FESO%252Fho2.PNG%3Falt%3Dmedia%26token%3D80c72a50-bc08-4c96-933b-c58641a05786&width=768&dpr=1&quality=100&sign=c87218cf&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the height between the ground and the bottom of the obstacle in the case of a protruding obstacle, when passing underneath the obstacle."
+        }
+    },
     "prerequisiteTag": {
         "key": "obstacle:blind",
         "value": "yes"

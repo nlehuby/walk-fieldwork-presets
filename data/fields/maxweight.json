@@ -3,6 +3,22 @@
     "type": "number",
     "minValue": 0,
     "label": "Weight Limit (with units)",
+    "help": {
+        "fr": {
+            "text": "Indique la masse maximale supportée, en précisant l'unité (kg ou T). En effet, certains fauteuils roulants (notamment électriques) peuvent peser très lourd. Il est donc important de pouvoir connaître le poids supporté par les équipements installés. La prise de mesure consiste en un contrôle visuel : cette valeur est généralement indiquée sur une plaque apparente sur l'équipement.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/0/0f/Int%C3%A9rieur_ascenseur_ratp.jpg/360px-Int%C3%A9rieur_ascenseur_ratp.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the maximum weight supported. Some wheelchairs (particularly electric ones) can be very heavy. It is therefore important to know the weight supported by the installed equipment. The measurement consists of a visual inspection: this value is usually indicated on a plate visible on the equipment.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/0/0f/Int%C3%A9rieur_ascenseur_ratp.jpg/360px-Int%C3%A9rieur_ascenseur_ratp.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "placeholder": "800 kg, 1.2 T",
     "snake_case": false
 }

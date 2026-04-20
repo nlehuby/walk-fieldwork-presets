@@ -2,5 +2,21 @@
     "key": "step_count",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Indique le nombre de marches. Dans le cas d'un escalier avec plusieurs volées de marches, c'est le nombre de marches total.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/0/02/Stairs_without_contrast_on_step_edge.jpg/360px-Stairs_without_contrast_on_step_edge.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the number of steps. In the case of a staircase with several flights of steps, this is the total number of steps.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/0/02/Stairs_without_contrast_on_step_edge.jpg/360px-Stairs_without_contrast_on_step_edge.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Number of Steps"
 }

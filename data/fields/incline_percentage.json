@@ -2,6 +2,18 @@
     "key": "incline",
     "type": "combo",
     "label": "Incline",
+    "help": {
+        "fr": {
+            "text": "Indique la pente (c'est-à-dire l'inclinaison la plus défavorable constatée sur le terrain). On la mesure en pourcentage (positif si la pente est dans le sens du tracé, négatif sinon).",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FE9qSdGTiRQYxBwrvMWv9%252Fpente_troncon.png%3Falt%3Dmedia%26token%3D99450981-f521-4e9f-a93e-d6165685c26e&width=768&dpr=1&quality=100&sign=e0c867b7&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the slope (i.e., the steepest incline observed on the terrain).It is measured as a percentage."
+        }
+    },
     "strings": {
         "options": {
             "0%": "flat (0%)",

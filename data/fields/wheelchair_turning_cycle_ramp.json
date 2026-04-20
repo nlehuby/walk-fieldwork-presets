@@ -1,6 +1,17 @@
 {
     "key": "wheelchair:turning_cycle",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique la présence d'une aire de rotation (ou espace de manœuvre) pour les fauteuils roulants en bas et/ou en haut de la rampe.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_ManoeuvringDiameter.png?ref_type=heads"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of a turning area (or maneuvering space) for wheelchairs at the bottom and/or top of the ramp."
+        }
+    },
     "strings": {
         "options": {
             "up": "Up only",

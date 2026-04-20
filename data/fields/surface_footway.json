@@ -2,6 +2,22 @@
     "key": "surface",
     "type": "combo",
     "label": "Surface",
+    "help": {
+        "fr": {
+            "text": "Indique le matériau de revêtement au sol.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/7/7e/Concrete_lanes.png/522px-Concrete_lanes.png",
+                "credits": "Contributeur OpenStreetMap, CC-BY-SA 2.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the floor covering material.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/7/7e/Concrete_lanes.png/522px-Concrete_lanes.png",
+                "credits": "Contributeur OpenStreetMap, CC-BY-SA 2.0"
+            }
+        }
+    },
     "strings": {
         "options": {
             "asphalt": "Asphalt",

@@ -2,6 +2,22 @@
     "key": "traffic_signals:sound",
     "type": "combo",
     "label": "Sound Signals",
+    "help": {
+        "fr": {
+            "text": "Indique la présence et l'état des feux sonores (répétiteurs sonores d'aide acoustique à la traversée). La prise de mesure se fait en déclenchant la balise sonore par pression sur la “télécommande accessibilité”. Il faut vérifier s'il y a un message vocal indiquant la couleur du feu piéton et s'il est audible.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/2/21/Feu_sonore.jpg/283px-Feu_sonore.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence and status of audible signals (audible repeaters providing acoustic assistance for crossing). The measurement is taken by activating the audible signal using the “accessibility remote control”. It is necessary to check whether there is a voice message indicating the color of the pedestrian signal and whether it is audible.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/2/21/Feu_sonore.jpg/283px-Feu_sonore.jpg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "strings": {
         "options": {
             "yes": "Yes",

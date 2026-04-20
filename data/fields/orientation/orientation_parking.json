@@ -2,6 +2,22 @@
     "key": "orientation",
     "type": "combo",
     "label": "Orientation",
+    "help": {
+        "fr": {
+            "text": "Indique la disposition de la place de stationnement et comment on doit procéder pour s'y garer.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/320px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
+                "credits": "Eric Fischer, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the layout of the parking space and how to park there.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/320px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
+                "credits": "Eric Fischer, CC-BY-SA 4.0"
+            }
+        }
+    },
     "options": [
         "parallel",
         "diagonal",

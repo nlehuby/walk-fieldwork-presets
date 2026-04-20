@@ -47,6 +47,8 @@ jobs:
             python main.py ../dist/presets.json ../data/profiles.json -o ../dist -u ''
             rm ../dist/presets.min.json
             cp ../dist/cnig_mandatory.json ../dist/presets.min.json
+            rm ../dist/fields.min.json
+            cp ../dist/fields.json ../dist/fields.min.json
             mkdir -p output/dist
             cp -r ../dist/* output/dist
 

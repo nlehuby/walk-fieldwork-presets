@@ -1,5 +1,21 @@
 {
     "key": "visual_announcement",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique si l'ascenseur est équipé d'un écran d’affichage en cabine indiquant au moins l’étage.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Elevator_floor_indicator.jpg/330px-Elevator_floor_indicator.jpg",
+                "credits": "Bidgee, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates whether the elevator is equipped with a display screen in the cabin showing at least the floor number.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Elevator_floor_indicator.jpg/330px-Elevator_floor_indicator.jpg",
+                "credits": "Bidgee, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Visual Announcement"
 }

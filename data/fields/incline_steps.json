@@ -2,6 +2,14 @@
     "key": "incline",
     "type": "combo",
     "label": "Incline",
+    "help": {
+        "fr": {
+            "text": "Indique de quel côté se situe le haut. On utilisera *Ça monte* si la flèche indique un déplacement du bas de l'escalier ou de la rampe vers le haut."
+        },
+        "en": {
+            "text": "Indicates which way is up. Use *Up* if the arrow points upward from the bottom of the stairs or ramp."
+        }
+    },
     "strings": {
         "options": {
             "up": "Up",

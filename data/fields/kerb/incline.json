@@ -2,6 +2,22 @@
     "key": "kerb:incline",
     "type": "combo",
     "label": "Kerb Incline",
+    "help": {
+        "fr": {
+            "text": "Indique la pente due à l’inclinaison du trottoir vers la chaussée. On la mesure en pourcentage.",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252F5myOEObS82XPTK5dWCBp%252Fabaisse%2520pente.jpg%3Falt%3Dmedia%26token%3D4d17db80-19db-4655-b5d1-d700940454e4&width=768&dpr=1&quality=100&sign=45503df3&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the slope caused by the incline of the sidewalk toward the roadway. It is measured as a percentage.",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252F5myOEObS82XPTK5dWCBp%252Fabaisse%2520pente.jpg%3Falt%3Dmedia%26token%3D4d17db80-19db-4655-b5d1-d700940454e4&width=768&dpr=1&quality=100&sign=45503df3&sv=2",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "strings": {
         "options": {
             "0%": "flat (0%)",

@@ -1,6 +1,19 @@
 {
     "key": "kerb:width",
-    "type": "roadheight",
+    "type": "number",
+    "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Indique la longueur de l'abaissé de trottoir (en mètres), c'est-à-dire la distance sur laquelle la hauteur de bordure de trottoir est réduite à son maximum, dans le cas d'un abaissement de trottoir (bateau). Correspond en général à la largeur utile du passage piéton.",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FQ6jD75KhMlx6rNEHr50s%252Fabaisse%2520trottoir.jpg%3Falt%3Dmedia%26token%3Deb28ce0a-2088-4c09-ba75-da79df7b7f4b&width=768&dpr=1&quality=100&sign=5b422965&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the length of the lowered curb, i.e., the distance over which the curb height is reduced to its maximum in the case of a lowered ramp."
+        }
+    },
     "snake_case": false,
     "label": "Kerb Width"
 }

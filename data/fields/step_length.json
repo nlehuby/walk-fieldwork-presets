@@ -2,5 +2,21 @@
     "key": "step:length",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Indique la longueur de marche (aussi appelé le giron), en en mètres arrondis au cm. La prise de mesure se fait à l'aide d'un mètre ruban ou d'un télémètre laser entre le nez de marche et la contremarche.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FTihRJfplCc6GBive28Jx%252Fgiron.JPG%3Falt%3Dmedia%26token%3D6d346ff5-066e-439a-a7b4-ed21d2bdab74&width=768&dpr=1&quality=100&sign=a250e7a6&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the length of the step, in meters rounded to the nearest centimeter. Measurements are taken using a tape measure or laser rangefinder between the front edge of the step and the riser.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FTihRJfplCc6GBive28Jx%252Fgiron.JPG%3Falt%3Dmedia%26token%3D6d346ff5-066e-439a-a7b4-ed21d2bdab74&width=768&dpr=1&quality=100&sign=a250e7a6&sv=2",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "label": "Step Length (Meters)"
 }

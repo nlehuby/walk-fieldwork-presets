@@ -1,5 +1,19 @@
 {
     "key": "guiding_strips",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a des bandes podotactiles en relief au sol qui peuvent être détectés et suivis avec une canne.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaimaps-android/-/raw/main/app/src/main/res/drawable-hdpi/wdm_tactile_guiding_strip.jpg?ref_type=heads"
+            }
+        },
+        "en": {
+            "text": "Indicates whether there are linear elements on the ground that can be detected and followed with a cane, such as a tactile guidance strip.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaimaps-android/-/raw/main/app/src/main/res/drawable-hdpi/wdm_tactile_guiding_strip.jpg?ref_type=heads"
+            }
+        }
+    },
     "label": "Guiding Strips"
 }

@@ -1351,7 +1351,7 @@
                 "handrail_side": {
                     "label": "Main courante",
                     "options": {
-                        "rigth": "À droite uniquement",
+                        "right": "À droite uniquement",
                         "left": "À gauche uniquement",
                         "both": "De chaque côté",
                         "center": "Au milieu (une seule main courante, au centre)",

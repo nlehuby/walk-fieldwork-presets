@@ -4,7 +4,7 @@
     "label": "Surface",
     "help": {
         "fr": {
-            "text": "Indique le matériau de revêtement au sol.",
+            "text": "Indique le matériau de revêtement de la place de parking.",
             "picture": {
                 "url": "https://wiki.openstreetmap.org/w/images/thumb/7/7e/Concrete_lanes.png/522px-Concrete_lanes.png",
                 "credits": "Contributeur OpenStreetMap, CC-BY-SA 2.0"

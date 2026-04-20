@@ -2,6 +2,22 @@
     "key": "wheelchair:turning_cycle:diameter",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Indique le diamètre de giration. Il s'agit du diamètre de la zone de manœuvre pour les usagers en fauteuil roulant, leur permettant de faire demi-tour ou changer de direction. On le mesure une fois la palette ou la plate-forme élévatrice déployée, en mètres arrondis au cm.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Boarding_bus_Gibbon_Street_-_10_bus_stop_New_Farm_P1430128.jpg/330px-Boarding_bus_Gibbon_Street_-_10_bus_stop_New_Farm_P1430128.jpg",
+                "credits": "John Robert McPherson, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the turning diameter, in meters rounded to the nearest centimeter. This is the diameter of the maneuvering area for wheelchair users. It is measured once the pallet or lifting platform has been deployed.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Boarding_bus_Gibbon_Street_-_10_bus_stop_New_Farm_P1430128.jpg/330px-Boarding_bus_Gibbon_Street_-_10_bus_stop_New_Farm_P1430128.jpg",
+                "credits": "John Robert McPherson, CC-BY-SA 4.0"
+            }
+        }
+    },
     "prerequisiteTag": {
         "key": "wheelchair:turning_cycle",
         "valueNot": "no"

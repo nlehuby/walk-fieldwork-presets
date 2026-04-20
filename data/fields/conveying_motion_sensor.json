@@ -1,5 +1,13 @@
 {
     "key": "conveying:motion_sensor",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique si le tapis roulant ou l'escalator se déclenche lorsque des usagers s'engagent dessus. Cet attribut permet de prévenir les usagers qui pourraient être surpris ou déstabilisés par un sol qui se met à bouger sous leurs pieds, sans préavis."
+        },
+        "en": {
+            "text": "Indicates whether the moving walkway or escalator starts moving when users step onto it. This attribute warns users who might be surprised or destabilized by a floor that starts moving under their feet without warning."
+        }
+    },
     "label": "Motion sensor"
 }

@@ -1,6 +1,22 @@
 {
     "key": "tactile_paving",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a une bande d'éveil à la vigilance (BEV) : surface contrastée visuellement et tactilement permettant de signaler un danger, comme une traversée de route ou un risque de chute.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/6/62/FR84087_tactile_paving%26steps_2023-03-05.jpg/480px-FR84087_tactile_paving%26steps_2023-03-05.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of the warning strip (a visually and tactilely contrasting surface used to signal danger, such as a road crossing or risk of falling).",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/6/62/FR84087_tactile_paving%26steps_2023-03-05.jpg/480px-FR84087_tactile_paving%26steps_2023-03-05.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Tactile Paving",
     "strings": {
         "options": {

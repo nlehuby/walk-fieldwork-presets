@@ -2,6 +2,18 @@
     "key": "kerb:visibility:obstacle",
     "type": "combo",
     "label": "Visibility Obstacle at kerb",
+    "help": {
+        "fr": {
+            "text": "Indique le type d'obstacle ou de masque visuel. Il s'agit d'un élément, positionné jusqu'à 5 mètres en amont de la traversée, et qui gêne le piéton pour voir et être vu au moment de traverser.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_VisualObstacle_Cerema.png?ref_type=heads",
+                "credits": "© Cerema"
+            }
+        },
+        "en": {
+            "text": "Indicates the type of obstacle or visual barrier. This is an element positioned up to 5 meters upstream of the crossing that prevents pedestrians from seeing and being seen when crossing."
+        }
+    },
     "strings": {
         "options": {
             "parking_space": "car parking space",

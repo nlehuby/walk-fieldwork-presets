@@ -2,5 +2,19 @@
     "key": "platform:height",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Mesure la différence de niveau entre le quai et la chaussée, en mètres arrondi au cm.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/d/d7/Approach_aid_2_lane_guidance.jpg/480px-Approach_aid_2_lane_guidance.jpg"
+            }
+        },
+        "en": {
+            "text": "Measures the difference in level between the platform and the roadway, in meters rounded to the nearest centimeter.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/d/d7/Approach_aid_2_lane_guidance.jpg/480px-Approach_aid_2_lane_guidance.jpg"
+            }
+        }
+    },
     "label": "Platform Height (Meters)"
 }

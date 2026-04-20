@@ -2,6 +2,22 @@
     "key": "smoothness",
     "type": "combo",
     "label": "Smoothness",
+    "help": {
+        "fr": {
+            "text": "Caractérise l'état et la praticabilité du revêtement. Cet état est fonction de son usure et concerne notamment la présence de dégradations entraînant un risque d'accroche du pied ou de secousses dans le cas de déplacement en fauteuil roulant.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/1/10/Potholes_at_the_Level_Crossing%2C_Barrow_Haven_-_geograph.org.uk_-_1621073.jpg",
+                "credits": "David Wright, CC-BY-SA 2.0"
+            }
+        },
+        "en": {
+            "text": "Characterizes the condition and practicability of the surface. This condition depends on its wear and tear and concerns in particular the presence of damage that could cause the foot to catch or jolt when moving in a wheelchair.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/1/10/Potholes_at_the_Level_Crossing%2C_Barrow_Haven_-_geograph.org.uk_-_1621073.jpg",
+                "credits": "David Wright, CC-BY-SA 2.0"
+            }
+        }
+    },
     "placeholder": "good, bad, ...",
     "strings": {
         "options": {

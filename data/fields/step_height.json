@@ -2,5 +2,21 @@
     "key": "step:height",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Mesure la hauteur de marche, en mètres arrondis au cm. La prise de mesure se fait à l'aide d'un mètre ruban ou d'un télémètre laser au droit de la contremarche.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FBs21EuUiLzGyYjVoDob6%252Fhauteur%2520marche.JPG%3Falt%3Dmedia%26token%3D2f75f466-0df0-4593-b023-99318f7aa060&width=768&dpr=1&quality=100&sign=17d8f424&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Measure the height of the step in meters, rounded to the nearest centimeter. Measurements are taken using a tape measure or laser rangefinder at the riser.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FBs21EuUiLzGyYjVoDob6%252Fhauteur%2520marche.JPG%3Falt%3Dmedia%26token%3D2f75f466-0df0-4593-b023-99318f7aa060&width=768&dpr=1&quality=100&sign=17d8f424&sv=2",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "label": "Step Height (Meters)"
 }

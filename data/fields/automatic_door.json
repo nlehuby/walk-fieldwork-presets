@@ -1,5 +1,21 @@
 {
     "key": "automatic_door",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique si la porte s'ouvre automatiquement.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                "credits": "Pvt pauline, CC-BY-SA 3.0"
+            }
+        },
+        "en": {
+            "text": "Indicates whether the door is automatic.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                "credits": "Pvt pauline, CC-BY-SA 3.0"
+            }
+        }
+    },
     "label": "Automatic Door"
 }

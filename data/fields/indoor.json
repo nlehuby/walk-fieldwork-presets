@@ -1,5 +1,13 @@
 {
     "key": "indoor",
     "type": "defaultCheck",
+    "help": {
+        "fr": {
+            "text": "Indique si l'objet est situé en intérieur."
+        },
+        "en": {
+            "text": "Is it indoor ?"
+        }
+    },
     "label": "Indoor"
 }

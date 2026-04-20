@@ -9,6 +9,22 @@
             "reversible": "Reversible"
         }
     },
+    "help": {
+        "fr": {
+            "text": "Indique la direction de déplacement d'un escalator ou tapis roulant par rapport au sens du tracé.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Escalator_looped_animation.gif/330px-Escalator_looped_animation.gif",
+                "credits": "JanAinali & Jahobr, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the conveying direction of an escalator or moving walkway relative to the trace direction.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Escalator_looped_animation.gif/330px-Escalator_looped_animation.gif",
+                "credits": "JanAinali & Jahobr, CC-BY-SA 4.0"
+            }
+        }
+    },
     "autoSuggestions": false,
     "customValues": false
 }

@@ -2,6 +2,22 @@
     "key": "tactile_paving:defects",
     "type": "semiCombo",
     "label": "Tactile Paving Defects",
+    "help": {
+        "fr": {
+            "text": "Indique si la bande d'éveil à la vigilance est correctement implantée.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FBsbwOpBZBJzd4BwVnWAO%252FBEV%2520en%2520courbe2.jpg%3Falt%3Dmedia%26token%3Dff9bd899-a4fa-42e1-82c2-0bbabf163ffa&width=768&dpr=1&quality=100&sign=5f5ac9cc&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates whether the warning strip is correctly implanted.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FBsbwOpBZBJzd4BwVnWAO%252FBEV%2520en%2520courbe2.jpg%3Falt%3Dmedia%26token%3Dff9bd899-a4fa-42e1-82c2-0bbabf163ffa&width=768&dpr=1&quality=100&sign=5f5ac9cc&sv=2",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "strings": {
         "options": {
             "curved": "Curved",

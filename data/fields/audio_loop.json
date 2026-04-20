@@ -1,5 +1,21 @@
 {
     "key": "audio_loop",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Signale la présence d'un équipement boucle à induction magnétique (BIM). On s'appuiera sur la présence sur le symbole de la boucle à induction magnétique sur le panneau de commande comme indiqué ci dessous.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Noun_telecoil_audio_induction_hearing_loop_symbol_2011213.svg/250px-Noun_telecoil_audio_induction_hearing_loop_symbol_2011213.svg.png",
+                "credits": "Carl Holderness, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of magnetic induction loop equipment. This is indicated by the magnetic induction loop symbol on the control panel, as shown below.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Noun_telecoil_audio_induction_hearing_loop_symbol_2011213.svg/250px-Noun_telecoil_audio_induction_hearing_loop_symbol_2011213.svg.png",
+                "credits": "Carl Holderness, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Audio Induction Loop"
 }

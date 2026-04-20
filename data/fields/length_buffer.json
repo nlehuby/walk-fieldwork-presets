@@ -2,5 +2,21 @@
     "key": "length:buffer",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Dimension de la sur-longueur sur la voie de circulation (en mètre). Il s'agit d'une zone à l'arrière de la place, hors marquage, permettant l'accès au coffre du véhicule. Elle peut être matérialisée par des chevrons blanc en peinture sur une voie circulée.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_disabled_spaces_-_geograph.org.uk_-_7637842.jpg/330px-Empty_disabled_spaces_-_geograph.org.uk_-_7637842.jpg",
+                "credits": "John H Darch, CC-BY-SA 2.0"
+            }
+        },
+        "en": {
+            "text": "Dimension of the excess length on the traffic lane (in metres). This is an area at the rear of the parking space, outside the marked area, allowing access to the vehicle's boot. It may be marked by white chevrons painted on a traffic lane.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Empty_disabled_spaces_-_geograph.org.uk_-_7637842.jpg/330px-Empty_disabled_spaces_-_geograph.org.uk_-_7637842.jpg",
+                "credits": "John H Darch, CC-BY-SA 2.0"
+            }
+        }
+    },
     "label": "Extra length (Meters)"
 }

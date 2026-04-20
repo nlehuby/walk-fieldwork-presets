@@ -2,6 +2,14 @@
     "key": "highway:shape",
     "type": "combo",
     "label": "Highway shape",
+    "help": {
+        "fr": {
+            "text": "Indique si la traversée est convexe ou bombée (elle monte puis descend). Bien souvent, la chaussée au niveau du passage piéton peut-être en pente à des degrés divers générant des difficultés de circulation et parfois des difficultés à regagner le trottoir."
+        },
+        "en": {
+            "text": "Indicates whether the crossing is convex (it rises and then falls). Very often, the road surface at pedestrian crossings can be sloped to varying degrees, causing pedestrian traffic problems and sometimes making it difficult to get back onto the sidewalk."
+        }
+    },
     "strings": {
         "options": {
             "flat": "flat",

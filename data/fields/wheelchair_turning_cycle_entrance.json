@@ -1,6 +1,22 @@
 {
     "key": "wheelchair:turning_cycle",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique la présence, à proximité immédiate de la porte, d'un espace pour la manœuvrer correctement (au minimum un diamètre d'1,5m).",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_TurningSpacePosition_CAWaB.png?ref_type=heads",
+                "credits": "© CAWaB"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence, in the immediate vicinity of the door, of a space sufficient to operate it correctly (minimum diameter of 1.5 m).",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_TurningSpacePosition_CAWaB.png?ref_type=heads",
+                "credits": "© CAWaB"
+            }
+        }
+    },
     "strings": {
         "options": {
             "inside": "Inside only",

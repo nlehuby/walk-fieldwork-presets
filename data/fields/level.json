@@ -2,6 +2,14 @@
     "key": "level",
     "type": "combo",
     "label": "Level",
+    "help": {
+        "fr": {
+            "text": "Indique l'étage où est situé l'objet."
+        },
+        "en": {
+            "text": "Indicates the floor where the item is located."
+        }
+    },
     "terms": [
         "building floor",
         "deck",

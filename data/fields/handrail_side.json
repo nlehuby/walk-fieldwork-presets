@@ -2,9 +2,25 @@
     "key": "handrail",
     "label": "Handrail",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique la présence d'une main courante sur laquelle on peut poser la main pour prendre appui, se soutenir et diminuer une position inconfortable en montée ou en descente.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/8/82/FR92_handrail%3Dcenter_2023-03-18.jpg/240px-FR92_handrail%3Dcenter_2023-03-18.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of a handrail on which you can place your hand for support, to steady yourself, and to reduce discomfort when going up or down.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/8/82/FR92_handrail%3Dcenter_2023-03-18.jpg/240px-FR92_handrail%3Dcenter_2023-03-18.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        }
+    },
     "strings": {
         "options": {
-            "rigth": "Rigth only",
+            "right": "Right only",
             "left": "Left only",
             "both": "Both sides",
             "center": "Only one handrail, on the center of the stairs",

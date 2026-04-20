@@ -1,6 +1,14 @@
 {
     "key": "level",
     "type": "semiCombo",
+    "help": {
+        "fr": {
+            "text": "Indique les étages desservis sous forme de liste, lorsque le tronçon de cheminement permet de réaliser un changement d'étage."
+        },
+        "en": {
+            "text": "Indicates the floors served in list form, when the path section allows for a change of floor."
+        }
+    },
     "label": "Levels",
     "strings": {
         "options": {

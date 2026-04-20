@@ -1,6 +1,22 @@
 {
     "key": "door",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique les caractéristiques de la porte principale de l'entrée. Cet attribut est à renseigner uniquement s'il y a une porte au niveau de l'entrée.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Via_della_colonna_22%2C_casa_con_stemma_02.JPG/500px-Via_della_colonna_22%2C_casa_con_stemma_02.JPG",
+                "credits": "Sailko, CC-BY-SA 3.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the characteristics of the main entrance door. This attribute should only be filled in if there is a door at the entrance.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Via_della_colonna_22%2C_casa_con_stemma_02.JPG/500px-Via_della_colonna_22%2C_casa_con_stemma_02.JPG",
+                "credits": "Sailko, CC-BY-SA 3.0"
+            }
+        }
+    },
     "strings": {
         "options": {
             "hinged": "hinged",

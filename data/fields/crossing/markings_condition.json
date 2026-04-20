@@ -2,6 +2,22 @@
     "key": "crossing:markings:condition",
     "type": "combo",
     "label": "Crossing markings condition",
+    "help": {
+        "fr": {
+            "text": "Qualifie l'état du marquage au sol au niveau d'un passage piéton",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/c/c6/Zebra_marquage_degrade.jpg/768px-Zebra_marquage_degrade.jpg",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the condition of road markings at a pedestrian crossing",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/c/c6/Zebra_marquage_degrade.jpg/768px-Zebra_marquage_degrade.jpg",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        }
+    },
     "placeholder": "good, bad, ...",
     "strings": {
         "options": {

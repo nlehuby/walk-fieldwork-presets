@@ -1,5 +1,17 @@
 {
     "key": "crossing:signals",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique la présence de feux lumineux à destination des piétons (de type R12, R24 ou R25).",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252F8ewMmEFVopXK2S18L159%252FfeuxPietons.jpg%3Falt%3Dmedia%26token%3D8087ea3f-3509-4b71-97a5-59ee5d0c1358&width=768&dpr=1&quality=100&sign=fa2fd47&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of lights for pedestrians."
+        }
+    },
     "label": "Traffic signals"
 }

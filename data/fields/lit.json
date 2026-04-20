@@ -2,6 +2,20 @@
     "key": "lit",
     "type": "check",
     "label": "Lit",
+    "help": {
+        "fr": {
+            "text": "Indique la présence d'un éclairage nocturne.",
+            "picture": {
+                "url": "https://gitlab.com/yukaimaps/yukaimaps-android/-/raw/main/app/src/main/res/drawable-hdpi/wdm_lighting_yes.jpg?ref_type=heads"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of nighttime lighting.",
+            "picture": {
+                "url": "https://gitlab.com/yukaimaps/yukaimaps-android/-/raw/main/app/src/main/res/drawable-hdpi/wdm_lighting_yes.jpg?ref_type=heads"
+            }
+        }
+    },
     "terms": [
         "lamp",
         "lighting"

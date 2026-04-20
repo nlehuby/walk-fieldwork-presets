@@ -1,5 +1,21 @@
 {
     "key": "step:stair_nosing",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a un dispositif contrastant sur la bordure des marches. Il s'agit d'une bande visuellement contrastée et parfois antidérapante, de 5cm de profondeur et présente sur toute la largeur de chaque marche. Elle permet d'aider les personnes mal-voyantes à repérer le bord des marches.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/e/e5/Contrasted_step_edge_example.jpeg/360px-Contrasted_step_edge_example.jpeg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the presence of the contrasting device on the edge of the steps. This is a visually contrasting and sometimes non-slip strip, 5 cm deep and covering the entire width of each step. It helps visually impaired people to locate the edge of the steps.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/e/e5/Contrasted_step_edge_example.jpeg/360px-Contrasted_step_edge_example.jpeg",
+                "credits": "nlehuby, Jungle Bus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Step stair nosing"
 }

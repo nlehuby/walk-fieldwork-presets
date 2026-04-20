@@ -2,5 +2,18 @@
     "key": "maxwidth:physical",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Indique la largeur de passage utile. Dans le cas d'un obstacle, il s'agit de la largeur restante lorsqu'on souhaite contourner cet obstacle, soit la distance entre le bord du cheminement et l'obstacle, au niveau du rétrécissement le plus pénalisant.",
+            "link": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/#id-2.4-obstacles",
+            "schema": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FhVTSFfg75EYzJbKXZrq3%252Flarg%25202.PNG%3Falt%3Dmedia%26token%3D2b6e15d4-04dc-45b7-8800-229b128971c3&width=768&dpr=1&quality=100&sign=b24b3284&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Indicates the usable passage width at the obstacle. It is the width remaining when you want to go around the obstacle, i.e., the distance between the edge of the path and the obstacle, at the point of narrowing that is most restrictive."
+        }
+    },
     "label": "Width Limit (Meters)"
 }

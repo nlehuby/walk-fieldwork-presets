@@ -17,6 +17,7 @@
                 "entrance",
                 "entrance/*",
                 "highway/*",
+                "indoor/door",
                 "man_made/street_cabinet",
                 "man_made/street_cabinet/*",
                 "man_made/utility_pole",
@@ -803,6 +804,20 @@
                     "tactile_warning",
                     "min_height_obstacle",
                     "panoramax"
+                ]
+            },
+            "indoor/door": {
+                "required": [
+                    "door",
+                    "entrance_ramp",
+                    "material",
+                    "entrance_coloured_band",
+                    "width",
+                    "automatic_door",
+                    "tactile_paving",
+                    "tactile_paving_condition",
+                    "wheelchair_turning_cycle_entrance",
+                    "kerb/height"
                 ]
             },
             "man_made/street_cabinet": {

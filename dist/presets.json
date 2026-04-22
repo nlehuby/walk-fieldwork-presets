@@ -17765,7 +17765,13 @@
             "height"
         ],
         "moreFields": [
-            "wheelchair"
+            "wheelchair",
+            "door",
+            "material",
+            "entrance_coloured_band",
+            "automatic_door",
+            "wheelchair_turning_cycle_entrance",
+            "kerb/height"
         ],
         "geometry": [
             "vertex"

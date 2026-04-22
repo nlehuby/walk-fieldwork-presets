@@ -14984,8 +14984,22 @@
   },
   "indoor/door": {
     "icon": "maki-entrance-alt1",
-    "fields": [],
-    "moreFields": [],
+    "fields": [
+      "width",
+      "door",
+      "material",
+      "entrance_coloured_band",
+      "automatic_door",
+      "wheelchair_turning_cycle_entrance",
+      "kerb/height"
+    ],
+    "moreFields": [
+      "level",
+      "ref",
+      "access_simple",
+      "height",
+      "wheelchair"
+    ],
     "geometry": [
       "vertex"
     ],
@@ -14999,8 +15013,7 @@
     "removeTags": {
       "indoor": "door",
       "door": "*"
-    },
-    "readOnly": true
+    }
   },
   "indoor/corridor": {
     "icon": "temaki-pedestrian",

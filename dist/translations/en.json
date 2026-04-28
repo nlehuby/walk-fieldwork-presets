@@ -181,6 +181,9 @@
                         "yes": "Yes"
                     }
                 },
+                "tunnel": {
+                    "label": "Tunnel"
+                },
                 "trail_visibility": {
                     "label": "Trail Visibility",
                     "placeholder": "Excellent, Good, Bad...",
@@ -1100,6 +1103,9 @@
                 },
                 "building_area_yes": {
                     "label": "Building"
+                },
+                "bridge": {
+                    "label": "Bridge"
                 },
                 "brand": {
                     "label": "Brand"

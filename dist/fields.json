@@ -169,6 +169,10 @@
             "yes"
         ]
     },
+    "tunnel": {
+        "key": "tunnel",
+        "type": "defaultCheck"
+    },
     "trail_visibility": {
         "key": "trail_visibility",
         "type": "combo",
@@ -1297,6 +1301,10 @@
         "geometry": [
             "area"
         ]
+    },
+    "bridge": {
+        "key": "bridge",
+        "type": "defaultCheck"
     },
     "brand": {
         "key": "brand",

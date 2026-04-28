@@ -9446,7 +9446,7 @@
         },
         {
             "key": "bridge",
-            "description": "🄿 Unknown Road Bridge, 🄵 Structure",
+            "description": "🄿 Unknown Road Bridge, 🄵 Structure, 🄵 Bridge",
             "object_types": [
                 "way"
             ],
@@ -15621,6 +15621,10 @@
             "description": "🄵🅅 Two-Sided: Yes"
         },
         {
+            "key": "tunnel",
+            "description": "🄵 Tunnel, 🄵 Structure"
+        },
+        {
             "key": "trail_visibility",
             "description": "🄵 Trail Visibility"
         },
@@ -15945,10 +15949,6 @@
         {
             "key": "supervised",
             "description": "🄵 Supervised"
-        },
-        {
-            "key": "tunnel",
-            "description": "🄵 Structure"
         },
         {
             "key": "embankment",

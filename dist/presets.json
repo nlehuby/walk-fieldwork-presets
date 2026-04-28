@@ -18975,7 +18975,8 @@
             "lit",
             "width",
             "oneway",
-            "structure",
+            "tunnel",
+            "bridge",
             "access"
         ],
         "moreFields": [
@@ -19004,7 +19005,8 @@
             "surface_footway",
             "lit",
             "width",
-            "structure",
+            "tunnel",
+            "bridge",
             "access"
         ],
         "moreFields": [
@@ -19032,8 +19034,8 @@
             "name",
             "surface_footway",
             "width",
-            "structure",
-            "tunnel/name",
+            "tunnel",
+            "bridge",
             "access"
         ],
         "moreFields": [
@@ -19224,7 +19226,8 @@
             "maxspeed",
             "lanes",
             "surface_footway",
-            "structure",
+            "tunnel",
+            "bridge",
             "tunnel/name",
             "access"
         ],
@@ -19292,8 +19295,8 @@
             "name",
             "surface_footway",
             "width",
-            "structure",
-            "tunnel/name",
+            "tunnel",
+            "bridge",
             "access",
             "incline"
         ],
@@ -19942,7 +19945,8 @@
             "mtb/scale/uphill",
             "sac_scale",
             "stroller",
-            "structure",
+            "tunnel",
+            "bridge",
             "wheelchair"
         ],
         "geometry": [
@@ -20460,7 +20464,8 @@
             "maxweight_bridge",
             "sac_scale",
             "stroller",
-            "structure",
+            "tunnel",
+            "bridge",
             "wheelchair"
         ],
         "geometry": [
@@ -20583,7 +20588,8 @@
             "surface_footway",
             "smoothness",
             "width",
-            "structure",
+            "tunnel",
+            "bridge",
             "access",
             "incline"
         ],
@@ -20629,7 +20635,8 @@
             "surface_footway",
             "smoothness",
             "width",
-            "structure",
+            "tunnel",
+            "bridge",
             "access",
             "incline"
         ],

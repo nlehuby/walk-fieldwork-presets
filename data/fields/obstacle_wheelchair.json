@@ -1,5 +1,5 @@
 {
     "key": "obstacle:wheelchair",
-    "type": "check",
+    "type": "defaultCheck",
     "label": "Is an obstacle for wheelchair users ?"
 }

@@ -13,7 +13,7 @@
         "incline_percentage",
         "incline_across_percentage",
         "indoor",
-        "guiding_strips",
+        "guiding_strips_indoor",
         "maxheight",
         "surface_indoor",
         "stroller"

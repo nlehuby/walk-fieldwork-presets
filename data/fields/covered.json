@@ -1,5 +1,5 @@
 {
     "key": "covered",
-    "type": "check",
+    "type": "defaultCheck",
     "label": "Covered"
 }

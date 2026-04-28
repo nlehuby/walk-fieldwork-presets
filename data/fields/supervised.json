@@ -1,6 +1,6 @@
 {
     "key": "supervised",
-    "type": "check",
+    "type": "defaultCheck",
     "label": "Supervised",
     "terms": [
         "guarded",

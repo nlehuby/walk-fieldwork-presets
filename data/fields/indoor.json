@@ -1,5 +1,5 @@
 {
     "key": "indoor",
-    "type": "check",
+    "type": "defaultCheck",
     "label": "Indoor"
 }

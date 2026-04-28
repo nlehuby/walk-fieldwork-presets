@@ -1,5 +1,5 @@
 {
     "key": "obstacle:blind",
-    "type": "check",
+    "type": "defaultCheck",
     "label": "Is an obstacle for blind people ?"
 }

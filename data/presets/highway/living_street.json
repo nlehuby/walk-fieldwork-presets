@@ -6,7 +6,8 @@
         "maxspeed",
         "lanes",
         "surface_footway",
-        "structure",
+        "tunnel",
+        "bridge",
         "tunnel/name",
         "access"
     ],

@@ -5,7 +5,8 @@
         "surface_footway",
         "lit",
         "width",
-        "structure",
+        "tunnel",
+        "bridge",
         "access"
     ],
     "moreFields": [

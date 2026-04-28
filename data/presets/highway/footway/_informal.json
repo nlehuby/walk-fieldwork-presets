@@ -17,7 +17,8 @@
         "maxweight_bridge",
         "sac_scale",
         "stroller",
-        "structure",
+        "tunnel",
+        "bridge",
         "wheelchair"
     ],
     "geometry": [

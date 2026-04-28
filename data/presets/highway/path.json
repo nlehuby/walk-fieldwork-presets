@@ -4,8 +4,8 @@
         "name",
         "surface_footway",
         "width",
-        "structure",
-        "tunnel/name",
+        "tunnel",
+        "bridge",
         "access"
     ],
     "moreFields": [

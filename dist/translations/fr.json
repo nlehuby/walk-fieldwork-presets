@@ -1516,6 +1516,12 @@
                 },
                 "guiding_strips_indoor": {
                     "label": "Bandes de Guidage"
+                },
+                "tunnel": {
+                    "label": "Est sous un tunnel"
+                },
+                "bridge": {
+                    "label": "Est sur un pont"
                 }
             },
             "presets": {

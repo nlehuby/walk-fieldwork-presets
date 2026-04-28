@@ -17,7 +17,8 @@
         "surface_footway",
         "smoothness",
         "width",
-        "structure",
+        "tunnel",
+        "bridge",
         "access",
         "incline"
     ],

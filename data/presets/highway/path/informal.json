@@ -21,7 +21,8 @@
         "mtb/scale/uphill",
         "sac_scale",
         "stroller",
-        "structure",
+        "tunnel",
+        "bridge",
         "wheelchair"
     ],
     "geometry": [

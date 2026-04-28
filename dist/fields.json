@@ -367,7 +367,7 @@
     },
     "supervised": {
         "key": "supervised",
-        "type": "check"
+        "type": "defaultCheck"
     },
     "structure": {
         "type": "structureRadio",
@@ -691,11 +691,11 @@
     },
     "obstacle_wheelchair": {
         "key": "obstacle:wheelchair",
-        "type": "check"
+        "type": "defaultCheck"
     },
     "obstacle_blind": {
         "key": "obstacle:blind",
-        "type": "check"
+        "type": "defaultCheck"
     },
     "network": {
         "key": "network",
@@ -912,7 +912,7 @@
     },
     "indoor": {
         "key": "indoor",
-        "type": "check"
+        "type": "defaultCheck"
     },
     "incline_steps": {
         "key": "incline",
@@ -1012,9 +1012,13 @@
         "key": "handrail",
         "type": "check"
     },
-    "guiding_strips": {
+    "guiding_strips_indoor": {
         "key": "guiding_strips",
         "type": "check"
+    },
+    "guiding_strips": {
+        "key": "guiding_strips",
+        "type": "defaultCheck"
     },
     "genus": {
         "key": "genus",
@@ -1242,7 +1246,7 @@
     },
     "covered": {
         "key": "covered",
-        "type": "check"
+        "type": "defaultCheck"
     },
     "couplings": {
         "key": "couplings",

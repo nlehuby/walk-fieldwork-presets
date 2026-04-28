@@ -1510,6 +1510,9 @@
                         "grass": "Herbe",
                         "unpaved": "Non revêtu (autre)"
                     }
+                },
+                "guiding_strips_indoor": {
+                    "label": "Guiding Strips"
                 }
             },
             "presets": {

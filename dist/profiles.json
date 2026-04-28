@@ -505,7 +505,7 @@
           "incline_across_percentage",
           "indoor",
           "level",
-          "guiding_strips"
+          "guiding_strips_indoor"
         ]
       },
       "highway/crossing": {
@@ -640,7 +640,7 @@
           "incline_across_percentage",
           "indoor",
           "level",
-          "guiding_strips"
+          "guiding_strips_indoor"
         ]
       },
       "highway/footway/platform": {

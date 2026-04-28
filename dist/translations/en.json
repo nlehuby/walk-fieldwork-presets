@@ -861,6 +861,9 @@
                 "handrail": {
                     "label": "Handrail"
                 },
+                "guiding_strips_indoor": {
+                    "label": "Guiding Strips"
+                },
                 "guiding_strips": {
                     "label": "Guiding Strips"
                 },

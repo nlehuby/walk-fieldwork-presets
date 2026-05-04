@@ -10,7 +10,8 @@
         "barrier": "yes"
     },
     "fields": [
-        "barrier"
+        "barrier",
+        "description_obstacle"
     ],
     "moreFields": [
         "{barrier}",
@@ -22,6 +23,8 @@
         "visual_contrast",
         "obstacle_blind",
         "tactile_warning",
+        "indoor",
+        "level",
         "min_height_obstacle"
     ],
     "name": "Barrier (Unspecified Type)",

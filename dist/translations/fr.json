@@ -2944,7 +2944,7 @@
                     "terms": "toboggan aquatique"
                 },
                 "barrier": {
-                    "name": "Barrière physique"
+                    "name": "Obstacle / barrière physique"
                 },
                 "barrier/block": {
                     "name": "Bloc"
@@ -3104,7 +3104,7 @@
                     "name": "Portillon"
                 },
                 "barrier/yes": {
-                    "name": "Barrière (non précisée)"
+                    "name": "Obstacle (type non précisé)"
                 },
                 "boundary": {
                     "name": "Type de frontière"

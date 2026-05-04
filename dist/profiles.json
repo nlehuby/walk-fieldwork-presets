@@ -445,7 +445,7 @@
       },
       "barrier/yes": {
         "required": [
-          "description",
+          "description_obstacle",
           "obstacle_wheelchair",
           "maxwidth/physical",
           "width",

@@ -21392,7 +21392,7 @@
       "barrier": "yes"
     },
     "fields": [
-      "description",
+      "description_obstacle",
       "level",
       "obstacle_wheelchair",
       "maxwidth/physical",

@@ -24650,7 +24650,7 @@
         },
         "fields": [
             "barrier",
-            "description"
+            "description_obstacle"
         ],
         "moreFields": [
             "{barrier}",

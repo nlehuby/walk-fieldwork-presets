@@ -1013,7 +1013,7 @@
                     "label": "Diameter (with units)",
                     "placeholder": "0.5 mm, 10 cm, 15 in…"
                 },
-                "description": {
+                "description_obstacle": {
                     "label": "Description"
                 },
                 "departures_board": {

@@ -944,11 +944,43 @@
     },
     "obstacle_wheelchair": {
         "key": "obstacle:wheelchair",
-        "type": "defaultCheck"
+        "type": "defaultCheck",
+        "help": {
+            "fr": {
+                "text": "Indique si l'objet gêne, bloque la circulation des piétons ou réduit la largeur disponible pour circuler.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/2/2b/Capture_d%E2%80%99%C3%A9cran_du_2025-04-11_17-10-38.png",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates if this object is impeding movements of pedestrians due to its placement",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/2/2b/Capture_d%E2%80%99%C3%A9cran_du_2025-04-11_17-10-38.png",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            }
+        }
     },
     "obstacle_blind": {
         "key": "obstacle:blind",
-        "type": "defaultCheck"
+        "type": "defaultCheck",
+        "help": {
+            "fr": {
+                "text": "Indique s'il y a un risque de collision avec l'objet pour les personnes atteints de déficience visuelle. Cela concerne surtout les obstacles en saillie situé à moins de 2,20m, par exemple des panneaux routiers positionnés sur le trottoir, ou encore une boite aux lettre sans pied.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/0/06/Un_panneau_au_milieu_du_trottoir.png",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates if this is an obstacle for blind people",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/0/06/Un_panneau_au_milieu_du_trottoir.png",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            }
+        }
     },
     "network": {
         "key": "network",
@@ -957,6 +989,22 @@
     "name": {
         "key": "name",
         "type": "localized",
+        "help": {
+            "fr": {
+                "text": "Indique le nom du lieu.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg/330px-Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg",
+                    "credits": "Jason Nguyen, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the local public name",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg/330px-Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg",
+                    "credits": "Jason Nguyen, CC-BY-SA 4.0"
+                }
+            }
+        },
         "universal": true
     },
     "model": {
@@ -1040,11 +1088,41 @@
     "maxheight": {
         "key": "maxheight",
         "type": "roadheight",
+        "help": {
+            "fr": {
+                "text": "Indique la hauteur maximale légale autorisée pour l'objet sur lequel elle est appliquée. ",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Zeichen_265_-_Verbot_f%C3%BCr_Fahrzeuge%2C_deren_tats%C3%A4chliche_H%C3%B6he_einschlie%C3%9Flich_Ladung_eine_bestimmte_Grenze_%C3%BCberschreitet_%28600x600%29%3B_StVO_1992.svg"
+                }
+            },
+            "en": {
+                "text": "Indicates the maxheight",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Zeichen_265_-_Verbot_f%C3%BCr_Fahrzeuge%2C_deren_tats%C3%A4chliche_H%C3%B6he_einschlie%C3%9Flich_Ladung_eine_bestimmte_Grenze_%C3%BCberschreitet_%28600x600%29%3B_StVO_1992.svg"
+                }
+            }
+        },
         "snake_case": false
     },
     "material": {
         "key": "material",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique le matériau de l'objet.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                    "credits": "Pvt pauline, CC-BY-SA 3.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the material",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                    "credits": "Pvt pauline, CC-BY-SA 3.0"
+                }
+            }
+        },
         "options": [
             "glass",
             "metal",
@@ -1054,6 +1132,22 @@
     "markings": {
         "key": "markings",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique comme on sait qu'il s'agit d'une place de stationnement réservée.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg/250px-Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg",
+                    "credits": "Wolfmann, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates whether there is a pictogram or a sign indicating that this is a reserved parking space",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg/250px-Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg",
+                    "credits": "Wolfmann, CC-BY-SA 4.0"
+                }
+            }
+        },
         "autoSuggestions": false,
         "customValues": false,
         "options": [
@@ -1169,7 +1263,23 @@
     "length": {
         "key": "length",
         "type": "number",
-        "minValue": 0
+        "minValue": 0,
+        "help": {
+            "fr": {
+                "text": "Longueur de l'objet, en mètres arrondis au cm. On mesure cette dimension dans le sens du cheminement.",
+                "picture": {
+                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FcqkFy2fl86FL1JB2G8Pv%252Fimage.png%3Falt%3Dmedia%26token%3D8dcafd11-3f0f-4cac-991e-dcf319a6bf12&width=768&dpr=1&quality=100&sign=19fab26e&sv=2",
+                    "credits": "© CNIG"
+                }
+            },
+            "en": {
+                "text": "Length of the object, in meters rounded to the nearest centimeter. This dimension is measured parallel to the path.",
+                "picture": {
+                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FcqkFy2fl86FL1JB2G8Pv%252Fimage.png%3Falt%3Dmedia%26token%3D8dcafd11-3f0f-4cac-991e-dcf319a6bf12&width=768&dpr=1&quality=100&sign=19fab26e&sv=2",
+                    "credits": "© CNIG"
+                }
+            }
+        }
     },
     "leaf_type_singular": {
         "key": "leaf_type",
@@ -1377,7 +1487,23 @@
     "height": {
         "key": "height",
         "minValue": 0,
-        "type": "number"
+        "type": "number",
+        "help": {
+            "fr": {
+                "text": "Hauteur verticale de l'objet, en mètres arrondis au cm.",
+                "picture": {
+                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FB9mzfOjFmszkmJ2ngaZB%252Fhauteur2.jpg%3Falt%3Dmedia%26token%3De9b40eb1-48f4-47de-b4c4-438ca687f087&width=768&dpr=1&quality=100&sign=3961158c&sv=2",
+                    "credits": "© CNIG"
+                }
+            },
+            "en": {
+                "text": "Vertical height of the object, in meters rounded to the nearest centimeter.",
+                "picture": {
+                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FB9mzfOjFmszkmJ2ngaZB%252Fhauteur2.jpg%3Falt%3Dmedia%26token%3De9b40eb1-48f4-47de-b4c4-438ca687f087&width=768&dpr=1&quality=100&sign=3961158c&sv=2",
+                    "credits": "© CNIG"
+                }
+            }
+        }
     },
     "handrail_side": {
         "key": "handrail",
@@ -1465,6 +1591,20 @@
     "foot_simple": {
         "key": "foot",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique si l'accès est autorisé pour les piétons.",
+                "schema": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RO_road_sign_C10.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+                }
+            },
+            "en": {
+                "text": "Indicates if access is allowed for pedestrian",
+                "schema": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RO_road_sign_C10.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+                }
+            }
+        },
         "options": [
             "yes",
             "designated",
@@ -1502,7 +1642,23 @@
     },
     "entrance_ramp": {
         "key": "entrance:ramp",
-        "type": "check"
+        "type": "check",
+        "help": {
+            "fr": {
+                "text": "Idique la présence d’une rampe PMR amovible ou rétractable au niveau de l'entrée.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/7/79/FR84007_entrance-ramp-wheelchair_2023-04-07.jpg/960px-FR84007_entrance-ramp-wheelchair_2023-04-07.jpg",
+                    "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Whether a ramp is in an entrance",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/7/79/FR84007_entrance-ramp-wheelchair_2023-04-07.jpg/960px-FR84007_entrance-ramp-wheelchair_2023-04-07.jpg",
+                    "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+                }
+            }
+        }
     },
     "entrance_coloured_band": {
         "key": "entrance:coloured_band",
@@ -1510,6 +1666,20 @@
         "prerequisiteTag": {
             "key": "material",
             "value": "glass"
+        },
+        "help": {
+            "fr": {
+                "text": "Indique s'il y a des dispositifs de vitrophanie ou des éléments qui permettent de bien voir qu'il s'agit d'une porte vitrée.",
+                "schema": {
+                    "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=510x1024:format=jpg/path/sc02e14cfa38d2b47/image/idf9e18f279fffcf4/version/1292861446/image.jpg"
+                }
+            },
+            "en": {
+                "text": "Indicates whether it is properly signed that the door is in glass",
+                "schema": {
+                    "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=510x1024:format=jpg/path/sc02e14cfa38d2b47/image/idf9e18f279fffcf4/version/1292861446/image.jpg"
+                }
+            }
         }
     },
     "entrance": {
@@ -1531,7 +1701,23 @@
     },
     "emergency_button": {
         "key": "emergency_button",
-        "type": "check"
+        "type": "check",
+        "help": {
+            "fr": {
+                "text": "Indique s'il y a un voyant (jaune, vert ou les deux) permettant de signifier une perturbation dans le fonctionnement de l'ascenseur.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/6/66/Bouton_alarme_ascenseur.jpg/472px-Bouton_alarme_ascenseur.jpg",
+                    "credits": "nlehuby pour Jungle Bus, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates is there is an emergency button",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/6/66/Bouton_alarme_ascenseur.jpg/472px-Bouton_alarme_ascenseur.jpg",
+                    "credits": "nlehuby for Jungle Bus, CC-BY-SA 4.0"
+                }
+            }
+        }
     },
     "email": {
         "key": "email",
@@ -1625,11 +1811,33 @@
         "key": "diameter",
         "minValue": 0,
         "type": "number",
-        "snake_case": false
+        "snake_case": false,
+        "help": {
+            "fr": {
+                "text": "Indique le diamètre de l'objet. Préciser l'unité (par exemple 5 cm ou 0.23 m).",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diameter.svg"
+                }
+            },
+            "en": {
+                "text": "Indicates the diameter with units",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diameter.svg"
+                }
+            }
+        }
     },
-    "description": {
+    "description_obstacle": {
         "key": "description",
-        "type": "textarea"
+        "type": "textarea",
+        "help": {
+            "fr": {
+                "text": "Indique le type d'obstacle précis renseigné."
+            },
+            "en": {
+                "text": "Description"
+            }
+        }
     },
     "departures_board": {
         "key": "departures_board",
@@ -1659,6 +1867,22 @@
     "cycle_barrier": {
         "key": "cycle_barrier",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique le type de barrière à vélo ou de passage sélectif.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/e/e9/Barrier1.jpg",
+                    "credits": "GeoJ, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the type of cycle barrier",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/e/e9/Barrier1.jpg",
+                    "credits": "GeoJ, CC-BY-SA 4.0"
+                }
+            }
+        },
         "customValues": false,
         "autoSuggestions": false,
         "options": [
@@ -1702,7 +1926,21 @@
     },
     "covered": {
         "key": "covered",
-        "type": "defaultCheck"
+        "type": "defaultCheck",
+        "help": {
+            "fr": {
+                "text": "Indique si l'objet est abrité, ou couvert par un toit sans être entouré de murs. Ne pas utiliser pour les tunnels, ou pour les éléments situés en intérieur.",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/d/dc/Covered.jpg"
+                }
+            },
+            "en": {
+                "text": "Indicates if covered",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/d/dc/Covered.jpg"
+                }
+            }
+        }
     },
     "couplings": {
         "key": "couplings",
@@ -1793,6 +2031,22 @@
     "bollard": {
         "key": "bollard",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique le type de potelet ou de borne",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/8/8d/Bollard_foldable.jpg/250px-Bollard_foldable.jpg",
+                    "credits": "Hauke-stieler, CC-BY-SA 3.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the bollard type",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/8/8d/Bollard_foldable.jpg/250px-Bollard_foldable.jpg",
+                    "credits": "Hauke-stieler, CC-BY-SA 3.0"
+                }
+            }
+        },
         "options": [
             "fixed",
             "flexible",
@@ -1889,7 +2143,21 @@
     },
     "announcement": {
         "key": "announcement",
-        "type": "check"
+        "type": "check",
+        "help": {
+            "fr": {
+                "text": "Indique si l'ascenseur est équipé d'un mécanisme d'annonces sonores de l'étage atteint.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+                }
+            },
+            "en": {
+                "text": "Indicates whether the elevator is equipped with an audible audible announcement system that indicates at least the floor number.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+                }
+            }
+        }
     },
     "advertising": {
         "key": "advertising",
@@ -2052,14 +2320,14 @@
             "fr": {
                 "text": "Indique la disposition de la place de stationnement et comment on doit procéder pour s'y garer.",
                 "picture": {
-                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/320px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/330px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
                     "credits": "Eric Fischer, CC-BY-SA 4.0"
                 }
             },
             "en": {
                 "text": "Indicates the layout of the parking space and how to park there.",
                 "picture": {
-                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/320px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Diagonal_parking_on_cobblestones_%2843866248802%29.jpg/330px-Diagonal_parking_on_cobblestones_%2843866248802%29.jpg",
                     "credits": "Eric Fischer, CC-BY-SA 4.0"
                 }
             }

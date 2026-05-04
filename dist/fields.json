@@ -2,7 +2,23 @@
     "width": {
         "key": "width",
         "type": "number",
-        "minValue": 0
+        "minValue": 0,
+        "help": {
+            "fr": {
+                "text": "Largeur de l'objet, en mètres arrondis au cm. On mesure cette dimension perpendiculairement au sens du cheminement.",
+                "schema": {
+                    "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_obstacle_Width_cnig.png?ref_type=heads",
+                    "credits": "© CNIG"
+                }
+            },
+            "en": {
+                "text": "Width of the object, in meters rounded to the nearest centimeter. This dimension is measured perpendicular to the path.",
+                "picture": {
+                    "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_obstacle_Width_cnig.png?ref_type=heads",
+                    "credits": "© CNIG"
+                }
+            }
+        }
     },
     "wheelchair_turning_cycle_simple_diameter": {
         "key": "wheelchair:turning_cycle:diameter",
@@ -31,7 +47,21 @@
     },
     "wheelchair_turning_cycle_simple": {
         "key": "wheelchair:turning_cycle",
-        "type": "check"
+        "type": "check",
+        "help": {
+            "fr": {
+                "text": "Indique la présence d'une aire de rotation (ou espace de manœuvre) pour les fauteuils roulants, leur permettant de faire demi-tour ou de changer de direction.",
+                "schema": {
+                    "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_ManoeuvringDiameter.png?ref_type=heads"
+                }
+            },
+            "en": {
+                "text": "Indicates if there is a maneuvering area for wheelchair users",
+                "schema": {
+                    "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_ManoeuvringDiameter.png?ref_type=heads"
+                }
+            }
+        }
     },
     "wheelchair_turning_cycle_ramp": {
         "key": "wheelchair:turning_cycle",
@@ -87,6 +117,20 @@
     "wheelchair": {
         "key": "wheelchair",
         "type": "radio",
+        "help": {
+            "fr": {
+                "text": "Indique si le lieu peut être utilisé par une personne en fauteuil roulant.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Wheelchair_symbol.svg"
+                }
+            },
+            "en": {
+                "text": "Indicates if access is possible for wheelchair user",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Wheelchair_symbol.svg"
+                }
+            }
+        },
         "options": [
             "designated",
             "yes",
@@ -277,6 +321,14 @@
     "tactile_warning": {
         "key": "tactile_warning",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Pour les obstacles en saillie, indique s'il y a un dispositif prévu pour que les utilisateurs de canne blanche les détectent."
+            },
+            "en": {
+                "text": "Indicates if access is possible for wheelchair user"
+            }
+        },
         "prerequisiteTag": {
             "key": "obstacle:blind",
             "value": "yes"
@@ -357,6 +409,22 @@
     "tactile_paving_condition": {
         "key": "tactile_paving:condition",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Indique l'état de la bande d'éveil vigilance (surface contrastée visuellement et tactilement permettant de signaler un danger, comme une traversée de route ou un risque de chute).",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/3/3a/BEV_bad.jpg/330px-BEV_bad.jpg",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the condition of the warning strip (a visually and tactilely contrasting surface used to signal danger, such as a road crossing or risk of falling).",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/thumb/3/3a/BEV_bad.jpg/330px-BEV_bad.jpg",
+                    "credits": "nlehuby, CC-BY-SA 4.0"
+                }
+            }
+        },
         "autoSuggestions": false,
         "prerequisiteTag": {
             "key": "tactile_paving",
@@ -526,7 +594,15 @@
     },
     "supervised": {
         "key": "supervised",
-        "type": "defaultCheck"
+        "type": "defaultCheck",
+        "help": {
+            "fr": {
+                "text": "Indique si une personne est affectée à la surveillance du lieu."
+            },
+            "en": {
+                "text": "Indicates if the place is supervised"
+            }
+        }
     },
     "structure": {
         "type": "structureRadio",
@@ -647,7 +723,21 @@
     },
     "speech_output": {
         "key": "speech_output",
-        "type": "check"
+        "type": "check",
+        "help": {
+            "fr": {
+                "text": "Indique si l'ascenseur est équipé d'un mécanisme d'annonces sonores confirmant l'étage sélectionné.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+                }
+            },
+            "en": {
+                "text": "Indicates whether the elevator is equipped with an audible audible announcement system that indicates at least the floor selected.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+                }
+            }
+        }
     },
     "species": {
         "key": "species",
@@ -659,6 +749,22 @@
         "key": "spacing",
         "type": "number",
         "snake_case": false,
+        "help": {
+            "fr": {
+                "text": "Distance minimale entre des composants d’une chicane, en mètres arrondis au cm. S'il y a plusieurs valeurs, on renseigne uniquement la plus petite car c'est celle-là qui sera limitante.",
+                "schema": {
+                    "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                    "credits": "Supaplex030, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "distance between the elements of a multi-stage or chicane shaped barrier",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                    "credits": "Supaplex030, CC-BY-SA 4.0"
+                }
+            }
+        },
         "prerequisiteTag": {
             "key": "cycle_barrier",
             "valueNot": "single"
@@ -926,6 +1032,22 @@
         "key": "opening",
         "type": "number",
         "snake_case": false,
+        "help": {
+            "fr": {
+                "text": "Largeur minimale de passage dans la chicane, en mètres arrondis au cm. S'il y a plusieurs valeurs, on renseigne uniquement la plus petite car c'est celle-là qui sera limitante.",
+                "schema": {
+                    "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                    "credits": "Supaplex030, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "minimum width of the barrier",
+                "picture": {
+                    "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                    "credits": "Supaplex030, CC-BY-SA 4.0"
+                }
+            }
+        },
         "prerequisiteTag": {
             "key": "cycle_barrier",
             "valueNot": "single"
@@ -1266,18 +1388,10 @@
         "minValue": 0,
         "help": {
             "fr": {
-                "text": "Longueur de l'objet, en mètres arrondis au cm. On mesure cette dimension dans le sens du cheminement.",
-                "picture": {
-                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FcqkFy2fl86FL1JB2G8Pv%252Fimage.png%3Falt%3Dmedia%26token%3D8dcafd11-3f0f-4cac-991e-dcf319a6bf12&width=768&dpr=1&quality=100&sign=19fab26e&sv=2",
-                    "credits": "© CNIG"
-                }
+                "text": "Longueur de l'objet, en mètres arrondis au cm. On mesure cette dimension dans le sens du cheminement."
             },
             "en": {
-                "text": "Length of the object, in meters rounded to the nearest centimeter. This dimension is measured parallel to the path.",
-                "picture": {
-                    "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FcqkFy2fl86FL1JB2G8Pv%252Fimage.png%3Falt%3Dmedia%26token%3D8dcafd11-3f0f-4cac-991e-dcf319a6bf12&width=768&dpr=1&quality=100&sign=19fab26e&sv=2",
-                    "credits": "© CNIG"
-                }
+                "text": "Length of the object, in meters rounded to the nearest centimeter. This dimension is measured parallel to the path."
             }
         }
     },
@@ -2467,6 +2581,18 @@
     "kerb/visibility": {
         "key": "kerb:visibility",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Qualifie à quel point le piéton peut voir et être vu au moment de traverser. Une bonne visibilité signifie qu'il n'y a pas d'obstacle visuel solide positionné jusqu'à 5 mètres en amont de la traversée.",
+                "schema": {
+                    "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_VisualObstacle_Cerema.png?ref_type=heads",
+                    "credits": "© Cerema"
+                }
+            },
+            "en": {
+                "text": "Indicates whether pedestrians can see and be seen when crossing."
+            }
+        },
         "autoSuggestions": false,
         "customValues": false,
         "options": [
@@ -2478,6 +2604,22 @@
     "kerb/kerb_barrier": {
         "key": "kerb",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Qualifie l'aménagement de la bordure de trottoir, à l'extrémité d'un passage piéton.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg/330px-Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg",
+                    "credits": "Nick-philly, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Describes the curb design at the end of a crosswalk.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg/330px-Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg",
+                    "credits": "Nick-philly, CC-BY-SA 4.0"
+                }
+            }
+        },
         "stringsCrossReference": "{kerb}",
         "options": [
             "flush",
@@ -2546,6 +2688,22 @@
     "fire_hydrant/type": {
         "key": "fire_hydrant:type",
         "type": "combo",
+        "help": {
+            "fr": {
+                "text": "Spécifie la forme de la borne d'incendie.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg/500px-Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg",
+                    "credits": "Mathis Brancquart, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Indicates the type of fire hydrant.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg/500px-Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg",
+                    "credits": "Mathis Brancquart, CC-BY-SA 4.0"
+                }
+            }
+        },
         "autoSuggestions": false,
         "customValues": false,
         "options": [
@@ -2581,7 +2739,23 @@
     "door/width": {
         "key": "door:width",
         "minValue": 0,
-        "type": "number"
+        "type": "number",
+        "help": {
+            "fr": {
+                "text": "Largeur utile de passage au niveau de l'entrée, en mètres arrondis au cm.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Door_width_for_calculatiion_of_angle_of_view.png/250px-Door_width_for_calculatiion_of_angle_of_view.png",
+                    "credits": "Bert Niehaus, CC-BY-SA 4.0"
+                }
+            },
+            "en": {
+                "text": "Passage width at the entrance, in meters rounded to the nearest centimeter.",
+                "picture": {
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Door_width_for_calculatiion_of_angle_of_view.png/250px-Door_width_for_calculatiion_of_angle_of_view.png",
+                    "credits": "Bert Niehaus, CC-BY-SA 4.0"
+                }
+            }
+        }
     },
     "cycle_barrier/installation": {
         "key": "cycle_barrier:installation",

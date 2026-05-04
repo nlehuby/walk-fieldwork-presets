@@ -11594,6 +11594,17 @@
         },
         {
             "key": "barrier",
+            "value": "yes",
+            "description": "🄿 Barrier (Unspecified Type) (unsearchable)",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/roadblock.svg"
+        },
+        {
+            "key": "barrier",
             "value": "wicket_gate",
             "description": "🄿 Wicket Gate",
             "object_types": [
@@ -11919,17 +11930,6 @@
                 "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cube.svg"
-        },
-        {
-            "key": "barrier",
-            "value": "yes",
-            "description": "🄿 Barrier (Unspecified Type) (unsearchable)",
-            "object_types": [
-                "node",
-                "way",
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/roadblock.svg"
         },
         {
             "key": "barrier",
@@ -17119,6 +17119,10 @@
         {
             "key": "diameter",
             "description": "🄵 Diameter (with units)"
+        },
+        {
+            "key": "description",
+            "description": "🄵 Description"
         },
         {
             "key": "departures_board",

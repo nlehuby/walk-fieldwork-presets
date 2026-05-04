@@ -1519,6 +1519,9 @@
                 },
                 "bridge": {
                     "label": "Est sur un pont"
+                },
+                "description": {
+                    "label": "Description"
                 }
             },
             "presets": {

@@ -193,6 +193,22 @@
           "panoramax"
         ]
       },
+      "barrier/*": {
+        "required": [
+          "obstacle_wheelchair",
+          "maxwidth/physical",
+          "width",
+          "length",
+          "height",
+          "visual_contrast",
+          "obstacle_blind",
+          "tactile_warning",
+          "min_height_obstacle",
+          "indoor",
+          "level",
+          "panoramax"
+        ]
+      },
       "barrier/block": {
         "required": [
           "obstacle_wheelchair",
@@ -427,8 +443,9 @@
           "panoramax"
         ]
       },
-      "barrier/_yes": {
+      "barrier/yes": {
         "required": [
+          "description",
           "obstacle_wheelchair",
           "maxwidth/physical",
           "width",
@@ -438,6 +455,8 @@
           "obstacle_blind",
           "tactile_warning",
           "min_height_obstacle",
+          "indoor",
+          "level",
           "panoramax"
         ]
       },

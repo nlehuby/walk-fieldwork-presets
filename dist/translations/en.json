@@ -1013,6 +1013,9 @@
                     "label": "Diameter (with units)",
                     "placeholder": "0.5 mm, 10 cm, 15 in…"
                 },
+                "description": {
+                    "label": "Description"
+                },
                 "departures_board": {
                     "label": "Departures/Arrivals Board",
                     "options": {
@@ -6379,6 +6382,9 @@
                 "boundary/administrative": {
                     "name": "Administrative Boundary"
                 },
+                "barrier/yes": {
+                    "name": "Barrier (Unspecified Type)"
+                },
                 "barrier/wicket_gate": {
                     "name": "Wicket Gate"
                 },
@@ -6505,9 +6511,6 @@
                 },
                 "barrier/block": {
                     "name": "Block"
-                },
-                "barrier/yes": {
-                    "name": "Barrier (Unspecified Type)"
                 },
                 "barrier/handrail": {
                     "name": "Handrail"

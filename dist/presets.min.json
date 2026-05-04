@@ -21380,6 +21380,38 @@
     "readOnly": true,
     "moreFields": []
   },
+  "barrier/yes": {
+    "icon": "maki-roadblock",
+    "geometry": [
+      "point",
+      "vertex",
+      "line",
+      "area"
+    ],
+    "tags": {
+      "barrier": "yes"
+    },
+    "fields": [
+      "description",
+      "level",
+      "obstacle_wheelchair",
+      "maxwidth/physical",
+      "width",
+      "length",
+      "height",
+      "visual_contrast",
+      "obstacle_blind",
+      "tactile_warning",
+      "indoor",
+      "level",
+      "min_height_obstacle"
+    ],
+    "moreFields": [
+      "barrier"
+    ],
+    "searchable": false,
+    "matchScore": 0.5
+  },
   "barrier/wicket_gate": {
     "icon": "temaki-gate",
     "geometry": [
@@ -21408,12 +21440,12 @@
   "barrier/wall": {
     "icon": "temaki-wall",
     "fields": [
-      "wall",
       "height",
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "wall",
+      "material"
     ],
     "geometry": [
       "line",
@@ -21445,13 +21477,12 @@
   },
   "barrier/toll_booth": {
     "icon": "maki-toll",
-    "fields": [
+    "fields": [],
+    "moreFields": [
       "access",
       "building_area_yes",
       "payment_multi",
-      "currency_multi"
-    ],
-    "moreFields": [
+      "currency_multi",
       "email",
       "fax",
       "mobile",
@@ -21537,13 +21568,13 @@
   "barrier/spikes": {
     "icon": "temaki-spike_strip",
     "fields": [
-      "direction_vertex",
-      "access",
       "height",
-      "colour"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "direction_vertex",
+      "access",
+      "colour"
     ],
     "geometry": [
       "vertex"
@@ -21559,10 +21590,10 @@
       "vertex"
     ],
     "fields": [
-      "barrier"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "barrier"
     ],
     "tags": {
       "barrier": "sally_port"
@@ -21597,10 +21628,10 @@
     "icon": "temaki-wall",
     "fields": [
       "height",
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "material"
     ],
     "geometry": [
       "line",
@@ -21756,10 +21787,10 @@
   "barrier/jersey_barrier": {
     "icon": "maki-roadblock",
     "fields": [
-      "height",
-      "material"
+      "height"
     ],
     "moreFields": [
+      "material",
       "access"
     ],
     "geometry": [
@@ -21809,10 +21840,10 @@
   "barrier/hampshire_gate": {
     "icon": "temaki-gate",
     "fields": [
-      "access"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "access"
     ],
     "geometry": [
       "vertex"
@@ -21824,10 +21855,10 @@
   "barrier/guard_rail": {
     "icon": "temaki-guard_rail",
     "fields": [
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level",
+      "material",
       "two_sided"
     ],
     "geometry": [
@@ -21893,12 +21924,12 @@
   "barrier/fence": {
     "icon": "maki-fence",
     "fields": [
-      "fence_type",
       "height",
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "fence_type",
+      "material"
     ],
     "geometry": [
       "line"
@@ -21914,10 +21945,10 @@
       "line"
     ],
     "fields": [
-      "barrier"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "barrier"
     ],
     "tags": {
       "barrier": "ditch"
@@ -21957,10 +21988,10 @@
     "icon": "temaki-wall",
     "fields": [
       "height",
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level",
+      "material",
       "two_sided"
     ],
     "geometry": [
@@ -22003,10 +22034,10 @@
       "vertex"
     ],
     "fields": [
-      "barrier"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "barrier"
     ],
     "tags": {
       "barrier": "cattle_grid"
@@ -22016,10 +22047,10 @@
     "icon": "maki-roadblock",
     "fields": [
       "height",
-      "material"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "material"
     ],
     "geometry": [
       "line"
@@ -22030,10 +22061,9 @@
   },
   "barrier/bus_trap": {
     "icon": "maki-roadblock",
-    "fields": [
-      "access"
-    ],
+    "fields": [],
     "moreFields": [
+      "access",
       "maxwidth"
     ],
     "geometry": [
@@ -22046,10 +22076,10 @@
   "barrier/bump_gate": {
     "icon": "maki-roadblock",
     "fields": [
-      "access"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "access"
     ],
     "geometry": [
       "vertex"
@@ -22060,11 +22090,10 @@
   },
   "barrier/border_control": {
     "icon": "temaki-passport_checkpoint",
-    "fields": [
-      "access",
-      "building_area_yes"
-    ],
+    "fields": [],
     "moreFields": [
+      "access",
+      "building_area_yes",
       "email",
       "fax",
       "mobile",
@@ -22083,14 +22112,14 @@
   "barrier/bollard_line": {
     "icon": "temaki-bollard_row",
     "fields": [
-      "access",
-      "bollard",
       "height",
-      "material",
-      "colour"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "access",
+      "bollard",
+      "material",
+      "colour"
     ],
     "geometry": [
       "line"
@@ -22149,45 +22178,16 @@
       "barrier": "block"
     }
   },
-  "barrier/yes": {
-    "icon": "maki-roadblock",
-    "geometry": [
-      "point",
-      "vertex",
-      "line",
-      "area"
-    ],
-    "tags": {
-      "barrier": "yes"
-    },
-    "fields": [
-      "barrier"
-    ],
-    "moreFields": [
-      "level",
-      "obstacle_wheelchair",
-      "maxwidth/physical",
-      "width",
-      "length",
-      "height",
-      "visual_contrast",
-      "obstacle_blind",
-      "tactile_warning",
-      "min_height_obstacle"
-    ],
-    "searchable": false,
-    "matchScore": 0.5
-  },
   "barrier/handrail": {
     "icon": "temaki-railing",
     "geometry": [
       "line"
     ],
     "fields": [
-      "barrier"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "barrier"
     ],
     "tags": {
       "barrier": "handrail"
@@ -22200,10 +22200,10 @@
       "vertex"
     ],
     "fields": [
-      "barrier"
+      "level"
     ],
     "moreFields": [
-      "level"
+      "barrier"
     ],
     "tags": {
       "barrier": "entrance"

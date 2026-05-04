@@ -1626,6 +1626,10 @@
         "type": "number",
         "snake_case": false
     },
+    "description": {
+        "key": "description",
+        "type": "textarea"
+    },
     "departures_board": {
         "key": "departures_board",
         "type": "combo",

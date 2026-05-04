@@ -24637,6 +24637,38 @@
         },
         "matchScore": 0.5
     },
+    "barrier/yes": {
+        "icon": "maki-roadblock",
+        "geometry": [
+            "point",
+            "vertex",
+            "line",
+            "area"
+        ],
+        "tags": {
+            "barrier": "yes"
+        },
+        "fields": [
+            "barrier",
+            "description"
+        ],
+        "moreFields": [
+            "{barrier}",
+            "obstacle_wheelchair",
+            "maxwidth/physical",
+            "width",
+            "length",
+            "height",
+            "visual_contrast",
+            "obstacle_blind",
+            "tactile_warning",
+            "indoor",
+            "level",
+            "min_height_obstacle"
+        ],
+        "searchable": false,
+        "matchScore": 0.5
+    },
     "barrier/wicket_gate": {
         "icon": "temaki-gate",
         "geometry": [
@@ -25380,35 +25412,6 @@
         "tags": {
             "barrier": "block"
         }
-    },
-    "barrier/yes": {
-        "icon": "maki-roadblock",
-        "geometry": [
-            "point",
-            "vertex",
-            "line",
-            "area"
-        ],
-        "tags": {
-            "barrier": "yes"
-        },
-        "fields": [
-            "barrier"
-        ],
-        "moreFields": [
-            "{barrier}",
-            "obstacle_wheelchair",
-            "maxwidth/physical",
-            "width",
-            "length",
-            "height",
-            "visual_contrast",
-            "obstacle_blind",
-            "tactile_warning",
-            "min_height_obstacle"
-        ],
-        "searchable": false,
-        "matchScore": 0.5
     },
     "barrier/handrail": {
         "icon": "temaki-railing",

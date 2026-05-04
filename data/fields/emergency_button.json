@@ -1,5 +1,21 @@
 {
     "key": "emergency_button",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a un voyant (jaune, vert ou les deux) permettant de signifier une perturbation dans le fonctionnement de l'ascenseur.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/6/66/Bouton_alarme_ascenseur.jpg/472px-Bouton_alarme_ascenseur.jpg",
+                "credits": "nlehuby pour Jungle Bus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates is there is an emergency button",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/6/66/Bouton_alarme_ascenseur.jpg/472px-Bouton_alarme_ascenseur.jpg",
+                "credits": "nlehuby for Jungle Bus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Emergency Button"
 }

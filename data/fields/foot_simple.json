@@ -2,6 +2,20 @@
     "key": "foot",
     "type": "combo",
     "label": "Foot access",
+    "help": {
+        "fr": {
+            "text": "Indique si l'accès est autorisé pour les piétons.",
+            "schema": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RO_road_sign_C10.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+        },
+        "en": {
+            "text": "Indicates if access is allowed for pedestrian",
+            "schema": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RO_road_sign_C10.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+            }
+        }
+    },
     "strings": {
         "options": {
             "yes": {

@@ -2,6 +2,22 @@
     "key": "kerb",
     "type": "combo",
     "label": "Type",
+    "help": {
+        "fr": {
+            "text": "Qualifie l'aménagement de la bordure de trottoir, à l'extrémité d'un passage piéton.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg/330px-Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg",
+                "credits": "Nick-philly, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Describes the curb design at the end of a crosswalk.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg/330px-Curb_cut_for_wheelchair_ramp_%28DSC_3616%29.jpg",
+                "credits": "Nick-philly, CC-BY-SA 4.0"
+            }
+        }
+    },
     "stringsCrossReference": "{kerb}",
     "options": [
         "flush",

@@ -1,6 +1,22 @@
 {
     "key": "bollard",
     "type": "combo",
+    "help": {
+        "fr": {
+            "text": "Indique le type de potelet ou de borne",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/8/8d/Bollard_foldable.jpg/250px-Bollard_foldable.jpg",
+                "credits": "Hauke-stieler, CC-BY-SA 3.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the bollard type",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/8/8d/Bollard_foldable.jpg/250px-Bollard_foldable.jpg",
+                "credits": "Hauke-stieler, CC-BY-SA 3.0"
+            }
+        }
+    },
     "label": "Type",
     "strings": {
         "options": {

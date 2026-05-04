@@ -2,6 +2,22 @@
     "key": "material",
     "type": "combo",
     "label": "Material",
+    "help": {
+        "fr": {
+            "text": "Indique le matériau de l'objet.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                "credits": "Pvt pauline, CC-BY-SA 3.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the material",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oorlogsmuseum_Overloon.JPG/330px-Oorlogsmuseum_Overloon.JPG",
+                "credits": "Pvt pauline, CC-BY-SA 3.0"
+            }
+        }
+    },
     "strings": {
         "options": {
             "glass": "Glass",

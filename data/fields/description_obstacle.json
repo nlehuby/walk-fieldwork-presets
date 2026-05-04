@@ -1,7 +1,7 @@
 {
     "key": "description",
     "type": "textarea",
-        "help": {
+    "help": {
         "fr": {
             "text": "Indique le type d'obstacle précis renseigné."
         },

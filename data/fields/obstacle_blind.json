@@ -1,5 +1,21 @@
 {
     "key": "obstacle:blind",
     "type": "defaultCheck",
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a un risque de collision avec l'objet pour les personnes atteints de déficience visuelle. Cela concerne surtout les obstacles en saillie situé à moins de 2,20m, par exemple des panneaux routiers positionnés sur le trottoir, ou encore une boite aux lettre sans pied.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/0/06/Un_panneau_au_milieu_du_trottoir.png",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates if this is an obstacle for blind people",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/0/06/Un_panneau_au_milieu_du_trottoir.png",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Is an obstacle for blind people ?"
 }

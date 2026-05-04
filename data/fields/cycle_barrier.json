@@ -2,6 +2,22 @@
     "key": "cycle_barrier",
     "type": "combo",
     "label": "Type",
+    "help": {
+        "fr": {
+            "text": "Indique le type de barrière à vélo ou de passage sélectif.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/e/e9/Barrier1.jpg",
+                "credits": "GeoJ, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the type of cycle barrier",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/e/e9/Barrier1.jpg",
+                "credits": "GeoJ, CC-BY-SA 4.0"
+            }
+        }
+    },
     "customValues": false,
     "autoSuggestions": false,
     "strings": {

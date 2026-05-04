@@ -2,5 +2,21 @@
     "key": "width",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Largeur de l'objet, en mètres arrondis au cm. On mesure cette dimension perpendiculairement au sens du cheminement.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_obstacle_Width_cnig.png?ref_type=heads",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Width of the object, in meters rounded to the nearest centimeter. This dimension is measured perpendicular to the path.",
+            "picture": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_obstacle_Width_cnig.png?ref_type=heads",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "label": "Width (Meters)"
 }

@@ -3,6 +3,22 @@
     "type": "number",
     "label": "Distance Between Barriers (Meters)",
     "snake_case": false,
+    "help": {
+        "fr": {
+            "text": "Distance minimale entre des composants d’une chicane, en mètres arrondis au cm. S'il y a plusieurs valeurs, on renseigne uniquement la plus petite car c'est celle-là qui sera limitante.",
+            "schema": {
+                "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                "credits": "Supaplex030, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "distance between the elements of a multi-stage or chicane shaped barrier",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/3/38/Cycle_barrier_double_distances.png",
+                "credits": "Supaplex030, CC-BY-SA 4.0"
+            }
+        }
+    },
     "prerequisiteTag": {
         "key": "cycle_barrier",
         "valueNot": "single"

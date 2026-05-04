@@ -10,6 +10,22 @@
             "pipe": "Capped Pipe"
         }
     },
+    "help": {
+        "fr": {
+            "text": "Spécifie la forme de la borne d'incendie.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg/500px-Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg",
+                "credits": "Mathis Brancquart, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the type of fire hydrant.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg/500px-Bouche_-_Borne_-_Poteau_d%27incendie_%28hydrant%29.jpg",
+                "credits": "Mathis Brancquart, CC-BY-SA 4.0"
+            }
+        }
+    },
     "autoSuggestions": false,
     "customValues": false
 }

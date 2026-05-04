@@ -1,5 +1,21 @@
 {
     "key": "entrance:ramp",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Idique la présence d’une rampe PMR amovible ou rétractable au niveau de l'entrée.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/7/79/FR84007_entrance-ramp-wheelchair_2023-04-07.jpg/960px-FR84007_entrance-ramp-wheelchair_2023-04-07.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Whether a ramp is in an entrance",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/7/79/FR84007_entrance-ramp-wheelchair_2023-04-07.jpg/960px-FR84007_entrance-ramp-wheelchair_2023-04-07.jpg",
+                "credits": "Jean-Louis ZIMMERMANN, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Amovible ramp"
 }

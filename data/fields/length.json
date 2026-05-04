@@ -2,5 +2,13 @@
     "key": "length",
     "type": "number",
     "minValue": 0,
+    "help": {
+        "fr": {
+            "text": "Longueur de l'objet, en mètres arrondis au cm. On mesure cette dimension dans le sens du cheminement."
+        },
+        "en": {
+            "text": "Length of the object, in meters rounded to the nearest centimeter. This dimension is measured parallel to the path."
+        }
+    },
     "label": "Length (Meters)"
 }

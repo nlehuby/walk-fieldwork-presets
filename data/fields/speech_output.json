@@ -1,5 +1,19 @@
 {
     "key": "speech_output",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique si l'ascenseur est équipé d'un mécanisme d'annonces sonores confirmant l'étage sélectionné.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+            }
+        },
+        "en": {
+            "text": "Indicates whether the elevator is equipped with an audible audible announcement system that indicates at least the floor selected.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/IEC_60417_-_Ref-No_5211-1985.svg/250px-IEC_60417_-_Ref-No_5211-1985.svg.png"
+            }
+        }
+    },
     "label": "Speech Output"
 }

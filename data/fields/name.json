@@ -2,6 +2,22 @@
     "key": "name",
     "type": "localized",
     "label": "Name",
+    "help": {
+        "fr": {
+            "text": "Indique le nom du lieu.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg/330px-Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg",
+                "credits": "Jason Nguyen, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the local public name",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg/330px-Le_DIHPSEA_au_centre_du_Bois_Perrin_%C3%A0_Rennes.jpg",
+                "credits": "Jason Nguyen, CC-BY-SA 4.0"
+            }
+        }
+    },
     "universal": true,
     "placeholder": "Common name (if any)",
     "terms": [

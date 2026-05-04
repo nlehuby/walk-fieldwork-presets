@@ -12,6 +12,22 @@
             "horrible": "Horrible"
         }
     },
+    "help": {
+        "fr": {
+            "text": "Indique l'état de la bande d'éveil vigilance (surface contrastée visuellement et tactilement permettant de signaler un danger, comme une traversée de route ou un risque de chute).",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/3/3a/BEV_bad.jpg/330px-BEV_bad.jpg",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates the condition of the warning strip (a visually and tactilely contrasting surface used to signal danger, such as a road crossing or risk of falling).",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/thumb/3/3a/BEV_bad.jpg/330px-BEV_bad.jpg",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        }
+    },
     "autoSuggestions": false,
     "prerequisiteTag": {
         "key": "tactile_paving",

@@ -2,6 +2,18 @@
     "key": "kerb:visibility",
     "type": "combo",
     "label": "Visibility at kerb",
+    "help": {
+        "fr": {
+            "text": "Qualifie à quel point le piéton peut voir et être vu au moment de traverser. Une bonne visibilité signifie qu'il n'y a pas d'obstacle visuel solide positionné jusqu'à 5 mètres en amont de la traversée.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_VisualObstacle_Cerema.png?ref_type=heads",
+                "credits": "© Cerema"
+            }
+        },
+        "en": {
+            "text": "Indicates whether pedestrians can see and be seen when crossing."
+        }
+    },
     "strings": {
         "options": {
             "good": "Good",

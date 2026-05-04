@@ -2,6 +2,14 @@
     "key": "supervised",
     "type": "defaultCheck",
     "label": "Supervised",
+    "help": {
+        "fr": {
+            "text": "Indique si une personne est affectée à la surveillance du lieu."
+        },
+        "en": {
+            "text": "Indicates if the place is supervised"
+        }
+    },
     "terms": [
         "guarded",
         "manned"

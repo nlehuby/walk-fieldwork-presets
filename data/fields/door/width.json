@@ -2,5 +2,21 @@
     "key": "door:width",
     "minValue": 0,
     "type": "number",
+    "help": {
+        "fr": {
+            "text": "Largeur utile de passage au niveau de l'entrée, en mètres arrondis au cm.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Door_width_for_calculatiion_of_angle_of_view.png/250px-Door_width_for_calculatiion_of_angle_of_view.png",
+                "credits": "Bert Niehaus, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Passage width at the entrance, in meters rounded to the nearest centimeter.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Door_width_for_calculatiion_of_angle_of_view.png/250px-Door_width_for_calculatiion_of_angle_of_view.png",
+                "credits": "Bert Niehaus, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Door Width (Meters)"
 }

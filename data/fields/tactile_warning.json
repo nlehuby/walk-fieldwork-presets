@@ -11,6 +11,14 @@
             "no": "No tactile warning"
         }
     },
+    "help": {
+        "fr": {
+            "text": "Pour les obstacles en saillie, indique s'il y a un dispositif prévu pour que les utilisateurs de canne blanche les détectent."
+        },
+        "en": {
+            "text": "Indicates if access is possible for wheelchair user"
+        }
+    },
     "prerequisiteTag": {
         "key": "obstacle:blind",
         "value": "yes"

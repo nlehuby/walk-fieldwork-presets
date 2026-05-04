@@ -2,6 +2,20 @@
     "key": "maxheight",
     "type": "roadheight",
     "label": "Height Limit",
+    "help": {
+        "fr": {
+            "text": "Indique la hauteur maximale légale autorisée pour l'objet sur lequel elle est appliquée. ",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Zeichen_265_-_Verbot_f%C3%BCr_Fahrzeuge%2C_deren_tats%C3%A4chliche_H%C3%B6he_einschlie%C3%9Flich_Ladung_eine_bestimmte_Grenze_%C3%BCberschreitet_%28600x600%29%3B_StVO_1992.svg"
+            }
+        },
+        "en": {
+            "text": "Indicates the maxheight",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Zeichen_265_-_Verbot_f%C3%BCr_Fahrzeuge%2C_deren_tats%C3%A4chliche_H%C3%B6he_einschlie%C3%9Flich_Ladung_eine_bestimmte_Grenze_%C3%BCberschreitet_%28600x600%29%3B_StVO_1992.svg"
+            }
+        }
+    },
     "terms": [
         "clearance"
     ],

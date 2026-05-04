@@ -2,5 +2,21 @@
     "key": "height",
     "minValue": 0,
     "type": "number",
+    "help": {
+        "fr": {
+            "text": "Hauteur verticale de l'objet, en mètres arrondis au cm.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FB9mzfOjFmszkmJ2ngaZB%252Fhauteur2.jpg%3Falt%3Dmedia%26token%3De9b40eb1-48f4-47de-b4c4-438ca687f087&width=768&dpr=1&quality=100&sign=3961158c&sv=2",
+                "credits": "© CNIG"
+            }
+        },
+        "en": {
+            "text": "Vertical height of the object, in meters rounded to the nearest centimeter.",
+            "picture": {
+                "url": "https://cnig.gitbook.io/guide-methodo-cnig-accessibilite/-MXq6T5es7-649ZBvnFX/~gitbook/image?url=https%3A%2F%2F2024293913-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MX1AXdLCYiy7mmHVEmR%252Fuploads%252FB9mzfOjFmszkmJ2ngaZB%252Fhauteur2.jpg%3Falt%3Dmedia%26token%3De9b40eb1-48f4-47de-b4c4-438ca687f087&width=768&dpr=1&quality=100&sign=3961158c&sv=2",
+                "credits": "© CNIG"
+            }
+        }
+    },
     "label": "Height (Meters)"
 }

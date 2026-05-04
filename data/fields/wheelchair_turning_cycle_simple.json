@@ -1,5 +1,19 @@
 {
     "key": "wheelchair:turning_cycle",
     "type": "check",
+    "help": {
+        "fr": {
+            "text": "Indique la présence d'une aire de rotation (ou espace de manœuvre) pour les fauteuils roulants, leur permettant de faire demi-tour ou de changer de direction.",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_ManoeuvringDiameter.png?ref_type=heads"
+            }
+        },
+        "en": {
+            "text": "Indicates if there is a maneuvering area for wheelchair users",
+            "schema": {
+                "url": "https://gitlab.com/yukaimaps/yukaidi-tagging-schema/-/raw/main/doc/help_ManoeuvringDiameter.png?ref_type=heads"
+            }
+        }
+    },
     "label": "Wheelchair Turning Cycle"
 }

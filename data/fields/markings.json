@@ -2,6 +2,22 @@
     "key": "markings",
     "type": "combo",
     "label": "markings",
+    "help": {
+        "fr": {
+            "text": "Indique comme on sait qu'il s'agit d'une place de stationnement réservée.",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg/250px-Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg",
+                "credits": "Wolfmann, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates whether there is a pictogram or a sign indicating that this is a reserved parking space",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg/250px-Parking_for_disabled_people%2C_pictogram_painted_on_asphalt%2C_Telav%C3%A5g%2C_Sotra%2C_Norway_2017-10-23.jpg",
+                "credits": "Wolfmann, CC-BY-SA 4.0"
+            }
+        }
+    },
     "strings": {
         "options": {
             "traffic_sign": "traffic sign",

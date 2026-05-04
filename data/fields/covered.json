@@ -1,5 +1,19 @@
 {
     "key": "covered",
     "type": "defaultCheck",
+    "help": {
+        "fr": {
+            "text": "Indique si l'objet est abrité, ou couvert par un toit sans être entouré de murs. Ne pas utiliser pour les tunnels, ou pour les éléments situés en intérieur.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/d/dc/Covered.jpg"
+            }
+        },
+        "en": {
+            "text": "Indicates if covered",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/d/dc/Covered.jpg"
+            }
+        }
+    },
     "label": "Covered"
 }

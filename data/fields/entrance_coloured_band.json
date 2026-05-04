@@ -5,5 +5,19 @@
         "key": "material",
         "value": "glass"
     },
+    "help": {
+        "fr": {
+            "text": "Indique s'il y a des dispositifs de vitrophanie ou des éléments qui permettent de bien voir qu'il s'agit d'une porte vitrée.",
+            "schema": {
+                "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=510x1024:format=jpg/path/sc02e14cfa38d2b47/image/idf9e18f279fffcf4/version/1292861446/image.jpg"
+            }
+        },
+        "en": {
+            "text": "Indicates whether it is properly signed that the door is in glass",
+            "schema": {
+                "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=510x1024:format=jpg/path/sc02e14cfa38d2b47/image/idf9e18f279fffcf4/version/1292861446/image.jpg"
+            }
+        }
+    },
     "label": "Coloured band on transparent door"
 }

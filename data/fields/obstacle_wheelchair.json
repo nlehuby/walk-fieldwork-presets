@@ -1,5 +1,21 @@
 {
     "key": "obstacle:wheelchair",
     "type": "defaultCheck",
+    "help": {
+        "fr": {
+            "text": "Indique si l'objet gêne, bloque la circulation des piétons ou réduit la largeur disponible pour circuler.",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/2/2b/Capture_d%E2%80%99%C3%A9cran_du_2025-04-11_17-10-38.png",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        },
+        "en": {
+            "text": "Indicates if this object is impeding movements of pedestrians due to its placement",
+            "picture": {
+                "url": "https://wiki.openstreetmap.org/w/images/2/2b/Capture_d%E2%80%99%C3%A9cran_du_2025-04-11_17-10-38.png",
+                "credits": "nlehuby, CC-BY-SA 4.0"
+            }
+        }
+    },
     "label": "Is an obstacle for wheelchair users ?"
 }

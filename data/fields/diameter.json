@@ -4,5 +4,19 @@
     "type": "number",
     "label": "Diameter (with units)",
     "snake_case": false,
+    "help": {
+        "fr": {
+            "text": "Indique le diamètre de l'objet. Préciser l'unité (par exemple 5 cm ou 0.23 m).",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diameter.svg"
+            }
+        },
+        "en": {
+            "text": "Indicates the diameter with units",
+            "picture": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Diameter.svg"
+            }
+        }
+    },
     "placeholder": "0.5 mm, 10 cm, 15 in…"
 }
